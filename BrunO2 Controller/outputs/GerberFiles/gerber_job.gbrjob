@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-04-05T21:24:29Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "BrunO2_ControlBoard_v1"
+        },
+        "Owner": "Marc Powell <marc_powell@brown.edu>",
+        "Size": {
+            "X": 165.08,
+            "Y": 66.98
+        }
+    }
+}
