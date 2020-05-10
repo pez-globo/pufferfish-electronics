@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Vent4All_Library)(type Legacy)(uri C:/KiCad/vent-pcb/Vent4All-PCB/Vent4All_Control.lib)(options "")(descr ""))
+)
