@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LED:CQY99 D1
+L Vent4All_PCBA-rescue:CQY99-LED D1
 U 1 1 5EBEF94B
 P 4200 3750
 F 0 "D1" V 4196 3673 50  0000 R CNN

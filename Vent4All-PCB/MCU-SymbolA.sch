@@ -31,17 +31,11 @@ F 8 "None" H 5600 3850 50  0001 L BNN "Field8"
 $EndComp
 Text Notes 4350 1150 0    197  ~ 39
 MCU - Symbol A
-Wire Wire Line
-	8900 3450 8050 3450
-Text GLabel 8900 3450 2    39   Output ~ 0
-I2C-SCL
 Text GLabel 8900 3550 2    39   BiDi ~ 0
 I2C-SDA
 Wire Wire Line
 	8050 3200 8050 3450
 Connection ~ 8050 3450
-Wire Wire Line
-	8050 3450 7500 3450
 $Comp
 L Vent4All_Library:RESISTOR0603 R1
 U 1 1 5EBE8D60
@@ -75,6 +69,32 @@ Wire Wire Line
 	8400 3550 8900 3550
 Wire Wire Line
 	8250 4350 7500 4350
-Text GLabel 8250 4350 2    50   Output ~ 0
+Text GLabel 8250 4350 2    39   Output ~ 0
 LED-EN1
+Wire Wire Line
+	3700 3650 3000 3650
+Text GLabel 3000 3750 0    39   Input ~ 0
+TMC-RX
+Text GLabel 3000 3650 0    39   Output ~ 0
+TMC-TX
+Wire Wire Line
+	3000 3750 3700 3750
+Text GLabel 8900 3850 2    39   Output ~ 0
+SPI-SCK
+Wire Wire Line
+	8900 3850 7500 3850
+Text GLabel 8900 3950 2    39   Input ~ 0
+SPI-MISO
+Wire Wire Line
+	8900 3950 7500 3950
+Text GLabel 8900 4050 2    39   Output ~ 0
+SPI-MOSI
+Wire Wire Line
+	8900 4050 7500 4050
+Wire Wire Line
+	8050 3450 7500 3450
+Wire Wire Line
+	8900 3450 8050 3450
+Text GLabel 8900 3450 2    39   Output ~ 0
+I2C-SCL
 $EndSCHEMATC

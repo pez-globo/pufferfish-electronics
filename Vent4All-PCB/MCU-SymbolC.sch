@@ -31,4 +31,20 @@ F 8 "None" H 5700 3950 50  0001 L BNN "Field8"
 $EndComp
 Text Notes 4350 1100 0    197  ~ 39
 MCU - Symbol C
+Text GLabel 3500 4450 0    39   Input ~ 0
+RPI2-RX
+Text GLabel 3500 4550 0    39   Output ~ 0
+RPI2-TX
+Wire Wire Line
+	3500 4450 4400 4450
+Wire Wire Line
+	3500 4550 4400 4550
+Text GLabel 8000 3350 2    39   Input ~ 0
+RPI1-RX
+Text GLabel 8000 3450 2    39   Output ~ 0
+RPI1-TX
+Wire Wire Line
+	8000 3450 7000 3450
+Wire Wire Line
+	7000 3350 8000 3350
 $EndSCHEMATC
