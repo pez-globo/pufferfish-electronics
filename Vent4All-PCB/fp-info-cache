@@ -75260,9 +75260,9 @@ Vent4All
 1X01
 <h3>Plated Through Hole</h3>
 <p>Specifications:
-<ul><li>Pin count:1</li>
-<li>Pin pitch:0.1"</li>
-</ul></p>
+0
+0
+0
 <p>Example device(s):
 <ul><li>CONN_01</li>
 </ul></p>
@@ -75274,9 +75274,9 @@ Vent4All
 ADAFRUIT_BME280
 <h3>Plated Through Hole -7 Pin</h3>
 <p>Specifications:
-<ul><li>Pin count:7</li>
-<li>Pin pitch:0.1"</li>
-</ul></p>
+0
+0
+0
 <p>Example device(s):
 <ul><li>CONN_07</li>
 </ul></p>
@@ -75288,114 +75288,114 @@ Vent4All
 AXIAL-0.3
 <h3>AXIAL-0.3</h3>
 <p>Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.</p>
-
+0
 0
 2
 2
 Vent4All
 BRUNO2_LOGO
 Bruno2 logo
-
+0
 0
 0
 0
 Vent4All
 BUZZER-12MM
 <h3>12mm Buzzer - PTH</h3>
-<p>This is a small 12mm round speaker that operates around the audible 2kHz range. You can use these speakers to create simple music or user interfaces.</p>
-<p><a href="http://cdn.sparkfun.com/datasheets/Components/General/cem-1203-42-.pdf">Datasheet</a></p>
-<h4>Devices Using</h4>
+0
+0
+0
 <ul><li>BUZZER</li></ul>
 
 0
 2
 2
-Vent4All
-CAP-PTH-SMALL-KIT
+0
+0
 <h3>CAP-PTH-SMALL-KIT</h3>
 Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.com/products/8375) or 22pF caps (http://www.sparkfun.com/products/8571).<br>
 <br>
 <b>Warning:</b> This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.
-
+0
 0
 2
 2
 Vent4All
 HSCMRRN100MDSA3_SOIC-8
 HSCMRRN100MDSA3, Pressure Sensor SMD
-SOIC-8
+0
 0
 8
 8
 Vent4All
 HSC_PRESSURE_DIP
 DIP package using standard via sizes so I could replace with headers or a dip socket if I want.
-
+0
 0
 8
 8
 Vent4All
 LED_5MM-KIT-NO-SILK
 <h3>LED 5mm KIT PTH</h3>
-<p>
-<b>Warning:</b> This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.</p>
-
+0
+0
+0
 <p>Specifications:
 <ul><li>Pin count: 2</li>
 <li>Pin pitch: 0.1inch</li>
 <li>Diameter: 5mm</li>
-</ul></p>
-<p>Example Device:
-<ul><li>LED</li>
+0
+0
+0
 </ul></p>
 
 0
 2
 2
-Vent4All
-MODULE_NUCLEO-F429ZI
+0
+0
 
 
 0
 244
 244
-Vent4All
-POLOLU_36V4
+0
+0
 <h3>Plated Through Hole -12 Pin</h3>
 <p>Specifications:
 <ul><li>Pin count:12</li>
 <li>Pin pitch:0.1"</li>
-</ul></p>
-<p>Example device(s):
-<ul><li>CONN_12</li>
+0
+0
+0
 </ul></p>
 
 0
 26
 26
-Vent4All
-POWER_JACK_PTH
+0
+0
 <h3>DC Barrel Power Jack/Connector PTH</h3>
 5.5mm jack, 2.1mm center pole diameter
 <p>Specifications:
 <ul><li>Pin count: 3</li>
-</ul></p>
-<p><a href=”https://www.sparkfun.com/datasheets/Prototyping/Barrel-Connector-PJ-202A.pdf”>Datasheet referenced for footprint</a></p>
-<p>Example device(s):
+0
+0
+0
 <ul><li>POWER_JACK</li>
 </ul></p>
 
 0
 3
 3
-Vent4All
+0
 SCREWTERMINAL-3.5MM-8
 <h3>Screw Terminal  3.5mm Pitch -8 Pin PTH</h3>
 <p>Specifications:
 <ul><li>Pin count: 8</li>
-<li>Pin pitch: 3.5mm/138mil</li>
-</ul></p>
-<p><a href=”https://www.sparkfun.com/datasheets/Prototyping/Screw-Terminal-3.5mm.pdf”>Datasheet referenced for footprint</a></p>
+0
+0
+0
 <p>Example device(s):
 <ul><li>CONN_04</li>
 </ul></p>
@@ -75407,26 +75407,27 @@ Vent4All
 STANDOFF-ELECTRICAL-NOTHERMALS
 <h3>Standoff (#4 Screw) - w/ Electrical Connection</h3>
 <p>This is the mechanical footprint for a #4 phillips button head screw.</p>
-<p>The drill is surrounded by a copper ring, which can be connected to any net.</p>
-<h4>Devices Using</h4>
-<ul><li>STAND-OFF</li></ul>
+0
+0
+0
 
 0
 1
 1
-Vent4All
-TACTILE_SWITCH_PTH_6.0MM
-<h3>Momentary Switch (Pushbutton) - SPST - PTH, 6.0mm Square</h3>
+0
+0
+0
 <p>Normally-open (NO) SPST momentary switches (buttons, pushbuttons).</p>
 <p><a href="https://www.omron.com/ecb/products/pdf/en-b3f.pdf">Datasheet</a> (B3F-1000)</p>
 
 0
 4
 4
-Vent4All
+0
 TEENSY_TEENSY-3.2-PTH
 
 
 0
 33
 33
+0

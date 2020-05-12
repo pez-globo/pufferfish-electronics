@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Vent4All_PCBA-rescue:CQY99-LED D1
+L Vent4All_PCBA-rescue:CQY99-LED D?
 U 1 1 5EBEF94B
 P 4200 3750
-F 0 "D1" V 4196 3673 50  0000 R CNN
+F 0 "D?" V 4196 3673 50  0000 R CNN
 F 1 "CQY99" V 4105 3673 50  0000 R CNN
 F 2 "LED_THT:LED_D5.0mm_IRGrey" H 4200 3925 50  0001 C CNN
 F 3 "https://www.prtice.info/IMG/pdf/CQY99.pdf" H 4150 3750 50  0001 C CNN

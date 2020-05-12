@@ -85,10 +85,4 @@ U 5EBE2413
 F0 "Alarms: LEDs and Buzzer" 50
 F1 "Alarms.sch" 50
 $EndSheet
-$Sheet
-S 3500 3600 850  150 
-U 5EB9DB14
-F0 "Sheet: External Connections" 50
-F1 "External.sch" 50
-$EndSheet
 $EndSCHEMATC

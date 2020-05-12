@@ -97,4 +97,20 @@ Wire Wire Line
 	8900 3450 8050 3450
 Text GLabel 8900 3450 2    39   Output ~ 0
 I2C-SCL
+Text GLabel 3000 3850 0    39   Output ~ 0
+HSC1-CS
+Text GLabel 3000 3950 0    39   Output ~ 0
+HSC2-CS
+Text GLabel 3000 4050 0    39   Output ~ 0
+HSC3-CS
+Text GLabel 3000 4150 0    39   Output ~ 0
+HSC4-CS
+Wire Wire Line
+	3000 4150 3700 4150
+Wire Wire Line
+	3000 4050 3700 4050
+Wire Wire Line
+	3000 3950 3700 3950
+Wire Wire Line
+	3000 3850 3700 3850
 $EndSCHEMATC

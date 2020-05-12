@@ -1,6 +1,33 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Vent4All_Library_3.3V
+#
+DEF Vent4All_Library_3.3V #SUPPLY 0 40 Y Y 1 L P
+F0 "#SUPPLY" 0 0 50 H I C CNN
+F1 "Vent4All_Library_3.3V" 0 110 59 H V C BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 0 100 -30 50 N
+P 2 1 0 0 30 50 0 100 N
+X 3.3V 1 0 0 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# Vent4All_Library_GND
+#
+DEF Vent4All_Library_GND #GND 0 40 Y Y 1 L P
+F0 "#GND" 0 0 50 H I C CNN
+F1 "Vent4All_Library_GND" 0 -10 59 H V C TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -75 0 75 0 N
+X GND 1 0 100 100 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
 # Vent4All_Library_HSCMRRN100MDSA3
 #
 DEF Vent4All_Library_HSCMRRN100MDSA3 U 0 40 Y Y 1 F N
