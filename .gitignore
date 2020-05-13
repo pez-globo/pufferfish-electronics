@@ -8,6 +8,7 @@
 _saved_*
 *-cache.lib
 *-rescue.lib
+*-rescue.dcm
 fp-info-cache
 _autosave-*
 #*.rpt

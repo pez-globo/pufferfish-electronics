@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name Vent4All_Library)(type Legacy)(uri ${KIPRJMOD}/Vent4All_Control.lib)(options "")(descr ""))
-  (lib (name Vent4All_PCBA-rescue)(type Legacy)(uri ${KIPRJMOD}/Vent4All_PCBA-rescue.lib)(options "")(descr ""))
-)
