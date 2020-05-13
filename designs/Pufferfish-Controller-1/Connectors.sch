@@ -13,8 +13,4 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 1200 900  0    50   ~ 0
-Solenoid Drivers
-Text Notes 5500 900  0    50   ~ 0
-Motor Drivers
 $EndSCHEMATC

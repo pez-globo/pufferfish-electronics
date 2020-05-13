@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -20,10 +20,10 @@ LED Indicators
 Text Notes 1300 2000 0    50   ~ 0
 Flash Storage
 $Comp
-L Pufferfish:CQY99-LED D?
+L Pufferfish:CQY99-LED D1
 U 1 1 5EBEF94B
 P 4200 3750
-F 0 "D?" V 4196 3673 50  0000 R CNN
+F 0 "D1" V 4196 3673 50  0000 R CNN
 F 1 "CQY99" V 4105 3673 50  0000 R CNN
 F 2 "LED_THT:LED_D5.0mm_IRGrey" H 4200 3925 50  0001 C CNN
 F 3 "https://www.prtice.info/IMG/pdf/CQY99.pdf" H 4150 3750 50  0001 C CNN

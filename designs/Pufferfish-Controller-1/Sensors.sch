@@ -1,9 +1,9 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr User 17000 9843
 encoding utf-8
-Sheet 3 5
+Sheet 3 6
 Title ""
 Date ""
 Rev ""
@@ -13,206 +13,208 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Pufferfish:HSCMRRN100MDSA3 U3
-U 1 1 5EBCBFD8
-P 3100 3800
-F 0 "U3" H 4200 5100 39  0000 C CNN
-F 1 "HSCMRRN100MDSA3" H 4450 5000 39  0000 C CNN
-F 2 "Vent4All:HSCMRRN100MDSA3_SOIC-8" H 3100 3800 39  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf" H 3100 3800 39  0001 C CNN
-	1    3100 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish:HSCMRRN100MDSA3 U4
-U 1 1 5EBCC5F2
-P 3850 4700
-F 0 "U4" H 4950 6000 39  0000 C CNN
-F 1 "HSCMRRN100MDSA3" H 5200 5900 39  0000 C CNN
-F 2 "Vent4All:HSCMRRN100MDSA3_SOIC-8" H 3850 4700 39  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf" H 3850 4700 39  0001 C CNN
-	1    3850 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish:HSCMRRN100MDSA3 U5
-U 1 1 5EBCC9C1
-P 4600 5600
-F 0 "U5" H 5700 6900 39  0000 C CNN
-F 1 "HSCMRRN100MDSA3" H 5950 6800 39  0000 C CNN
-F 2 "Vent4All:HSCMRRN100MDSA3_SOIC-8" H 4600 5600 39  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf" H 4600 5600 39  0001 C CNN
-	1    4600 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish:HSCMRRN100MDSA3 U2
-U 1 1 5EBCB846
-P 2350 2900
-F 0 "U2" H 3450 4200 39  0000 C CNN
-F 1 "HSCMRRN100MDSA3" H 3700 4100 39  0000 C CNN
-F 2 "Vent4All:HSCMRRN100MDSA3_SOIC-8" H 2350 2900 39  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf" H 2350 2900 39  0001 C CNN
-	1    2350 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2500 2150 2900 2150
-Text GLabel 2000 2150 0    50   Input ~ 0
+Text GLabel 1800 2300 0    50   Input ~ 0
 SPI-SCK
-Text GLabel 2000 2250 0    50   Output ~ 0
+Text GLabel 1800 2100 0    50   Output ~ 0
 SPI-MISO
-Wire Wire Line
-	2400 2250 2900 2250
 $Comp
-L Pufferfish:GND #GND?
+L Pufferfish:GND #GND01
 U 1 1 5EB9C3A4
-P 3350 2700
-F 0 "#GND?" H 3350 2700 50  0001 C CNN
-F 1 "GND" H 3350 2579 59  0000 C CNN
-F 2 "" H 3350 2700 50  0001 C CNN
-F 3 "" H 3350 2700 50  0001 C CNN
-	1    3350 2700
-	1    0    0    -1  
+P 1700 1700
+F 0 "#GND01" H 1700 1700 50  0001 C CNN
+F 1 "GND" V 1700 1579 59  0000 C CNN
+F 2 "" H 1700 1700 50  0001 C CNN
+F 3 "" H 1700 1700 50  0001 C CNN
+	1    1700 1700
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2500 2150 2500 3050
-Wire Wire Line
-	2400 2250 2400 3150
-Wire Wire Line
-	3650 3050 2500 3050
-Wire Wire Line
-	3650 3150 2400 3150
-$Comp
-L Pufferfish:GND #GND?
-U 1 1 5EB9F183
-P 4100 3600
-F 0 "#GND?" H 4100 3600 50  0001 C CNN
-F 1 "GND" H 4100 3479 59  0000 C CNN
-F 2 "" H 4100 3600 50  0001 C CNN
-F 3 "" H 4100 3600 50  0001 C CNN
-	1    4100 3600
-	1    0    0    -1  
-$EndComp
-Connection ~ 2500 3050
-Wire Wire Line
-	2500 3050 2500 3950
-Connection ~ 2400 3150
-Wire Wire Line
-	2400 3150 2400 4050
-Wire Wire Line
-	4400 3950 2500 3950
-Wire Wire Line
-	4400 4050 2400 4050
-Wire Wire Line
-	2500 3950 2500 4850
-Wire Wire Line
-	2500 4850 5150 4850
-Connection ~ 2500 3950
-Wire Wire Line
-	2400 4050 2400 4950
-Wire Wire Line
-	2400 4950 5150 4950
-Connection ~ 2400 4050
-$Comp
-L Pufferfish:3.3V #SUPPLY?
-U 1 1 5EBA5B20
-P 3350 1650
-F 0 "#SUPPLY?" H 3350 1650 50  0001 C CNN
-F 1 "3.3V" H 3350 1872 59  0000 C CNN
-F 2 "" H 3350 1650 50  0001 C CNN
-F 3 "" H 3350 1650 50  0001 C CNN
-	1    3350 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish:3.3V #SUPPLY?
-U 1 1 5EBA63D4
-P 4100 2550
-F 0 "#SUPPLY?" H 4100 2550 50  0001 C CNN
-F 1 "3.3V" H 4100 2772 59  0000 C CNN
-F 2 "" H 4100 2550 50  0001 C CNN
-F 3 "" H 4100 2550 50  0001 C CNN
-	1    4100 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish:3.3V #SUPPLY?
-U 1 1 5EBA6694
-P 4850 3450
-F 0 "#SUPPLY?" H 4850 3450 50  0001 C CNN
-F 1 "3.3V" H 4850 3672 59  0000 C CNN
-F 2 "" H 4850 3450 50  0001 C CNN
-F 3 "" H 4850 3450 50  0001 C CNN
-	1    4850 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish:3.3V #SUPPLY?
-U 1 1 5EBA6D0D
-P 5600 4350
-F 0 "#SUPPLY?" H 5600 4350 50  0001 C CNN
-F 1 "3.3V" H 5600 4572 59  0000 C CNN
-F 2 "" H 5600 4350 50  0001 C CNN
-F 3 "" H 5600 4350 50  0001 C CNN
-	1    5600 4350
-	1    0    0    -1  
-$EndComp
-Text GLabel 2000 2050 0    50   Input ~ 0
-HSC1-CS
-Text GLabel 2000 2950 0    50   Input ~ 0
-HSC2-CS
-Wire Wire Line
-	2000 2150 2500 2150
-Connection ~ 2500 2150
-Wire Wire Line
-	2000 2250 2400 2250
-Connection ~ 2400 2250
-Wire Wire Line
-	2000 2050 2900 2050
-Wire Wire Line
-	2000 2950 3650 2950
-Text GLabel 2000 3850 0    50   Input ~ 0
-HSC3-CS
-Text GLabel 2000 4750 0    50   Input ~ 0
-HSC4-CS
-Wire Wire Line
-	2000 4750 5150 4750
-Wire Wire Line
-	2000 3850 4400 3850
-$Comp
-L Pufferfish:GND #GND?
-U 1 1 5EBA97AE
-P 4850 4500
-F 0 "#GND?" H 4850 4500 50  0001 C CNN
-F 1 "GND" H 4850 4379 59  0000 C CNN
-F 2 "" H 4850 4500 50  0001 C CNN
-F 3 "" H 4850 4500 50  0001 C CNN
-	1    4850 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish:GND #GND?
-U 1 1 5EBA9B96
-P 5600 5400
-F 0 "#GND?" H 5600 5400 50  0001 C CNN
-F 1 "GND" H 5600 5279 59  0000 C CNN
-F 2 "" H 5600 5400 50  0001 C CNN
-F 3 "" H 5600 5400 50  0001 C CNN
-	1    5600 5400
-	1    0    0    -1  
-$EndComp
-Wire Notes Line
-	1200 5850 6600 5850
-Wire Notes Line
-	6600 5850 6600 950 
-Wire Notes Line
-	1200 950  1200 5850
-Wire Notes Line
-	1200 950  6600 950 
-Text Notes 1300 1100 0    50   ~ 0
+Text GLabel 1800 2500 0    50   Input ~ 0
+PRESS1-CS
+Text Notes 2150 1100 0    50   ~ 0
 Pressure Sensors\n
 Text Notes 8000 1600 0    50   ~ 0
 Flow Sensors
+$Comp
+L Pufferfish:HSCMRRN100MDSA3 PRESS1
+U 1 1 5EBC3042
+P 2550 2750
+F 0 "PRESS1" H 3078 3516 50  0000 L CNN
+F 1 "HSCMRRN100MDSA3" H 3078 3425 50  0000 L CNN
+F 2 "Pufferfish:HSCMRRN100MDSA3_SOIC-8" H 2450 2700 39  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf" H 3050 3950 39  0001 C CNN
+F 4 "+/- 100 mbar" H 3078 3334 50  0000 L CNN "Range"
+	1    2550 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:3.3V #SUPPLY01
+U 1 1 5EBA5B20
+P 1800 1900
+F 0 "#SUPPLY01" H 1800 1900 50  0001 C CNN
+F 1 "3.3V" V 1800 2122 59  0000 C CNN
+F 2 "" H 1800 1900 50  0001 C CNN
+F 3 "" H 1800 1900 50  0001 C CNN
+	1    1800 1900
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1800 3750 0    50   Input ~ 0
+SPI-SCK
+Text GLabel 1800 3550 0    50   Output ~ 0
+SPI-MISO
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5EBCAE52
+P 1700 3150
+F 0 "#GND?" H 1700 3150 50  0001 C CNN
+F 1 "GND" V 1700 3029 59  0000 C CNN
+F 2 "" H 1700 3150 50  0001 C CNN
+F 3 "" H 1700 3150 50  0001 C CNN
+	1    1700 3150
+	0    1    1    0   
+$EndComp
+Text GLabel 1800 3950 0    50   Input ~ 0
+PRESS2-CS
+$Comp
+L Pufferfish:HSCMRRN100MDSA3 PRESS2
+U 1 1 5EBCAE5E
+P 2550 4200
+F 0 "PRESS2" H 3078 4966 50  0000 L CNN
+F 1 "HSCMRRN100MDSA3" H 3078 4875 50  0000 L CNN
+F 2 "Pufferfish:HSCMRRN100MDSA3_SOIC-8" H 2450 4150 39  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf" H 3050 5400 39  0001 C CNN
+F 4 "+/- 100 mbar" H 3078 4784 50  0000 L CNN "Range"
+	1    2550 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:3.3V #SUPPLY?
+U 1 1 5EBCAE68
+P 1800 3350
+F 0 "#SUPPLY?" H 1800 3350 50  0001 C CNN
+F 1 "3.3V" V 1800 3572 59  0000 C CNN
+F 2 "" H 1800 3350 50  0001 C CNN
+F 3 "" H 1800 3350 50  0001 C CNN
+	1    1800 3350
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1800 5200 0    50   Input ~ 0
+SPI-SCK
+Text GLabel 1800 5000 0    50   Output ~ 0
+SPI-MISO
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5EBD2063
+P 1700 4600
+F 0 "#GND?" H 1700 4600 50  0001 C CNN
+F 1 "GND" V 1700 4479 59  0000 C CNN
+F 2 "" H 1700 4600 50  0001 C CNN
+F 3 "" H 1700 4600 50  0001 C CNN
+	1    1700 4600
+	0    1    1    0   
+$EndComp
+Text GLabel 1800 5400 0    50   Input ~ 0
+PRESS3-CS
+$Comp
+L Pufferfish:HSCMRRN100MDSA3 PRESS3
+U 1 1 5EBD206F
+P 2550 5650
+F 0 "PRESS3" H 3078 6416 50  0000 L CNN
+F 1 "HSCMRRN100MDSA3" H 3078 6325 50  0000 L CNN
+F 2 "Pufferfish:HSCMRRN100MDSA3_SOIC-8" H 2450 5600 39  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf" H 3050 6850 39  0001 C CNN
+F 4 "+/- 100 mbar" H 3078 6234 50  0000 L CNN "Range"
+	1    2550 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:3.3V #SUPPLY?
+U 1 1 5EBD2079
+P 1800 4800
+F 0 "#SUPPLY?" H 1800 4800 50  0001 C CNN
+F 1 "3.3V" V 1800 5022 59  0000 C CNN
+F 2 "" H 1800 4800 50  0001 C CNN
+F 3 "" H 1800 4800 50  0001 C CNN
+	1    1800 4800
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1800 6650 0    50   Input ~ 0
+SPI-SCK
+Text GLabel 1800 6450 0    50   Output ~ 0
+SPI-MISO
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5EBD2085
+P 1700 6050
+F 0 "#GND?" H 1700 6050 50  0001 C CNN
+F 1 "GND" V 1700 5929 59  0000 C CNN
+F 2 "" H 1700 6050 50  0001 C CNN
+F 3 "" H 1700 6050 50  0001 C CNN
+	1    1700 6050
+	0    1    1    0   
+$EndComp
+Text GLabel 1800 6850 0    50   Input ~ 0
+PRESS4-CS
+$Comp
+L Pufferfish:HSCMRRN100MDSA3 PRESS4
+U 1 1 5EBD2091
+P 2550 7100
+F 0 "PRESS4" H 3078 7866 50  0000 L CNN
+F 1 "HSCMRRN100MDSA3" H 3078 7775 50  0000 L CNN
+F 2 "Pufferfish:HSCMRRN100MDSA3_SOIC-8" H 2450 7050 39  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf" H 3050 8300 39  0001 C CNN
+F 4 "+/- 100 mbar" H 3078 7684 50  0000 L CNN "Range"
+	1    2550 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:3.3V #SUPPLY?
+U 1 1 5EBD209B
+P 1800 6250
+F 0 "#SUPPLY?" H 1800 6250 50  0001 C CNN
+F 1 "3.3V" V 1800 6472 59  0000 C CNN
+F 2 "" H 1800 6250 50  0001 C CNN
+F 3 "" H 1800 6250 50  0001 C CNN
+	1    1800 6250
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1800 8050 0    50   Input ~ 0
+SPI-SCK
+Text GLabel 1800 7850 0    50   Output ~ 0
+SPI-MISO
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5EBD8795
+P 1700 7450
+F 0 "#GND?" H 1700 7450 50  0001 C CNN
+F 1 "GND" V 1700 7329 59  0000 C CNN
+F 2 "" H 1700 7450 50  0001 C CNN
+F 3 "" H 1700 7450 50  0001 C CNN
+	1    1700 7450
+	0    1    1    0   
+$EndComp
+Text GLabel 1800 8250 0    50   Input ~ 0
+PRESS5-CS
+$Comp
+L Pufferfish:HSCMRRN100MDSA3 PRESS5
+U 1 1 5EBD87A1
+P 2550 8500
+F 0 "PRESS5" H 3078 9266 50  0000 L CNN
+F 1 "HSCMRRN100MDSA3" H 3078 9175 50  0000 L CNN
+F 2 "Pufferfish:HSCMRRN100MDSA3_SOIC-8" H 2450 8450 39  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf" H 3050 9700 39  0001 C CNN
+F 4 "+/- 100 mbar" H 3078 9084 50  0000 L CNN "Range"
+	1    2550 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:3.3V #SUPPLY?
+U 1 1 5EBD87AB
+P 1800 7650
+F 0 "#SUPPLY?" H 1800 7650 50  0001 C CNN
+F 1 "3.3V" V 1800 7872 59  0000 C CNN
+F 2 "" H 1800 7650 50  0001 C CNN
+F 3 "" H 1800 7650 50  0001 C CNN
+	1    1800 7650
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
