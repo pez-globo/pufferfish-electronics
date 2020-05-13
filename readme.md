@@ -1,4 +1,4 @@
-# vent-pcb
+# pufferfish-electronics
 
 Electronic hardware board layout files for the Pufferfish ventilator.
 
