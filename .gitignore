@@ -1,10 +1,6 @@
-# Reports
-#*.rpt
+# GitIgnore for the Pufferfish Electronics repository
 
-# CPL data generated from PCB
-#*.pos
-
-# KiCAD backup
+# KiCAD [1]
 *.bak
 *.bck
 *.kicad_pcb-bak
@@ -12,23 +8,16 @@
 _saved_*
 *-cache.lib
 *-rescue.lib
-
-# Netlists
-*.net
-
-# BOM plugin output
+fp-info-cache
+_autosave-*
+#*.rpt
+#*.pos
+#*.net
 #*.csv.tmp
 #*.csv
 #*.xml
-
-# Gerbers
 #*.gbr
-
-# Drill files
 #*.drl
 
-# Footprint info cache
-fp-info-cache
-
-# Autosave files
-_autosave-*
+# Notes
+# [1] The original gitignore was take from: https://github.com/github/gitignore/blob/master/KiCad.gitignore
