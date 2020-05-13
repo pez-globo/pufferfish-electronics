@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Vent4All_Library:NUCLEO-F429ZI U1
+L Pufferfish:NUCLEO-F429ZI U1
 U 1 1 5EB9C112
 P 5600 3850
 F 0 "U1" H 5600 4517 50  0000 C CNN
@@ -37,7 +37,7 @@ Wire Wire Line
 	8050 3200 8050 3450
 Connection ~ 8050 3450
 $Comp
-L Vent4All_Library:RESISTOR0603 R1
+L Pufferfish:RESISTOR0603 R1
 U 1 1 5EBE8D60
 P 8050 3000
 F 0 "R1" V 8004 3068 50  0000 L CNN
@@ -49,7 +49,7 @@ F 4 "0603" V 8050 3000 50  0001 C CNN "Package"
 	0    1    1    0   
 $EndComp
 $Comp
-L Vent4All_Library:RESISTOR0603 R2
+L Pufferfish:RESISTOR0603 R2
 U 1 1 5EBEB279
 P 8400 3000
 F 0 "R2" V 8354 3068 50  0000 L CNN
