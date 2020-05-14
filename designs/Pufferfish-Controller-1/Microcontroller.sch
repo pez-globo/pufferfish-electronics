@@ -211,4 +211,18 @@ Text GLabel 1600 2400 0    39   Output ~ 0
 PRESS5-CS
 Wire Wire Line
 	1600 2400 1700 2400
+Text GLabel 1600 2500 0    39   Output ~ 0
+PRESS6-CS
+Text GLabel 5650 2400 2    39   Output ~ 0
+PRESS8-CS
+Text GLabel 5650 2300 2    39   Output ~ 0
+PRESS7-CS
+Wire Wire Line
+	5650 2400 5500 2400
+Wire Wire Line
+	5650 2300 5500 2300
+Wire Wire Line
+	1700 2500 1600 2500
+Text Notes 6200 3300 0    197  ~ 0
+CHECK PIN/NET ASSIGNMENTS TO MCU BEFORE BUILDING 
 $EndSCHEMATC

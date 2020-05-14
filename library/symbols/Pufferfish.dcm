@@ -1,5 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP HSCDRRN001BDSA3
+D Board Mount Pressure Sensors DIP, Dual Rad Barbed Differential, 3.3V
+K Pressure, Sensor
+F https://www.mouser.com/ProductDetail/Honeywell/HSCDRRN001BDSA3?qs=FIB5FJLAMZPKjXoG85AsFA%3D%3D
+$ENDCMP
+#
+$CMP HSCMRRN060MDSA3
+D Board Mount Pressure Sensors SMT, Dual Rad Barbed Differential, 3.3VBoard Mount Pressure Sensors SMT, Dual Rad Barbed Differential, 3.3VBoard Mount Pressure Sensors SMT, Dual Rad Barbed Differential, 3.3V
+K Pressure, Sensor
+F https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf
+$ENDCMP
+#
+$CMP HSCMRRN060PDSA3
+D Board Mount Pressure Sensors SMT, Dual Rad Barbed Differential, 3.3V
+K Pressure, Sensor
+F https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf
+$ENDCMP
+#
 $CMP HSCMRRN100MDSA3
 D Pressure Sensor, Dual Radial, Dry Only, 100mbar, 3.3V, SPI Interface, SMT
 K Pressure, Sensor
