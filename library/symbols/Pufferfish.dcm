@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BME280
+D DIP Breakout for Adafruit's BME280 board
+$ENDCMP
+#
 $CMP BUZZER-12MM
 D Generic 12mm Buzzer
 $ENDCMP
@@ -52,10 +56,28 @@ K Pressure, Sensor
 F https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf
 $ENDCMP
 #
+$CMP LED_PTH_5MM
+D Light emitting diode, filled shape, 5mm, through hole
+K LED diode
+F ~
+$ENDCMP
+#
+$CMP LED_SMD_0805
+D Light emitting diode, filled shape, SMT, SMD
+K LED diode
+F ~
+$ENDCMP
+#
 $CMP NUCLEO-F429ZI
 D STM32 Nucleo-144 development board with STM32F429ZIT6 MCU, supports Arduino, ST Zio and Morpho
 K module, microcontroller, mcu, nucleo
 F https://www.mouser.com/datasheet/2/389/nucleo-l496zg-1308758.pdf
+$ENDCMP
+#
+$CMP POLOLU_36V4
+D Pololu High-Power Stepper Motor Driver 36v4 (Part Number: 3730)
+K motor, driver
+F https://www.pololu.com/product/3730/resources
 $ENDCMP
 #
 $CMP RES_SMD_0402
@@ -80,6 +102,11 @@ $CMP RES_SMD_1206
 D Resistor, small US symbol, 1206, SMD, SMT
 K r resistor res
 F ~
+$ENDCMP
+#
+$CMP SDP810-125Pa
+D Sensirion SDP810-125PA, Differential Pressure Sensor +125Pa 4-Pin
+F https://www.mouser.com/datasheet/2/682/Sensirion_Differential_Pressure_Sensors_SDP8xx_Dig-1511125.pdf
 $ENDCMP
 #
 #End Doc Library

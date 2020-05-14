@@ -63,9 +63,9 @@ U 1 1 5EBD206F
 P 2500 5900
 F 0 "PRESS3" H 3028 6666 50  0000 L CNN
 F 1 "HSCMRRN100MDSA3" H 3028 6575 50  0000 L CNN
-F 2 "Pufferfish:HSC_PRESSURE_SOIC-8" H 2400 5850 39  0001 C CNN
+F 2 "Pufferfish:PRESSURE_SOIC-8_HSC" H 2400 5850 39  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf" H 3000 7100 39  0001 C CNN
-F 4 "±100mbar" H 3050 6900 50  0000 L CNN "Range"
+F 4 "±100mbar" H 3050 6900 50  0000 L CNN "Pressure"
 	1    2500 5900
 	1    0    0    -1  
 $EndComp
@@ -93,9 +93,9 @@ U 1 1 5EBD6210
 P 5450 4450
 F 0 "PRESS7" H 5978 5216 50  0000 L CNN
 F 1 "HSCMRRN060PDSA3" H 5978 5125 50  0000 L CNN
-F 2 "Pufferfish:HSC_PRESSURE_SOIC-8" H 5350 4400 39  0001 C CNN
+F 2 "Pufferfish:PRESSURE_SOIC-8_HSC" H 5350 4400 39  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf" H 5950 5650 39  0001 C CNN
-F 4 "±60psi " H 6000 5450 50  0000 L CNN "Range"
+F 4 "±60psi " H 6000 5450 50  0000 L CNN "Pressure"
 	1    5450 4450
 	1    0    0    -1  
 $EndComp
@@ -111,9 +111,9 @@ U 1 1 5EBDCD64
 P 5450 5950
 F 0 "PRESS8" H 5978 6716 50  0000 L CNN
 F 1 "HSCMRRN060PDSA3" H 5978 6625 50  0000 L CNN
-F 2 "Pufferfish:HSC_PRESSURE_SOIC-8" H 5350 5900 39  0001 C CNN
+F 2 "Pufferfish:PRESSURE_SOIC-8_HSC" H 5350 5900 39  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf" H 5950 7150 39  0001 C CNN
-F 4 "±60psi " H 6000 6950 50  0000 L CNN "Range"
+F 4 "±60psi " H 6000 6950 50  0000 L CNN "Pressure"
 	1    5450 5950
 	1    0    0    -1  
 $EndComp
@@ -131,9 +131,9 @@ U 1 1 5EBD126C
 P 5450 3000
 F 0 "PRESS6" H 5978 3766 50  0000 L CNN
 F 1 "HSCMRRN060PDSA3" H 5978 3675 50  0000 L CNN
-F 2 "Pufferfish:HSC_PRESSURE_SOIC-8" H 5350 2950 39  0001 C CNN
+F 2 "Pufferfish:PRESSURE_SOIC-8_HSC" H 5350 2950 39  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf" H 5950 4200 39  0001 C CNN
-F 4 "±60psi " H 6000 4000 50  0000 L CNN "Range"
+F 4 "±60psi " H 6000 4000 50  0000 L CNN "Pressure"
 	1    5450 3000
 	1    0    0    -1  
 $EndComp
@@ -145,9 +145,9 @@ U 1 1 5EBC3042
 P 2500 3000
 F 0 "PRESS1" H 3028 3766 50  0000 L CNN
 F 1 "HSCMRRN100MDSA3" H 3028 3675 50  0000 L CNN
-F 2 "Pufferfish:HSC_PRESSURE_SOIC-8" H 2400 2950 39  0001 C CNN
+F 2 "Pufferfish:PRESSURE_SOIC-8_HSC" H 2400 2950 39  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf" H 3000 4200 39  0001 C CNN
-F 4 "±100mbar" H 3050 4000 50  0000 L CNN "Range"
+F 4 "±100mbar" H 3050 4000 50  0000 L CNN "Pressure"
 	1    2500 3000
 	1    0    0    -1  
 $EndComp
@@ -159,7 +159,7 @@ F 0 "C1" H 1500 2050 50  0000 L CNN
 F 1 "CAP_SMD_0603" H 1760 1970 50  0001 L CNN
 F 2 "Pufferfish:CAP_SMD_0603" H 1800 1650 50  0001 C CNN
 F 3 "~" H 1900 2000 50  0001 C CNN
-F 4 "?F" H 1900 2050 50  0000 C CNN "Capacitance"
+F 4 "0.1uF" H 1350 2050 50  0000 C CNN "Capacitance"
 F 5 "?%" H 1900 1950 50  0001 C CNN "Tolerance"
 	1    1750 2050
 	1    0    0    -1  
@@ -176,27 +176,14 @@ F 3 "" H 1650 1950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Pufferfish:CAP_SMD_0603 C2
-U 1 1 5EC117D7
-P 1750 3500
-F 0 "C2" H 1500 3500 50  0000 L CNN
-F 1 "CAP_SMD_0603" H 1760 3420 50  0001 L CNN
-F 2 "Pufferfish:CAP_SMD_0603" H 1800 3100 50  0001 C CNN
-F 3 "~" H 1900 3450 50  0001 C CNN
-F 4 "?F" H 1900 3500 50  0000 C CNN "Capacitance"
-F 5 "?%" H 1900 3400 50  0001 C CNN "Tolerance"
-	1    1750 3500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Pufferfish:HSCMRRN100MDSA3 PRESS2
 U 1 1 5EBCAE5E
 P 2500 4450
 F 0 "PRESS2" H 3028 5216 50  0000 L CNN
 F 1 "HSCMRRN100MDSA3" H 3028 5125 50  0000 L CNN
-F 2 "Pufferfish:HSC_PRESSURE_SOIC-8" H 2400 4400 39  0001 C CNN
+F 2 "Pufferfish:PRESSURE_SOIC-8_HSC" H 2400 4400 39  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf" H 3000 5650 39  0001 C CNN
-F 4 "±100mbar" H 3050 5450 50  0000 L CNN "Range"
+F 4 "±100mbar" H 3050 5450 50  0000 L CNN "Pressure"
 	1    2500 4450
 	1    0    0    -1  
 $EndComp
@@ -211,17 +198,15 @@ F 3 "" H 1650 3400 50  0001 C CNN
 	1    1650 3400
 	0    1    1    0   
 $EndComp
-Connection ~ 1750 3400
-Connection ~ 1750 3600
 $Comp
 L Pufferfish:HSCMRRN100MDSA3 PRESS4
 U 1 1 5EBD2091
 P 2500 7350
 F 0 "PRESS4" H 3028 8116 50  0000 L CNN
 F 1 "HSCMRRN100MDSA3" H 3028 8025 50  0000 L CNN
-F 2 "Pufferfish:HSC_PRESSURE_SOIC-8" H 2400 7300 39  0001 C CNN
+F 2 "Pufferfish:PRESSURE_SOIC-8_HSC" H 2400 7300 39  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf" H 3000 8550 39  0001 C CNN
-F 4 "±100mbar" H 3050 8350 50  0000 L CNN "Range"
+F 4 "±100mbar" H 3050 8350 50  0000 L CNN "Pressure"
 	1    2500 7350
 	1    0    0    -1  
 $EndComp
@@ -231,9 +216,9 @@ U 1 1 5EBD87A1
 P 2500 8750
 F 0 "PRESS5" H 3028 9516 50  0000 L CNN
 F 1 "HSCMRRN100MDSA3" H 3028 9425 50  0000 L CNN
-F 2 "Pufferfish:HSC_PRESSURE_SOIC-8" H 2400 8700 39  0001 C CNN
+F 2 "Pufferfish:PRESSURE_SOIC-8_HSC" H 2400 8700 39  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf" H 3000 9950 39  0001 C CNN
-F 4 "±100mbar" H 3050 9750 50  0000 L CNN "Range"
+F 4 "±100mbar" H 3050 9750 50  0000 L CNN "Pressure"
 	1    2500 8750
 	1    0    0    -1  
 $EndComp
@@ -249,19 +234,6 @@ F 3 "" H 1750 5050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Pufferfish:CAP_SMD_0603 C3
-U 1 1 5EC21405
-P 1750 4950
-F 0 "C3" H 1500 4950 50  0000 L CNN
-F 1 "CAP_SMD_0603" H 1760 4870 50  0001 L CNN
-F 2 "Pufferfish:CAP_SMD_0603" H 1800 4550 50  0001 C CNN
-F 3 "~" H 1900 4900 50  0001 C CNN
-F 4 "?F" H 1900 4950 50  0000 C CNN "Capacitance"
-F 5 "?%" H 1900 4850 50  0001 C CNN "Tolerance"
-	1    1750 4950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Pufferfish:GND #GND0102
 U 1 1 5EC2140B
 P 1650 4850
@@ -272,8 +244,6 @@ F 3 "" H 1650 4850 50  0001 C CNN
 	1    1650 4850
 	0    1    1    0   
 $EndComp
-Connection ~ 1750 4850
-Connection ~ 1750 5050
 $Comp
 L Pufferfish:3.3V #SUPPLY0103
 U 1 1 5EC2243D
@@ -284,19 +254,6 @@ F 2 "" H 1750 6500 50  0001 C CNN
 F 3 "" H 1750 6500 50  0001 C CNN
 	1    1750 6500
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Pufferfish:CAP_SMD_0603 C4
-U 1 1 5EC22445
-P 1750 6400
-F 0 "C4" H 1500 6400 50  0000 L CNN
-F 1 "CAP_SMD_0603" H 1760 6320 50  0001 L CNN
-F 2 "Pufferfish:CAP_SMD_0603" H 1800 6000 50  0001 C CNN
-F 3 "~" H 1900 6350 50  0001 C CNN
-F 4 "?F" H 1900 6400 50  0000 C CNN "Capacitance"
-F 5 "?%" H 1900 6300 50  0001 C CNN "Tolerance"
-	1    1750 6400
-	1    0    0    -1  
 $EndComp
 $Comp
 L Pufferfish:GND #GND0103
@@ -321,19 +278,6 @@ F 3 "" H 1750 7900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Pufferfish:CAP_SMD_0603 C5
-U 1 1 5EC22A79
-P 1750 7800
-F 0 "C5" H 1500 7800 50  0000 L CNN
-F 1 "CAP_SMD_0603" H 1760 7720 50  0001 L CNN
-F 2 "Pufferfish:CAP_SMD_0603" H 1800 7400 50  0001 C CNN
-F 3 "~" H 1900 7750 50  0001 C CNN
-F 4 "?F" H 1900 7800 50  0000 C CNN "Capacitance"
-F 5 "?%" H 1900 7700 50  0001 C CNN "Tolerance"
-	1    1750 7800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Pufferfish:GND #GND0104
 U 1 1 5EC22A7F
 P 1650 7700
@@ -354,19 +298,6 @@ F 2 "" H 4700 2150 50  0001 C CNN
 F 3 "" H 4700 2150 50  0001 C CNN
 	1    4700 2150
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Pufferfish:CAP_SMD_0603 C6
-U 1 1 5EC22F8B
-P 4700 2050
-F 0 "C6" H 4450 2050 50  0000 L CNN
-F 1 "CAP_SMD_0603" H 4710 1970 50  0001 L CNN
-F 2 "Pufferfish:CAP_SMD_0603" H 4750 1650 50  0001 C CNN
-F 3 "~" H 4850 2000 50  0001 C CNN
-F 4 "?F" H 4850 2050 50  0000 C CNN "Capacitance"
-F 5 "?%" H 4850 1950 50  0001 C CNN "Tolerance"
-	1    4700 2050
-	1    0    0    -1  
 $EndComp
 $Comp
 L Pufferfish:GND #GND0105
@@ -391,19 +322,6 @@ F 3 "" H 4700 3600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Pufferfish:CAP_SMD_0603 C7
-U 1 1 5EC233B9
-P 4700 3500
-F 0 "C7" H 4450 3500 50  0000 L CNN
-F 1 "CAP_SMD_0603" H 4710 3420 50  0001 L CNN
-F 2 "Pufferfish:CAP_SMD_0603" H 4750 3100 50  0001 C CNN
-F 3 "~" H 4850 3450 50  0001 C CNN
-F 4 "?F" H 4850 3500 50  0000 C CNN "Capacitance"
-F 5 "?%" H 4850 3400 50  0001 C CNN "Tolerance"
-	1    4700 3500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Pufferfish:GND #GND0106
 U 1 1 5EC233BF
 P 4600 3400
@@ -426,19 +344,6 @@ F 3 "" H 4700 5100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Pufferfish:CAP_SMD_0603 C8
-U 1 1 5EC23820
-P 4700 5000
-F 0 "C8" H 4450 5000 50  0000 L CNN
-F 1 "CAP_SMD_0603" H 4710 4920 50  0001 L CNN
-F 2 "Pufferfish:CAP_SMD_0603" H 4750 4600 50  0001 C CNN
-F 3 "~" H 4850 4950 50  0001 C CNN
-F 4 "?F" H 4850 5000 50  0000 C CNN "Capacitance"
-F 5 "?%" H 4850 4900 50  0001 C CNN "Tolerance"
-	1    4700 5000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Pufferfish:GND #GND0107
 U 1 1 5EC23826
 P 4600 4900
@@ -449,14 +354,109 @@ F 3 "" H 4600 4900 50  0001 C CNN
 	1    4600 4900
 	0    1    1    0   
 $EndComp
+$Comp
+L Pufferfish:CAP_SMD_0603 C2
+U 1 1 5EBE9A42
+P 1750 3500
+F 0 "C2" H 1500 3500 50  0000 L CNN
+F 1 "CAP_SMD_0603" H 1760 3420 50  0001 L CNN
+F 2 "Pufferfish:CAP_SMD_0603" H 1800 3100 50  0001 C CNN
+F 3 "~" H 1900 3450 50  0001 C CNN
+F 4 "0.1uF" H 1350 3500 50  0000 C CNN "Capacitance"
+F 5 "?%" H 1900 3400 50  0001 C CNN "Tolerance"
+	1    1750 3500
+	1    0    0    -1  
+$EndComp
+Connection ~ 1750 3400
+Connection ~ 1750 3600
+$Comp
+L Pufferfish:CAP_SMD_0603 C3
+U 1 1 5EBEA331
+P 1750 4950
+F 0 "C3" H 1500 4950 50  0000 L CNN
+F 1 "CAP_SMD_0603" H 1760 4870 50  0001 L CNN
+F 2 "Pufferfish:CAP_SMD_0603" H 1800 4550 50  0001 C CNN
+F 3 "~" H 1900 4900 50  0001 C CNN
+F 4 "0.1uF" H 1350 4950 50  0000 C CNN "Capacitance"
+F 5 "?%" H 1900 4850 50  0001 C CNN "Tolerance"
+	1    1750 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:CAP_SMD_0603 C4
+U 1 1 5EBEA6A4
+P 1750 6400
+F 0 "C4" H 1500 6400 50  0000 L CNN
+F 1 "CAP_SMD_0603" H 1760 6320 50  0001 L CNN
+F 2 "Pufferfish:CAP_SMD_0603" H 1800 6000 50  0001 C CNN
+F 3 "~" H 1900 6350 50  0001 C CNN
+F 4 "0.1uF" H 1350 6400 50  0000 C CNN "Capacitance"
+F 5 "?%" H 1900 6300 50  0001 C CNN "Tolerance"
+	1    1750 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:CAP_SMD_0603 C5
+U 1 1 5EBEAB75
+P 1750 7800
+F 0 "C5" H 1500 7800 50  0000 L CNN
+F 1 "CAP_SMD_0603" H 1760 7720 50  0001 L CNN
+F 2 "Pufferfish:CAP_SMD_0603" H 1800 7400 50  0001 C CNN
+F 3 "~" H 1900 7750 50  0001 C CNN
+F 4 "0.1uF" H 1350 7800 50  0000 C CNN "Capacitance"
+F 5 "?%" H 1900 7700 50  0001 C CNN "Tolerance"
+	1    1750 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:CAP_SMD_0603 C6
+U 1 1 5EBEAE20
+P 4700 2050
+F 0 "C6" H 4450 2050 50  0000 L CNN
+F 1 "CAP_SMD_0603" H 4710 1970 50  0001 L CNN
+F 2 "Pufferfish:CAP_SMD_0603" H 4750 1650 50  0001 C CNN
+F 3 "~" H 4850 2000 50  0001 C CNN
+F 4 "0.1uF" H 4300 2050 50  0000 C CNN "Capacitance"
+F 5 "?%" H 4850 1950 50  0001 C CNN "Tolerance"
+	1    4700 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:CAP_SMD_0603 C7
+U 1 1 5EBEB1C5
+P 4700 3500
+F 0 "C7" H 4450 3500 50  0000 L CNN
+F 1 "CAP_SMD_0603" H 4710 3420 50  0001 L CNN
+F 2 "Pufferfish:CAP_SMD_0603" H 4750 3100 50  0001 C CNN
+F 3 "~" H 4850 3450 50  0001 C CNN
+F 4 "0.1uF" H 4300 3500 50  0000 C CNN "Capacitance"
+F 5 "?%" H 4850 3400 50  0001 C CNN "Tolerance"
+	1    4700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:CAP_SMD_0603 C8
+U 1 1 5EBEB3F3
+P 4700 5000
+F 0 "C8" H 4450 5000 50  0000 L CNN
+F 1 "CAP_SMD_0603" H 4710 4920 50  0001 L CNN
+F 2 "Pufferfish:CAP_SMD_0603" H 4750 4600 50  0001 C CNN
+F 3 "~" H 4850 4950 50  0001 C CNN
+F 4 "0.1uF" H 4300 5000 50  0000 C CNN "Capacitance"
+F 5 "?%" H 4850 4900 50  0001 C CNN "Tolerance"
+	1    4700 5000
+	1    0    0    -1  
+$EndComp
+Connection ~ 1750 4850
+Connection ~ 1750 5050
 Connection ~ 1750 6300
 Connection ~ 1750 6500
 Connection ~ 1750 7700
 Connection ~ 1750 7900
-Connection ~ 4700 1950
-Connection ~ 4700 2150
-Connection ~ 4700 3400
-Connection ~ 4700 3600
 Connection ~ 4700 4900
 Connection ~ 4700 5100
+Connection ~ 4700 3400
+Connection ~ 4700 3600
+Connection ~ 4700 1950
+Connection ~ 4700 2150
 $EndSCHEMATC
