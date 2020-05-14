@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BUZZER-12MM
+D Generic 12mm Buzzer
+$ENDCMP
+#
 $CMP HSCDRRN001BDSA3
 D Board Mount Pressure Sensors DIP, Dual Rad Barbed Differential, 3.3V
 K Pressure, Sensor

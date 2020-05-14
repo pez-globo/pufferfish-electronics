@@ -41,14 +41,6 @@ F 4 "0603" V 5700 1150 50  0001 C CNN "Package"
 $EndComp
 Wire Wire Line
 	5500 1700 5700 1700
-Text GLabel 5650 2500 2    39   Output ~ 0
-LED-EN1
-Text GLabel 5650 2000 2    39   Output ~ 0
-SPI-SCK
-Text GLabel 5650 2100 2    39   Input ~ 0
-SPI-MISO
-Text GLabel 5650 2200 2    39   Output ~ 0
-SPI-MOSI
 Text GLabel 5900 1600 2    39   Output ~ 0
 I2C-SCL
 Text GLabel 2050 7250 0    39   Input ~ 0
@@ -139,17 +131,17 @@ F 8 "None" H 3600 2000 50  0001 L BNN "Field8"
 	1    3600 2000
 	1    0    0    -1  
 $EndComp
-Text GLabel 1600 2300 0    39   Output ~ 0
+Text GLabel 1700 2300 0    39   Output ~ 0
 PRESS4-CS
-Text GLabel 1600 2200 0    39   Output ~ 0
+Text GLabel 1700 2200 0    39   Output ~ 0
 PRESS3-CS
-Text GLabel 1600 2100 0    39   Output ~ 0
+Text GLabel 1700 2100 0    39   Output ~ 0
 PRESS2-CS
-Text GLabel 1600 2000 0    39   Output ~ 0
+Text GLabel 1700 2000 0    39   Output ~ 0
 PRESS1-CS
-Text GLabel 1600 1800 0    39   Output ~ 0
+Text GLabel 1700 1800 0    39   Output ~ 0
 TMC-TX
-Text GLabel 1600 1900 0    39   Input ~ 0
+Text GLabel 1700 1900 0    39   Input ~ 0
 TMC-RX
 $Comp
 L Pufferfish:NUCLEO-F429ZI U1
@@ -168,18 +160,6 @@ F 8 "None" H 2950 4350 50  0001 L BNN "Field8"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1700 1800 1600 1800
-Wire Wire Line
-	1600 1900 1700 1900
-Wire Wire Line
-	1700 2000 1600 2000
-Wire Wire Line
-	1600 2100 1700 2100
-Wire Wire Line
-	1700 2200 1600 2200
-Wire Wire Line
-	1600 2300 1700 2300
-Wire Wire Line
 	2050 7250 2200 7250
 Wire Wire Line
 	2050 7350 2200 7350
@@ -187,14 +167,6 @@ Wire Wire Line
 	4800 6150 4900 6150
 Wire Wire Line
 	4800 6250 4900 6250
-Wire Wire Line
-	5500 2500 5650 2500
-Wire Wire Line
-	5500 2200 5650 2200
-Wire Wire Line
-	5500 2100 5650 2100
-Wire Wire Line
-	5500 2000 5650 2000
 Wire Wire Line
 	5550 1600 5500 1600
 Wire Wire Line
@@ -207,22 +179,24 @@ Connection ~ 5550 1600
 Wire Wire Line
 	5900 1700 5700 1700
 Connection ~ 5700 1700
-Text GLabel 1600 2400 0    39   Output ~ 0
+Text GLabel 1700 2400 0    39   Output ~ 0
 PRESS5-CS
-Wire Wire Line
-	1600 2400 1700 2400
-Text GLabel 1600 2500 0    39   Output ~ 0
+Text GLabel 1700 2500 0    39   Output ~ 0
 PRESS6-CS
-Text GLabel 5650 2400 2    39   Output ~ 0
-PRESS8-CS
-Text GLabel 5650 2300 2    39   Output ~ 0
-PRESS7-CS
-Wire Wire Line
-	5650 2400 5500 2400
-Wire Wire Line
-	5650 2300 5500 2300
-Wire Wire Line
-	1700 2500 1600 2500
 Text Notes 6200 3300 0    197  ~ 0
 CHECK PIN/NET ASSIGNMENTS TO MCU BEFORE BUILDING 
+Text GLabel 1700 1600 0    50   Input ~ 0
+BUZZ-EN1
+Text GLabel 5500 2400 2    39   Output ~ 0
+PRESS8-CS
+Text GLabel 5500 2300 2    39   Output ~ 0
+PRESS7-CS
+Text GLabel 5500 2200 2    39   Output ~ 0
+SPI-MOSI
+Text GLabel 5500 2100 2    39   Input ~ 0
+SPI-MISO
+Text GLabel 5500 2000 2    39   Output ~ 0
+SPI-SCK
+Text GLabel 5500 2500 2    39   Output ~ 0
+LED-EN1
 $EndSCHEMATC

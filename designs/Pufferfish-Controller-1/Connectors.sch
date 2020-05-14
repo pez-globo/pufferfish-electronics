@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 6 6
 Title ""
 Date ""
 Rev ""
@@ -13,4 +13,85 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 2150 1500 0    197  ~ 0
+Power Jacks
+$Comp
+L Pufferfish:POWER_JACK_PTH J1
+U 1 1 5EC0FA68
+P 3100 2600
+F 0 "J1" H 2958 3230 70  0000 C CNN
+F 1 "POWER_JACK_PTH" H 2958 3109 70  0000 C CNN
+F 2 "Pufferfish:POWER_JACK_PTH" H 3100 2600 50  0001 C CNN
+F 3 "" H 3100 2600 50  0001 C CNN
+	1    3100 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:POWER_JACK_PTH J2
+U 1 1 5EC10C49
+P 3150 3500
+F 0 "J2" H 3008 4130 70  0000 C CNN
+F 1 "POWER_JACK_PTH" H 3008 4009 70  0000 C CNN
+F 2 "Pufferfish:POWER_JACK_PTH" H 3150 3500 50  0001 C CNN
+F 3 "" H 3150 3500 50  0001 C CNN
+	1    3150 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2400 3300 2400
+Wire Wire Line
+	3300 2500 3200 2500
+Wire Wire Line
+	3250 3300 3350 3300
+Wire Wire Line
+	3350 3400 3250 3400
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5EC3D71C
+P 3400 2500
+F 0 "#GND?" H 3400 2500 50  0001 C CNN
+F 1 "GND" V 3400 2432 59  0000 R CNN
+F 2 "" H 3400 2500 50  0001 C CNN
+F 3 "" H 3400 2500 50  0001 C CNN
+	1    3400 2500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3300 2500
+Wire Wire Line
+	3300 2400 3300 2500
+Wire Wire Line
+	3350 3300 3350 3350
+$Comp
+L Pufferfish:5V #SUPPLY?
+U 1 1 5EC3EA7F
+P 3400 2300
+F 0 "#SUPPLY?" H 3400 2300 50  0001 C CNN
+F 1 "5V" V 3400 2469 59  0000 L CNN
+F 2 "" H 3400 2300 50  0001 C CNN
+F 3 "" H 3400 2300 50  0001 C CNN
+	1    3400 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 2300 3400 2300
+Wire Wire Line
+	3250 3200 3450 3200
+Text GLabel 3450 3350 2    50   Input ~ 0
+GND2
+$Comp
+L Pufferfish:24V #SUPPLY?
+U 1 1 5EC44797
+P 3450 3200
+F 0 "#SUPPLY?" H 3450 3200 50  0001 C CNN
+F 1 "24V" V 3450 3369 59  0000 L CNN
+F 2 "" H 3450 3200 50  0001 C CNN
+F 3 "" H 3450 3200 50  0001 C CNN
+	1    3450 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3350 3350 3450 3350
+Connection ~ 3350 3350
+Wire Wire Line
+	3350 3350 3350 3400
 $EndSCHEMATC
