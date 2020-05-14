@@ -4,32 +4,82 @@ $CMP BUZZER-12MM
 D Generic 12mm Buzzer
 $ENDCMP
 #
+$CMP CAP_SMD_0402
+D Unpolarized capacitor, small symbol, 0402, SMD, SMT
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP CAP_SMD_0603
+D Unpolarized capacitor, small symbol, 0603, SMD, SMT
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP CAP_SMD_0805
+D Unpolarized capacitor, small symbol, 0805, SMD, SMT
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP CAP_SMD_1206
+D Unpolarized capacitor, small symbol, 1206, SMD, SMT
+K capacitor cap
+F ~
+$ENDCMP
+#
 $CMP HSCDRRN001BDSA3
-D Board Mount Pressure Sensors DIP, Dual Rad Barbed Differential, 3.3V
+D Board Mount Pressure Sensors DIP, Dual Rad Barbed Differential, 3.3VBoard Mount Pressure Sensors DIP, Dual Rad Barbed Differential, 3.3VBoard Mount Pressure Sensors DIP, Dual Rad Barbed Differential, 3.3V
 K Pressure, Sensor
 F https://www.mouser.com/ProductDetail/Honeywell/HSCDRRN001BDSA3?qs=FIB5FJLAMZPKjXoG85AsFA%3D%3D
 $ENDCMP
 #
 $CMP HSCMRRN060MDSA3
-D Board Mount Pressure Sensors SMT, Dual Rad Barbed Differential, 3.3VBoard Mount Pressure Sensors SMT, Dual Rad Barbed Differential, 3.3VBoard Mount Pressure Sensors SMT, Dual Rad Barbed Differential, 3.3V
+D Board Mount Pressure Sensors SMT, Dual Rad Barbed Differential, 3.3V Board Mount Pressure Sensors SMT, Dual Rad Barbed Differential, 3.3VBoard Mount Pressure Sensors SMT, Dual Rad Barbed Differential, 3.3VBoard Mount Pressure Sensors SMT, Dual Rad Barbed Differential, 3.3V
 K Pressure, Sensor
 F https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf
 $ENDCMP
 #
 $CMP HSCMRRN060PDSA3
-D Board Mount Pressure Sensors SMT, Dual Rad Barbed Differential, 3.3V
+D Board Mount Pressure Sensors SMT, Dual Rad Barbed Differential, 3.3VBoard Mount Pressure Sensors SMT, Dual Rad Barbed Differential, 3.3V
 K Pressure, Sensor
 F https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf
 $ENDCMP
 #
 $CMP HSCMRRN100MDSA3
-D Pressure Sensor, Dual Radial, Dry Only, 100mbar, 3.3V, SPI Interface, SMT
+D Board Mount Pressure Sensors SMT, Dual Rad Barbed Differential, 3.3V
 K Pressure, Sensor
 F https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf
 $ENDCMP
 #
 $CMP NUCLEO-F429ZI
-F Unavailable
+D STM32 Nucleo-144 development board with STM32F429ZIT6 MCU, supports Arduino, ST Zio and Morpho
+K module, microcontroller, mcu, nucleo
+F https://www.mouser.com/datasheet/2/389/nucleo-l496zg-1308758.pdf
+$ENDCMP
+#
+$CMP RES_SMD_0402
+D Resistor, small US symbol, 0402, SMD, SMT
+K r resistor res
+F ~
+$ENDCMP
+#
+$CMP RES_SMD_0603
+D Resistor, small US symbol, 0603, SMD, SMT
+K r resistor res
+F ~
+$ENDCMP
+#
+$CMP RES_SMD_0805
+D Resistor, small US symbol, 0805, SMD, SMT
+K r resistor res
+F ~
+$ENDCMP
+#
+$CMP RES_SMD_1206
+D Resistor, small US symbol, 1206, SMD, SMT
+K r resistor res
+F ~
 $ENDCMP
 #
 #End Doc Library
