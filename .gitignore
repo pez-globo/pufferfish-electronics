@@ -1,5 +1,20 @@
 # GitIgnore for the Pufferfish Electronics repository
 
+# Ignore files without an extension
+*
+!/**/
+!*.*
+
+# Ignore system files
+## Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+## Windows 
+[Tt]humbs.db
+[Dd]esktop.ini
+*.lnk
+
 # KiCAD [1]
 *.bak
 *.bck
