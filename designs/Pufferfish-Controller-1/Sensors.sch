@@ -1,7 +1,7 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr User 17000 9843
+$Descr User 23622 9843
 encoding utf-8
 Sheet 3 6
 Title ""
@@ -14,14 +14,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text GLabel 1750 2550 0    50   Input ~ 0
-SPI-SCK
+SPI-SCL
 Text GLabel 1750 2350 0    50   Output ~ 0
 SPI-MISO
 Text GLabel 1750 2750 0    50   Input ~ 0
 PRESS1-CS
 Text Notes 2650 1300 0    197  ~ 0
 Pressure Sensors\n
-Text Notes 10050 1200 0    197  ~ 0
+Text Notes 8150 1300 0    197  ~ 0
 Flow Sensors
 $Comp
 L Pufferfish:3.3V #SUPPLY01
@@ -35,7 +35,7 @@ F 3 "" H 1750 2150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 1750 4000 0    50   Input ~ 0
-SPI-SCK
+SPI-SCL
 Text GLabel 1750 3800 0    50   Output ~ 0
 SPI-MISO
 Text GLabel 1750 4200 0    50   Input ~ 0
@@ -52,7 +52,7 @@ F 3 "" H 1750 3600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 1750 5450 0    50   Input ~ 0
-SPI-SCK
+SPI-SCL
 Text GLabel 1750 5250 0    50   Output ~ 0
 SPI-MISO
 Text GLabel 1750 5650 0    50   Input ~ 0
@@ -63,28 +63,27 @@ U 1 1 5EBD206F
 P 2500 5900
 F 0 "PRESS3" H 3028 6666 50  0000 L CNN
 F 1 "HSCMRRN100MDSA3" H 3028 6575 50  0000 L CNN
-F 2 "Pufferfish:PRESSURE_SOIC-8_HSC" H 2400 5850 39  0001 C CNN
+F 2 "Pufferfish:PRESSURE_HSC_SOIC-8" H 2400 5850 39  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf" H 3000 7100 39  0001 C CNN
 F 4 "±100mbar" H 3050 6900 50  0000 L CNN "Pressure"
+F 5 "Honeywell" H 0   0   50  0001 C CNN "Manufacturer"
 	1    2500 5900
 	1    0    0    -1  
 $EndComp
 Text GLabel 1750 6900 0    50   Input ~ 0
-SPI-SCK
+SPI-SCL
 Text GLabel 1750 6700 0    50   Output ~ 0
 SPI-MISO
 Text GLabel 1750 7100 0    50   Input ~ 0
 PRESS4-CS
 Text GLabel 1750 8300 0    50   Input ~ 0
-SPI-SCK
+SPI-SCL
 Text GLabel 1750 8100 0    50   Output ~ 0
 SPI-MISO
 Text GLabel 1750 8500 0    50   Input ~ 0
 PRESS5-CS
 Text GLabel 4700 2550 0    50   Input ~ 0
-SPI-SCK
-Text GLabel 4700 2350 0    50   Output ~ 0
-SPI-MISO
+SPI-SCL
 Text GLabel 4700 2750 0    50   Input ~ 0
 PRESS6-CS
 $Comp
@@ -93,14 +92,15 @@ U 1 1 5EBD6210
 P 5450 4450
 F 0 "PRESS7" H 5978 5216 50  0000 L CNN
 F 1 "HSCMRRN060PDSA3" H 5978 5125 50  0000 L CNN
-F 2 "Pufferfish:PRESSURE_SOIC-8_HSC" H 5350 4400 39  0001 C CNN
+F 2 "Pufferfish:PRESSURE_HSC_SOIC-8" H 5350 4400 39  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf" H 5950 5650 39  0001 C CNN
 F 4 "±60psi " H 6000 5450 50  0000 L CNN "Pressure"
+F 5 "Honeywell" H 0   0   50  0001 C CNN "Manufacturer"
 	1    5450 4450
 	1    0    0    -1  
 $EndComp
 Text GLabel 4700 4000 0    50   Input ~ 0
-SPI-SCK
+SPI-SCL
 Text GLabel 4700 3800 0    50   Output ~ 0
 SPI-MISO
 Text GLabel 4700 4200 0    50   Input ~ 0
@@ -111,19 +111,20 @@ U 1 1 5EBDCD64
 P 5450 5950
 F 0 "PRESS8" H 5978 6716 50  0000 L CNN
 F 1 "HSCMRRN060PDSA3" H 5978 6625 50  0000 L CNN
-F 2 "Pufferfish:PRESSURE_SOIC-8_HSC" H 5350 5900 39  0001 C CNN
+F 2 "Pufferfish:PRESSURE_HSC_SOIC-8" H 5350 5900 39  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf" H 5950 7150 39  0001 C CNN
 F 4 "±60psi " H 6000 6950 50  0000 L CNN "Pressure"
+F 5 "Honeywell" H 0   0   50  0001 C CNN "Manufacturer"
 	1    5450 5950
 	1    0    0    -1  
 $EndComp
 Text GLabel 4700 5500 0    50   Input ~ 0
-SPI-SCK
+SPI-SCL
 Text GLabel 4700 5300 0    50   Output ~ 0
 SPI-MISO
 Text GLabel 4700 5700 0    50   Input ~ 0
 PRESS8-CS
-Text Notes 10050 5200 0    197  ~ 0
+Text Notes 17750 1300 0    197  ~ 0
 Oxygen Sensor
 $Comp
 L Pufferfish:HSCMRRN060PDSA3 PRESS6
@@ -131,9 +132,10 @@ U 1 1 5EBD126C
 P 5450 3000
 F 0 "PRESS6" H 5978 3766 50  0000 L CNN
 F 1 "HSCMRRN060PDSA3" H 5978 3675 50  0000 L CNN
-F 2 "Pufferfish:PRESSURE_SOIC-8_HSC" H 5350 2950 39  0001 C CNN
+F 2 "Pufferfish:PRESSURE_HSC_SOIC-8" H 5350 2950 39  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf" H 5950 4200 39  0001 C CNN
 F 4 "±60psi " H 6000 4000 50  0000 L CNN "Pressure"
+F 5 "Honeywell" H 0   0   50  0001 C CNN "Manufacturer"
 	1    5450 3000
 	1    0    0    -1  
 $EndComp
@@ -145,9 +147,10 @@ U 1 1 5EBC3042
 P 2500 3000
 F 0 "PRESS1" H 3028 3766 50  0000 L CNN
 F 1 "HSCMRRN100MDSA3" H 3028 3675 50  0000 L CNN
-F 2 "Pufferfish:PRESSURE_SOIC-8_HSC" H 2400 2950 39  0001 C CNN
+F 2 "Pufferfish:PRESSURE_HSC_SOIC-8" H 2400 2950 39  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf" H 3000 4200 39  0001 C CNN
 F 4 "±100mbar" H 3050 4000 50  0000 L CNN "Pressure"
+F 5 "Honeywell" H 0   0   50  0001 C CNN "Manufacturer"
 	1    2500 3000
 	1    0    0    -1  
 $EndComp
@@ -181,9 +184,10 @@ U 1 1 5EBCAE5E
 P 2500 4450
 F 0 "PRESS2" H 3028 5216 50  0000 L CNN
 F 1 "HSCMRRN100MDSA3" H 3028 5125 50  0000 L CNN
-F 2 "Pufferfish:PRESSURE_SOIC-8_HSC" H 2400 4400 39  0001 C CNN
+F 2 "Pufferfish:PRESSURE_HSC_SOIC-8" H 2400 4400 39  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf" H 3000 5650 39  0001 C CNN
 F 4 "±100mbar" H 3050 5450 50  0000 L CNN "Pressure"
+F 5 "Honeywell" H 0   0   50  0001 C CNN "Manufacturer"
 	1    2500 4450
 	1    0    0    -1  
 $EndComp
@@ -204,9 +208,10 @@ U 1 1 5EBD2091
 P 2500 7350
 F 0 "PRESS4" H 3028 8116 50  0000 L CNN
 F 1 "HSCMRRN100MDSA3" H 3028 8025 50  0000 L CNN
-F 2 "Pufferfish:PRESSURE_SOIC-8_HSC" H 2400 7300 39  0001 C CNN
+F 2 "Pufferfish:PRESSURE_HSC_SOIC-8" H 2400 7300 39  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf" H 3000 8550 39  0001 C CNN
 F 4 "±100mbar" H 3050 8350 50  0000 L CNN "Pressure"
+F 5 "Honeywell" H 0   0   50  0001 C CNN "Manufacturer"
 	1    2500 7350
 	1    0    0    -1  
 $EndComp
@@ -216,9 +221,10 @@ U 1 1 5EBD87A1
 P 2500 8750
 F 0 "PRESS5" H 3028 9516 50  0000 L CNN
 F 1 "HSCMRRN100MDSA3" H 3028 9425 50  0000 L CNN
-F 2 "Pufferfish:PRESSURE_SOIC-8_HSC" H 2400 8700 39  0001 C CNN
+F 2 "Pufferfish:PRESSURE_HSC_SOIC-8" H 2400 8700 39  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf" H 3000 9950 39  0001 C CNN
 F 4 "±100mbar" H 3050 9750 50  0000 L CNN "Pressure"
+F 5 "Honeywell" H 0   0   50  0001 C CNN "Manufacturer"
 	1    2500 8750
 	1    0    0    -1  
 $EndComp
@@ -459,4 +465,72 @@ Connection ~ 4700 3400
 Connection ~ 4700 3600
 Connection ~ 4700 1950
 Connection ~ 4700 2150
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5EC36FF0
+P 8100 2300
+F 0 "#GND?" H 8100 2300 50  0001 C CNN
+F 1 "GND" V 8100 2179 59  0000 C CNN
+F 2 "" H 8100 2300 50  0001 C CNN
+F 3 "" H 8100 2300 50  0001 C CNN
+	1    8100 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Pufferfish:CAP_SMD_0603 C?
+U 1 1 5EC4733B
+P 8300 2150
+F 0 "C?" V 8100 1950 50  0000 L CNN
+F 1 "CAP_SMD_0603" H 8310 2070 50  0001 L CNN
+F 2 "Pufferfish:CAP_SMD_0603" H 8350 1750 50  0001 C CNN
+F 3 "~" H 8450 2100 50  0001 C CNN
+F 4 "0.1uF" V 8200 2000 50  0000 C CNN "Capacitance"
+F 5 "?%" H 8450 2050 50  0001 C CNN "Tolerance"
+	1    8300 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Pufferfish:3.3V #SUPPLY?
+U 1 1 5EC476C1
+P 8400 2050
+F 0 "#SUPPLY?" H 8400 2050 50  0001 C CNN
+F 1 "3.3V" V 8400 2272 59  0000 C CNN
+F 2 "" H 8400 2050 50  0001 C CNN
+F 3 "" H 8400 2050 50  0001 C CNN
+	1    8400 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 2300 8400 2300
+Wire Wire Line
+	8200 2150 8200 2300
+Connection ~ 8200 2300
+Wire Wire Line
+	8400 2050 8400 2150
+$Comp
+L Pufferfish:SDP810-125PA PRESS9
+U 1 1 5EC4FD9B
+P 9200 2300
+F 0 "PRESS9" H 9950 2750 50  0000 C CNN
+F 1 "SDP810-125PA" H 10100 2650 50  0000 C CNN
+F 2 "Pufferfish:PRESSURE_SDP81x" H 8700 1600 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/682/Sensirion_Differential_Pressure_Sensors_SDP8xx_Dig-1511125.pdf" H 9550 2450 50  0001 L CNN
+F 4 "Sensirion" H 8750 1500 50  0001 L CNN "Manufacturer"
+F 5 "±125Pa" H 9950 1800 50  0000 C CNN "Pressure"
+	1    9200 2300
+	1    0    0    -1  
+$EndComp
+Connection ~ 8400 2150
+Text GLabel 4700 2350 0    50   Output ~ 0
+SPI-MISO
+Text GLabel 8400 2600 0    50   BiDi ~ 0
+I2C-SDA
+Text GLabel 8400 2450 0    50   Input ~ 0
+I2C-SCL
+Text Notes 8900 3800 0    197  ~ 0
+1x SFM3000\n
+Text Notes 8900 4200 0    197  ~ 0
+4x EK-P4 (DK for SDP31)
+Text Notes 17800 2250 0    197  ~ 0
+optional
 $EndSCHEMATC

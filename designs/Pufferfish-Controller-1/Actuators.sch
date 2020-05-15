@@ -13,8 +13,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 1200 900  0    50   ~ 0
+Text Notes 2050 1550 0    197  ~ 0
 Solenoid Drivers
-Text Notes 5500 900  0    50   ~ 0
+Text Notes 6300 1550 0    197  ~ 0
 Motor Drivers
+Text Notes 6750 2600 0    197  ~ 0
+4x TMC2209\nOR\n4x Pololu 36v4
+Text Notes 2350 2650 0    197  ~ 0
+2x ULN2003A
 $EndSCHEMATC

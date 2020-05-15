@@ -13,9 +13,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 5900 1700 2    39   BiDi ~ 0
+Text GLabel 5500 1700 2    39   BiDi ~ 0
 I2C-SDA
-Text GLabel 5900 1600 2    39   Output ~ 0
+Text GLabel 5500 1600 2    39   Output ~ 0
 I2C-SCL
 Text GLabel 2050 7250 0    39   Input ~ 0
 RPI2-RX
@@ -145,7 +145,7 @@ Text GLabel 1700 2400 0    39   Output ~ 0
 PRESS5-CS
 Text GLabel 1700 2500 0    39   Output ~ 0
 PRESS6-CS
-Text Notes 6200 3300 0    197  ~ 0
+Text Notes 5250 3300 0    197  ~ 0
 CHECK PIN/NET ASSIGNMENTS TO MCU BEFORE BUILDING 
 Text GLabel 5500 2400 2    39   Output ~ 0
 PRESS8-CS
@@ -156,13 +156,9 @@ SPI-MOSI
 Text GLabel 5500 2100 2    39   Input ~ 0
 SPI-MISO
 Text GLabel 5500 2000 2    39   Output ~ 0
-SPI-SCK
+SPI-SCL
 Text GLabel 5500 2500 2    39   Output ~ 0
 LED-EN1
 Text GLabel 5050 8900 2    50   Input ~ 0
 BUZZ-EN1
-Wire Wire Line
-	5500 1700 5900 1700
-Wire Wire Line
-	5500 1600 5900 1600
 $EndSCHEMATC
