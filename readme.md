@@ -2,16 +2,14 @@
 
 Electronic hardware board layout files for the Pufferfish ventilator.
 
+The schematic and PCB files for this project can be viewed online at [CADLAB.io](https://cadlab.io/project/22897). 
+
 This folder contains the [KiCad](https://kicad-pcb.org/) design files for the Pufferfish ventilator.
 
 To review the hardware files, start by opening the project file `Pufferfish.pro` with KiCad. From there, schematics, boards, and library parts can be viewed.
-
-The design files for each board are contained in the subfolders of `designs` and each have their own KiCad project and associated schematic and PCB files. All symbols and footprints are shared. These can be found in the subfolders of `library`.
 
 `Pufferfish.sch` and `Pufferfish.kicad_pcb` are dummy files, kept to aid in managing project resources (eg. footprint and schematic library settings).
 
 The files `sym-lib-table` and `fp-lib-table` define the paths for local part libraries. These should point to `/library/symbols/` and `/library/footprints/` for symbols and footprints, respectively. This only applies to projects containing in this folder and not subfolders below it. Since our project has been structured with nested projects, the best way to share these library parts is to add them to your global library paths (open any project or schematic or pcb, add the appropriate library directories by going to "Preferences/Manage <Footprint/Symbol> Library", and when prompted choose global).
 
 The file `Pufferfish.kicad_wks` contains the template schematic page layout for this project.
-
-The schematic and PCB files for this project can be viewed online at [CADLAB.io](https://cadlab.io/project/22897). 
