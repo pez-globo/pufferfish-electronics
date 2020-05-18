@@ -8,6 +8,24 @@ $CMP BUZZER-12MM
 D Generic 12mm Buzzer
 $ENDCMP
 #
+$CMP CAP_100pF_10V_NP0_0402
+D Capacitor, Ceramic, 1uF Capacitance, 35V Rating, X7R Dielectric, SMT, 0603 Package
+K capacitor cap
+F https://www.digikey.com/product-detail/en/kemet/C0402C101K8GAC7867/399-14413-6-ND/7104044
+$ENDCMP
+#
+$CMP CAP_1nF_50V_C0G_0402
+D Capacitor, Ceramic, 1uF Capacitance, 35V Rating, X7R Dielectric, SMT, 0603 Package
+K capacitor cap
+F https://www.digikey.com/product-detail/en/murata-electronics/GRM1555C1H102JA01D/490-3244-2-ND/702509
+$ENDCMP
+#
+$CMP CAP_1uF_35V_X7R_0603
+D Capacitor, Ceramic, 1uF Capacitance, 35V Rating, X7R Dielectric, SMT, 0603 Package
+K capacitor cap
+F https://www.digikey.com/product-detail/en/taiyo-yuden/GMK107AB7105KAHT/587-3352-1-ND/4157239
+$ENDCMP
+#
 $CMP CAP_SMD_0402
 D Unpolarized capacitor, small symbol, 0402, SMD, SMT
 K capacitor cap
@@ -56,6 +74,11 @@ K Pressure, Sensor
 F https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf
 $ENDCMP
 #
+$CMP INTVCC-LTC4421
+D Power symbol creates a global label with name "VDD"
+K power-flag
+$ENDCMP
+#
 $CMP LED_PTH_5MM
 D Light emitting diode, filled shape, 5mm, through hole
 K LED diode
@@ -66,6 +89,12 @@ $CMP LED_SMD_0805
 D Light emitting diode, filled shape, SMT, SMD
 K LED diode
 F ~
+$ENDCMP
+#
+$CMP LTC4421IUHE
+D IC, Prioritized Power Path Controller, Dual-Channel, External FET, Industrial Temperature, SMT, QFN-36
+K Power
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC4421.pdf
 $ENDCMP
 #
 $CMP NUCLEO-F429ZI
@@ -112,6 +141,11 @@ $ENDCMP
 $CMP SDP810-500PA
 D Sensirion SDP810-500PA, Differential Pressure Sensor +500Pa 4-Pin
 F https://www.mouser.com/datasheet/2/682/Sensirion_Differential_Pressure_Sensors_SDP8xx_Dig-1511125.pdf
+$ENDCMP
+#
+$CMP VBAT-IN-12V
+D Power symbol creates a global label with name "VDD"
+K power-flag
 $ENDCMP
 #
 #End Doc Library
