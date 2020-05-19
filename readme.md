@@ -13,9 +13,7 @@ To review the hardware files, start by opening the project file `Pufferfish.pro`
 The files `sym-lib-table` and `fp-lib-table` define the paths for local part libraries. 
   * these should point to `/library/symbols/` and `/library/footprints/` for symbols and footprints, respectively. 
   * this only applies to projects containing in this folder and not subfolders below it. 
-  * for each design project, its own `sym-lib-table` and `fp-lib-table` files were added pointing to: `${KIPRJMOD}/../../library/symbols/Pufferfish.lib` and `${KIPRJMOD}/../../library/footprints/Pufferfish.pretty, respectively
-
-
-Since our project has been structured with nested projects, the best way to share these library parts is to add them to your global library paths (open any project or schematic or pcb, add the appropriate library directories by going to "Preferences/Manage <Footprint/Symbol> Library", and when prompted choose global).
+  * for each design project, its own `sym-lib-table` and `fp-lib-table` files were added pointing to: `${KIPRJMOD}/../../library/symbols/Pufferfish.lib` and `${KIPRJMOD}/../../library/footprints/Pufferfish.pretty, respectively`
+  * if this relative linking fails, an alternative way to share these library parts amongst each project is to add them to KiCad's global library path (open any project or schematic or pcb, add the appropriate library directories by going to "Preferences/Manage <Footprint/Symbol> Library", and when prompted choose global).
 
 The file `Pufferfish.kicad_wks` contains the template schematic page layout for this project.
