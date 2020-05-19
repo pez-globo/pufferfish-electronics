@@ -149,6 +149,11 @@ K motor, driver
 F https://www.trinamic.com/fileadmin/assets/Products/Eval_Documents/TMC2209_SilentStepStick_Rev1.10.pdf
 $ENDCMP
 #
+$CMP ULN2003A
+D Darlington Array x7 NPN 50V 0.5A PDIP16 STMicroelectronics ULN2003A, 7-element NPN Darlington Transistor Array, 0.5 A 50 V HFE:1000, 16-Pin PDIP
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00001244.pdf
+$ENDCMP
+#
 $CMP VBAT-IN-12V
 D Power symbol creates a global label with name "VDD"
 K power-flag
