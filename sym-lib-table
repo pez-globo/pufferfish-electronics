@@ -1,3 +1,2 @@
 (sym_lib_table
-  (lib (name Pufferfish)(type Legacy)(uri ${KIPRJMOD}/library/symbols/Pufferfish.lib)(options "")(descr ""))
 )

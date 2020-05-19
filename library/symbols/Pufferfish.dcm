@@ -143,6 +143,12 @@ D Sensirion SDP810-500PA, Differential Pressure Sensor +500Pa 4-Pin
 F https://www.mouser.com/datasheet/2/682/Sensirion_Differential_Pressure_Sensors_SDP8xx_Dig-1511125.pdf
 $ENDCMP
 #
+$CMP TMC2209-SilentStepStick
+D Stepper motor controller & driver
+K motor, driver
+F https://www.trinamic.com/fileadmin/assets/Products/Eval_Documents/TMC2209_SilentStepStick_Rev1.10.pdf
+$ENDCMP
+#
 $CMP VBAT-IN-12V
 D Power symbol creates a global label with name "VDD"
 K power-flag
