@@ -1,4 +1,4 @@
-update=Monday, May 18, 2020 at 11:41:56 AM
+update=5/19/2020 12:00:23 PM
 version=1
 last_client=eeschema
 [general]
@@ -33,7 +33,7 @@ LibDir=
 [eeschema/libraries]
 [schematic_editor]
 version=1
-PageLayoutDescrFile=/Users/chrisarcadia/Dropbox (Brown)/Ventilator/repositories/pufferfish-electronics/Pufferfish.kicad_wks
+PageLayoutDescrFile=${KIPRJMOD}/../../Pufferfish.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65

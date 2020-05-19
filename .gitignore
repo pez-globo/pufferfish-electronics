@@ -1,10 +1,5 @@
 # GitIgnore for the Pufferfish Electronics repository
 
-# Ignore files without an extension
-*
-!/**/
-!*.*
-
 # Ignore system files
 ## Mac
 .DS_Store
