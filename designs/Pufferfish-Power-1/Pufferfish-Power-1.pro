@@ -1,6 +1,6 @@
-update=Monday, May 18, 2020 at 11:42:27 AM
+update=19-May-20 8:39:34 AM
 version=1
-last_client=eeschema
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -14,7 +14,7 @@ LibDir=
 [eeschema/libraries]
 [pcbnew]
 version=1
-PageLayoutDescrFile=Pufferfish.kicad_wks
+PageLayoutDescrFile=${KIPRJMOD}/Pufferfish.kicad_wks
 LastNetListRead=
 CopperLayerCount=2
 BoardThickness=1.6
@@ -223,7 +223,7 @@ Enabled=1
 [pcbnew/Layer.F.Fab]
 Enabled=1
 [pcbnew/Layer.Rescue]
-Enabled=1
+Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
@@ -238,7 +238,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [schematic_editor]
 version=1
-PageLayoutDescrFile=/Users/chrisarcadia/Dropbox (Brown)/Ventilator/repositories/pufferfish-electronics/Pufferfish.kicad_wks
+PageLayoutDescrFile=${KIPRJMOD}/../../Pufferfish.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
