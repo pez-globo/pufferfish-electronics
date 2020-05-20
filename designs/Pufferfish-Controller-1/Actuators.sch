@@ -13,12 +13,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 2050 1550 0    197  ~ 0
+Text Notes 1950 1600 0    197  ~ 0
 Solenoid Drivers
 Text Notes 6300 1550 0    197  ~ 0
 Motor Drivers
-Text Notes 2350 2650 0    197  ~ 0
-2x ULN2003A
 $Comp
 L Pufferfish:TMC2209-SilentStepStick DRIVE?
 U 1 1 5EC43906
@@ -245,58 +243,143 @@ F 3 "" H 8650 4800 50  0001 C CNN
 $EndComp
 $Comp
 L Pufferfish:ULN2003A U?
-U 1 1 5EC3A42B
-P 2400 3200
-F 0 "U?" H 2950 3465 50  0000 C CNN
-F 1 "ULN2003A" H 2950 3374 50  0000 C CNN
-F 2 "Pufferfish:ULN2003A" H 3350 3300 50  0001 L CNN
-F 3 "http://www.st.com/web/en/resource/technical/document/datasheet/CD00001244.pdf" H 3350 3200 50  0001 L CNN
-F 4 "Darlington Array x7 NPN 50V 0.5A PDIP16 STMicroelectronics ULN2003A, 7-element NPN Darlington Transistor Array, 0.5 A 50 V HFE:1000, 16-Pin PDIP" H 3350 3100 50  0001 L CNN "Description"
-F 5 "5.33" H 3350 3000 50  0001 L CNN "Height"
-F 6 "511-ULN2003A" H 3350 2900 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ULN2003A?qs=FOlmdCx%252BAA1P2avu3tWCRw%3D%3D" H 3350 2800 50  0001 L CNN "Mouser Price/Stock"
-F 8 "STMicroelectronics" H 3350 2700 50  0001 L CNN "Manufacturer_Name"
-F 9 "ULN2003A" H 3350 2600 50  0001 L CNN "Manufacturer_Part_Number"
-	1    2400 3200
+U 1 1 5EC76C3F
+P 2400 5550
+F 0 "U?" H 2950 5815 50  0000 C CNN
+F 1 "ULN2003A" H 2950 5724 50  0000 C CNN
+F 2 "Pufferfish:ULN2003A" H 3350 5650 50  0001 L CNN
+F 3 "http://www.st.com/web/en/resource/technical/document/datasheet/CD00001244.pdf" H 3350 5550 50  0001 L CNN
+F 4 "Darlington Array x7 NPN 50V 0.5A PDIP16 STMicroelectronics ULN2003A, 7-element NPN Darlington Transistor Array, 0.5 A 50 V HFE:1000, 16-Pin PDIP" H 3350 5450 50  0001 L CNN "Description"
+F 5 "5.33" H 3350 5350 50  0001 L CNN "Height"
+F 6 "511-ULN2003A" H 3350 5250 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ULN2003A?qs=FOlmdCx%252BAA1P2avu3tWCRw%3D%3D" H 3350 5150 50  0001 L CNN "Mouser Price/Stock"
+F 8 "STMicroelectronics" H 3350 5050 50  0001 L CNN "Manufacturer_Name"
+F 9 "ULN2003A" H 3350 4950 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2400 5550
 	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5EC76C45
+P 2300 6250
+F 0 "#GND?" H 2300 6250 50  0001 C CNN
+F 1 "GND" V 2300 6129 59  0000 C CNN
+F 2 "" H 2300 6250 50  0001 C CNN
+F 3 "" H 2300 6250 50  0001 C CNN
+	1    2300 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L Pufferfish:12V #SUPPLY?
+U 1 1 5EC76C4B
+P 3850 5400
+F 0 "#SUPPLY?" H 3850 5400 50  0001 C CNN
+F 1 "12V" H 3800 5550 59  0000 L CNN
+F 2 "" H 3850 5400 50  0001 C CNN
+F 3 "" H 3850 5400 50  0001 C CNN
+	1    3850 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:24V #SUPPLY?
+U 1 1 5EC7855C
+P 3350 5400
+F 0 "#SUPPLY?" H 3350 5400 50  0001 C CNN
+F 1 "24V" H 3350 5550 59  0000 C CNN
+F 2 "" H 3350 5400 50  0001 C CNN
+F 3 "" H 3350 5400 50  0001 C CNN
+	1    3350 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 5550 3600 5550
+$Comp
+L Pufferfish:ULN2003A U?
+U 1 1 5EC93EBA
+P 2400 3950
+F 0 "U?" H 2950 4215 50  0000 C CNN
+F 1 "ULN2003A" H 2950 4124 50  0000 C CNN
+F 2 "Pufferfish:ULN2003A" H 3350 4050 50  0001 L CNN
+F 3 "http://www.st.com/web/en/resource/technical/document/datasheet/CD00001244.pdf" H 3350 3950 50  0001 L CNN
+F 4 "Darlington Array x7 NPN 50V 0.5A PDIP16 STMicroelectronics ULN2003A, 7-element NPN Darlington Transistor Array, 0.5 A 50 V HFE:1000, 16-Pin PDIP" H 3350 3850 50  0001 L CNN "Description"
+F 5 "5.33" H 3350 3750 50  0001 L CNN "Height"
+F 6 "511-ULN2003A" H 3350 3650 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ULN2003A?qs=FOlmdCx%252BAA1P2avu3tWCRw%3D%3D" H 3350 3550 50  0001 L CNN "Mouser Price/Stock"
+F 8 "STMicroelectronics" H 3350 3450 50  0001 L CNN "Manufacturer_Name"
+F 9 "ULN2003A" H 3350 3350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5EC93EC0
+P 2300 4650
+F 0 "#GND?" H 2300 4650 50  0001 C CNN
+F 1 "GND" V 2300 4529 59  0000 C CNN
+F 2 "" H 2300 4650 50  0001 C CNN
+F 3 "" H 2300 4650 50  0001 C CNN
+	1    2300 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5EC97989
+P 2300 3000
+F 0 "#GND?" H 2300 3000 50  0001 C CNN
+F 1 "GND" V 2300 2879 59  0000 C CNN
+F 2 "" H 2300 3000 50  0001 C CNN
+F 3 "" H 2300 3000 50  0001 C CNN
+	1    2300 3000
+	0    1    1    0   
 $EndComp
 $Comp
 L Pufferfish:ULN2003A U?
-U 1 1 5EC3B547
-P 2350 4450
-F 0 "U?" H 2900 4715 50  0000 C CNN
-F 1 "ULN2003A" H 2900 4624 50  0000 C CNN
-F 2 "Pufferfish:ULN2003A" H 3300 4550 50  0001 L CNN
-F 3 "http://www.st.com/web/en/resource/technical/document/datasheet/CD00001244.pdf" H 3300 4450 50  0001 L CNN
-F 4 "Darlington Array x7 NPN 50V 0.5A PDIP16 STMicroelectronics ULN2003A, 7-element NPN Darlington Transistor Array, 0.5 A 50 V HFE:1000, 16-Pin PDIP" H 3300 4350 50  0001 L CNN "Description"
-F 5 "5.33" H 3300 4250 50  0001 L CNN "Height"
-F 6 "511-ULN2003A" H 3300 4150 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ULN2003A?qs=FOlmdCx%252BAA1P2avu3tWCRw%3D%3D" H 3300 4050 50  0001 L CNN "Mouser Price/Stock"
-F 8 "STMicroelectronics" H 3300 3950 50  0001 L CNN "Manufacturer_Name"
-F 9 "ULN2003A" H 3300 3850 50  0001 L CNN "Manufacturer_Part_Number"
-	1    2350 4450
+U 1 1 5EC97983
+P 2400 2300
+F 0 "U?" H 2950 2565 50  0000 C CNN
+F 1 "ULN2003A" H 2950 2474 50  0000 C CNN
+F 2 "Pufferfish:ULN2003A" H 3350 2400 50  0001 L CNN
+F 3 "http://www.st.com/web/en/resource/technical/document/datasheet/CD00001244.pdf" H 3350 2300 50  0001 L CNN
+F 4 "Darlington Array x7 NPN 50V 0.5A PDIP16 STMicroelectronics ULN2003A, 7-element NPN Darlington Transistor Array, 0.5 A 50 V HFE:1000, 16-Pin PDIP" H 3350 2200 50  0001 L CNN "Description"
+F 5 "5.33" H 3350 2100 50  0001 L CNN "Height"
+F 6 "511-ULN2003A" H 3350 2000 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ULN2003A?qs=FOlmdCx%252BAA1P2avu3tWCRw%3D%3D" H 3350 1900 50  0001 L CNN "Mouser Price/Stock"
+F 8 "STMicroelectronics" H 3350 1800 50  0001 L CNN "Manufacturer_Name"
+F 9 "ULN2003A" H 3350 1700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2400 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish:GND #GND?
-U 1 1 5EC3D2B8
-P 2300 3900
-F 0 "#GND?" H 2300 3900 50  0001 C CNN
-F 1 "GND" V 2300 3779 59  0000 C CNN
-F 2 "" H 2300 3900 50  0001 C CNN
-F 3 "" H 2300 3900 50  0001 C CNN
-	1    2300 3900
+L Pufferfish:12V #SUPPLY?
+U 1 1 5ECA77B7
+P 3500 3950
+F 0 "#SUPPLY?" H 3500 3950 50  0001 C CNN
+F 1 "12V" V 3500 4100 59  0000 L CNN
+F 2 "" H 3500 3950 50  0001 C CNN
+F 3 "" H 3500 3950 50  0001 C CNN
+	1    3500 3950
 	0    1    1    0   
 $EndComp
 $Comp
-L Pufferfish:GND #GND?
-U 1 1 5EC3E4D2
-P 2250 5150
-F 0 "#GND?" H 2250 5150 50  0001 C CNN
-F 1 "GND" V 2250 5029 59  0000 C CNN
-F 2 "" H 2250 5150 50  0001 C CNN
-F 3 "" H 2250 5150 50  0001 C CNN
-	1    2250 5150
+L Pufferfish:12V #SUPPLY?
+U 1 1 5ECA862A
+P 3500 2300
+F 0 "#SUPPLY?" H 3500 2300 50  0001 C CNN
+F 1 "12V" V 3500 2450 59  0000 L CNN
+F 2 "" H 3500 2300 50  0001 C CNN
+F 3 "" H 3500 2300 50  0001 C CNN
+	1    3500 2300
 	0    1    1    0   
+$EndComp
+$Comp
+L Pufferfish:TERMINAL_JUMPER_3 J?
+U 1 1 5EC49C84
+P 3600 5400
+F 0 "J?" H 3600 5550 50  0000 C CNN
+F 1 "TERMINAL_JUMPER_3" H 3600 5700 50  0000 C CNN
+F 2 "Pufferfish:TERMINAL_PIN_3_2.54mm" H 3700 5050 50  0001 C CNN
+F 3 "~" H 3600 5400 50  0001 C CNN
+	1    3600 5400
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

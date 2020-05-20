@@ -74,6 +74,11 @@ K Pressure, Sensor
 F https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf
 $ENDCMP
 #
+$CMP INA818IDR
+D 35-uV offset, 8-nV/Hz noise, low-power, precision instrumentation amplifier
+F http://www.ti.com/lit/gpn/INA818
+$ENDCMP
+#
 $CMP INTVCC-LTC4421
 D Power symbol creates a global label with name "VDD"
 K power-flag
@@ -95,6 +100,12 @@ $CMP LTC4421IUHE
 D IC, Prioritized Power Path Controller, Dual-Channel, External FET, Industrial Temperature, SMT, QFN-36
 K Power
 F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC4421.pdf
+$ENDCMP
+#
+$CMP MAXTEC_Max-12c
+D Jumper, 3-pole, both open
+K Jumper SPDT
+F ~
 $ENDCMP
 #
 $CMP NUCLEO-F429ZI
@@ -143,6 +154,38 @@ D Sensirion SDP810-500PA, Differential Pressure Sensor +500Pa 4-Pin
 F https://www.mouser.com/datasheet/2/682/Sensirion_Differential_Pressure_Sensors_SDP8xx_Dig-1511125.pdf
 $ENDCMP
 #
+$CMP SENSIRION_EK-P4
+D Pressure Sensor Development Tools Evaluation kit SDP31
+K Pressure, Sensor
+F https://www.mouser.com/datasheet/2/682/Sensirion_Differential_Pressure_Sensors_EK-P4_Flow-1274207.pdf
+$ENDCMP
+#
+$CMP SENSIRION_SFM3000
+D AIR/GAS FLOW SENSOR +/-200 SLM W (SFM3000-200C)
+K Flow, Sensor
+F https://www.sensirion.com/file/datasheet_sfm3000
+$ENDCMP
+#
+$CMP SHORT_SMD_0603
+D Shorting resistor, small US symbol, 0603, SMD, SMT
+K r resistor res short
+F ~
+$ENDCMP
+#
+$CMP TERMINAL_JUMPER_3
+D Jumper, 3-pole, both open
+K Jumper SPDT
+F ~
+$ENDCMP
+#
+$CMP TERMINAL_SCREW_8_3.5mm
+D Screw terminal, connector, 8x1 pin, 3.5mm
+$ENDCMP
+#
+$CMP TERMINAL_SCREW_8_5mm
+D Screw terminal, connector, 8x1 pin, 5mm
+$ENDCMP
+#
 $CMP TMC2209-SilentStepStick
 D Stepper motor controller & driver
 K motor, driver
@@ -157,6 +200,10 @@ $ENDCMP
 $CMP VBAT-IN-12V
 D Power symbol creates a global label with name "VDD"
 K power-flag
+$ENDCMP
+#
+$CMP VREF
+D analog reference voltage
 $ENDCMP
 #
 #End Doc Library
