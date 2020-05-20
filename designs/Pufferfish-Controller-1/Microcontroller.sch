@@ -105,13 +105,13 @@ F 8 "None" H 3150 700 50  0001 L BNN "Field8"
 	1    3600 2000
 	1    0    0    -1  
 $EndComp
-Text GLabel 1700 2300 0    39   Output ~ 0
+Text GLabel 7200 1000 0    39   Output ~ 0
 PRESS4-CS
-Text GLabel 1700 2200 0    39   Output ~ 0
+Text GLabel 7200 900  0    39   Output ~ 0
 PRESS3-CS
-Text GLabel 1700 2100 0    39   Output ~ 0
+Text GLabel 7200 800  0    39   Output ~ 0
 PRESS2-CS
-Text GLabel 1700 2000 0    39   Output ~ 0
+Text GLabel 7200 700  0    39   Output ~ 0
 PRESS1-CS
 Text GLabel 1700 1800 0    39   Output ~ 0
 TMC-TX
@@ -141,15 +141,15 @@ Wire Wire Line
 	4800 6150 4900 6150
 Wire Wire Line
 	4800 6250 4900 6250
-Text GLabel 1700 2400 0    39   Output ~ 0
+Text GLabel 7200 1100 0    39   Output ~ 0
 PRESS5-CS
-Text GLabel 1700 2500 0    39   Output ~ 0
+Text GLabel 7200 1200 0    39   Output ~ 0
 PRESS6-CS
 Text Notes 5250 3300 0    197  ~ 0
 CHECK PIN/NET ASSIGNMENTS TO MCU BEFORE BUILDING 
-Text GLabel 5500 2400 2    39   Output ~ 0
+Text GLabel 7350 950  2    39   Output ~ 0
 PRESS8-CS
-Text GLabel 5500 2300 2    39   Output ~ 0
+Text GLabel 7350 850  2    39   Output ~ 0
 PRESS7-CS
 Text GLabel 5500 2200 2    39   Output ~ 0
 SPI-MOSI
@@ -157,8 +157,8 @@ Text GLabel 5500 2100 2    39   Input ~ 0
 SPI-MISO
 Text GLabel 5500 2000 2    39   Output ~ 0
 SPI-SCL
-Text GLabel 5500 2500 2    39   Output ~ 0
-LED-EN1
+Text GLabel 7100 2350 2    39   Output ~ 0
+LED-EN3
 Text GLabel 5050 8900 2    50   Input ~ 0
 BUZZ-EN1
 $Comp
@@ -207,4 +207,8 @@ F 3 "" H 1950 9000 50  0001 C CNN
 	1    1950 9000
 	0    1    1    0   
 $EndComp
+Text GLabel 7000 2150 2    39   Output ~ 0
+LED-EN2
+Text GLabel 6950 2000 2    39   Output ~ 0
+LED-EN1
 $EndSCHEMATC

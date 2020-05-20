@@ -142,6 +142,53 @@ F 3 "~" H 1700 2100 50  0001 C CNN
 	1    1700 2100
 	0    1    -1   0   
 $EndComp
-Text Notes 1000 3900 0    197  ~ 0
+Text Notes 900  3850 0    197  ~ 0
 Buttons
+Text Notes 6400 1900 0    98   ~ 0
+(leave for next version)
+Text Notes 950  4300 0    98   ~ 0
+(leave for next version)
+Text GLabel 2200 1950 1    50   Input ~ 0
+LED_EN3
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5EC8D8AB
+P 2200 2550
+AR Path="/5EC71B6B/5EC8D8AB" Ref="#GND?"  Part="1" 
+AR Path="/5EC71C15/5EC8D8AB" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 2200 2550 50  0001 C CNN
+F 1 "GND" V 2200 2429 59  0000 C CNN
+F 2 "" H 2200 2550 50  0001 C CNN
+F 3 "" H 2200 2550 50  0001 C CNN
+	1    2200 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:RES_SMD_0603 R?
+U 1 1 5EC8D8B3
+P 2200 2350
+F 0 "R?" H 2268 2396 50  0000 L CNN
+F 1 "RES_SMD_0603" H 2280 2160 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0603" H 2400 1950 50  0001 C CNN
+F 3 "~" H 2200 2350 50  0001 C CNN
+F 4 "?%" H 2350 2250 50  0001 C CNN "Tolerance"
+F 5 "1kΩ" H 2268 2305 50  0000 L CNN "Resistance"
+	1    2200 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:LED_SMD_0805 D3
+U 1 1 5EC8D8B9
+P 2200 2100
+F 0 "D3" V 2193 2180 50  0000 L CNN
+F 1 "LED_SMD_0805" H 2200 1950 50  0001 C CNN
+F 2 "Pufferfish:LED_SMD_0805" H 2250 1850 50  0001 C CNN
+F 3 "~" H 2200 2100 50  0001 C CNN
+	1    2200 2100
+	0    1    -1   0   
+$EndComp
+Text Notes 3750 3850 0    197  ~ 0
+Dials & Buttons
+Text Notes 3800 4300 0    98   ~ 0
+(leave for next version)
 $EndSCHEMATC
