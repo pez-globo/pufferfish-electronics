@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 1N62xxA
+D 1500W unidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE
+K diode TVS voltage suppressor
+F https://www.vishay.com/docs/88301/15ke.pdf
+$ENDCMP
+#
+$CMP 1N630xA
+D 1500W unidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE
+K diode TVS voltage suppressor
+F https://www.vishay.com/docs/88301/15ke.pdf
+$ENDCMP
+#
 $CMP BME280
 D DIP Breakout for Adafruit's BME280 board
 $ENDCMP
@@ -8,10 +20,22 @@ $CMP BUZZER-12MM
 D Generic 12mm Buzzer
 $ENDCMP
 #
+$CMP CAP_100nF_50V_X7R_0402
+D Capacitor, Ceramic, 100nF Capacitance, 50V Rating, X7R Dielectric, SMT, 0402 Package
+K capacitor cap
+F https://www.digikey.com/product-detail/en/tdk-corporation/CGA2B3X7R1H473K050BB/445-6897-6-ND/2673040
+$ENDCMP
+#
 $CMP CAP_100pF_10V_NP0_0402
 D Capacitor, Ceramic, 1uF Capacitance, 35V Rating, X7R Dielectric, SMT, 0603 Package
 K capacitor cap
 F https://www.digikey.com/product-detail/en/kemet/C0402C101K8GAC7867/399-14413-6-ND/7104044
+$ENDCMP
+#
+$CMP CAP_10uF_35V_X5R_0805
+D Capacitor, Ceramic, 10uF Capacitance, 35V Rating, X5R Dielectric, SMT, 0805 Package
+K capacitor cap
+F https://www.digikey.com/product-detail/en/taiyo-yuden/GMK107AB7105KAHT/587-3352-1-ND/4157239
 $ENDCMP
 #
 $CMP CAP_1nF_50V_C0G_0402
@@ -30,6 +54,18 @@ $CMP CAP_33nF_25V_X7R_0603
 D Capacitor, Ceramic, 33nF Capacitance, 25V Rating, X7R Dielectric, SMT, 0603 Package
 K capacitor cap
 F https://www.digikey.com/product-detail/en/murata-electronics/GRM1555C1H102JA01D/490-3244-2-ND/702509
+$ENDCMP
+#
+$CMP CAP_47nF_50V_X7R_0402
+D Capacitor, Ceramic, 47nF Capacitance, 50V Rating, X7R Dielectric, SMT, 0402 Package
+K capacitor cap
+F https://www.digikey.com/product-detail/en/tdk-corporation/CGA2B3X7R1H473K050BB/445-6897-6-ND/2673040
+$ENDCMP
+#
+$CMP CAP_AE_SMD_220uF_25V_8mm
+D Capacitor, Aluminum Electrolytic, 220uF, 25V Rating, 8mm Diameter, SMD
+K cap capacitor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1184.pdf
 $ENDCMP
 #
 $CMP CAP_SMD_0402
@@ -133,10 +169,22 @@ K r resistor res
 F https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGTR-ND/135662
 $ENDCMP
 #
+$CMP RES_1R2_0805_SMD
+D Resistor, 1.2Ohms, 5% Tolerance, 0805 Package, SMT
+K r resistor res
+F https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6GEYJ1R2V/P1-2ADKR-ND/577832
+$ENDCMP
+#
 $CMP RES_24K9_0603_SMD
 D Resistor, 768kOhms, 1% Tolerance, 0603 Package, SMT
 K r resistor res
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP RES_330R_0603_SMD
+D Resistor, 330Ohms, 5% Tolerance, 0603 Package, SMT
+K r resistor res
+F https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGTR-ND/135662
 $ENDCMP
 #
 $CMP RES_47K_0603_SMD
@@ -191,10 +239,22 @@ D Sensirion SDP810-500PA, Differential Pressure Sensor +500Pa 4-Pin
 F https://www.mouser.com/datasheet/2/682/Sensirion_Differential_Pressure_Sensors_SDP8xx_Dig-1511125.pdf
 $ENDCMP
 #
+$CMP SiR158DP
+D MOSFET, N-Channel, 60A, 30V Vds, TrenchFET, SO-8 package
+K TrenchFET N-Channel Power MOSFET
+F http://www.vishay.com/docs/64730/sir158dp.pdf
+$ENDCMP
+#
 $CMP TMC2209-SilentStepStick
 D Stepper motor controller & driver
 K motor, driver
 F https://www.trinamic.com/fileadmin/assets/Products/Eval_Documents/TMC2209_SilentStepStick_Rev1.10.pdf
+$ENDCMP
+#
+$CMP TVS_15V_SOD123FL-2
+D TVS, Bidirectional, 15V Standoff Voltage, 19.2V Breakdown Voltage, SOD-123FL-2 Package, SMT
+K diode TVS voltage suppressor
+F https://www.mouser.com/datasheet/2/240/Littelfuse_TVS_Diode_SMF_Datasheet.pdf-1698977.pdf
 $ENDCMP
 #
 $CMP ULN2003A
@@ -212,6 +272,10 @@ K power-flag
 $ENDCMP
 #
 $CMP VIN-PRIMARY-12V0
+K power-flag
+$ENDCMP
+#
+$CMP VSYS-12V0
 K power-flag
 $ENDCMP
 #
