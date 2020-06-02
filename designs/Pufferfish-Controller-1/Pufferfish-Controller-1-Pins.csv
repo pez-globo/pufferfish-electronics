@@ -1,0 +1,58 @@
+﻿Name,MCU Pin Name,Control Board Net,MCU Pin Function,Type,Domain,Description
+CN11_54,PF8,INSTRU_AMP_OUT,ADC3_INP7,ADC,optional sensor,oxygen sensor output
+CN11_56,PF9,SENSE_O2_OUT,ADC3_INP2,ADC,oxygen sensor,instrumentation amplifier output
+CN11_55,PD1,MOTOR1_UART,UART4_TX,UART,motor driver,universal asynchronous transmitter for configuring a motor driver
+CN11_3,PC12,MOTOR2_UART,UART5_TX,UART,motor driver,universal asynchronous transmitter for configuring a motor driver
+CN11_11,PF7,MOTOR3_UART,UART7_TX,UART,motor driver,universal asynchronous transmitter for configuring a motor driver
+CN11_61,PE1,MOTOR4_UART,UART8_TX,UART,motor driver,universal asynchronous transmitter for configuring a motor driver
+CN12_17,PB6,CPU_UART_TX,USART1_TX,USART,computer,microcontroller and computer communication channel
+CN12_33,PA10,CPU_UART_RX,USART1_RX,USART,computer,microcontroller and computer communication channel
+CN12_23,PA8,CPU_UART_CLK,USART1_CK,USART,computer,microcontroller and computer communication channel
+CN12_12,PA12,CPU_UART_RTS,USART1_RTS,USART,computer,microcontroller and computer communication channel
+CN12_14,PA11,CPU_UART_CTS,USART1_CTS,USART,computer,microcontroller and computer communication channel
+CN12_11,PA5,SPI1_SCL,SPI1_SCK,SPI,pressure sensor,pressure sensor communication channel
+CN12_13,PA6,SPI1_MISO,SPI1_MISO,SPI,pressure sensor,pressure sensor communication channel
+CN12_15,PA7,<no connection>,SPI1_MOSI,SPI,pressure sensor,pressure sensor communication channel
+CN11_32,PA4,<no connection>,SPI1_NSS,SPI,pressure sensor,pressure sensor communication channel
+CN12_18,PB11,I2C1_SDA,I2C2_SDA,I2C,flow sensor,flow sensor (and oxygen sensor) communication channel
+CN12_25,PB10,I2C1_SCL,I2C2_SCL,I2C,flow sensor,flow sensor (and oxygen sensor) communication channel
+CN12_16,PB12,<no connection>,I2C2_SMBA,I2C,flow sensor,flow sensor (and oxygen sensor) communication channel
+CN11_17,PA15,BUZZ1_EN,TIM2_CH1,PWM,buzzer,pulse width modulated line for driving the buzzer
+CN11_62,PE6,LED1_EN,Digital I/O,DIO,light indicator,digital line for indicating program status via a light emitting diode
+CN11_64,PG15,LED2_EN,Digital I/O,DIO,light indicator,digital line for indicating program status via a light emitting diode
+CN11_66,PG10,LED3_EN,Digital I/O,DIO,light indicator,digital line for indicating program status via a light emitting diode
+CN12_41,PD13,MOTOR1_EN,Digital I/O,DIO,motor driver,digital line for enabling a motor driver
+CN12_43,PD12,MOTOR1_DIR,Digital I/O,DIO,motor driver,digital line for controlling motor direction
+CN12_45,PD11,MOTOR1_STEP,Digital I/O,DIO,motor driver,digital line for controlling motor steps
+CN12_47,PE10,MOTOR2_EN,Digital I/O,DIO,motor driver,digital line for enabling a motor driver
+CN12_49,PE12,MOTOR2_DIR,Digital I/O,DIO,motor driver,digital line for controlling motor direction
+CN12_51,PE14,MOTOR2_STEP,Digital I/O,DIO,motor driver,digital line for controlling motor steps
+CN12_53,PE15,MOTOR3_EN,Digital I/O,DIO,motor driver,digital line for enabling a motor driver
+CN12_55,PE13,MOTOR3_DIR,Digital I/O,DIO,motor driver,digital line for controlling motor direction
+CN12_57,PF13,MOTOR3_STEP,Digital I/O,DIO,motor driver,digital line for controlling motor steps
+CN12_59,PF12,MOTOR4_EN,Digital I/O,DIO,motor driver,digital line for enabling a motor driver
+CN12_61,PG14,MOTOR4_DIR,Digital I/O,DIO,motor driver,digital line for controlling motor direction
+CN12_65,PD10,MOTOR4_STEP,Digital I/O,DIO,motor driver,digital line for controlling motor steps
+CN12_22,PB2,DRIVE1_CH1_EN,Digital I/O,DIO,solenoid driver,digital line for enabling a solenoid driver
+CN12_24,PB1,DRIVE1_CH2_EN,Digital I/O,DIO,solenoid driver,digital line for enabling a solenoid driver
+CN12_26,PB15,DRIVE1_CH3_EN,Digital I/O,DIO,solenoid driver,digital line for enabling a solenoid driver
+CN12_28,PB14,DRIVE1_CH4_EN,Digital I/O,DIO,solenoid driver,digital line for enabling a solenoid driver
+CN12_30,PB13,DRIVE1_CH5_EN,Digital I/O,DIO,solenoid driver,digital line for enabling a solenoid driver
+CN12_34,PC4,DRIVE1_CH6_EN,Digital I/O,DIO,solenoid driver,digital line for enabling a solenoid driver
+CN12_36,PF5,DRIVE1_CH7_EN,Digital I/O,DIO,solenoid driver,digital line for enabling a solenoid driver
+CN12_38,PF4,DRIVE2_CH1_EN,Digital I/O,DIO,solenoid driver,digital line for enabling a solenoid driver
+CN12_40,PE8,DRIVE2_CH2_EN,Digital I/O,DIO,solenoid driver,digital line for enabling a solenoid driver
+CN12_42,PF10,DRIVE2_CH3_EN,Digital I/O,DIO,solenoid driver,digital line for enabling a solenoid driver
+CN12_44,PE7,DRIVE2_CH4_EN,Digital I/O,DIO,solenoid driver,digital line for enabling a solenoid driver
+CN12_46,PD14,DRIVE2_CH5_EN,Digital I/O,DIO,solenoid driver,digital line for enabling a solenoid driver
+CN12_48,PD15,DRIVE2_CH6_EN,Digital I/O,DIO,solenoid driver,digital line for enabling a solenoid driver
+CN12_50,PF14,DRIVE2_CH7_EN,Digital I/O,DIO,solenoid driver,digital line for enabling a solenoid driver
+CN12_52,PE9,SENSE_O2_EN,Digital I/O,DIO,oxygen sensor,digital line for enabling an oxygen sensor
+CN12_56,PE11,PRESS1_EN,Digital I/O,DIO,pressure sensor,digital line for enabling a pressure sensor
+CN12_58,PF3,PRESS2_EN,Digital I/O,DIO,pressure sensor,digital line for enabling a pressure sensor
+CN12_60,PF15,PRESS3_EN,Digital I/O,DIO,pressure sensor,digital line for enabling a pressure sensor
+CN12_62,PF11,PRESS4_EN,Digital I/O,DIO,pressure sensor,digital line for enabling a pressure sensor
+CN12_64,PE0,PRESS5_EN,Digital I/O,DIO,pressure sensor,digital line for enabling a pressure sensor
+CN12_66,PG8,PRESS6_EN,Digital I/O,DIO,pressure sensor,digital line for enabling a pressure sensor
+CN12_68,PG5,PRESS7_EN,Digital I/O,DIO,pressure sensor,digital line for enabling a pressure sensor
+CN12_70,PG6,PRESS8_EN,Digital I/O,DIO,pressure sensor,digital line for enabling a pressure sensor

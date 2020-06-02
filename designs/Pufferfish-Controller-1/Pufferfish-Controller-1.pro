@@ -1,4 +1,4 @@
-update=Tuesday, June 02, 2020 at 01:11:39 AM
+update=Tuesday, June 02, 2020 at 04:12:15 PM
 version=1
 last_client=eeschema
 [general]
@@ -37,7 +37,7 @@ PageLayoutDescrFile=${KIPRJMOD}/../../Pufferfish.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1
