@@ -96,6 +96,11 @@ K LED diode
 F ~
 $ENDCMP
 #
+$CMP LMP91000SDE
+D Texas Instruments,LMP91000SDE/NOPB,AFE LMP91000SDE/NOPB, Analogue Front End IC, 1-channel Serial-I2C, 14-Pin WSON
+F http://www.ti.com/lit/ds/symlink/lmp91000.pdf
+$ENDCMP
+#
 $CMP LTC4421IUHE
 D IC, Prioritized Power Path Controller, Dual-Channel, External FET, Industrial Temperature, SMT, QFN-36
 K Power
@@ -178,6 +183,14 @@ K Jumper SPDT
 F ~
 $ENDCMP
 #
+$CMP TERMINAL_SCREW_2_2.54mm
+D Screw terminal, connector, 8x1 pin, 3.5mm
+$ENDCMP
+#
+$CMP TERMINAL_SCREW_4_3.5mm
+D Screw terminal, connector, 4x1 pin, 3.5mm
+$ENDCMP
+#
 $CMP TERMINAL_SCREW_8_3.5mm
 D Screw terminal, connector, 8x1 pin, 3.5mm
 $ENDCMP
@@ -190,6 +203,11 @@ $CMP TMC2209-SilentStepStick
 D Stepper motor controller & driver
 K motor, driver
 F https://www.trinamic.com/fileadmin/assets/Products/Eval_Documents/TMC2209_SilentStepStick_Rev1.10.pdf
+$ENDCMP
+#
+$CMP TPL7407LADR
+D Gate Drivers 30-V, 7-Channel NMOS Array Low-Side Driver 16-SOIC -40 to 125
+F http://www.ti.com/lit/gpn/tpl7407la
 $ENDCMP
 #
 $CMP ULN2003A
