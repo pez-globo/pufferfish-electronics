@@ -56,3 +56,5 @@ CN12_64,PE0,PRESS5_EN,Digital I/O,DIO,pressure sensor,digital line for enabling 
 CN12_66,PG8,PRESS6_EN,Digital I/O,DIO,pressure sensor,digital line for enabling a pressure sensor
 CN12_68,PG5,PRESS7_EN,Digital I/O,DIO,pressure sensor,digital line for enabling a pressure sensor
 CN12_70,PG6,PRESS8_EN,Digital I/O,DIO,pressure sensor,digital line for enabling a pressure sensor
+CN12_3,PB8,I2C2_SCL,I2C1_SCL,I2C,pressure sensor,pressure sensor communication channel
+CN12_5,PB9,I2C2_SDA,I2C1_SDA,I2C,pressure sensor,pressure sensor communication channel
