@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 5
-Title ""
-Date ""
-Rev ""
+Title "Pufferfish Controller"
+Date "2020-06-02"
+Rev "1.0"
 Comp ""
 Comment1 ""
 Comment2 ""

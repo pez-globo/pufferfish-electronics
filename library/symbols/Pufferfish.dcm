@@ -1,5 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ABPDANN005PG2A3
+D ABPDANN005PG2A3, Differential Pressure Sensor 5psi 6-Pin DIP
+F https://componentsearchengine.com/Datasheets/1/ABPDANN005PG2A3.pdf
+$ENDCMP
+#
+$CMP ABPMANN030PG2A3
+D ABPMANN030PG2A3, Differential Pressure Sensor 30psi 6-Pin SMT
+F https://www.mouser.com/datasheet/2/187/honeywell-sensing-pressure-board-mount-abp-series--1846114.pdf
+$ENDCMP
+#
 $CMP BME280
 D DIP Breakout for Adafruit's BME280 board
 $ENDCMP
@@ -175,6 +185,11 @@ $CMP SHORT_SMD_0603
 D Shorting resistor, small US symbol, 0603, SMD, SMT
 K r resistor res short
 F ~
+$ENDCMP
+#
+$CMP TCA9548APWR
+D TEXAS INSTRUMENTS - TCA9548APWR - I2C SWITCH W/ RESET, 8-CH, TSSOP-24
+F http://www.ti.com/lit/ds/symlink/tca9548a.pdf
 $ENDCMP
 #
 $CMP TERMINAL_JUMPER_3
