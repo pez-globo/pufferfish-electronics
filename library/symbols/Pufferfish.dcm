@@ -36,6 +36,12 @@ K capacitor cap
 F https://www.digikey.com/product-detail/en/taiyo-yuden/GMK107AB7105KAHT/587-3352-1-ND/4157239
 $ENDCMP
 #
+$CMP CAP_POLAR_SMD_0805
+D Polarized capacitor, small symbol, 0805, SMD, SMT
+K capacitor cap
+F ~
+$ENDCMP
+#
 $CMP CAP_SMD_0402
 D Unpolarized capacitor, small symbol, 0402, SMD, SMT
 K capacitor cap
@@ -104,6 +110,15 @@ $CMP LED_SMD_0805
 D Light emitting diode, filled shape, SMT, SMD
 K LED diode
 F ~
+$ENDCMP
+#
+$CMP LM1117IMPX-3.3_NOPB
+D LM1117IMP-3.3/NOPB, Low Dropout Voltage Regulator, 1.5A, 3.3 V +/-1%, 4-Pin SOT-223
+$ENDCMP
+#
+$CMP LM1117IMPX-5.0_NOPB
+D Space saving 800-mA low-dropout linear regulator with internal current limit
+F http://www.ti.com/lit/gpn/lm1117
 $ENDCMP
 #
 $CMP LMP91000SDE

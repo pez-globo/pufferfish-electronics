@@ -14,9 +14,6 @@ CN12_11,PA5,SPI1_SCL,SPI1_SCK,SPI,pressure sensor,pressure sensor communication 
 CN12_13,PA6,SPI1_MISO,SPI1_MISO,SPI,pressure sensor,pressure sensor communication channel
 CN12_15,PA7,<no connection>,SPI1_MOSI,SPI,pressure sensor,pressure sensor communication channel
 CN11_32,PA4,<no connection>,SPI1_NSS,SPI,pressure sensor,pressure sensor communication channel
-CN12_18,PB11,I2C1_SDA,I2C2_SDA,I2C,flow sensor,flow sensor (and oxygen sensor) communication channel
-CN12_25,PB10,I2C1_SCL,I2C2_SCL,I2C,flow sensor,flow sensor (and oxygen sensor) communication channel
-CN12_16,PB12,<no connection>,I2C2_SMBA,I2C,flow sensor,flow sensor (and oxygen sensor) communication channel
 CN11_17,PA15,BUZZ1_EN,TIM2_CH1,PWM,buzzer,pulse width modulated line for driving the buzzer
 CN11_62,PE6,LED1_EN,Digital I/O,DIO,light indicator,digital line for indicating program status via a light emitting diode
 CN11_64,PG15,LED2_EN,Digital I/O,DIO,light indicator,digital line for indicating program status via a light emitting diode
@@ -54,7 +51,11 @@ CN12_60,PF15,PRESS3_EN,Digital I/O,DIO,pressure sensor,digital line for enabling
 CN12_62,PF11,PRESS4_EN,Digital I/O,DIO,pressure sensor,digital line for enabling a pressure sensor
 CN12_64,PE0,PRESS5_EN,Digital I/O,DIO,pressure sensor,digital line for enabling a pressure sensor
 CN12_66,PG8,PRESS6_EN,Digital I/O,DIO,pressure sensor,digital line for enabling a pressure sensor
-CN12_68,PG5,PRESS7_EN,Digital I/O,DIO,pressure sensor,digital line for enabling a pressure sensor
-CN12_70,PG6,PRESS8_EN,Digital I/O,DIO,pressure sensor,digital line for enabling a pressure sensor
+CN11_68,PG13,PRESSX_EN,Digital I/O,DIO,pressure sensor,digital line for enabling/interrupting a set of I2C pressure sensors
+CN12_16,PB12,<no connection>,I2C2_SMBA,I2C,flow sensor,flow sensor (and oxygen sensor) communication channel
+CN12_25,PB10,I2C1_SCL,I2C2_SCL,I2C,flow sensor,flow sensor and oxygen sensor communication channel
+CN12_18,PB11,I2C1_SDA,I2C2_SDA,I2C,flow sensor,flow sensor and oxygen sensor communication channel
+CN12_68,PG5,I2C1_RESET,Digital I/O,DIO,flow sensor,digital line for resetting I2C multiplexer of flow sensors
 CN12_3,PB8,I2C2_SCL,I2C1_SCL,I2C,pressure sensor,pressure sensor communication channel
 CN12_5,PB9,I2C2_SDA,I2C1_SDA,I2C,pressure sensor,pressure sensor communication channel
+CN12_70,PG6,I2C2_RESET,Digital I/O,DIO,pressure sensor,digital line for resetting I2C multiplexer of pressure sensors
