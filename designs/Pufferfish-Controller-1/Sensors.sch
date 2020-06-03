@@ -5,9 +5,9 @@ $Descr User 19685 13780
 encoding utf-8
 Sheet 3 5
 Title "Pufferfish Controller"
-Date "2020-06-02"
+Date "2020-06-03"
 Rev "1.0"
-Comp ""
+Comp "Chris3Arcadia"
 Comment1 ""
 Comment2 ""
 Comment3 ""
