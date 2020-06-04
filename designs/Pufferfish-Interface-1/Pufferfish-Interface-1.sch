@@ -57,7 +57,7 @@ F 1 "RES_SMD_0805" H 2030 5060 50  0001 L CNN
 F 2 "Pufferfish:RES_SMD_0805" H 2150 4850 50  0001 C CNN
 F 3 "~" H 1950 5250 50  0001 C CNN
 F 4 "?%" H 2100 5150 50  0001 C CNN "Tolerance"
-F 5 "?Ω" V 1836 5250 50  0000 C CNN "Resistance"
+F 5 "10Ω" V 1836 5250 50  0000 C CNN "Resistance"
 	1    1950 5250
 	0    1    1    0   
 $EndComp
@@ -173,12 +173,12 @@ $EndComp
 $Comp
 L Switch:SW_Push SW2
 U 1 1 5ED3C485
-P 8050 5200
-F 0 "SW2" H 8050 5485 50  0000 C CNN
-F 1 "SW_Push" H 8050 5394 50  0000 C CNN
-F 2 "" H 8050 5400 50  0001 C CNN
-F 3 "~" H 8050 5400 50  0001 C CNN
-	1    8050 5200
+P 8050 5250
+F 0 "SW2" H 8050 5535 50  0000 C CNN
+F 1 "SW_Push" H 8050 5444 50  0000 C CNN
+F 2 "" H 8050 5450 50  0001 C CNN
+F 3 "~" H 8050 5450 50  0001 C CNN
+	1    8050 5250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -228,12 +228,12 @@ $EndComp
 $Comp
 L Pufferfish:GND #GND?
 U 1 1 5ED404B9
-P 8450 5300
-F 0 "#GND?" H 8450 5300 50  0001 C CNN
-F 1 "GND" H 8450 5170 59  0000 C CNN
-F 2 "" H 8450 5300 50  0001 C CNN
-F 3 "" H 8450 5300 50  0001 C CNN
-	1    8450 5300
+P 8450 5350
+F 0 "#GND?" H 8450 5350 50  0001 C CNN
+F 1 "GND" H 8450 5220 59  0000 C CNN
+F 2 "" H 8450 5350 50  0001 C CNN
+F 3 "" H 8450 5350 50  0001 C CNN
+	1    8450 5350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -300,7 +300,7 @@ Wire Wire Line
 Wire Wire Line
 	8200 4700 8450 4700
 Wire Wire Line
-	8250 5200 8450 5200
+	8250 5250 8450 5250
 Wire Wire Line
 	5050 3700 4500 3700
 Wire Wire Line
@@ -312,22 +312,22 @@ Wire Wire Line
 Wire Wire Line
 	7800 4700 7350 4700
 Wire Wire Line
-	7850 5200 7350 5200
+	7850 5250 7350 5250
 $Comp
 L Pufferfish:NUCLEO-F429ZI MOD?
 U 1 1 5ED7F9FE
-P 5900 1750
-F 0 "MOD?" H 5900 2417 50  0000 C CNN
-F 1 "NUCLEO-F429ZI" H 5900 2326 50  0000 C CNN
-F 2 "MODULE_NUCLEO-F429ZI" H 5750 -200 50  0001 L BNN
-F 3 "https://www.mouser.com/datasheet/2/389/nucleo-l496zg-1308758.pdf" H 5450 950 50  0001 L BNN
-F 4 "STMicroelectronics" H 5950 -350 50  0001 L BNN "Manufacturer"
-	1    5900 1750
+P 3900 2050
+F 0 "MOD?" H 3900 2717 50  0000 C CNN
+F 1 "NUCLEO-F429ZI" H 3900 2626 50  0000 C CNN
+F 2 "MODULE_NUCLEO-F429ZI" H 3750 100 50  0001 L BNN
+F 3 "https://www.mouser.com/datasheet/2/389/nucleo-l496zg-1308758.pdf" H 3450 1250 50  0001 L BNN
+F 4 "STMicroelectronics" H 3950 -50 50  0001 L BNN "Manufacturer"
+	1    3900 2050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1850 5250 1550 5250
-Text GLabel 7800 1950 2    50   Input ~ 0
+Text GLabel 5800 2250 2    50   Input ~ 0
 BUZZ_CNTRL
 Text GLabel 1550 5250 0    50   Input ~ 0
 BUZZ_CNTRL
@@ -341,19 +341,19 @@ Text GLabel 7350 4150 0    50   Input ~ 0
 PWR_SRC
 Text GLabel 7350 4700 0    50   Input ~ 0
 PWR_ON_OFF
-Text GLabel 7350 5200 0    50   Input ~ 0
+Text GLabel 7350 5250 0    50   Input ~ 0
 ALARM_CNTRL
-Text GLabel 4000 1350 0    50   Input ~ 0
+Text GLabel 2000 1650 0    50   Input ~ 0
 LEDR_CNTRL
-Text GLabel 4000 1450 0    50   Input ~ 0
+Text GLabel 2000 2150 0    50   Input ~ 0
 LEDY_CNTRL
-Text GLabel 4000 1550 0    50   Input ~ 0
+Text GLabel 2000 2350 0    50   Input ~ 0
 LEDG_CNTRL
-Text GLabel 4000 1650 0    50   Input ~ 0
+Text GLabel 8900 1950 2    50   Input ~ 0
 PWR_SRC
-Text GLabel 4000 1750 0    50   Input ~ 0
+Text GLabel 8900 1850 2    50   Input ~ 0
 PWR_ON_OFF
-Text GLabel 4000 1850 0    50   Input ~ 0
+Text GLabel 8900 1750 2    50   Input ~ 0
 ALARM_CNTRL
 Text Label 2000 3450 0    50   ~ 0
 Alarm
@@ -363,4 +363,61 @@ Text Label 7500 3350 0    50   ~ 0
 Switches
 Text Label 9850 3350 0    50   ~ 0
 Memory
+$Comp
+L Pufferfish:TERMINAL_SCREW_8_3.5mm J?
+U 1 1 5ED83BE7
+P 1250 6750
+F 0 "J?" H 1330 7065 70  0000 L CNN
+F 1 "TERMINAL_SCREW_8_3.5mm" H 1330 6944 70  0000 L CNN
+F 2 "Pufferfish:TERMINAL_SCREW_8_3.5mm" H 1500 6250 50  0001 C CNN
+F 3 "" H 1250 6750 50  0001 C CNN
+	1    1250 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:NUCLEO-F429ZI MOD?
+U 2 1 5ED97287
+P 7200 2050
+F 0 "MOD?" H 7650 2617 50  0000 C CNN
+F 1 "NUCLEO-F429ZI" H 7650 2526 50  0000 C CNN
+F 2 "MODULE_NUCLEO-F429ZI" H 7050 100 50  0001 L BNN
+F 3 "https://www.mouser.com/datasheet/2/389/nucleo-l496zg-1308758.pdf" H 6750 1250 50  0001 L BNN
+F 4 "STMicroelectronics" H 7250 -50 50  0001 L BNN "Manufacturer"
+	2    7200 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5EDA74A0
+P 8050 5750
+F 0 "SW3" H 8050 6035 50  0000 C CNN
+F 1 "SW_Push" H 8050 5944 50  0000 C CNN
+F 2 "" H 8050 5950 50  0001 C CNN
+F 3 "~" H 8050 5950 50  0001 C CNN
+	1    8050 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 5750 7350 5750
+Wire Wire Line
+	8250 5750 8450 5750
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5EDAB346
+P 8450 5850
+F 0 "#GND?" H 8450 5850 50  0001 C CNN
+F 1 "GND" H 8450 5720 59  0000 C CNN
+F 2 "" H 8450 5850 50  0001 C CNN
+F 3 "" H 8450 5850 50  0001 C CNN
+	1    8450 5850
+	1    0    0    -1  
+$EndComp
+Text GLabel 7350 5750 0    50   Input ~ 0
+PAUSE_VENT
+Text Label 7450 3900 0    50   ~ 0
+PulluptoVdd
+Text Label 7350 4000 0    50   ~ 0
+orTransistor
+Text GLabel 8900 2050 2    50   Input ~ 0
+PAUSE_VENT
 $EndSCHEMATC
