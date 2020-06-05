@@ -5,6 +5,11 @@ D ABPDANN005PG2A3, Differential Pressure Sensor 5psi 6-Pin DIP
 F https://componentsearchengine.com/Datasheets/1/ABPDANN005PG2A3.pdf
 $ENDCMP
 #
+$CMP ABPMAND001PG2A3
+D ABPMAND001PG2A3, Differential Pressure Sensor 1psi 6-Pin SMT
+F https://www.mouser.com/datasheet/2/187/honeywell-sensing-pressure-board-mount-abp-series--1846114.pdf
+$ENDCMP
+#
 $CMP ABPMANN030PG2A3
 D ABPMANN030PG2A3, Differential Pressure Sensor 30psi 6-Pin SMT
 F https://www.mouser.com/datasheet/2/187/honeywell-sensing-pressure-board-mount-abp-series--1846114.pdf
