@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title "Pufferfish Power - Top"
 Date "2020-05-17"
 Rev "v0.1"
@@ -39,12 +39,6 @@ F1 "Interface.sch" 50
 $EndSheet
 Text Notes 1350 4100 0    118  Italic 0
 Interface and LED's
-$Sheet
-S 1350 4950 1600 250 
-U 5EFFFB7B
-F0 "24V Boost" 50
-F1 "Boost.sch" 50
-$EndSheet
 $Comp
 L Mechanical:Fiducial FID1
 U 1 1 5F00049D
@@ -58,8 +52,8 @@ F 3 "~" H 1000 6900 50  0001 C CNN
 $EndComp
 Text Notes 950  6700 0    118  Italic 0
 Fiducials
-Text Notes 1350 4800 0    118  Italic 0
-24V Boost
+Text Notes 4750 3300 0    118  Italic 0
+5V Buck
 $Comp
 L Mechanical:Fiducial FID4
 U 1 1 5F003F02
@@ -283,4 +277,18 @@ Wire Wire Line
 	3400 7350 3400 7300
 Wire Wire Line
 	3400 7300 3350 7300
+$Sheet
+S 4750 3450 1600 250 
+U 5EFFFB7B
+F0 "5V Buck" 50
+F1 "5V.sch" 50
+$EndSheet
+Text Notes 4750 4100 0    118  Italic 0
+3.3V Buck
+$Sheet
+S 4750 4250 1600 250 
+U 5EDA3ECC
+F0 "3.3V Buck" 50
+F1 "3v3.sch" 50
+$EndSheet
 $EndSCHEMATC
