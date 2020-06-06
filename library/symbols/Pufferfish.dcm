@@ -12,6 +12,18 @@ K diode TVS voltage suppressor
 F https://www.vishay.com/docs/88301/15ke.pdf
 $ENDCMP
 #
+$CMP AZ1117-ADJ
+D 1A 20V Adjustable LDO Linear Regulator, SOT-89/SOT-223/TO-220/TO-252/TO-263
+K Adjustable Voltage Regulator 1A Positive LDO
+F https://www.diodes.com/assets/Datasheets/AZ1117.pdf
+$ENDCMP
+#
+$CMP Amphenol_Quickie_2x10
+D Connector, Pin Header, 2x10 Positions, 2.54mm Pitch, Shrouded, Latched, TH
+K connector
+F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/65863.pdf?__cf_chl_jschl_tk__=af9fc96323d452e36ea6882d1b3472aafb5a6073-1591408441-0-AQZ8ZDlgkyqkPsRed-WkMaLlfOGyRp0ZAwMOWAGWleEzcZzDBBtBIqBEeW5CdTyWYbcps2YP5xPbir4vMW63AzmmgdFA_V4VlRczwZPo4XLAPDeQl6FRxNHCIc-n5jMTDOPk3IH3_aALoI6HYXHC3edvBN3ghTBnc8EPKTvT_vmP13W66BBXNYkl8RSobgDlq3ONRZq_A9aEkN2YIZ7pPc6PQ2tNiUUBBK1q7vh0NRZslweKLxfvlpbcvzvHqNbHNh_oOnKD7ZjgZDZksCpNfCtarK8nALC1NxT-pVh3y6FUjLXHVMSfeLedYm0xHcX3PHSWFuv074KvyzgsBDg1l2HNZX7_wNHMVZC3TkB_hI4khy8QSCOhEwNuSw5qLDREpA
+$ENDCMP
+#
 $CMP BME280
 D DIP Breakout for Adafruit's BME280 board
 $ENDCMP
@@ -50,16 +62,40 @@ K capacitor cap
 F https://www.digikey.com/product-detail/en/taiyo-yuden/GMK107AB7105KAHT/587-3352-1-ND/4157239
 $ENDCMP
 #
+$CMP CAP_22uF_25V_X5R_0805
+D Capacitor, Ceramic, 22uF Capacitance, 25V Rating, X5R Dielectric, SMT, 0805 Package
+K capacitor cap
+F https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A226MAQNNNE/1276-2908-6-ND/3893423
+$ENDCMP
+#
+$CMP CAP_3.3nF_50V_X7R_0402
+D Capacitor, Ceramic, 3.3nF Capacitance, 50V Rating, X7R Dielectric, SMT, 0402 Package
+K capacitor cap
+F https://www.digikey.com/product-detail/en/murata-electronics/GRM1555C1H102JA01D/490-3244-2-ND/702509
+$ENDCMP
+#
 $CMP CAP_33nF_25V_X7R_0603
 D Capacitor, Ceramic, 33nF Capacitance, 25V Rating, X7R Dielectric, SMT, 0603 Package
 K capacitor cap
 F https://www.digikey.com/product-detail/en/murata-electronics/GRM1555C1H102JA01D/490-3244-2-ND/702509
 $ENDCMP
 #
+$CMP CAP_4.7uF_16V_X6S_0603
+D Capacitor, Ceramic, 4.7uF Capacitance, 16V Rating, X6S Dielectric, SMT, 0603 Package
+K capacitor cap
+F https://www.digikey.com/product-detail/en/tdk-corporation/C1608X6S1C475K080AC/445-9118-6-ND/3661675
+$ENDCMP
+#
 $CMP CAP_47nF_50V_X7R_0402
 D Capacitor, Ceramic, 47nF Capacitance, 50V Rating, X7R Dielectric, SMT, 0402 Package
 K capacitor cap
 F https://www.digikey.com/product-detail/en/tdk-corporation/CGA2B3X7R1H473K050BB/445-6897-6-ND/2673040
+$ENDCMP
+#
+$CMP CAP_AE_SMD_100uF_10V_6mm
+D Capacitor, Aluminum Electrolytic, 220uF, 25V Rating, 8mm Diameter, SMD
+K cap capacitor
+F https://www.digikey.com/product-detail/en/panasonic-electronic-components/EEE-HA1A101WP/PCE4169DKR-ND/1023519
 $ENDCMP
 #
 $CMP CAP_AE_SMD_220uF_25V_8mm
@@ -139,16 +175,40 @@ K LED diode
 F ~
 $ENDCMP
 #
+$CMP LM317T_OnSemi
+D 1A 35V Adjustable Linear Regulator, SOT-89/SOT-223/TO-220/TO-252/TO-263
+K Adjustable Voltage Regulator 1A Positive
+F https://www.onsemi.com/pub/Collateral/LM317T-D.PDF
+$ENDCMP
+#
 $CMP LTC4421IUHE
 D IC, Prioritized Power Path Controller, Dual-Channel, External FET, Industrial Temperature, SMT, QFN-36
 K Power
 F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC4421.pdf
 $ENDCMP
 #
+$CMP Molex_MicroFit3_2x4_Receptacle
+D Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F https://www.molex.com/pdm_docs/sd/444280401_sd.pdf
+$ENDCMP
+#
+$CMP Molex_PicoFlex_20_Vertical
+D Connector, Pin Header, 20 Positions, 1.27mm Pitch, PicoFlex Series, TH
+K connector
+F https://www.digikey.com/product-detail/en/molex/0903250020/WM9242-ND/404187
+$ENDCMP
+#
 $CMP NUCLEO-F429ZI
 D STM32 Nucleo-144 development board with STM32F429ZIT6 MCU, supports Arduino, ST Zio and Morpho
 K module, microcontroller, mcu, nucleo
 F https://www.mouser.com/datasheet/2/389/nucleo-l496zg-1308758.pdf
+$ENDCMP
+#
+$CMP PM2201.122NLT
+D Inductor, small symbol
+K inductor choke coil reactor magnetic
+F https://products.pulseelex.com/files/product_files/P806.pdf
 $ENDCMP
 #
 $CMP POLOLU_36V4
@@ -161,6 +221,12 @@ $CMP RES_0R_0402_SMD
 D Resistor, Jumper, 0402 Package, SMT
 K r resistor res
 F https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0-0JRDKR-ND/732300
+$ENDCMP
+#
+$CMP RES_100K_0603_SMD
+D Resistor, 100kOhms, 1% Tolerance, 0603 Package, SMT
+K r resistor res
+F https://www.digikey.com/product-detail/en/yageo/RC0603FR-07100KL/311-100KHRDKR-ND/732783
 $ENDCMP
 #
 $CMP RES_10K_0603_SMD
@@ -181,16 +247,46 @@ K r resistor res
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
 $ENDCMP
 #
+$CMP RES_31K6_0603_SMD
+D Resistor, 31.6kOhms, 1% Tolerance, 0603 Package, SMT
+K r resistor res
+F https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3EKF3162V/P31-6KHDKR-ND/576164
+$ENDCMP
+#
 $CMP RES_330R_0603_SMD
 D Resistor, 330Ohms, 5% Tolerance, 0603 Package, SMT
 K r resistor res
 F https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGTR-ND/135662
 $ENDCMP
 #
+$CMP RES_33K_0603_SMD
+D Resistor, 33kOhms, 1% Tolerance, 0603 Package, SMT
+K r resistor res
+F https://www.digikey.com/product-detail/en/yageo/RC0603FR-0733KL/311-33-0KHRDKR-ND/733053
+$ENDCMP
+#
 $CMP RES_47K_0603_SMD
 D Resistor, 47kOhms, 1% Tolerance, 0603 Package, SMT
 K r resistor res
 F https://www.digikey.com/product-detail/en/yageo/RC0603JR-0747KL/311-47KGRDKR-ND/732688
+$ENDCMP
+#
+$CMP RES_51K_0402_SMD
+D Resistor, 51kOhms, 1% Tolerance, 0402 Package, SMT
+K r resistor res
+F https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2RKF5102X/P51-0KLDKR-ND/1747059
+$ENDCMP
+#
+$CMP RES_62K_0402_SMD
+D Resistor, 62kOhms, 1% Tolerance, 0402 Package, SMT
+K r resistor res
+F https://www.digikey.com/product-detail/en/yageo/RC0402FR-0762KL/311-62-0KLRDKR-ND/732539
+$ENDCMP
+#
+$CMP RES_73K2_0603_SMD
+D Resistor, 73.2kOhms, 1% Tolerance, 0603 Package, SMT
+K r resistor res
+F https://www.digikey.com/product-detail/en/yageo/RC0603FR-0773K2L/311-73-2KHRDKR-ND/733268
 $ENDCMP
 #
 $CMP RES_750K_0603_SMD
@@ -267,6 +363,10 @@ D Power symbol creates a global label with name "VDD"
 K power-flag
 $ENDCMP
 #
+$CMP VBUCK-INT-5V
+K power-flag
+$ENDCMP
+#
 $CMP VIN-BACKUP-12V0
 K power-flag
 $ENDCMP
@@ -276,6 +376,14 @@ K power-flag
 $ENDCMP
 #
 $CMP VSYS-12V0
+K power-flag
+$ENDCMP
+#
+$CMP VSYS-3V3
+K power-flag
+$ENDCMP
+#
+$CMP VSYS-5V0
 K power-flag
 $ENDCMP
 #
