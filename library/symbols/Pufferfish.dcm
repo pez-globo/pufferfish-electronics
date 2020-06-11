@@ -169,6 +169,36 @@ K LED diode
 F ~
 $ENDCMP
 #
+$CMP LED_SMD_0603_BLUE
+D LED, Blue Color, 0603 Package, SMT
+K LED diode
+F https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/LB-Q39G-L2OO-35-1/475-2816-6-ND/2176386
+$ENDCMP
+#
+$CMP LED_SMD_0603_GREEN
+D LED, Green Color, 0603 Package, SMT
+K LED diode
+F https://www.digikey.com/product-detail/en/lumex-opto-components-inc/SML-LX0603GW-TR/67-1549-1-ND/304360
+$ENDCMP
+#
+$CMP LED_SMD_0603_ORANGE
+D LED, Orange Color, 0603 Package, SMT
+K LED diode
+F https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/LO-Q976-PS-25-0-20-R18/475-2486-1-ND/1802613
+$ENDCMP
+#
+$CMP LED_SMD_0603_RED
+D LED, Red Color, 0603 Package, SMT
+K LED diode
+F https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/LS-Q976-NR-1/475-2512-6-ND/1802773
+$ENDCMP
+#
+$CMP LED_SMD_0603_YELLOW
+D LED, Yellow Color, 0603 Package, SMT
+K LED diode
+F https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KSKT/160-1448-1-ND/386838
+$ENDCMP
+#
 $CMP LED_SMD_0805
 D Light emitting diode, filled shape, SMT, SMD
 K LED diode
@@ -345,6 +375,24 @@ $CMP TMC2209-SilentStepStick
 D Stepper motor controller & driver
 K motor, driver
 F https://www.trinamic.com/fileadmin/assets/Products/Eval_Documents/TMC2209_SilentStepStick_Rev1.10.pdf
+$ENDCMP
+#
+$CMP TP_SMT_KEYSTONE_5019
+D Test Point, Metal, SMT
+K Test Point
+F https://www.digikey.com/product-detail/en/keystone-electronics/5019/36-5019DKR-ND/3907345
+$ENDCMP
+#
+$CMP TP_TH_KEYSTONE_5010
+D Test Point, Red, Thru Hole
+K Test Point
+F https://www.digikey.com/product-detail/en/keystone-electronics/5010/36-5010-ND/255332
+$ENDCMP
+#
+$CMP TP_TH_KEYSTONE_5126
+D Test Point, Green, Thru Hole
+K Test Point
+F https://www.digikey.com/product-detail/en/keystone-electronics/5126/36-5126-ND/2170329
 $ENDCMP
 #
 $CMP TVS_15V_SOD123FL-2

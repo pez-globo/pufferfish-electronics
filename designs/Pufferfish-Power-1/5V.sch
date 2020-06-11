@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 5 7
 Title "Pufferfish Power: TPS56821"
 Date "2020-06-05"
 Rev "v1.0"
@@ -844,7 +844,7 @@ Wire Wire Line
 	7000 5450 7000 5550
 Connection ~ 7000 5550
 Wire Wire Line
-	7000 5550 7500 5550
+	7000 5550 7350 5550
 $Comp
 L Pufferfish:VSYS-3V3 #PWR?
 U 1 1 5EEE9C3F
@@ -862,4 +862,110 @@ Wire Wire Line
 	7000 5150 7000 5250
 Text Notes 3100 4100 0    35   Italic 0
 EN @ 6V
+$Comp
+L Transistor_FET:2N7002E Q?
+U 1 1 5EE3F132
+P 10000 6100
+AR Path="/5EFFF333/5EE3F132" Ref="Q?"  Part="1" 
+AR Path="/5EFFFB7B/5EE3F132" Ref="Q12"  Part="1" 
+F 0 "Q12" H 10205 6146 50  0000 L CNN
+F 1 "2N7002E" H 10205 6055 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10200 6025 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/ds30376.pdf" H 10000 6100 50  0001 L CNN
+	1    10000 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EE4CB83
+P 10100 6400
+AR Path="/5EC321D9/5EE4CB83" Ref="#PWR?"  Part="1" 
+AR Path="/5EDA3ECC/5EE4CB83" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFFB7B/5EE4CB83" Ref="#PWR072"  Part="1" 
+F 0 "#PWR072" H 10100 6150 50  0001 C CNN
+F 1 "GND" H 10105 6227 50  0000 C CNN
+F 2 "" H 10100 6400 50  0001 C CNN
+F 3 "" H 10100 6400 50  0001 C CNN
+	1    10100 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 6300 10100 6400
+$Comp
+L Pufferfish:RES_330R_0603_SMD R?
+U 1 1 5EE53226
+P 10100 5700
+AR Path="/5EC45070/5EE53226" Ref="R?"  Part="1" 
+AR Path="/5EFFFB7B/5EE53226" Ref="R53"  Part="1" 
+F 0 "R53" H 10168 5837 50  0000 L CNN
+F 1 "RES_330R_0603_SMD" H 10180 5510 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0603" H 10300 5300 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGTR-ND/135662" H 10100 5700 50  0001 C CNN
+F 4 "5%" H 10168 5746 50  0000 L CNN "Tolerance"
+F 5 "330R" H 10168 5655 50  0000 L CNN "Resistance"
+F 6 "ESR03EZPJ331" H 10100 5700 50  0001 C CNN "MPN"
+F 7 "Rohm" H 10100 5700 50  0001 C CNN "MFG"
+F 8 "0603" H 10168 5564 50  0000 L CNN "Package"
+	1    10100 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 5800 10100 5900
+$Comp
+L Pufferfish:LED_SMD_0603_ORANGE D5
+U 1 1 5EE5BC4A
+P 10100 5250
+F 0 "D5" V 10139 5132 50  0000 R CNN
+F 1 "LED_SMD_0603_ORANGE" H 10100 5100 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 10150 5000 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/LO-Q976-PS-25-0-20-R18/475-2486-1-ND/1802613" H 10100 5250 50  0001 C CNN
+F 4 "LO Q976-PS-25-0-20-R18" V 10139 5132 50  0001 R CNN "MPN"
+F 5 "Osram" V 10048 5132 50  0001 R CNN "MFG"
+F 6 "Orange" V 10048 5132 50  0000 R CNN "Color"
+	1    10100 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 5400 10100 5600
+$Comp
+L Pufferfish:VSYS-3V3 #PWR?
+U 1 1 5EE64301
+P 10100 5000
+AR Path="/5EDA3ECC/5EE64301" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFFB7B/5EE64301" Ref="#PWR071"  Part="1" 
+F 0 "#PWR071" H 10100 4850 50  0001 C CNN
+F 1 "VSYS-3V3" H 10117 5173 50  0000 C CNN
+F 2 "" H 10100 5000 50  0001 C CNN
+F 3 "" H 10100 5000 50  0001 C CNN
+	1    10100 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 5000 10100 5100
+Wire Wire Line
+	7350 5550 7350 6100
+Wire Wire Line
+	7350 6100 9800 6100
+Connection ~ 7350 5550
+Wire Wire Line
+	7350 5550 7500 5550
+Text Notes 9850 4750 0    50   Italic 10
+LED Indicator
+$Comp
+L Pufferfish:TP_TH_KEYSTONE_5010 TP?
+U 1 1 5EFF7E89
+P 7400 3250
+AR Path="/5EEC5CE7/5EFF7E89" Ref="TP?"  Part="1" 
+AR Path="/5EFFFB7B/5EFF7E89" Ref="TP5"  Part="1" 
+F 0 "TP5" V 7650 3200 50  0000 L CNN
+F 1 "TP_TH_KEYSTONE_5010" H 7100 3050 50  0001 L BNN
+F 2 "" H 7400 3250 50  0001 L BNN
+F 3 "https://www.digikey.com/product-detail/en/keystone-electronics/5010/36-5010-ND/255332" H 7400 3250 50  0001 L BNN
+F 4 "5010" V 7550 3150 50  0000 L CNN "MPN"
+F 5 "Keystone Electronics" H 7400 3250 50  0001 C CNN "MFG"
+	1    7400 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7400 3650 7400 3850
 $EndSCHEMATC

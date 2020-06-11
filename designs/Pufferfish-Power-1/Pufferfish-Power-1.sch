@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title "Pufferfish Power - Top"
 Date "2020-05-17"
-Rev "v0.1"
+Rev "v1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -14,31 +14,31 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 1350 3500 1600 250 
+S 3400 3650 1600 250 
 U 5EC321D9
 F0 "LTC4221" 50
 F1 "LTC4221.sch" 50
 $EndSheet
 Text Notes 1800 1200 0    236  ~ 47
 Pufferfish - Power Management Board v0.1
-Text Notes 1350 3350 0    118  Italic 0
+Text Notes 3400 3500 0    118  Italic 0
 LTC4221 Design
 $Sheet
-S 1350 2750 1600 250 
+S 3400 2900 1600 250 
 U 5EC45070
 F0 "Input Connectors" 50
 F1 "Inputs.sch" 50
 $EndSheet
-Text Notes 1350 2600 0    118  Italic 0
+Text Notes 3400 2750 0    118  Italic 0
 Input Connectors
 $Sheet
-S 1350 4200 1600 250 
+S 3400 4350 1600 250 
 U 5EFFF333
-F0 "Interface and LEDs" 50
+F0 "Interface" 50
 F1 "Interface.sch" 50
 $EndSheet
-Text Notes 1350 4100 0    118  Italic 0
-Interface and LED's
+Text Notes 3400 4250 0    118  Italic 0
+Interface
 $Comp
 L Mechanical:Fiducial FID1
 U 1 1 5F00049D
@@ -52,7 +52,7 @@ F 3 "~" H 1000 6900 50  0001 C CNN
 $EndComp
 Text Notes 950  6700 0    118  Italic 0
 Fiducials
-Text Notes 4750 3300 0    118  Italic 0
+Text Notes 6800 3450 0    118  Italic 0
 5V Buck
 $Comp
 L Mechanical:Fiducial FID4
@@ -278,17 +278,25 @@ Wire Wire Line
 Wire Wire Line
 	3400 7300 3350 7300
 $Sheet
-S 4750 3450 1600 250 
+S 6800 3600 1600 250 
 U 5EFFFB7B
 F0 "5V Buck" 50
 F1 "5V.sch" 50
 $EndSheet
-Text Notes 4750 4100 0    118  Italic 0
+Text Notes 6800 4250 0    118  Italic 0
 3.3V Buck
 $Sheet
-S 4750 4250 1600 250 
+S 6800 4400 1600 250 
 U 5EDA3ECC
 F0 "3.3V Buck" 50
 F1 "3v3.sch" 50
 $EndSheet
+$Sheet
+S 6800 2900 1600 250 
+U 5EEC5CE7
+F0 "LEDs and Debug" 50
+F1 "LEDs.sch" 50
+$EndSheet
+Text Notes 6800 2750 0    118  Italic 0
+LEDs and Debug
 $EndSCHEMATC

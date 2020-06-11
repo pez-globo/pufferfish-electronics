@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 2 7
 Title "Pufferfish Power: LTC4221"
 Date "2020-05-17"
-Rev "v0.1"
+Rev "v1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1152,7 +1152,7 @@ Wire Wire Line
 	9900 3050 9900 2850
 Connection ~ 9900 2850
 Wire Wire Line
-	9900 2850 9550 2850
+	9900 2850 9700 2850
 Wire Wire Line
 	10350 3050 10350 2850
 Connection ~ 10350 2850
@@ -1541,4 +1541,24 @@ Wire Wire Line
 Connection ~ 9550 3350
 Wire Wire Line
 	9550 3350 9900 3350
+$Comp
+L Pufferfish:TP_TH_KEYSTONE_5010 TP?
+U 1 1 5EFCC8EE
+P 9700 2200
+AR Path="/5EEC5CE7/5EFCC8EE" Ref="TP?"  Part="1" 
+AR Path="/5EC321D9/5EFCC8EE" Ref="TP1"  Part="1" 
+F 0 "TP1" V 9950 2150 50  0000 L CNN
+F 1 "TP_TH_KEYSTONE_5010" H 9400 2000 50  0001 L BNN
+F 2 "" H 9700 2200 50  0001 L BNN
+F 3 "https://www.digikey.com/product-detail/en/keystone-electronics/5010/36-5010-ND/255332" H 9700 2200 50  0001 L BNN
+F 4 "5010" V 9850 2100 50  0000 L CNN "MPN"
+F 5 "Keystone Electronics" H 9700 2200 50  0001 C CNN "MFG"
+	1    9700 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9700 2600 9700 2850
+Connection ~ 9700 2850
+Wire Wire Line
+	9700 2850 9550 2850
 $EndSCHEMATC
