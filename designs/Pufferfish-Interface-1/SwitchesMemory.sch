@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
-Title ""
-Date ""
-Rev ""
+Title "Switches and External Memory"
+Date "2020-06-11"
+Rev "0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -406,102 +406,100 @@ Text Label 4700 3350 0    50   ~ 0
 $Comp
 L Memory_Flash:W25Q16JV U?
 U 1 1 5EE555ED
-P 8750 4400
+P 8700 3700
 AR Path="/5EE54DB7/5EE555ED" Ref="U?"  Part="1" 
 AR Path="/5EE48AD8/5EE555ED" Ref="U1"  Part="1" 
-F 0 "U1" H 8750 4981 50  0000 C CNN
-F 1 "W25Q16JV" H 8750 4890 50  0000 C CNN
-F 2 "" H 8400 4750 118 0001 C CNN
-F 3 "https://www.winbond.com/resource-files/w25q16jv%20spi%20revg%2003222018%20plus.pdf" H 8400 4750 118 0001 C CNN
-	1    8750 4400
+F 0 "U1" H 8700 4281 50  0000 C CNN
+F 1 "W25Q16JV" H 8700 4190 50  0000 C CNN
+F 2 "" H 8350 4050 118 0001 C CNN
+F 3 "https://www.winbond.com/resource-files/w25q16jv%20spi%20revg%2003222018%20plus.pdf" H 8350 4050 118 0001 C CNN
+	1    8700 3700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Pufferfish:3.3V #SUPPLY?
 U 1 1 5EE555F3
-P 9000 3800
+P 8950 3100
 AR Path="/5EE555F3" Ref="#SUPPLY?"  Part="1" 
 AR Path="/5EE1053C/5EE555F3" Ref="#SUPPLY?"  Part="1" 
 AR Path="/5EE81B75/5EE555F3" Ref="#SUPPLY?"  Part="1" 
 AR Path="/5EE54DB7/5EE555F3" Ref="#SUPPLY?"  Part="1" 
 AR Path="/5EE48AD8/5EE555F3" Ref="#SUPPLY?"  Part="1" 
-F 0 "#SUPPLY?" H 9000 3800 50  0001 C CNN
-F 1 "3.3V" H 9000 4022 59  0000 C CNN
-F 2 "" H 9000 3800 50  0001 C CNN
-F 3 "" H 9000 3800 50  0001 C CNN
-	1    9000 3800
+F 0 "#SUPPLY?" H 8950 3100 50  0001 C CNN
+F 1 "3.3V" H 8950 3322 59  0000 C CNN
+F 2 "" H 8950 3100 50  0001 C CNN
+F 3 "" H 8950 3100 50  0001 C CNN
+	1    8950 3100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9000 3800 9000 4000
+	8950 3100 8950 3300
 Wire Wire Line
-	8750 4000 9000 4000
+	8700 3300 8950 3300
 $Comp
 L power:GND #PWR?
 U 1 1 5EE555FB
-P 8750 4800
+P 8700 4100
 AR Path="/5EE54DB7/5EE555FB" Ref="#PWR?"  Part="1" 
 AR Path="/5EE48AD8/5EE555FB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8750 4550 50  0001 C CNN
-F 1 "GND" H 8755 4627 50  0000 C CNN
-F 2 "" H 8750 4800 50  0001 C CNN
-F 3 "" H 8750 4800 50  0001 C CNN
-	1    8750 4800
+F 0 "#PWR?" H 8700 3850 50  0001 C CNN
+F 1 "GND" H 8705 3927 50  0000 C CNN
+F 2 "" H 8700 4100 50  0001 C CNN
+F 3 "" H 8700 4100 50  0001 C CNN
+	1    8700 4100
 	1    0    0    -1  
 $EndComp
-Text GLabel 7950 4300 0    50   Input ~ 0
+Text GLabel 7900 3600 0    50   Input ~ 0
 EXT_MEM_CS
-Text GLabel 8250 4500 0    50   Input ~ 0
+Text GLabel 8200 3800 0    50   Input ~ 0
 SPI1_SCL
-Text GLabel 9250 4200 2    50   Input ~ 0
+Text GLabel 9200 3500 2    50   Input ~ 0
 SPI1_MOSI
-Text GLabel 9250 4300 2    50   Input ~ 0
+Text GLabel 9200 3600 2    50   Input ~ 0
 SPI1_MISO
-Text GLabel 9250 4500 2    50   Input ~ 0
+Text GLabel 9200 3800 2    50   Input ~ 0
 EXT_MEM_WPI
-Text GLabel 9250 4600 2    50   Input ~ 0
+Text GLabel 9200 3900 2    50   Input ~ 0
 EXT_MEM_HRI
-Text Label 8450 3150 0    118  ~ 0
+Text Label 8200 1950 0    118  ~ 0
 Memory
 $Comp
 L Pufferfish:3.3V #SUPPLY?
 U 1 1 5EE936F4
-P 8100 3800
+P 8050 3100
 AR Path="/5EE936F4" Ref="#SUPPLY?"  Part="1" 
 AR Path="/5EE1053C/5EE936F4" Ref="#SUPPLY?"  Part="1" 
 AR Path="/5EE81B75/5EE936F4" Ref="#SUPPLY?"  Part="1" 
 AR Path="/5EE48AD8/5EE936F4" Ref="#SUPPLY?"  Part="1" 
-F 0 "#SUPPLY?" H 8100 3800 50  0001 C CNN
-F 1 "3.3V" H 8100 4022 59  0000 C CNN
-F 2 "" H 8100 3800 50  0001 C CNN
-F 3 "" H 8100 3800 50  0001 C CNN
-	1    8100 3800
+F 0 "#SUPPLY?" H 8050 3100 50  0001 C CNN
+F 1 "3.3V" H 8050 3322 59  0000 C CNN
+F 2 "" H 8050 3100 50  0001 C CNN
+F 3 "" H 8050 3100 50  0001 C CNN
+	1    8050 3100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Pufferfish:RES_SMD_0805 R?
 U 1 1 5EE93700
-P 8100 3900
+P 8050 3200
 AR Path="/5EE93700" Ref="R?"  Part="1" 
 AR Path="/5EE1053C/5EE93700" Ref="R?"  Part="1" 
 AR Path="/5EE81B75/5EE93700" Ref="R?"  Part="1" 
 AR Path="/5EE48AD8/5EE93700" Ref="R16"  Part="1" 
-F 0 "R16" V 7895 3900 50  0000 C CNN
-F 1 "RES_SMD_0805" H 8180 3710 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0805" H 8300 3500 50  0001 C CNN
-F 3 "~" H 8100 3900 50  0001 C CNN
-F 4 "?%" H 8250 3800 50  0001 C CNN "Tolerance"
-F 5 "10KΩ" V 7986 3900 50  0000 C CNN "Resistance"
-	1    8100 3900
+F 0 "R16" V 7845 3200 50  0000 C CNN
+F 1 "RES_SMD_0805" H 8130 3010 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0805" H 8250 2800 50  0001 C CNN
+F 3 "~" H 8050 3200 50  0001 C CNN
+F 4 "?%" H 8200 3100 50  0001 C CNN "Tolerance"
+F 5 "10KΩ" V 7936 3200 50  0000 C CNN "Resistance"
+	1    8050 3200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8100 4000 8100 4300
-Connection ~ 8100 4300
+	8050 3300 8050 3600
+Connection ~ 8050 3600
 Wire Wire Line
-	8100 4300 8250 4300
+	8050 3600 8200 3600
 Wire Wire Line
-	7950 4300 8100 4300
-Text Label 6900 4150 0    50   ~ 0
-TODO:CheckToSeeIfPullupIsNecessary
+	7900 3600 8050 3600
 $EndSCHEMATC

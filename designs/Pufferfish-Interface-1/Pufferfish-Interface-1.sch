@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "Pufferfish Interface Board"
-Date "2020-05-17"
-Rev "v0.1"
+Date "2020-06-11"
+Rev "0"
 Comp ""
 Comment1 ""
 Comment2 ""

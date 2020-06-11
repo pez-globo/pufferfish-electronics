@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
-Title ""
-Date ""
-Rev ""
+Title "Connections"
+Date "2020-06-11"
+Rev "0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -138,6 +138,7 @@ U 1 1 5EE8E828
 P 1800 6100
 AR Path="/5EE8E828" Ref="#SUPPLY?"  Part="1" 
 AR Path="/5EE41C08/5EE8E828" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EE54DB7/5EE8E828" Ref="#SUPPLY?"  Part="1" 
 F 0 "#SUPPLY?" H 1800 6100 50  0001 C CNN
 F 1 "12V" H 1800 6322 59  0000 C CNN
 F 2 "" H 1800 6100 50  0001 C CNN
