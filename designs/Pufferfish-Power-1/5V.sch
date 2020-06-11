@@ -295,7 +295,7 @@ U 1 1 5EDE38C0
 P 6650 3850
 F 0 "L1" V 7017 3850 50  0000 C CNN
 F 1 "PM2201.122NLT" V 6288 3850 50  0001 C CNN
-F 2 "" H 6650 3850 50  0001 C CNN
+F 2 "Pufferfish:L_Pulse_PA5001" H 6650 3850 50  0001 C CNN
 F 3 "https://products.pulseelex.com/files/product_files/P806.pdf" H 6650 3850 50  0001 C CNN
 F 4 "PM2201.122NLT" V 6926 3850 50  0000 C CNN "MPN"
 F 5 "Pulse Electronics" H 6650 3850 50  0001 C CNN "MFG"
@@ -959,7 +959,7 @@ AR Path="/5EEC5CE7/5EFF7E89" Ref="TP?"  Part="1"
 AR Path="/5EFFFB7B/5EFF7E89" Ref="TP5"  Part="1" 
 F 0 "TP5" V 7650 3200 50  0000 L CNN
 F 1 "TP_TH_KEYSTONE_5010" H 7100 3050 50  0001 L BNN
-F 2 "" H 7400 3250 50  0001 L BNN
+F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 7400 3250 50  0001 L BNN
 F 3 "https://www.digikey.com/product-detail/en/keystone-electronics/5010/36-5010-ND/255332" H 7400 3250 50  0001 L BNN
 F 4 "5010" V 7550 3150 50  0000 L CNN "MPN"
 F 5 "Keystone Electronics" H 7400 3250 50  0001 C CNN "MFG"

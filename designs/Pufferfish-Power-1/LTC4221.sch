@@ -1549,7 +1549,7 @@ AR Path="/5EEC5CE7/5EFCC8EE" Ref="TP?"  Part="1"
 AR Path="/5EC321D9/5EFCC8EE" Ref="TP1"  Part="1" 
 F 0 "TP1" V 9950 2150 50  0000 L CNN
 F 1 "TP_TH_KEYSTONE_5010" H 9400 2000 50  0001 L BNN
-F 2 "" H 9700 2200 50  0001 L BNN
+F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 9700 2200 50  0001 L BNN
 F 3 "https://www.digikey.com/product-detail/en/keystone-electronics/5010/36-5010-ND/255332" H 9700 2200 50  0001 L BNN
 F 4 "5010" V 9850 2100 50  0000 L CNN "MPN"
 F 5 "Keystone Electronics" H 9700 2200 50  0001 C CNN "MFG"

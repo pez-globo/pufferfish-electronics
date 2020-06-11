@@ -1088,6 +1088,27 @@ X Pin_8 8 300 -200 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Molex_MicroFit_2P
+#
+DEF Molex_MicroFit_2P J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Molex_MicroFit_2P" 0 -200 50 H V C CNN
+F2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0200_2x01_P3.00mm_Horizontal" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "0430450200" 0 0 50 H V C CNN "MPN"
+F5 "Molex" 0 0 50 H V C CNN "MFG"
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Molex_PicoFlex_20_Vertical
 #
 DEF Molex_PicoFlex_20_Vertical J 0 40 Y N 1 F N
@@ -2128,7 +2149,7 @@ ENDDEF
 DEF TP_TH_KEYSTONE_5010 TP 0 40 Y Y 1 F N
 F0 "TP" -300 100 50 H V L BNN
 F1 "TP_TH_KEYSTONE_5010" -300 -200 50 H I L BNN
-F2 "" 0 0 50 H I L BNN
+F2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 F4 "5010" 0 0 50 H V C CNN "MPN"
 F5 "Keystone Electronics" 0 0 50 H I C CNN "MFG"
@@ -2144,7 +2165,7 @@ ENDDEF
 DEF TP_TH_KEYSTONE_5126 TP 0 40 Y Y 1 F N
 F0 "TP" -300 100 50 H V L BNN
 F1 "TP_TH_KEYSTONE_5126" -300 -200 50 H I L BNN
-F2 "" 0 0 50 H I L BNN
+F2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 F4 "5126" 0 0 50 H V C CNN "MPN"
 F5 "Keystone Electronics" 0 0 50 H I C CNN "MFG"

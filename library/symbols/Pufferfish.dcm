@@ -223,6 +223,12 @@ K connector
 F https://www.molex.com/pdm_docs/sd/444280401_sd.pdf
 $ENDCMP
 #
+$CMP Molex_MicroFit_2P
+D Connector, Power, 2-Pin, 1x02, Thru Hole
+K connector
+F https://www.digikey.com/product-detail/en/molex/0430450200/WM1813-ND/252526
+$ENDCMP
+#
 $CMP Molex_PicoFlex_20_Vertical
 D Connector, Pin Header, 20 Positions, 1.27mm Pitch, PicoFlex Series, TH
 K connector
