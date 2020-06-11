@@ -457,10 +457,6 @@ Text GLabel 9200 3500 2    50   Input ~ 0
 SPI1_MOSI
 Text GLabel 9200 3600 2    50   Input ~ 0
 SPI1_MISO
-Text GLabel 9200 3800 2    50   Input ~ 0
-EXT_MEM_WPI
-Text GLabel 9200 3900 2    50   Input ~ 0
-EXT_MEM_HRI
 Text Label 8200 1950 0    118  ~ 0
 Memory
 $Comp
@@ -502,4 +498,8 @@ Wire Wire Line
 	8050 3600 8200 3600
 Wire Wire Line
 	7900 3600 8050 3600
+Text GLabel 9200 3800 2    50   Input ~ 0
+EXT_MEM_WRITE_PROTECT
+Text GLabel 9200 3900 2    50   Input ~ 0
+EXT_MEM_HOLD
 $EndSCHEMATC

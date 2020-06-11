@@ -79,10 +79,10 @@ Text Label 3950 2950 0    118  ~ 0
 Text Label 8750 3000 0    118  ~ 0
 8
 Text GLabel 10400 4400 2    50   Input ~ 0
-EXT_MEM_WPI
+EXT_MEM_WRITE_PROTECT
 Text GLabel 10400 5700 2    50   Input ~ 0
-EXT_MEM_HRI
-Text GLabel 2200 2850 0    50   Input ~ 0
+EXT_MEM_HOLD
+Text GLabel 2200 2650 0    50   Input ~ 0
 EXT_MEM_CS
 $Comp
 L Pufferfish:3.3V #SUPPLY?
