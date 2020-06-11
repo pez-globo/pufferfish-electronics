@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
-Title "Pufferfish Power - Top"
+Title "Pufferfish Interface Board"
 Date "2020-05-17"
 Rev "v0.1"
 Comp ""
