@@ -8,6 +8,10 @@ $CMP BUZZER-12MM
 D Generic 12mm Buzzer
 $ENDCMP
 #
+$CMP BUZZER-MALLORY
+F https://www.mspindy.com/Specifications/MSS5MMG.pdf
+$ENDCMP
+#
 $CMP CAP_100pF_10V_NP0_0402
 D Capacitor, Ceramic, 1uF Capacitance, 35V Rating, X7R Dielectric, SMT, 0603 Package
 K capacitor cap
