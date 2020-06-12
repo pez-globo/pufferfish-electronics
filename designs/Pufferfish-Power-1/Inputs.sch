@@ -1,0 +1,985 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 7
+Title "Pufferfish Power - Connector Inputs"
+Date "2020-05-19"
+Rev "v1.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Pufferfish:POWER_JACK_PTH J2
+U 1 1 5F00E027
+P 4600 5950
+F 0 "J2" H 4458 6490 70  0000 C CNN
+F 1 "POWER_JACK_PTH" H 4458 6369 70  0000 C CNN
+F 2 "Pufferfish:POWER_JACK_PTH" H 4600 5950 50  0001 C CNN
+F 3 "" H 4600 5950 50  0001 C CNN
+	1    4600 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:CAP_AE_SMD_220uF_25V_8mm C?
+U 1 1 5F015A8D
+P 8850 5950
+AR Path="/5EC321D9/5F015A8D" Ref="C?"  Part="1" 
+AR Path="/5EC45070/5F015A8D" Ref="C24"  Part="1" 
+F 0 "C24" H 8938 6087 50  0000 L CNN
+F 1 "CAP_AE_SMD_220uF_25V_8mm" H 8860 5870 50  0001 L CNN
+F 2 "Capacitor_SMD:CP_Elec_10x7.9" H 8850 5950 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1184.pdf" H 8850 5950 50  0001 C CNN
+F 4 "Panasonic" H 8850 5950 50  0001 C CNN "MFG"
+F 5 "EEE-FP1E221AP" H 8850 5950 50  0001 C CNN "MPN"
+F 6 "25V" H 8938 5996 50  0000 L CNN "Voltage"
+F 7 "20%" H 8938 5905 50  0000 L CNN "Tolerance"
+F 8 "220uF" H 8938 5814 50  0000 L CNN "Capacitance"
+	1    8850 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 5850 8850 5650
+Wire Wire Line
+	8850 6050 8850 6150
+$Comp
+L Pufferfish:CAP_10uF_35V_X5R_0805 C?
+U 1 1 5F015AB1
+P 8200 5950
+AR Path="/5EC321D9/5F015AB1" Ref="C?"  Part="1" 
+AR Path="/5EC45070/5F015AB1" Ref="C20"  Part="1" 
+F 0 "C20" H 8292 6070 50  0000 L CNN
+F 1 "CAP_10uF_35V_X5R_0805" H 7250 6350 50  0001 L CNN
+F 2 "Pufferfish:CAP_SMD_0805" H 8250 5550 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/taiyo-yuden/GMK107AB7105KAHT/587-3352-1-ND/4157239" H 8350 5900 50  0001 C CNN
+F 4 "10%" H 8292 5994 30  0000 L CNN "Tolerance"
+F 5 "10uF" H 8292 5934 30  0000 L CNN "Capacitance"
+F 6 "C2012X5R1V106K085AC" H 7700 6150 50  0001 C CNN "MPN"
+F 7 "TDK" H 7550 6250 50  0001 C CNN "MFG"
+F 8 "X5R" H 8292 5874 30  0000 L CNN "Dielectric"
+F 9 "35V" H 8292 5814 30  0000 L CNN "Voltage"
+	1    8200 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:CAP_10uF_35V_X5R_0805 C?
+U 1 1 5F015ABD
+P 8500 5950
+AR Path="/5EC321D9/5F015ABD" Ref="C?"  Part="1" 
+AR Path="/5EC45070/5F015ABD" Ref="C22"  Part="1" 
+F 0 "C22" H 8592 6070 50  0000 L CNN
+F 1 "CAP_10uF_35V_X5R_0805" H 7550 6350 50  0001 L CNN
+F 2 "Pufferfish:CAP_SMD_0805" H 8550 5550 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/taiyo-yuden/GMK107AB7105KAHT/587-3352-1-ND/4157239" H 8650 5900 50  0001 C CNN
+F 4 "10%" H 8592 5994 30  0000 L CNN "Tolerance"
+F 5 "10uF" H 8592 5934 30  0000 L CNN "Capacitance"
+F 6 "C2012X5R1V106K085AC" H 8000 6150 50  0001 C CNN "MPN"
+F 7 "TDK" H 7850 6250 50  0001 C CNN "MFG"
+F 8 "X5R" H 8592 5874 30  0000 L CNN "Dielectric"
+F 9 "35V" H 8592 5814 30  0000 L CNN "Voltage"
+	1    8500 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:CAP_100nF_50V_X7R_0402 C?
+U 1 1 5F015AC9
+P 7850 5950
+AR Path="/5EC321D9/5F015AC9" Ref="C?"  Part="1" 
+AR Path="/5EC45070/5F015AC9" Ref="C18"  Part="1" 
+F 0 "C18" H 7942 6070 50  0000 L CNN
+F 1 "CAP_100nF_50V_X7R_0402" H 6950 6400 50  0001 L CNN
+F 2 "Pufferfish:CAP_SMD_0402" H 7900 5550 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA2B3X7R1H473K050BB/445-6897-6-ND/2673040" H 8000 5900 50  0001 C CNN
+F 4 "20%" H 7942 5994 30  0000 L CNN "Tolerance"
+F 5 "100nF" H 7942 5934 30  0000 L CNN "Capacitance"
+F 6 "C1005X7R1H104M050BE" H 7350 6300 50  0001 C CNN "MPN"
+F 7 "TDK" H 7200 6200 50  0001 C CNN "MFG"
+F 8 "X7R" H 7942 5874 30  0000 L CNN "Dielectric"
+F 9 "50V" H 7942 5814 30  0000 L CNN "Voltage"
+	1    7850 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 5850 8200 5650
+Wire Wire Line
+	8500 5850 8500 5650
+Wire Wire Line
+	7850 5850 7850 5650
+Wire Wire Line
+	8200 6050 8200 6150
+Wire Wire Line
+	8200 6150 8500 6150
+Wire Wire Line
+	8500 6050 8500 6150
+Connection ~ 8500 6150
+Wire Wire Line
+	7850 6050 7850 6150
+$Comp
+L Pufferfish:TVS_15V_SOD123FL-2 D2
+U 1 1 5F01B446
+P 5000 6050
+F 0 "D2" V 4813 6129 50  0000 L CNN
+F 1 "TVS_15V_SOD123FL-2" V 4904 6129 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123F" H 5000 5850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/240/Littelfuse_TVS_Diode_SMF_Datasheet.pdf-1698977.pdf" H 4550 5750 50  0001 C CNN
+F 4 "SMF15CA" V 4995 6129 50  0000 L CNN "MPN"
+F 5 "Littlefuse" H 4650 5900 50  0001 C CNN "MFG"
+F 6 "15V" V 5086 6129 50  0000 L CNN "Standoff Voltage"
+	1    5000 6050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 5800 5000 5650
+$Comp
+L power:GND #PWR?
+U 1 1 5F01CE2E
+P 4750 5900
+AR Path="/5EC321D9/5F01CE2E" Ref="#PWR?"  Part="1" 
+AR Path="/5EC45070/5F01CE2E" Ref="#PWR034"  Part="1" 
+F 0 "#PWR034" H 4750 5650 50  0001 C CNN
+F 1 "GND" H 4755 5727 50  0000 C CNN
+F 2 "" H 4750 5900 50  0001 C CNN
+F 3 "" H 4750 5900 50  0001 C CNN
+	1    4750 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 5900 4750 5850
+Wire Wire Line
+	4700 5850 4750 5850
+$Comp
+L power:GND #PWR?
+U 1 1 5F01FA2C
+P 5000 6250
+AR Path="/5EC321D9/5F01FA2C" Ref="#PWR?"  Part="1" 
+AR Path="/5EC45070/5F01FA2C" Ref="#PWR036"  Part="1" 
+F 0 "#PWR036" H 5000 6000 50  0001 C CNN
+F 1 "GND" H 5005 6077 50  0000 C CNN
+F 2 "" H 5000 6250 50  0001 C CNN
+F 3 "" H 5000 6250 50  0001 C CNN
+	1    5000 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 6250 5000 6200
+NoConn ~ 4800 5750
+Wire Wire Line
+	4800 5750 4700 5750
+Wire Wire Line
+	7850 6150 8200 6150
+Connection ~ 8200 6150
+Connection ~ 7850 5650
+Connection ~ 8200 5650
+Wire Wire Line
+	8200 5650 7850 5650
+Connection ~ 8500 5650
+Wire Wire Line
+	8500 5650 8200 5650
+Connection ~ 8850 5650
+Wire Wire Line
+	8500 6150 8850 6150
+Wire Wire Line
+	8850 5650 8500 5650
+$Comp
+L Pufferfish:POWER_JACK_PTH J1
+U 1 1 5F03C743
+P 4550 2500
+F 0 "J1" H 4408 3040 70  0000 C CNN
+F 1 "POWER_JACK_PTH" H 4408 2919 70  0000 C CNN
+F 2 "Pufferfish:POWER_JACK_PTH" H 4550 2500 50  0001 C CNN
+F 3 "" H 4550 2500 50  0001 C CNN
+	1    4550 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:CAP_AE_SMD_220uF_25V_8mm C?
+U 1 1 5F03C74F
+P 7300 2500
+AR Path="/5EC321D9/5F03C74F" Ref="C?"  Part="1" 
+AR Path="/5EC45070/5F03C74F" Ref="C23"  Part="1" 
+F 0 "C23" H 7388 2637 50  0000 L CNN
+F 1 "CAP_AE_SMD_220uF_25V_8mm" H 7310 2420 50  0001 L CNN
+F 2 "Capacitor_SMD:CP_Elec_10x7.9" H 7300 2500 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1184.pdf" H 7300 2500 50  0001 C CNN
+F 4 "Panasonic" H 7300 2500 50  0001 C CNN "MFG"
+F 5 "EEE-FP1E221AP" H 7300 2500 50  0001 C CNN "MPN"
+F 6 "25V" H 7388 2546 50  0000 L CNN "Voltage"
+F 7 "20%" H 7388 2455 50  0000 L CNN "Tolerance"
+F 8 "220uF" H 7388 2364 50  0000 L CNN "Capacitance"
+	1    7300 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 2400 7300 2200
+Wire Wire Line
+	7300 2600 7300 2700
+$Comp
+L Pufferfish:CAP_10uF_35V_X5R_0805 C?
+U 1 1 5F03C75D
+P 6650 2500
+AR Path="/5EC321D9/5F03C75D" Ref="C?"  Part="1" 
+AR Path="/5EC45070/5F03C75D" Ref="C19"  Part="1" 
+F 0 "C19" H 6742 2620 50  0000 L CNN
+F 1 "CAP_10uF_35V_X5R_0805" H 5700 2900 50  0001 L CNN
+F 2 "Pufferfish:CAP_SMD_0805" H 6700 2100 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/taiyo-yuden/GMK107AB7105KAHT/587-3352-1-ND/4157239" H 6800 2450 50  0001 C CNN
+F 4 "10%" H 6742 2544 30  0000 L CNN "Tolerance"
+F 5 "10uF" H 6742 2484 30  0000 L CNN "Capacitance"
+F 6 "C2012X5R1V106K085AC" H 6150 2700 50  0001 C CNN "MPN"
+F 7 "TDK" H 6000 2800 50  0001 C CNN "MFG"
+F 8 "X5R" H 6742 2424 30  0000 L CNN "Dielectric"
+F 9 "35V" H 6742 2364 30  0000 L CNN "Voltage"
+	1    6650 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:CAP_10uF_35V_X5R_0805 C?
+U 1 1 5F03C769
+P 6950 2500
+AR Path="/5EC321D9/5F03C769" Ref="C?"  Part="1" 
+AR Path="/5EC45070/5F03C769" Ref="C21"  Part="1" 
+F 0 "C21" H 7042 2620 50  0000 L CNN
+F 1 "CAP_10uF_35V_X5R_0805" H 6000 2900 50  0001 L CNN
+F 2 "Pufferfish:CAP_SMD_0805" H 7000 2100 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/taiyo-yuden/GMK107AB7105KAHT/587-3352-1-ND/4157239" H 7100 2450 50  0001 C CNN
+F 4 "10%" H 7042 2544 30  0000 L CNN "Tolerance"
+F 5 "10uF" H 7042 2484 30  0000 L CNN "Capacitance"
+F 6 "C2012X5R1V106K085AC" H 6450 2700 50  0001 C CNN "MPN"
+F 7 "TDK" H 6300 2800 50  0001 C CNN "MFG"
+F 8 "X5R" H 7042 2424 30  0000 L CNN "Dielectric"
+F 9 "35V" H 7042 2364 30  0000 L CNN "Voltage"
+	1    6950 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:CAP_100nF_50V_X7R_0402 C?
+U 1 1 5F03C775
+P 6300 2500
+AR Path="/5EC321D9/5F03C775" Ref="C?"  Part="1" 
+AR Path="/5EC45070/5F03C775" Ref="C17"  Part="1" 
+F 0 "C17" H 6392 2620 50  0000 L CNN
+F 1 "CAP_100nF_50V_X7R_0402" H 5400 2950 50  0001 L CNN
+F 2 "Pufferfish:CAP_SMD_0402" H 6350 2100 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA2B3X7R1H473K050BB/445-6897-6-ND/2673040" H 6450 2450 50  0001 C CNN
+F 4 "20%" H 6392 2544 30  0000 L CNN "Tolerance"
+F 5 "100nF" H 6392 2484 30  0000 L CNN "Capacitance"
+F 6 "C1005X7R1H104M050BE" H 5800 2850 50  0001 C CNN "MPN"
+F 7 "TDK" H 5650 2750 50  0001 C CNN "MFG"
+F 8 "X7R" H 6392 2424 30  0000 L CNN "Dielectric"
+F 9 "50V" H 6392 2364 30  0000 L CNN "Voltage"
+	1    6300 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 2400 6650 2200
+Wire Wire Line
+	6950 2400 6950 2200
+Wire Wire Line
+	6300 2400 6300 2200
+Wire Wire Line
+	6650 2600 6650 2700
+Wire Wire Line
+	6650 2700 6950 2700
+Connection ~ 7300 2700
+Wire Wire Line
+	6950 2600 6950 2700
+Connection ~ 6950 2700
+Wire Wire Line
+	6300 2600 6300 2700
+$Comp
+L Pufferfish:TVS_15V_SOD123FL-2 D1
+U 1 1 5F03C787
+P 4950 2600
+F 0 "D1" V 4763 2679 50  0000 L CNN
+F 1 "TVS_15V_SOD123FL-2" V 4854 2679 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123F" H 4950 2400 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/240/Littelfuse_TVS_Diode_SMF_Datasheet.pdf-1698977.pdf" H 4500 2300 50  0001 C CNN
+F 4 "SMF15CA" V 4945 2679 50  0000 L CNN "MPN"
+F 5 "Littlefuse" H 4600 2450 50  0001 C CNN "MFG"
+F 6 "15V" V 5036 2679 50  0000 L CNN "Standoff Voltage"
+	1    4950 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4950 2350 4950 2200
+$Comp
+L power:GND #PWR?
+U 1 1 5F03C78F
+P 4700 2450
+AR Path="/5EC321D9/5F03C78F" Ref="#PWR?"  Part="1" 
+AR Path="/5EC45070/5F03C78F" Ref="#PWR033"  Part="1" 
+F 0 "#PWR033" H 4700 2200 50  0001 C CNN
+F 1 "GND" H 4705 2277 50  0000 C CNN
+F 2 "" H 4700 2450 50  0001 C CNN
+F 3 "" H 4700 2450 50  0001 C CNN
+	1    4700 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2450 4700 2400
+Wire Wire Line
+	4650 2400 4700 2400
+$Comp
+L power:GND #PWR?
+U 1 1 5F03C797
+P 4950 2800
+AR Path="/5EC321D9/5F03C797" Ref="#PWR?"  Part="1" 
+AR Path="/5EC45070/5F03C797" Ref="#PWR035"  Part="1" 
+F 0 "#PWR035" H 4950 2550 50  0001 C CNN
+F 1 "GND" H 4955 2627 50  0000 C CNN
+F 2 "" H 4950 2800 50  0001 C CNN
+F 3 "" H 4950 2800 50  0001 C CNN
+	1    4950 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 2800 4950 2750
+NoConn ~ 4750 2300
+Wire Wire Line
+	4750 2300 4650 2300
+Wire Wire Line
+	6300 2700 6650 2700
+Connection ~ 6650 2700
+Connection ~ 6300 2200
+Connection ~ 6650 2200
+Wire Wire Line
+	6650 2200 6300 2200
+Connection ~ 6950 2200
+Wire Wire Line
+	6950 2200 6650 2200
+Connection ~ 7300 2200
+Wire Wire Line
+	6950 2700 7300 2700
+Wire Wire Line
+	7300 2200 6950 2200
+Wire Wire Line
+	7300 2750 7300 2700
+$Comp
+L power:GND #PWR?
+U 1 1 5F03C7B1
+P 7300 2750
+AR Path="/5EC321D9/5F03C7B1" Ref="#PWR?"  Part="1" 
+AR Path="/5EC45070/5F03C7B1" Ref="#PWR038"  Part="1" 
+F 0 "#PWR038" H 7300 2500 50  0001 C CNN
+F 1 "GND" H 7305 2577 50  0000 C CNN
+F 2 "" H 7300 2750 50  0001 C CNN
+F 3 "" H 7300 2750 50  0001 C CNN
+	1    7300 2750
+	1    0    0    -1  
+$EndComp
+Text Notes 7050 1850 0    35   Italic 0
+Main Input
+$Comp
+L Pufferfish:VIN-PRIMARY-12V0 #PWR?
+U 1 1 5F00FBCF
+P 7300 2100
+AR Path="/5EC321D9/5F00FBCF" Ref="#PWR?"  Part="1" 
+AR Path="/5EC45070/5F00FBCF" Ref="#PWR037"  Part="1" 
+F 0 "#PWR037" H 7300 1950 50  0001 C CNN
+F 1 "VIN-PRIMARY-12V0" H 7317 2273 50  0000 C CNN
+F 2 "" H 7300 2100 50  0001 C CNN
+F 3 "" H 7300 2100 50  0001 C CNN
+	1    7300 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 2100 7300 2150
+$Comp
+L power:GND #PWR?
+U 1 1 5F015AA0
+P 8850 6200
+AR Path="/5EC321D9/5F015AA0" Ref="#PWR?"  Part="1" 
+AR Path="/5EC45070/5F015AA0" Ref="#PWR040"  Part="1" 
+F 0 "#PWR040" H 8850 5950 50  0001 C CNN
+F 1 "GND" H 8855 6027 50  0000 C CNN
+F 2 "" H 8850 6200 50  0001 C CNN
+F 3 "" H 8850 6200 50  0001 C CNN
+	1    8850 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 6200 8850 6150
+Connection ~ 8850 6150
+Text Notes 8650 5350 0    35   Italic 0
+From SLA Battery
+Wire Wire Line
+	8850 5550 8850 5650
+$Comp
+L Pufferfish:VIN-BACKUP-12V0 #PWR?
+U 1 1 5F01221B
+P 8850 5550
+AR Path="/5EC321D9/5F01221B" Ref="#PWR?"  Part="1" 
+AR Path="/5EC45070/5F01221B" Ref="#PWR039"  Part="1" 
+F 0 "#PWR039" H 8850 5400 50  0001 C CNN
+F 1 "VIN-BACKUP-12V0" H 8950 5700 50  0000 C CNN
+F 2 "" H 8850 5550 50  0001 C CNN
+F 3 "" H 8850 5550 50  0001 C CNN
+	1    8850 5550
+	1    0    0    -1  
+$EndComp
+Text Notes 3800 850  0    118  ~ 0
+Input Power Connectors and Charging Circuit
+$Comp
+L Transistor_FET:SiSS27DN Q7
+U 1 1 5EF96EFF
+P 7350 3600
+F 0 "Q7" V 7700 3450 50  0000 L CNN
+F 1 "SiSS27DN" V 7600 3450 50  0000 L CNN
+F 2 "Package_SO:Vishay_PowerPAK_1212-8_Single" H 7550 3525 50  0001 L CIN
+F 3 "http://www.vishay.com/docs/62847/siss27dn.pdf" V 7350 3600 50  0001 L CNN
+	1    7350 3600
+	0    1    -1   0   
+$EndComp
+$Comp
+L Transistor_FET:SiSS27DN Q6
+U 1 1 5EFA6FF5
+P 6300 3600
+F 0 "Q6" V 6650 3450 50  0000 L CNN
+F 1 "SiSS27DN" V 6550 3450 50  0000 L CNN
+F 2 "Package_SO:Vishay_PowerPAK_1212-8_Single" H 6500 3525 50  0001 L CIN
+F 3 "http://www.vishay.com/docs/62847/siss27dn.pdf" V 6300 3600 50  0001 L CNN
+	1    6300 3600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 3500 6800 3500
+Text Label 7150 3500 2    50   ~ 0
+CHARGER-DIODE
+Wire Wire Line
+	6300 3800 6300 3900
+Wire Wire Line
+	6300 3900 6800 3900
+Wire Wire Line
+	7350 3900 7350 3800
+$Comp
+L Pufferfish:RES_100K_0603_SMD R27
+U 1 1 5EFB682D
+P 6800 3700
+F 0 "R27" H 6868 3837 50  0000 L CNN
+F 1 "RES_100K_0603_SMD" H 6880 3510 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0603" H 7000 3300 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-07100KL/311-100KHRDKR-ND/732783" H 6800 3700 50  0001 C CNN
+F 4 "1%" H 6868 3746 50  0000 L CNN "Tolerance"
+F 5 "100kΩ" H 6868 3655 50  0000 L CNN "Resistance"
+F 6 "RC0603FR-07100KL" H 6800 3700 50  0001 C CNN "MPN"
+F 7 "Yageo" H 6800 3700 50  0001 C CNN "MFG"
+F 8 "0603" H 6868 3564 50  0000 L CNN "Package"
+	1    6800 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 3600 6800 3500
+Connection ~ 6800 3500
+Wire Wire Line
+	6800 3500 7150 3500
+Wire Wire Line
+	6800 3800 6800 3900
+Connection ~ 6800 3900
+$Comp
+L Transistor_FET:2N7002E Q5
+U 1 1 5EFBAF1B
+P 5450 4200
+F 0 "Q5" H 5654 4246 50  0000 L CNN
+F 1 "2N7002E" H 5654 4155 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5650 4125 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/ds30376.pdf" H 5450 4200 50  0001 L CNN
+	1    5450 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 3900 7350 3900
+$Comp
+L power:GND #PWR?
+U 1 1 5EFC6E38
+P 5550 4700
+AR Path="/5EC321D9/5EFC6E38" Ref="#PWR?"  Part="1" 
+AR Path="/5EC45070/5EFC6E38" Ref="#PWR048"  Part="1" 
+F 0 "#PWR048" H 5550 4450 50  0001 C CNN
+F 1 "GND" H 5555 4527 50  0000 C CNN
+F 2 "" H 5550 4700 50  0001 C CNN
+F 3 "" H 5550 4700 50  0001 C CNN
+	1    5550 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 4700 5550 4650
+Wire Wire Line
+	5550 4000 5550 3900
+Wire Wire Line
+	5550 3900 6300 3900
+Connection ~ 6300 3900
+$Comp
+L Pufferfish:RES_10K_0603_SMD R26
+U 1 1 5EFD9602
+P 5150 4450
+F 0 "R26" H 5218 4587 50  0000 L CNN
+F 1 "RES_10K_0603_SMD" H 5230 4260 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0603" H 5350 4050 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGTR-ND/135662" H 5150 4450 50  0001 C CNN
+F 4 "1%" H 5218 4496 50  0000 L CNN "Tolerance"
+F 5 "10kΩ" H 5218 4405 50  0000 L CNN "Resistance"
+F 6 "ERJ-3GEYJ103V" H 5150 4450 50  0001 C CNN "MPN"
+F 7 "Panasonic" H 5150 4450 50  0001 C CNN "MFG"
+F 8 "0603" H 5218 4314 50  0000 L CNN "Package"
+	1    5150 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 4350 5150 4200
+Wire Wire Line
+	5150 4200 5250 4200
+Wire Wire Line
+	5150 4550 5150 4650
+Wire Wire Line
+	5150 4650 5550 4650
+Connection ~ 5550 4650
+Wire Wire Line
+	5550 4650 5550 4400
+Text GLabel 2200 4200 0    50   Input ~ 0
+BAT-CHARGE-EN
+Wire Wire Line
+	2200 4200 2650 4200
+Connection ~ 5150 4200
+Connection ~ 4950 2200
+Wire Wire Line
+	4950 2200 4650 2200
+Wire Wire Line
+	4950 2200 5000 2200
+Wire Wire Line
+	6100 3500 6000 3500
+Wire Wire Line
+	6000 3500 6000 3250
+Connection ~ 6000 2200
+Wire Wire Line
+	6000 2200 6300 2200
+Connection ~ 5000 5650
+Wire Wire Line
+	5000 5650 4700 5650
+Wire Wire Line
+	5000 5650 7650 5650
+$Comp
+L Pufferfish:CAP_22uF_25V_X5R_0805 C?
+U 1 1 5F01134C
+P 5450 3450
+AR Path="/5EFFFB7B/5F01134C" Ref="C?"  Part="1" 
+AR Path="/5EC45070/5F01134C" Ref="C26"  Part="1" 
+F 0 "C26" H 5542 3570 50  0000 L CNN
+F 1 "CAP_22uF_25V_X5R_0805" H 4500 3850 50  0001 L CNN
+F 2 "Pufferfish:CAP_SMD_0805" H 5500 3050 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A226MAQNNNE/1276-2908-6-ND/3893423" H 5600 3400 50  0001 C CNN
+F 4 "10%" H 5542 3494 30  0000 L CNN "Tolerance"
+F 5 "22uF" H 5542 3434 30  0000 L CNN "Capacitance"
+F 6 "CL21A226MAQNNNE" H 4950 3650 50  0001 C CNN "MPN"
+F 7 "SEMCO" H 4800 3750 50  0001 C CNN "MFG"
+F 8 "X5R" H 5542 3374 30  0000 L CNN "Dielectric"
+F 9 "25V" H 5542 3314 30  0000 L CNN "Voltage"
+	1    5450 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:CAP_22uF_25V_X5R_0805 C?
+U 1 1 5F011358
+P 5750 3450
+AR Path="/5EFFFB7B/5F011358" Ref="C?"  Part="1" 
+AR Path="/5EC45070/5F011358" Ref="C27"  Part="1" 
+F 0 "C27" H 5842 3570 50  0000 L CNN
+F 1 "CAP_22uF_25V_X5R_0805" H 4800 3850 50  0001 L CNN
+F 2 "Pufferfish:CAP_SMD_0805" H 5800 3050 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A226MAQNNNE/1276-2908-6-ND/3893423" H 5900 3400 50  0001 C CNN
+F 4 "10%" H 5842 3494 30  0000 L CNN "Tolerance"
+F 5 "22uF" H 5842 3434 30  0000 L CNN "Capacitance"
+F 6 "CL21A226MAQNNNE" H 5250 3650 50  0001 C CNN "MPN"
+F 7 "SEMCO" H 5100 3750 50  0001 C CNN "MFG"
+F 8 "X5R" H 5842 3374 30  0000 L CNN "Dielectric"
+F 9 "25V" H 5842 3314 30  0000 L CNN "Voltage"
+	1    5750 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:CAP_22uF_25V_X5R_0805 C?
+U 1 1 5F011364
+P 5150 3450
+AR Path="/5EFFFB7B/5F011364" Ref="C?"  Part="1" 
+AR Path="/5EC45070/5F011364" Ref="C25"  Part="1" 
+F 0 "C25" H 5242 3570 50  0000 L CNN
+F 1 "CAP_22uF_25V_X5R_0805" H 4200 3850 50  0001 L CNN
+F 2 "Pufferfish:CAP_SMD_0805" H 5200 3050 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A226MAQNNNE/1276-2908-6-ND/3893423" H 5300 3400 50  0001 C CNN
+F 4 "10%" H 5242 3494 30  0000 L CNN "Tolerance"
+F 5 "22uF" H 5242 3434 30  0000 L CNN "Capacitance"
+F 6 "CL21A226MAQNNNE" H 4650 3650 50  0001 C CNN "MPN"
+F 7 "SEMCO" H 4500 3750 50  0001 C CNN "MFG"
+F 8 "X5R" H 5242 3374 30  0000 L CNN "Dielectric"
+F 9 "25V" H 5242 3314 30  0000 L CNN "Voltage"
+	1    5150 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F014ADD
+P 5150 3700
+AR Path="/5EC321D9/5F014ADD" Ref="#PWR?"  Part="1" 
+AR Path="/5EC45070/5F014ADD" Ref="#PWR047"  Part="1" 
+F 0 "#PWR047" H 5150 3450 50  0001 C CNN
+F 1 "GND" H 5155 3527 50  0000 C CNN
+F 2 "" H 5150 3700 50  0001 C CNN
+F 3 "" H 5150 3700 50  0001 C CNN
+	1    5150 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3700 5150 3650
+Wire Wire Line
+	5750 3550 5750 3650
+Wire Wire Line
+	5750 3650 5450 3650
+Connection ~ 5150 3650
+Wire Wire Line
+	5150 3650 5150 3550
+Wire Wire Line
+	5450 3550 5450 3650
+Connection ~ 5450 3650
+Wire Wire Line
+	5450 3650 5150 3650
+Wire Wire Line
+	5150 3350 5150 3250
+Wire Wire Line
+	5150 3250 5450 3250
+Connection ~ 6000 3250
+Wire Wire Line
+	6000 3250 6000 2200
+Wire Wire Line
+	5450 3350 5450 3250
+Connection ~ 5450 3250
+Wire Wire Line
+	5450 3250 5750 3250
+Wire Wire Line
+	5750 3350 5750 3250
+Connection ~ 5750 3250
+Wire Wire Line
+	5750 3250 6000 3250
+Wire Wire Line
+	7550 3500 7650 3500
+Connection ~ 7650 5650
+Wire Wire Line
+	7650 5650 7850 5650
+Text Label 6150 3900 2    50   ~ 0
+CHARGER-GATE
+$Comp
+L Pufferfish:CAP_22uF_25V_X5R_0805 C?
+U 1 1 5F053AF3
+P 8100 3700
+AR Path="/5EFFFB7B/5F053AF3" Ref="C?"  Part="1" 
+AR Path="/5EC45070/5F053AF3" Ref="C29"  Part="1" 
+F 0 "C29" H 8192 3820 50  0000 L CNN
+F 1 "CAP_22uF_25V_X5R_0805" H 7150 4100 50  0001 L CNN
+F 2 "Pufferfish:CAP_SMD_0805" H 8150 3300 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A226MAQNNNE/1276-2908-6-ND/3893423" H 8250 3650 50  0001 C CNN
+F 4 "10%" H 8192 3744 30  0000 L CNN "Tolerance"
+F 5 "22uF" H 8192 3684 30  0000 L CNN "Capacitance"
+F 6 "CL21A226MAQNNNE" H 7600 3900 50  0001 C CNN "MPN"
+F 7 "SEMCO" H 7450 4000 50  0001 C CNN "MFG"
+F 8 "X5R" H 8192 3624 30  0000 L CNN "Dielectric"
+F 9 "25V" H 8192 3564 30  0000 L CNN "Voltage"
+	1    8100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:CAP_22uF_25V_X5R_0805 C?
+U 1 1 5F053AFF
+P 8400 3700
+AR Path="/5EFFFB7B/5F053AFF" Ref="C?"  Part="1" 
+AR Path="/5EC45070/5F053AFF" Ref="C30"  Part="1" 
+F 0 "C30" H 8492 3820 50  0000 L CNN
+F 1 "CAP_22uF_25V_X5R_0805" H 7450 4100 50  0001 L CNN
+F 2 "Pufferfish:CAP_SMD_0805" H 8450 3300 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A226MAQNNNE/1276-2908-6-ND/3893423" H 8550 3650 50  0001 C CNN
+F 4 "10%" H 8492 3744 30  0000 L CNN "Tolerance"
+F 5 "22uF" H 8492 3684 30  0000 L CNN "Capacitance"
+F 6 "CL21A226MAQNNNE" H 7900 3900 50  0001 C CNN "MPN"
+F 7 "SEMCO" H 7750 4000 50  0001 C CNN "MFG"
+F 8 "X5R" H 8492 3624 30  0000 L CNN "Dielectric"
+F 9 "25V" H 8492 3564 30  0000 L CNN "Voltage"
+	1    8400 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:CAP_22uF_25V_X5R_0805 C?
+U 1 1 5F053B0B
+P 7800 3700
+AR Path="/5EFFFB7B/5F053B0B" Ref="C?"  Part="1" 
+AR Path="/5EC45070/5F053B0B" Ref="C28"  Part="1" 
+F 0 "C28" H 7892 3820 50  0000 L CNN
+F 1 "CAP_22uF_25V_X5R_0805" H 6850 4100 50  0001 L CNN
+F 2 "Pufferfish:CAP_SMD_0805" H 7850 3300 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A226MAQNNNE/1276-2908-6-ND/3893423" H 7950 3650 50  0001 C CNN
+F 4 "10%" H 7892 3744 30  0000 L CNN "Tolerance"
+F 5 "22uF" H 7892 3684 30  0000 L CNN "Capacitance"
+F 6 "CL21A226MAQNNNE" H 7300 3900 50  0001 C CNN "MPN"
+F 7 "SEMCO" H 7150 4000 50  0001 C CNN "MFG"
+F 8 "X5R" H 7892 3624 30  0000 L CNN "Dielectric"
+F 9 "25V" H 7892 3564 30  0000 L CNN "Voltage"
+	1    7800 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F053B11
+P 7800 3950
+AR Path="/5EC321D9/5F053B11" Ref="#PWR?"  Part="1" 
+AR Path="/5EC45070/5F053B11" Ref="#PWR049"  Part="1" 
+F 0 "#PWR049" H 7800 3700 50  0001 C CNN
+F 1 "GND" H 7805 3777 50  0000 C CNN
+F 2 "" H 7800 3950 50  0001 C CNN
+F 3 "" H 7800 3950 50  0001 C CNN
+	1    7800 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 3950 7800 3900
+Wire Wire Line
+	8400 3800 8400 3900
+Wire Wire Line
+	8400 3900 8100 3900
+Connection ~ 7800 3900
+Wire Wire Line
+	7800 3900 7800 3800
+Wire Wire Line
+	8100 3800 8100 3900
+Connection ~ 8100 3900
+Wire Wire Line
+	8100 3900 7800 3900
+Wire Wire Line
+	7800 3600 7800 3500
+Wire Wire Line
+	7800 3500 8100 3500
+Wire Wire Line
+	8100 3600 8100 3500
+Connection ~ 8100 3500
+Wire Wire Line
+	8100 3500 8400 3500
+Wire Wire Line
+	8400 3600 8400 3500
+Wire Wire Line
+	7800 3500 7650 3500
+Connection ~ 7800 3500
+Connection ~ 7650 3500
+Wire Wire Line
+	7650 3500 7650 5650
+Text Notes 3450 6100 0    79   Italic 16
+From SLA Battery
+Text Notes 2850 1600 0    79   Italic 16
+From Primary Supply
+Text Notes 1500 4450 0    50   Italic 10
+From Control Board\nCharge Path Enable
+$Comp
+L Transistor_FET:2N7002E Q?
+U 1 1 5EF805EE
+P 2200 5850
+AR Path="/5EFFF333/5EF805EE" Ref="Q?"  Part="1" 
+AR Path="/5EFFFB7B/5EF805EE" Ref="Q?"  Part="1" 
+AR Path="/5EEC5CE7/5EF805EE" Ref="Q?"  Part="1" 
+AR Path="/5EC45070/5EF805EE" Ref="Q10"  Part="1" 
+F 0 "Q10" H 2405 5896 50  0000 L CNN
+F 1 "2N7002E" H 2405 5805 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2400 5775 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/ds30376.pdf" H 2200 5850 50  0001 L CNN
+	1    2200 5850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EF805F4
+P 2100 6150
+AR Path="/5EC321D9/5EF805F4" Ref="#PWR?"  Part="1" 
+AR Path="/5EDA3ECC/5EF805F4" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFFB7B/5EF805F4" Ref="#PWR?"  Part="1" 
+AR Path="/5EEC5CE7/5EF805F4" Ref="#PWR?"  Part="1" 
+AR Path="/5EC45070/5EF805F4" Ref="#PWR042"  Part="1" 
+F 0 "#PWR042" H 2100 5900 50  0001 C CNN
+F 1 "GND" H 2105 5977 50  0000 C CNN
+F 2 "" H 2100 6150 50  0001 C CNN
+F 3 "" H 2100 6150 50  0001 C CNN
+	1    2100 6150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 6050 2100 6150
+$Comp
+L Pufferfish:RES_330R_0603_SMD R24
+U 1 1 5EF80600
+P 2100 5450
+AR Path="/5EC45070/5EF80600" Ref="R24"  Part="1" 
+AR Path="/5EFFFB7B/5EF80600" Ref="R?"  Part="1" 
+AR Path="/5EEC5CE7/5EF80600" Ref="R?"  Part="1" 
+F 0 "R24" H 2168 5587 50  0000 L CNN
+F 1 "RES_330R_0603_SMD" H 2180 5260 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0603" H 2300 5050 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGTR-ND/135662" H 2100 5450 50  0001 C CNN
+F 4 "5%" H 2168 5496 50  0000 L CNN "Tolerance"
+F 5 "330R" H 2168 5405 50  0000 L CNN "Resistance"
+F 6 "ESR03EZPJ331" H 2100 5450 50  0001 C CNN "MPN"
+F 7 "Rohm" H 2100 5450 50  0001 C CNN "MFG"
+F 8 "0603" H 2168 5314 50  0000 L CNN "Package"
+	1    2100 5450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 5550 2100 5650
+Wire Wire Line
+	2100 5300 2100 5350
+$Comp
+L Pufferfish:VSYS-3V3 #PWR?
+U 1 1 5EF80608
+P 2100 4950
+AR Path="/5EDA3ECC/5EF80608" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFFB7B/5EF80608" Ref="#PWR?"  Part="1" 
+AR Path="/5EEC5CE7/5EF80608" Ref="#PWR?"  Part="1" 
+AR Path="/5EC45070/5EF80608" Ref="#PWR041"  Part="1" 
+F 0 "#PWR041" H 2100 4800 50  0001 C CNN
+F 1 "VSYS-3V3" H 2117 5123 50  0000 C CNN
+F 2 "" H 2100 4950 50  0001 C CNN
+F 3 "" H 2100 4950 50  0001 C CNN
+	1    2100 4950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 4950 2100 5000
+$Comp
+L Pufferfish:LED_SMD_0603_YELLOW D?
+U 1 1 5EF80613
+P 2100 5150
+AR Path="/5EFFF333/5EF80613" Ref="D?"  Part="1" 
+AR Path="/5EC45070/5EF80613" Ref="D3"  Part="1" 
+F 0 "D3" V 2139 5032 50  0000 R CNN
+F 1 "LED_SMD_0603_YELLOW" H 2100 5000 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 2150 4900 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KSKT/160-1448-1-ND/386838" H 2100 5150 50  0001 C CNN
+F 4 "LTST-C191KSKT" V 2139 5032 50  0001 R CNN "MPN"
+F 5 "Lite-On" V 2048 5032 50  0001 R CNN "MFG"
+F 6 "Yellow" V 2048 5032 50  0000 R CNN "Color"
+	1    2100 5150
+	0    -1   -1   0   
+$EndComp
+Text Notes 2500 4700 2    50   Italic 0
+Measurement Indicator
+Wire Wire Line
+	2400 5850 2650 5850
+Connection ~ 2650 4200
+Wire Wire Line
+	2650 4200 5150 4200
+Wire Wire Line
+	2650 5850 2650 4200
+$Comp
+L Pufferfish:TP_TH_KEYSTONE_5010 TP?
+U 1 1 5EFBCD4C
+P 8200 2150
+AR Path="/5EEC5CE7/5EFBCD4C" Ref="TP?"  Part="1" 
+AR Path="/5EC45070/5EFBCD4C" Ref="TP2"  Part="1" 
+F 0 "TP2" H 8330 2196 50  0000 L CNN
+F 1 "TP_TH_KEYSTONE_5010" H 7900 1950 50  0001 L BNN
+F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 8200 2150 50  0001 L BNN
+F 3 "https://www.digikey.com/product-detail/en/keystone-electronics/5010/36-5010-ND/255332" H 8200 2150 50  0001 L BNN
+F 4 "5010" H 8330 2105 50  0000 L CNN "MPN"
+F 5 "Keystone Electronics" H 8200 2150 50  0001 C CNN "MFG"
+	1    8200 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 2150 7300 2150
+Connection ~ 7300 2150
+Wire Wire Line
+	7300 2150 7300 2200
+$Comp
+L Pufferfish:TP_TH_KEYSTONE_5010 TP?
+U 1 1 5EFC6CBC
+P 9750 5600
+AR Path="/5EEC5CE7/5EFC6CBC" Ref="TP?"  Part="1" 
+AR Path="/5EC45070/5EFC6CBC" Ref="TP3"  Part="1" 
+F 0 "TP3" H 9880 5646 50  0000 L CNN
+F 1 "TP_TH_KEYSTONE_5010" H 9450 5400 50  0001 L BNN
+F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 9750 5600 50  0001 L BNN
+F 3 "https://www.digikey.com/product-detail/en/keystone-electronics/5010/36-5010-ND/255332" H 9750 5600 50  0001 L BNN
+F 4 "5010" H 9880 5555 50  0000 L CNN "MPN"
+F 5 "Keystone Electronics" H 9750 5600 50  0001 C CNN "MFG"
+	1    9750 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 5600 8850 5600
+$Comp
+L Pufferfish:Molex_MicroFit_2P J5
+U 1 1 5F041E29
+P 4300 1500
+F 0 "J5" H 4218 1899 50  0000 C CNN
+F 1 "Molex_MicroFit_2P" H 4218 1808 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0200_2x01_P3.00mm_Horizontal" H 4300 1500 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/molex/0430450200/WM1813-ND/252526" H 4300 1500 50  0001 C CNN
+F 4 "0430450200" H 4218 1717 50  0000 C CNN "MPN"
+F 5 "Molex" H 4218 1626 50  0000 C CNN "MFG"
+	1    4300 1500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 1500 5000 1500
+Wire Wire Line
+	5000 1500 5000 2200
+Connection ~ 5000 2200
+Wire Wire Line
+	5000 2200 6000 2200
+$Comp
+L power:GND #PWR?
+U 1 1 5F05E0FE
+P 4550 1650
+AR Path="/5EC321D9/5F05E0FE" Ref="#PWR?"  Part="1" 
+AR Path="/5EC45070/5F05E0FE" Ref="#PWR089"  Part="1" 
+F 0 "#PWR089" H 4550 1400 50  0001 C CNN
+F 1 "GND" H 4555 1477 50  0000 C CNN
+F 2 "" H 4550 1650 50  0001 C CNN
+F 3 "" H 4550 1650 50  0001 C CNN
+	1    4550 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 1650 4550 1600
+Wire Wire Line
+	4500 1600 4550 1600
+$Comp
+L Pufferfish:Molex_MicroFit_2P J6
+U 1 1 5F06CEEF
+P 4350 4950
+F 0 "J6" H 4268 5349 50  0000 C CNN
+F 1 "Molex_MicroFit_2P" H 4268 5258 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0200_2x01_P3.00mm_Horizontal" H 4350 4950 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/molex/0430450200/WM1813-ND/252526" H 4350 4950 50  0001 C CNN
+F 4 "0430450200" H 4268 5167 50  0000 C CNN "MPN"
+F 5 "Molex" H 4268 5076 50  0000 C CNN "MFG"
+	1    4350 4950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 4950 5050 4950
+Wire Wire Line
+	5050 4950 5050 5650
+$Comp
+L power:GND #PWR?
+U 1 1 5F06CEF7
+P 4600 5100
+AR Path="/5EC321D9/5F06CEF7" Ref="#PWR?"  Part="1" 
+AR Path="/5EC45070/5F06CEF7" Ref="#PWR090"  Part="1" 
+F 0 "#PWR090" H 4600 4850 50  0001 C CNN
+F 1 "GND" H 4605 4927 50  0000 C CNN
+F 2 "" H 4600 5100 50  0001 C CNN
+F 3 "" H 4600 5100 50  0001 C CNN
+	1    4600 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 5100 4600 5050
+Wire Wire Line
+	4550 5050 4600 5050
+$EndSCHEMATC

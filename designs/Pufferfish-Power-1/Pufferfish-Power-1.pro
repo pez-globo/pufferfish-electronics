@@ -1,4 +1,4 @@
-update=19-May-20 8:39:34 AM
+update=10-Jun-20 7:58:50 PM
 version=1
 last_client=kicad
 [general]
@@ -239,7 +239,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=${KIPRJMOD}/../../Pufferfish.kicad_wks
-PlotDirectoryName=
+PlotDirectoryName=./
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=

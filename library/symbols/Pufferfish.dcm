@@ -1,34 +1,27 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 5103308-3
-D Headers & Wire Housings 16P 2 ROW HEADER LP
-K header
-F http://componentsearchengine.com/Datasheets/1/5103308-3.pdf
+$CMP 1N62xxA
+D 1500W unidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE
+K diode TVS voltage suppressor
+F https://www.vishay.com/docs/88301/15ke.pdf
 $ENDCMP
 #
-$CMP ABPDANN005PG2A3
-D ABPDANN005PG2A3, Differential Pressure Sensor 5psi 6-Pin DIP
-F https://componentsearchengine.com/Datasheets/1/ABPDANN005PG2A3.pdf
+$CMP 1N630xA
+D 1500W unidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE
+K diode TVS voltage suppressor
+F https://www.vishay.com/docs/88301/15ke.pdf
 $ENDCMP
 #
-$CMP ABPMAND001PG2A3
-D ABPMAND001PG2A3, Differential Pressure Sensor 1psi 6-Pin SMT
-F https://www.mouser.com/datasheet/2/187/honeywell-sensing-pressure-board-mount-abp-series--1846114.pdf
+$CMP AZ1117-ADJ
+D 1A 20V Adjustable LDO Linear Regulator, SOT-89/SOT-223/TO-220/TO-252/TO-263
+K Adjustable Voltage Regulator 1A Positive LDO
+F https://www.diodes.com/assets/Datasheets/AZ1117.pdf
 $ENDCMP
 #
-$CMP ABPMANN030PG2A3
-D ABPMANN030PG2A3, Differential Pressure Sensor 30psi 6-Pin SMT
-F https://www.mouser.com/datasheet/2/187/honeywell-sensing-pressure-board-mount-abp-series--1846114.pdf
-$ENDCMP
-#
-$CMP B2B-PH-SM4-TB(LF)(SN)
-D Connector Header Surface Mount 2 position 0.079" (2.00mm)
-F http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-$ENDCMP
-#
-$CMP B4B-PH-SM4-TB(LF)(SN)
-D Connector Header Surface Mount 4 position 0.079" (2.00mm)
-F JST
+$CMP Amphenol_Quickie_2x10
+D Connector, Pin Header, 2x10 Positions, 2.54mm Pitch, Shrouded, Latched, TH
+K connector
+F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/65863.pdf?__cf_chl_jschl_tk__=af9fc96323d452e36ea6882d1b3472aafb5a6073-1591408441-0-AQZ8ZDlgkyqkPsRed-WkMaLlfOGyRp0ZAwMOWAGWleEzcZzDBBtBIqBEeW5CdTyWYbcps2YP5xPbir4vMW63AzmmgdFA_V4VlRczwZPo4XLAPDeQl6FRxNHCIc-n5jMTDOPk3IH3_aALoI6HYXHC3edvBN3ghTBnc8EPKTvT_vmP13W66BBXNYkl8RSobgDlq3ONRZq_A9aEkN2YIZ7pPc6PQ2tNiUUBBK1q7vh0NRZslweKLxfvlpbcvzvHqNbHNh_oOnKD7ZjgZDZksCpNfCtarK8nALC1NxT-pVh3y6FUjLXHVMSfeLedYm0xHcX3PHSWFuv074KvyzgsBDg1l2HNZX7_wNHMVZC3TkB_hI4khy8QSCOhEwNuSw5qLDREpA
 $ENDCMP
 #
 $CMP BME280
@@ -39,14 +32,26 @@ $CMP BUZZER-12MM
 D Generic 12mm Buzzer
 $ENDCMP
 #
+$CMP CAP_100nF_50V_X7R_0402
+D Capacitor, Ceramic, 100nF Capacitance, 50V Rating, X7R Dielectric, SMT, 0402 Package
+K capacitor cap
+F https://www.digikey.com/product-detail/en/tdk-corporation/CGA2B3X7R1H473K050BB/445-6897-6-ND/2673040
+$ENDCMP
+#
 $CMP CAP_100pF_10V_NP0_0402
 D Capacitor, Ceramic, 1uF Capacitance, 35V Rating, X7R Dielectric, SMT, 0603 Package
 K capacitor cap
 F https://www.digikey.com/product-detail/en/kemet/C0402C101K8GAC7867/399-14413-6-ND/7104044
 $ENDCMP
 #
+$CMP CAP_10uF_35V_X5R_0805
+D Capacitor, Ceramic, 10uF Capacitance, 35V Rating, X5R Dielectric, SMT, 0805 Package
+K capacitor cap
+F https://www.digikey.com/product-detail/en/taiyo-yuden/GMK107AB7105KAHT/587-3352-1-ND/4157239
+$ENDCMP
+#
 $CMP CAP_1nF_50V_C0G_0402
-D Capacitor, Ceramic, 1uF Capacitance, 35V Rating, X7R Dielectric, SMT, 0603 Package
+D Capacitor, Ceramic, 1nF Capacitance, 50V Rating, X7R Dielectric, SMT, 0402 Package
 K capacitor cap
 F https://www.digikey.com/product-detail/en/murata-electronics/GRM1555C1H102JA01D/490-3244-2-ND/702509
 $ENDCMP
@@ -57,10 +62,46 @@ K capacitor cap
 F https://www.digikey.com/product-detail/en/taiyo-yuden/GMK107AB7105KAHT/587-3352-1-ND/4157239
 $ENDCMP
 #
-$CMP CAP_POLAR_SMD_0805
-D Polarized capacitor, small symbol, 0805, SMD, SMT
+$CMP CAP_22uF_25V_X5R_0805
+D Capacitor, Ceramic, 22uF Capacitance, 25V Rating, X5R Dielectric, SMT, 0805 Package
 K capacitor cap
-F ~
+F https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A226MAQNNNE/1276-2908-6-ND/3893423
+$ENDCMP
+#
+$CMP CAP_3.3nF_50V_X7R_0402
+D Capacitor, Ceramic, 3.3nF Capacitance, 50V Rating, X7R Dielectric, SMT, 0402 Package
+K capacitor cap
+F https://www.digikey.com/product-detail/en/murata-electronics/GRM1555C1H102JA01D/490-3244-2-ND/702509
+$ENDCMP
+#
+$CMP CAP_33nF_25V_X7R_0603
+D Capacitor, Ceramic, 33nF Capacitance, 25V Rating, X7R Dielectric, SMT, 0603 Package
+K capacitor cap
+F https://www.digikey.com/product-detail/en/murata-electronics/GRM1555C1H102JA01D/490-3244-2-ND/702509
+$ENDCMP
+#
+$CMP CAP_4.7uF_16V_X6S_0603
+D Capacitor, Ceramic, 4.7uF Capacitance, 16V Rating, X6S Dielectric, SMT, 0603 Package
+K capacitor cap
+F https://www.digikey.com/product-detail/en/tdk-corporation/C1608X6S1C475K080AC/445-9118-6-ND/3661675
+$ENDCMP
+#
+$CMP CAP_47nF_50V_X7R_0402
+D Capacitor, Ceramic, 47nF Capacitance, 50V Rating, X7R Dielectric, SMT, 0402 Package
+K capacitor cap
+F https://www.digikey.com/product-detail/en/tdk-corporation/CGA2B3X7R1H473K050BB/445-6897-6-ND/2673040
+$ENDCMP
+#
+$CMP CAP_AE_SMD_100uF_10V_6mm
+D Capacitor, Aluminum Electrolytic, 220uF, 25V Rating, 8mm Diameter, SMD
+K cap capacitor
+F https://www.digikey.com/product-detail/en/panasonic-electronic-components/EEE-HA1A101WP/PCE4169DKR-ND/1023519
+$ENDCMP
+#
+$CMP CAP_AE_SMD_220uF_25V_8mm
+D Capacitor, Aluminum Electrolytic, 220uF, 25V Rating, 8mm Diameter, SMD
+K cap capacitor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1184.pdf
 $ENDCMP
 #
 $CMP CAP_SMD_0402
@@ -87,6 +128,12 @@ K capacitor cap
 F ~
 $ENDCMP
 #
+$CMP CSNL1206FT3L00
+D Resistor, Current Sense, 3mOhm, 1% Tolerance, 1W Rating, SMT, 1206 Package
+K r resistor res
+F https://www.seielect.com/catalog/sei-csnl.pdf
+$ENDCMP
+#
 $CMP HSCDRRN001BDSA3
 D Board Mount Pressure Sensors DIP, Dual Rad Barbed Differential, 3.3VBoard Mount Pressure Sensors DIP, Dual Rad Barbed Differential, 3.3VBoard Mount Pressure Sensors DIP, Dual Rad Barbed Differential, 3.3V
 K Pressure, Sensor
@@ -111,11 +158,6 @@ K Pressure, Sensor
 F https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf
 $ENDCMP
 #
-$CMP INA818IDR
-D 35-uV offset, 8-nV/Hz noise, low-power, precision instrumentation amplifier
-F http://www.ti.com/lit/gpn/INA818
-$ENDCMP
-#
 $CMP INTVCC-LTC4421
 D Power symbol creates a global label with name "VDD"
 K power-flag
@@ -127,24 +169,46 @@ K LED diode
 F ~
 $ENDCMP
 #
+$CMP LED_SMD_0603_BLUE
+D LED, Blue Color, 0603 Package, SMT
+K LED diode
+F https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/LB-Q39G-L2OO-35-1/475-2816-6-ND/2176386
+$ENDCMP
+#
+$CMP LED_SMD_0603_GREEN
+D LED, Green Color, 0603 Package, SMT
+K LED diode
+F https://www.digikey.com/product-detail/en/lumex-opto-components-inc/SML-LX0603GW-TR/67-1549-1-ND/304360
+$ENDCMP
+#
+$CMP LED_SMD_0603_ORANGE
+D LED, Orange Color, 0603 Package, SMT
+K LED diode
+F https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/LO-Q976-PS-25-0-20-R18/475-2486-1-ND/1802613
+$ENDCMP
+#
+$CMP LED_SMD_0603_RED
+D LED, Red Color, 0603 Package, SMT
+K LED diode
+F https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/LS-Q976-NR-1/475-2512-6-ND/1802773
+$ENDCMP
+#
+$CMP LED_SMD_0603_YELLOW
+D LED, Yellow Color, 0603 Package, SMT
+K LED diode
+F https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KSKT/160-1448-1-ND/386838
+$ENDCMP
+#
 $CMP LED_SMD_0805
 D Light emitting diode, filled shape, SMT, SMD
 K LED diode
 F ~
 $ENDCMP
 #
-$CMP LM1117IMPX-3.3_NOPB
-D LM1117IMP-3.3/NOPB, Low Dropout Voltage Regulator, 1.5A, 3.3 V +/-1%, 4-Pin SOT-223
-$ENDCMP
-#
-$CMP LM1117IMPX-5.0_NOPB
-D Space saving 800-mA low-dropout linear regulator with internal current limit
-F http://www.ti.com/lit/gpn/lm1117
-$ENDCMP
-#
-$CMP LMP91000SDE
-D Texas Instruments,LMP91000SDE/NOPB,AFE LMP91000SDE/NOPB, Analogue Front End IC, 1-channel Serial-I2C, 14-Pin WSON
-F http://www.ti.com/lit/ds/symlink/lmp91000.pdf
+$CMP LM317T_OnSemi
+D 1A 35V Adjustable Linear Regulator, SOT-89/SOT-223/TO-220/TO-252/TO-263
+K Adjustable Voltage Regulator 1A Positive
+F https://www.onsemi.com/pub/Collateral/LM317T-D.PDF
 $ENDCMP
 #
 $CMP LTC4421IUHE
@@ -153,10 +217,22 @@ K Power
 F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC4421.pdf
 $ENDCMP
 #
-$CMP MAXTEC_Max-12c
-D Jumper, 3-pole, both open
-K Jumper SPDT
-F ~
+$CMP Molex_MicroFit3_2x4_Receptacle
+D Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F https://www.molex.com/pdm_docs/sd/444280401_sd.pdf
+$ENDCMP
+#
+$CMP Molex_MicroFit_2P
+D Connector, Power, 2-Pin, 1x02, Thru Hole
+K connector
+F https://www.digikey.com/product-detail/en/molex/0430450200/WM1813-ND/252526
+$ENDCMP
+#
+$CMP Molex_PicoFlex_20_Vertical
+D Connector, Pin Header, 20 Positions, 1.27mm Pitch, PicoFlex Series, TH
+K connector
+F https://www.digikey.com/product-detail/en/molex/0903250020/WM9242-ND/404187
 $ENDCMP
 #
 $CMP NUCLEO-F429ZI
@@ -165,10 +241,100 @@ K module, microcontroller, mcu, nucleo
 F https://www.mouser.com/datasheet/2/389/nucleo-l496zg-1308758.pdf
 $ENDCMP
 #
+$CMP PM2201.122NLT
+D Inductor, small symbol
+K inductor choke coil reactor magnetic
+F https://products.pulseelex.com/files/product_files/P806.pdf
+$ENDCMP
+#
 $CMP POLOLU_36V4
 D Pololu High-Power Stepper Motor Driver 36v4 (Part Number: 3730)
 K motor, driver
 F https://www.pololu.com/product/3730/resources
+$ENDCMP
+#
+$CMP RES_0R_0402_SMD
+D Resistor, Jumper, 0402 Package, SMT
+K r resistor res
+F https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0-0JRDKR-ND/732300
+$ENDCMP
+#
+$CMP RES_100K_0603_SMD
+D Resistor, 100kOhms, 1% Tolerance, 0603 Package, SMT
+K r resistor res
+F https://www.digikey.com/product-detail/en/yageo/RC0603FR-07100KL/311-100KHRDKR-ND/732783
+$ENDCMP
+#
+$CMP RES_10K_0603_SMD
+D Resistor, 10kOhms, 1% Tolerance, 0603 Package, SMT
+K r resistor res
+F https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGTR-ND/135662
+$ENDCMP
+#
+$CMP RES_1R2_0805_SMD
+D Resistor, 1.2Ohms, 5% Tolerance, 0805 Package, SMT
+K r resistor res
+F https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6GEYJ1R2V/P1-2ADKR-ND/577832
+$ENDCMP
+#
+$CMP RES_24K9_0603_SMD
+D Resistor, 768kOhms, 1% Tolerance, 0603 Package, SMT
+K r resistor res
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP RES_31K6_0603_SMD
+D Resistor, 31.6kOhms, 1% Tolerance, 0603 Package, SMT
+K r resistor res
+F https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3EKF3162V/P31-6KHDKR-ND/576164
+$ENDCMP
+#
+$CMP RES_330R_0603_SMD
+D Resistor, 330Ohms, 5% Tolerance, 0603 Package, SMT
+K r resistor res
+F https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGTR-ND/135662
+$ENDCMP
+#
+$CMP RES_33K_0603_SMD
+D Resistor, 33kOhms, 1% Tolerance, 0603 Package, SMT
+K r resistor res
+F https://www.digikey.com/product-detail/en/yageo/RC0603FR-0733KL/311-33-0KHRDKR-ND/733053
+$ENDCMP
+#
+$CMP RES_47K_0603_SMD
+D Resistor, 47kOhms, 1% Tolerance, 0603 Package, SMT
+K r resistor res
+F https://www.digikey.com/product-detail/en/yageo/RC0603JR-0747KL/311-47KGRDKR-ND/732688
+$ENDCMP
+#
+$CMP RES_51K_0402_SMD
+D Resistor, 51kOhms, 1% Tolerance, 0402 Package, SMT
+K r resistor res
+F https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2RKF5102X/P51-0KLDKR-ND/1747059
+$ENDCMP
+#
+$CMP RES_62K_0402_SMD
+D Resistor, 62kOhms, 1% Tolerance, 0402 Package, SMT
+K r resistor res
+F https://www.digikey.com/product-detail/en/yageo/RC0402FR-0762KL/311-62-0KLRDKR-ND/732539
+$ENDCMP
+#
+$CMP RES_73K2_0603_SMD
+D Resistor, 73.2kOhms, 1% Tolerance, 0603 Package, SMT
+K r resistor res
+F https://www.digikey.com/product-detail/en/yageo/RC0603FR-0773K2L/311-73-2KHRDKR-ND/733268
+$ENDCMP
+#
+$CMP RES_750K_0603_SMD
+D Resistor, 750kOhms, 1% Tolerance, 0603 Package, SMT
+K r resistor res
+F https://www.digikey.com/product-detail/en/yageo/RC0603FR-07750KL/311-750KHRDKR-ND/733274
+$ENDCMP
+#
+$CMP RES_768K_0603_SMD
+D Resistor, 768kOhms, 1% Tolerance, 0603 Package, SMT
+K r resistor res
+F https://www.digikey.com/product-detail/en/yageo/RC0603FR-07768KL/311-768KHRTR-ND/727384
 $ENDCMP
 #
 $CMP RES_SMD_0402
@@ -205,57 +371,10 @@ D Sensirion SDP810-500PA, Differential Pressure Sensor +500Pa 4-Pin
 F https://www.mouser.com/datasheet/2/682/Sensirion_Differential_Pressure_Sensors_SDP8xx_Dig-1511125.pdf
 $ENDCMP
 #
-$CMP SENSIRION_EK-P4
-D Pressure Sensor Development Tools Evaluation kit SDP31
-K Pressure, Sensor
-F https://www.mouser.com/datasheet/2/682/Sensirion_Differential_Pressure_Sensors_EK-P4_Flow-1274207.pdf
-$ENDCMP
-#
-$CMP SENSIRION_SFM3000
-D AIR/GAS FLOW SENSOR +/-200 SLM W (SFM3000-200C)
-K Flow, Sensor
-F https://www.sensirion.com/file/datasheet_sfm3000
-$ENDCMP
-#
-$CMP SHORT_SMD_0603
-D Shorting resistor, small US symbol, 0603, SMD, SMT
-K r resistor res short
-F ~
-$ENDCMP
-#
-$CMP TCA9548APWR
-D TEXAS INSTRUMENTS - TCA9548APWR - I2C SWITCH W/ RESET, 8-CH, TSSOP-24
-F http://www.ti.com/lit/ds/symlink/tca9548a.pdf
-$ENDCMP
-#
-$CMP TERMINAL_JUMPER_3
-D Jumper, 3-pole, both open
-K Jumper SPDT
-F ~
-$ENDCMP
-#
-$CMP TERMINAL_SCREW_2_2.54mm
-D Screw terminal, connector, 8x1 pin, 3.5mm
-$ENDCMP
-#
-$CMP TERMINAL_SCREW_4_2.54mm
-D Screw terminal, connector, 4x1 pin, 2.54mm
-$ENDCMP
-#
-$CMP TERMINAL_SCREW_4_3.5mm
-D Screw terminal, connector, 4x1 pin, 3.5mm
-$ENDCMP
-#
-$CMP TERMINAL_SCREW_8_2.54mm
-D Screw terminal, connector, 8x1 pin, 2.54mm
-$ENDCMP
-#
-$CMP TERMINAL_SCREW_8_3.5mm
-D Screw terminal, connector, 8x1 pin, 3.5mm
-$ENDCMP
-#
-$CMP TERMINAL_SCREW_8_5mm
-D Screw terminal, connector, 8x1 pin, 5mm
+$CMP SiR158DP
+D MOSFET, N-Channel, 60A, 30V Vds, TrenchFET, SO-8 package
+K TrenchFET N-Channel Power MOSFET
+F http://www.vishay.com/docs/64730/sir158dp.pdf
 $ENDCMP
 #
 $CMP TMC2209-SilentStepStick
@@ -264,9 +383,28 @@ K motor, driver
 F https://www.trinamic.com/fileadmin/assets/Products/Eval_Documents/TMC2209_SilentStepStick_Rev1.10.pdf
 $ENDCMP
 #
-$CMP TPL7407LADR
-D Gate Drivers 30-V, 7-Channel NMOS Array Low-Side Driver 16-SOIC -40 to 125
-F http://www.ti.com/lit/gpn/tpl7407la
+$CMP TP_SMT_KEYSTONE_5019
+D Test Point, Metal, SMT
+K Test Point
+F https://www.digikey.com/product-detail/en/keystone-electronics/5019/36-5019DKR-ND/3907345
+$ENDCMP
+#
+$CMP TP_TH_KEYSTONE_5010
+D Test Point, Red, Thru Hole
+K Test Point
+F https://www.digikey.com/product-detail/en/keystone-electronics/5010/36-5010-ND/255332
+$ENDCMP
+#
+$CMP TP_TH_KEYSTONE_5126
+D Test Point, Green, Thru Hole
+K Test Point
+F https://www.digikey.com/product-detail/en/keystone-electronics/5126/36-5126-ND/2170329
+$ENDCMP
+#
+$CMP TVS_15V_SOD123FL-2
+D TVS, Bidirectional, 15V Standoff Voltage, 19.2V Breakdown Voltage, SOD-123FL-2 Package, SMT
+K diode TVS voltage suppressor
+F https://www.mouser.com/datasheet/2/240/Littelfuse_TVS_Diode_SMF_Datasheet.pdf-1698977.pdf
 $ENDCMP
 #
 $CMP ULN2003A
@@ -279,8 +417,28 @@ D Power symbol creates a global label with name "VDD"
 K power-flag
 $ENDCMP
 #
-$CMP VREF
-D analog reference voltage
+$CMP VBUCK-INT-5V
+K power-flag
+$ENDCMP
+#
+$CMP VIN-BACKUP-12V0
+K power-flag
+$ENDCMP
+#
+$CMP VIN-PRIMARY-12V0
+K power-flag
+$ENDCMP
+#
+$CMP VSYS-12V0
+K power-flag
+$ENDCMP
+#
+$CMP VSYS-3V3
+K power-flag
+$ENDCMP
+#
+$CMP VSYS-5V0
+K power-flag
 $ENDCMP
 #
 #End Doc Library

@@ -1,0 +1,1039 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 7
+Title "Pufferfish Power: Interface Connectors"
+Date "2020-06-10"
+Rev "v1.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Pufferfish:Molex_PicoFlex_20_Vertical J3
+U 1 1 5F0B2DB0
+P 5450 3050
+F 0 "J3" H 5500 3757 50  0000 C CNN
+F 1 "Molex_PicoFlex_20_Vertical" H 5500 3758 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Picoflex_90325-0020_2x10_P1.27mm_Vertical" H 5450 3050 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/molex/0903250020/WM9242-ND/404187" H 5450 3050 50  0001 C CNN
+F 4 "0903250020" H 5500 3666 50  0000 C CNN "MPN"
+F 5 "Molex" H 5500 3575 50  0000 C CNN "MFG"
+	1    5450 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:Molex_MicroFit3_2x4_Receptacle J4
+U 1 1 5F0B6EB7
+P 8350 5800
+F 0 "J4" H 8400 6207 50  0000 C CNN
+F 1 "Molex_MicroFit3_2x4_Receptacle" H 8400 6208 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal" H 8350 5800 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/444280401_sd.pdf" H 8350 5800 50  0001 C CNN
+F 4 "0444280801" H 8400 6116 50  0000 C CNN "MPN"
+F 5 "Molex" H 8400 6025 50  0000 C CNN "MFG"
+	1    8350 5800
+	1    0    0    -1  
+$EndComp
+Text Notes 2000 3350 0    35   Italic 0
+From SLA Battery
+$Comp
+L Pufferfish:VIN-BACKUP-12V0 #PWR?
+U 1 1 5F0BDBF3
+P 2200 3550
+AR Path="/5EC321D9/5F0BDBF3" Ref="#PWR?"  Part="1" 
+AR Path="/5EC45070/5F0BDBF3" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF333/5F0BDBF3" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 2200 3400 50  0001 C CNN
+F 1 "VIN-BACKUP-12V0" H 2300 3700 50  0000 C CNN
+F 2 "" H 2200 3550 50  0001 C CNN
+F 3 "" H 2200 3550 50  0001 C CNN
+	1    2200 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:VSYS-12V0 #PWR?
+U 1 1 5F0BE803
+P 7800 5450
+AR Path="/5EC321D9/5F0BE803" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF333/5F0BE803" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 7800 5300 50  0001 C CNN
+F 1 "VSYS-12V0" H 7817 5623 50  0000 C CNN
+F 2 "" H 7800 5450 50  0001 C CNN
+F 3 "" H 7800 5450 50  0001 C CNN
+	1    7800 5450
+	1    0    0    -1  
+$EndComp
+Text Notes 7600 5200 0    35   Italic 0
+Merged 12V Output
+Text GLabel 9300 3050 2    50   Input ~ 0
+LTC4421-PWR-nCH2
+Text GLabel 9300 3150 2    50   Input ~ 0
+LTC4421-PWR-nVALID2
+Text GLabel 9300 3250 2    50   Input ~ 0
+LTC4421-PWR-nFAULT2
+Wire Wire Line
+	9300 3050 9150 3050
+Text Notes 7250 1950 0    50   Italic 10
+From LTC4421
+Text GLabel 4100 2050 0    50   Output ~ 0
+LTC4421-PWR-nDISABLE1
+Text GLabel 4100 2150 0    50   Output ~ 0
+LTC4421-PWR-nDISABLE2
+Text Notes 2850 1950 0    50   Italic 10
+From Control\nDisable Inputs - Default Unused
+Text GLabel 4200 3050 0    50   Input ~ 0
+VSYS-5V0-PGOOD
+Text GLabel 3950 3250 0    50   Input ~ 0
+3V3-PGOOD
+Text Notes 3450 3200 0    50   Italic 10
+Power Good from 3.3V
+Text GLabel 7050 2950 2    50   Output ~ 0
+BAT-CHARGE-EN
+Text Notes 7000 2850 0    50   Italic 10
+From Control Board\nCharge Path Enable\nPulled Down on Power Page
+$Comp
+L Pufferfish:VSYS-5V0 #PWR?
+U 1 1 5F0C32B7
+P 9250 5850
+AR Path="/5EFFFB7B/5F0C32B7" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF333/5F0C32B7" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 9250 5700 50  0001 C CNN
+F 1 "VSYS-5V0" H 9267 6023 50  0000 C CNN
+F 2 "" H 9250 5850 50  0001 C CNN
+F 3 "" H 9250 5850 50  0001 C CNN
+	1    9250 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:VSYS-3V3 #PWR?
+U 1 1 5F0C4A0B
+P 8900 5450
+AR Path="/5EDA3ECC/5F0C4A0B" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF333/5F0C4A0B" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 8900 5300 50  0001 C CNN
+F 1 "VSYS-3V3" H 8917 5623 50  0000 C CNN
+F 2 "" H 8900 5450 50  0001 C CNN
+F 3 "" H 8900 5450 50  0001 C CNN
+	1    8900 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 5450 8900 5700
+$Comp
+L power:GND #PWR?
+U 1 1 5F0C981A
+P 2600 5350
+AR Path="/5EC321D9/5F0C981A" Ref="#PWR?"  Part="1" 
+AR Path="/5EDA3ECC/5F0C981A" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF333/5F0C981A" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 2600 5100 50  0001 C CNN
+F 1 "GND" H 2600 5200 50  0000 C CNN
+F 2 "" H 2600 5350 50  0001 C CNN
+F 3 "" H 2600 5350 50  0001 C CNN
+	1    2600 5350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 2650 5750 2650
+Wire Wire Line
+	6050 2150 6050 2750
+Wire Wire Line
+	6050 2750 5750 2750
+Wire Wire Line
+	6150 2250 6150 2850
+Wire Wire Line
+	6150 2850 5750 2850
+Wire Wire Line
+	5950 2050 5950 2650
+Wire Wire Line
+	6400 2250 7000 2250
+Connection ~ 6400 2250
+Wire Wire Line
+	6400 1850 6400 2250
+Wire Wire Line
+	6650 2150 7000 2150
+Connection ~ 6650 2150
+Wire Wire Line
+	6650 1850 6650 2150
+Wire Wire Line
+	6150 2250 6400 2250
+Wire Wire Line
+	6050 2150 6650 2150
+Wire Wire Line
+	5950 2050 6900 2050
+Connection ~ 6900 2050
+Wire Wire Line
+	6900 1850 6900 2050
+Connection ~ 6650 1550
+Wire Wire Line
+	6900 1550 6650 1550
+Wire Wire Line
+	6900 1650 6900 1550
+Wire Wire Line
+	6400 1550 6400 1650
+Connection ~ 6400 1550
+Wire Wire Line
+	6650 1550 6400 1550
+Wire Wire Line
+	6650 1650 6650 1550
+Wire Wire Line
+	6400 1500 6400 1550
+$Comp
+L Pufferfish:VSYS-3V3 #PWR?
+U 1 1 5F0CC012
+P 6400 1500
+AR Path="/5EDA3ECC/5F0CC012" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF333/5F0CC012" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 6400 1350 50  0001 C CNN
+F 1 "VSYS-3V3" H 6417 1673 50  0000 C CNN
+F 2 "" H 6400 1500 50  0001 C CNN
+F 3 "" H 6400 1500 50  0001 C CNN
+	1    6400 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:RES_10K_0603_SMD R?
+U 1 1 5F0CB3BB
+P 6400 1750
+AR Path="/5EDA3ECC/5F0CB3BB" Ref="R?"  Part="1" 
+AR Path="/5EFFF333/5F0CB3BB" Ref="R47"  Part="1" 
+F 0 "R47" H 6468 1843 50  0000 L CNN
+F 1 "RES_10K_0603_SMD" H 6480 1560 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0603" H 6600 1350 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGTR-ND/135662" H 6400 1750 50  0001 C CNN
+F 4 "1%" H 6468 1766 31  0000 L CNN "Tolerance"
+F 5 "10kΩ" H 6468 1704 31  0000 L CNN "Resistance"
+F 6 "ERJ-3GEYJ103V" H 6400 1750 50  0001 C CNN "MPN"
+F 7 "Panasonic" H 6400 1750 50  0001 C CNN "MFG"
+F 8 "0603" H 6468 1642 31  0000 L CNN "Package"
+	1    6400 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:RES_10K_0603_SMD R?
+U 1 1 5F0CAF0A
+P 6650 1750
+AR Path="/5EDA3ECC/5F0CAF0A" Ref="R?"  Part="1" 
+AR Path="/5EFFF333/5F0CAF0A" Ref="R48"  Part="1" 
+F 0 "R48" H 6718 1843 50  0000 L CNN
+F 1 "RES_10K_0603_SMD" H 6730 1560 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0603" H 6850 1350 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGTR-ND/135662" H 6650 1750 50  0001 C CNN
+F 4 "1%" H 6718 1766 31  0000 L CNN "Tolerance"
+F 5 "10kΩ" H 6718 1704 31  0000 L CNN "Resistance"
+F 6 "ERJ-3GEYJ103V" H 6650 1750 50  0001 C CNN "MPN"
+F 7 "Panasonic" H 6650 1750 50  0001 C CNN "MFG"
+F 8 "0603" H 6718 1642 31  0000 L CNN "Package"
+	1    6650 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:RES_10K_0603_SMD R?
+U 1 1 5F0C9813
+P 6900 1750
+AR Path="/5EDA3ECC/5F0C9813" Ref="R?"  Part="1" 
+AR Path="/5EFFF333/5F0C9813" Ref="R49"  Part="1" 
+F 0 "R49" H 6968 1843 50  0000 L CNN
+F 1 "RES_10K_0603_SMD" H 6980 1560 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0603" H 7100 1350 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGTR-ND/135662" H 6900 1750 50  0001 C CNN
+F 4 "1%" H 6968 1766 31  0000 L CNN "Tolerance"
+F 5 "10kΩ" H 6968 1704 31  0000 L CNN "Resistance"
+F 6 "ERJ-3GEYJ103V" H 6900 1750 50  0001 C CNN "MPN"
+F 7 "Panasonic" H 6900 1750 50  0001 C CNN "MFG"
+F 8 "0603" H 6968 1642 31  0000 L CNN "Package"
+	1    6900 1750
+	1    0    0    -1  
+$EndComp
+Text GLabel 7000 2250 2    50   Input ~ 0
+LTC4421-PWR-nFAULT1
+Text GLabel 7000 2150 2    50   Input ~ 0
+LTC4421-PWR-nVALID1
+Wire Wire Line
+	7000 2050 6900 2050
+Text GLabel 7000 2050 2    50   Input ~ 0
+LTC4421-PWR-nCH1
+Wire Wire Line
+	8650 2850 8650 3250
+Wire Wire Line
+	8900 2850 8900 3150
+Wire Wire Line
+	9150 2850 9150 3050
+Connection ~ 8900 2550
+Wire Wire Line
+	9150 2550 8900 2550
+Wire Wire Line
+	9150 2650 9150 2550
+Wire Wire Line
+	8650 2550 8650 2650
+Connection ~ 8650 2550
+Wire Wire Line
+	8900 2550 8650 2550
+Wire Wire Line
+	8900 2650 8900 2550
+Wire Wire Line
+	8650 2500 8650 2550
+$Comp
+L Pufferfish:VSYS-3V3 #PWR?
+U 1 1 5F0E408F
+P 8650 2500
+AR Path="/5EDA3ECC/5F0E408F" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF333/5F0E408F" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 8650 2350 50  0001 C CNN
+F 1 "VSYS-3V3" H 8667 2673 50  0000 C CNN
+F 2 "" H 8650 2500 50  0001 C CNN
+F 3 "" H 8650 2500 50  0001 C CNN
+	1    8650 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:RES_10K_0603_SMD R?
+U 1 1 5F0E409A
+P 8650 2750
+AR Path="/5EDA3ECC/5F0E409A" Ref="R?"  Part="1" 
+AR Path="/5EFFF333/5F0E409A" Ref="R50"  Part="1" 
+F 0 "R50" H 8718 2843 50  0000 L CNN
+F 1 "RES_10K_0603_SMD" H 8730 2560 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0603" H 8850 2350 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGTR-ND/135662" H 8650 2750 50  0001 C CNN
+F 4 "1%" H 8718 2766 31  0000 L CNN "Tolerance"
+F 5 "10kΩ" H 8718 2704 31  0000 L CNN "Resistance"
+F 6 "ERJ-3GEYJ103V" H 8650 2750 50  0001 C CNN "MPN"
+F 7 "Panasonic" H 8650 2750 50  0001 C CNN "MFG"
+F 8 "0603" H 8718 2642 31  0000 L CNN "Package"
+	1    8650 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:RES_10K_0603_SMD R?
+U 1 1 5F0E40A5
+P 8900 2750
+AR Path="/5EDA3ECC/5F0E40A5" Ref="R?"  Part="1" 
+AR Path="/5EFFF333/5F0E40A5" Ref="R51"  Part="1" 
+F 0 "R51" H 8968 2843 50  0000 L CNN
+F 1 "RES_10K_0603_SMD" H 8980 2560 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0603" H 9100 2350 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGTR-ND/135662" H 8900 2750 50  0001 C CNN
+F 4 "1%" H 8968 2766 31  0000 L CNN "Tolerance"
+F 5 "10kΩ" H 8968 2704 31  0000 L CNN "Resistance"
+F 6 "ERJ-3GEYJ103V" H 8900 2750 50  0001 C CNN "MPN"
+F 7 "Panasonic" H 8900 2750 50  0001 C CNN "MFG"
+F 8 "0603" H 8968 2642 31  0000 L CNN "Package"
+	1    8900 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:RES_10K_0603_SMD R?
+U 1 1 5F0E40B0
+P 9150 2750
+AR Path="/5EDA3ECC/5F0E40B0" Ref="R?"  Part="1" 
+AR Path="/5EFFF333/5F0E40B0" Ref="R52"  Part="1" 
+F 0 "R52" H 9218 2843 50  0000 L CNN
+F 1 "RES_10K_0603_SMD" H 9230 2560 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0603" H 9350 2350 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGTR-ND/135662" H 9150 2750 50  0001 C CNN
+F 4 "1%" H 9218 2766 31  0000 L CNN "Tolerance"
+F 5 "10kΩ" H 9218 2704 31  0000 L CNN "Resistance"
+F 6 "ERJ-3GEYJ103V" H 9150 2750 50  0001 C CNN "MPN"
+F 7 "Panasonic" H 9150 2750 50  0001 C CNN "MFG"
+F 8 "0603" H 9218 2642 31  0000 L CNN "Package"
+	1    9150 2750
+	1    0    0    -1  
+$EndComp
+Connection ~ 9150 3050
+Wire Wire Line
+	5750 3050 9150 3050
+Wire Wire Line
+	5750 3150 8900 3150
+Connection ~ 8900 3150
+Wire Wire Line
+	8900 3150 9300 3150
+Wire Wire Line
+	5750 3250 8650 3250
+Connection ~ 8650 3250
+Wire Wire Line
+	8650 3250 9300 3250
+Wire Wire Line
+	4650 1850 4650 2050
+$Comp
+L Pufferfish:VSYS-3V3 #PWR?
+U 1 1 5F0F0ACB
+P 4650 1500
+AR Path="/5EDA3ECC/5F0F0ACB" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF333/5F0F0ACB" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 4650 1350 50  0001 C CNN
+F 1 "VSYS-3V3" H 4667 1673 50  0000 C CNN
+F 2 "" H 4650 1500 50  0001 C CNN
+F 3 "" H 4650 1500 50  0001 C CNN
+	1    4650 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:RES_10K_0603_SMD R?
+U 1 1 5F0F0AD6
+P 4650 1750
+AR Path="/5EDA3ECC/5F0F0AD6" Ref="R?"  Part="1" 
+AR Path="/5EFFF333/5F0F0AD6" Ref="R46"  Part="1" 
+F 0 "R46" H 4718 1843 50  0000 L CNN
+F 1 "RES_10K_0603_SMD" H 4730 1560 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0603" H 4850 1350 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGTR-ND/135662" H 4650 1750 50  0001 C CNN
+F 4 "1%" H 4718 1766 31  0000 L CNN "Tolerance"
+F 5 "10kΩ" H 4718 1704 31  0000 L CNN "Resistance"
+F 6 "ERJ-3GEYJ103V" H 4650 1750 50  0001 C CNN "MPN"
+F 7 "Panasonic" H 4650 1750 50  0001 C CNN "MFG"
+F 8 "0603" H 4718 1642 31  0000 L CNN "Package"
+	1    4650 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 5700 8150 5700
+Wire Wire Line
+	7800 5450 7800 5700
+Wire Wire Line
+	7800 5700 7800 5800
+Wire Wire Line
+	7800 5800 8150 5800
+Connection ~ 7800 5700
+Wire Wire Line
+	8650 5700 8900 5700
+Wire Wire Line
+	9250 6000 8650 6000
+Wire Wire Line
+	9250 5850 9250 5900
+Wire Wire Line
+	8650 5900 9250 5900
+Connection ~ 9250 5900
+Wire Wire Line
+	9250 5900 9250 6000
+$Comp
+L power:GND #PWR?
+U 1 1 5F11392E
+P 8700 6150
+AR Path="/5EC321D9/5F11392E" Ref="#PWR?"  Part="1" 
+AR Path="/5EDA3ECC/5F11392E" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF333/5F11392E" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 8700 5900 50  0001 C CNN
+F 1 "GND" H 8700 6000 50  0000 C CNN
+F 2 "" H 8700 6150 50  0001 C CNN
+F 3 "" H 8700 6150 50  0001 C CNN
+	1    8700 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 6150 8700 5800
+Wire Wire Line
+	8700 5800 8650 5800
+$Comp
+L power:GND #PWR?
+U 1 1 5F11FFCC
+P 8050 6150
+AR Path="/5EC321D9/5F11FFCC" Ref="#PWR?"  Part="1" 
+AR Path="/5EDA3ECC/5F11FFCC" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF333/5F11FFCC" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 8050 5900 50  0001 C CNN
+F 1 "GND" H 8050 6000 50  0000 C CNN
+F 2 "" H 8050 6150 50  0001 C CNN
+F 3 "" H 8050 6150 50  0001 C CNN
+	1    8050 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 6150 8050 6000
+Wire Wire Line
+	8050 5900 8150 5900
+Wire Wire Line
+	8050 6000 8150 6000
+Connection ~ 8050 6000
+Wire Wire Line
+	8050 6000 8050 5900
+Text Notes 9550 2950 0    50   Italic 10
+From LTC4421
+Text Notes 3450 3000 0    50   Italic 10
+Power Good from 5V
+Wire Wire Line
+	4100 2050 4650 2050
+Wire Wire Line
+	4950 2050 4950 2650
+Wire Wire Line
+	4950 2650 5250 2650
+Wire Wire Line
+	4650 1500 4650 1550
+$Comp
+L Pufferfish:RES_10K_0603_SMD R?
+U 1 1 5F0F0AE1
+P 4400 1750
+AR Path="/5EDA3ECC/5F0F0AE1" Ref="R?"  Part="1" 
+AR Path="/5EFFF333/5F0F0AE1" Ref="R45"  Part="1" 
+F 0 "R45" H 4468 1843 50  0000 L CNN
+F 1 "RES_10K_0603_SMD" H 4480 1560 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0603" H 4600 1350 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGTR-ND/135662" H 4400 1750 50  0001 C CNN
+F 4 "1%" H 4468 1766 31  0000 L CNN "Tolerance"
+F 5 "10kΩ" H 4468 1704 31  0000 L CNN "Resistance"
+F 6 "ERJ-3GEYJ103V" H 4400 1750 50  0001 C CNN "MPN"
+F 7 "Panasonic" H 4400 1750 50  0001 C CNN "MFG"
+F 8 "0603" H 4468 1642 31  0000 L CNN "Package"
+	1    4400 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 1650 4400 1550
+Wire Wire Line
+	4400 1550 4650 1550
+Connection ~ 4650 1550
+Wire Wire Line
+	4650 1550 4650 1650
+Wire Wire Line
+	4100 2150 4400 2150
+Wire Wire Line
+	4550 2150 4550 2850
+Wire Wire Line
+	4550 2850 5250 2850
+Connection ~ 4650 2050
+Wire Wire Line
+	4650 2050 4950 2050
+Wire Wire Line
+	4400 1850 4400 2150
+Connection ~ 4400 2150
+Wire Wire Line
+	4400 2150 4550 2150
+Wire Wire Line
+	7050 2950 5750 2950
+$Comp
+L Transistor_FET:2N7002E Q9
+U 1 1 5F1A5E52
+P 2700 5000
+F 0 "Q9" H 2905 5046 50  0000 L CNN
+F 1 "2N7002E" H 2905 4955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2900 4925 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/ds30376.pdf" H 2700 5000 50  0001 L CNN
+	1    2700 5000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:TP0610T Q8
+U 1 1 5F1AB301
+P 2600 3950
+F 0 "Q8" V 2950 3800 50  0000 L CNN
+F 1 "TP0610T" V 2850 3800 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2800 3875 50  0001 L CIN
+F 3 "http://www.vishay.com/docs/70209/70209.pdf" H 2600 3950 50  0001 L CNN
+	1    2600 3950
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2200 3550 2200 3850
+Wire Wire Line
+	2600 4800 2600 4350
+$Comp
+L Pufferfish:RES_10K_0603_SMD R?
+U 1 1 5F1C949B
+P 2200 4100
+AR Path="/5EDA3ECC/5F1C949B" Ref="R?"  Part="1" 
+AR Path="/5EFFF333/5F1C949B" Ref="R41"  Part="1" 
+F 0 "R41" H 2268 4193 50  0000 L CNN
+F 1 "RES_10K_0603_SMD" H 2280 3910 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0603" H 2400 3700 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGTR-ND/135662" H 2200 4100 50  0001 C CNN
+F 4 "1%" H 2268 4116 31  0000 L CNN "Tolerance"
+F 5 "10kΩ" H 2268 4054 31  0000 L CNN "Resistance"
+F 6 "ERJ-3GEYJ103V" H 2200 4100 50  0001 C CNN "MPN"
+F 7 "Panasonic" H 2200 4100 50  0001 C CNN "MFG"
+F 8 "0603" H 2268 3992 31  0000 L CNN "Package"
+	1    2200 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 4000 2200 3850
+Connection ~ 2200 3850
+Wire Wire Line
+	2200 3850 2400 3850
+Wire Wire Line
+	2200 4200 2200 4350
+Wire Wire Line
+	2200 4350 2600 4350
+Connection ~ 2600 4350
+Wire Wire Line
+	2600 4350 2600 4150
+Wire Wire Line
+	2600 5350 2600 5300
+$Comp
+L Pufferfish:RES_10K_0603_SMD R?
+U 1 1 5F1E8D47
+P 3000 5150
+AR Path="/5EDA3ECC/5F1E8D47" Ref="R?"  Part="1" 
+AR Path="/5EFFF333/5F1E8D47" Ref="R42"  Part="1" 
+F 0 "R42" H 3068 5243 50  0000 L CNN
+F 1 "RES_10K_0603_SMD" H 3080 4960 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0603" H 3200 4750 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGTR-ND/135662" H 3000 5150 50  0001 C CNN
+F 4 "1%" H 3068 5166 31  0000 L CNN "Tolerance"
+F 5 "10kΩ" H 3068 5104 31  0000 L CNN "Resistance"
+F 6 "ERJ-3GEYJ103V" H 3000 5150 50  0001 C CNN "MPN"
+F 7 "Panasonic" H 3000 5150 50  0001 C CNN "MFG"
+F 8 "0603" H 3068 5042 31  0000 L CNN "Package"
+	1    3000 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 5250 3000 5300
+Wire Wire Line
+	3000 5300 2600 5300
+Connection ~ 2600 5300
+Wire Wire Line
+	2600 5300 2600 5200
+Wire Wire Line
+	3000 5050 3000 5000
+Wire Wire Line
+	3000 5000 2900 5000
+Wire Wire Line
+	3000 5000 3750 5000
+Wire Wire Line
+	3750 5000 3750 3550
+Wire Wire Line
+	3750 3550 5250 3550
+Connection ~ 3000 5000
+Text Label 4550 3550 2    50   ~ 0
+BAT-MEAS-EN
+$Comp
+L Pufferfish:RES_47K_0603_SMD R43
+U 1 1 5F1FD7E9
+P 3100 4050
+F 0 "R43" H 3168 4187 50  0000 L CNN
+F 1 "RES_47K_0603_SMD" H 3180 3860 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0603" H 3300 3650 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/yageo/RC0603JR-0747KL/311-47KGRDKR-ND/732688" H 3100 4050 50  0001 C CNN
+F 4 "1%" H 3168 4096 50  0000 L CNN "Tolerance"
+F 5 "47kΩ" H 3168 4005 50  0000 L CNN "Resistance"
+F 6 "RC0603JR-0747KL" H 3100 4050 50  0001 C CNN "MPN"
+F 7 "Yageo" H 3100 4050 50  0001 C CNN "MFG"
+F 8 "0603" H 3168 3914 50  0000 L CNN "Package"
+	1    3100 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:RES_10K_0603_SMD R?
+U 1 1 5F1FE18D
+P 3100 4450
+AR Path="/5EDA3ECC/5F1FE18D" Ref="R?"  Part="1" 
+AR Path="/5EFFF333/5F1FE18D" Ref="R44"  Part="1" 
+F 0 "R44" H 3168 4543 50  0000 L CNN
+F 1 "RES_10K_0603_SMD" H 3180 4260 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0603" H 3300 4050 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGTR-ND/135662" H 3100 4450 50  0001 C CNN
+F 4 "1%" H 3168 4466 31  0000 L CNN "Tolerance"
+F 5 "10kΩ" H 3168 4404 31  0000 L CNN "Resistance"
+F 6 "ERJ-3GEYJ103V" H 3100 4450 50  0001 C CNN "MPN"
+F 7 "Panasonic" H 3100 4450 50  0001 C CNN "MFG"
+F 8 "0603" H 3168 4342 31  0000 L CNN "Package"
+	1    3100 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:CAP_1uF_35V_X7R_0603 C?
+U 1 1 5F1FFBC9
+P 3400 4450
+AR Path="/5EC321D9/5F1FFBC9" Ref="C?"  Part="1" 
+AR Path="/5EFFF333/5F1FFBC9" Ref="C55"  Part="1" 
+F 0 "C55" H 3492 4570 50  0000 L CNN
+F 1 "CAP_1uF_35V_X7R_0603" H 2450 4850 50  0001 L CNN
+F 2 "Pufferfish:CAP_SMD_0603" H 3450 4050 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/taiyo-yuden/GMK107AB7105KAHT/587-3352-1-ND/4157239" H 3550 4400 50  0001 C CNN
+F 4 "10%" H 3492 4494 30  0000 L CNN "Tolerance"
+F 5 "1uF" H 3492 4434 30  0000 L CNN "Capacitance"
+F 6 "GMK107AB7105KAHT" H 2900 4650 50  0001 C CNN "MPN"
+F 7 "Taiyo Yuden" H 2750 4750 50  0001 C CNN "MFG"
+F 8 "X7R" H 3492 4374 30  0000 L CNN "Dielectric"
+F 9 "35V" H 3492 4314 30  0000 L CNN "Voltage"
+	1    3400 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F20505A
+P 3100 4650
+AR Path="/5EC321D9/5F20505A" Ref="#PWR?"  Part="1" 
+AR Path="/5EDA3ECC/5F20505A" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF333/5F20505A" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 3100 4400 50  0001 C CNN
+F 1 "GND" H 3100 4500 50  0000 C CNN
+F 2 "" H 3100 4650 50  0001 C CNN
+F 3 "" H 3100 4650 50  0001 C CNN
+	1    3100 4650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 4550 3100 4600
+Wire Wire Line
+	3400 4550 3400 4600
+Wire Wire Line
+	3400 4600 3100 4600
+Connection ~ 3100 4600
+Wire Wire Line
+	3100 4600 3100 4650
+Wire Wire Line
+	3100 4350 3100 4250
+Wire Wire Line
+	3400 4350 3400 4250
+Wire Wire Line
+	3400 4250 3100 4250
+Connection ~ 3100 4250
+Wire Wire Line
+	3100 4250 3100 4150
+Wire Wire Line
+	3100 3950 3100 3850
+Wire Wire Line
+	3100 3850 2800 3850
+Wire Wire Line
+	3400 4250 3650 4250
+Wire Wire Line
+	3650 4250 3650 3450
+Wire Wire Line
+	3650 3450 5250 3450
+Connection ~ 3400 4250
+Text Label 4550 3450 2    50   ~ 0
+BAT-MEAS-ANALOG
+$Comp
+L power:GND #PWR?
+U 1 1 5F22D9C1
+P 5850 3700
+AR Path="/5EC321D9/5F22D9C1" Ref="#PWR?"  Part="1" 
+AR Path="/5EDA3ECC/5F22D9C1" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF333/5F22D9C1" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0112" H 5850 3450 50  0001 C CNN
+F 1 "GND" H 5850 3550 50  0000 C CNN
+F 2 "" H 5850 3700 50  0001 C CNN
+F 3 "" H 5850 3700 50  0001 C CNN
+	1    5850 3700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 3350 5850 3450
+Wire Wire Line
+	5750 3550 5850 3550
+Connection ~ 5850 3550
+Wire Wire Line
+	5850 3550 5850 3700
+Wire Wire Line
+	5750 3450 5850 3450
+Connection ~ 5850 3450
+Wire Wire Line
+	5850 3450 5850 3550
+Wire Wire Line
+	5850 3350 5750 3350
+Wire Wire Line
+	4200 3050 5250 3050
+Wire Wire Line
+	3950 3250 5250 3250
+$Comp
+L power:GND #PWR?
+U 1 1 5F25CC6F
+P 5150 3700
+AR Path="/5EC321D9/5F25CC6F" Ref="#PWR?"  Part="1" 
+AR Path="/5EDA3ECC/5F25CC6F" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF333/5F25CC6F" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 5150 3450 50  0001 C CNN
+F 1 "GND" H 5150 3550 50  0000 C CNN
+F 2 "" H 5150 3700 50  0001 C CNN
+F 3 "" H 5150 3700 50  0001 C CNN
+	1    5150 3700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3700 5150 3350
+Wire Wire Line
+	5150 2750 5250 2750
+Wire Wire Line
+	5250 2950 5150 2950
+Connection ~ 5150 2950
+Wire Wire Line
+	5150 2950 5150 2750
+Wire Wire Line
+	5250 3150 5150 3150
+Connection ~ 5150 3150
+Wire Wire Line
+	5150 3150 5150 2950
+Wire Wire Line
+	5250 3350 5150 3350
+Connection ~ 5150 3350
+Wire Wire Line
+	5150 3350 5150 3150
+Text Notes 3850 4400 0    79   Italic 0
+Analog Measurement\nVoltage Divider
+Text Notes 4550 1050 0    157  ~ 31
+Control Interface
+Text Notes 7550 4900 0    157  ~ 31
+Power Outputs
+$Comp
+L Transistor_FET:2N7002E Q11
+U 1 1 5EF22A94
+P 1650 6000
+AR Path="/5EFFF333/5EF22A94" Ref="Q11"  Part="1" 
+AR Path="/5EFFFB7B/5EF22A94" Ref="Q?"  Part="1" 
+AR Path="/5EEC5CE7/5EF22A94" Ref="Q?"  Part="1" 
+F 0 "Q11" H 1855 6046 50  0000 L CNN
+F 1 "2N7002E" H 1855 5955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1850 5925 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/ds30376.pdf" H 1650 6000 50  0001 L CNN
+	1    1650 6000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EF22A9A
+P 1550 6300
+AR Path="/5EC321D9/5EF22A9A" Ref="#PWR?"  Part="1" 
+AR Path="/5EDA3ECC/5EF22A9A" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFFB7B/5EF22A9A" Ref="#PWR?"  Part="1" 
+AR Path="/5EEC5CE7/5EF22A9A" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF333/5EF22A9A" Ref="#PWR044"  Part="1" 
+F 0 "#PWR044" H 1550 6050 50  0001 C CNN
+F 1 "GND" H 1555 6127 50  0000 C CNN
+F 2 "" H 1550 6300 50  0001 C CNN
+F 3 "" H 1550 6300 50  0001 C CNN
+	1    1550 6300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 6200 1550 6300
+$Comp
+L Pufferfish:RES_330R_0603_SMD R?
+U 1 1 5EF22AA6
+P 1550 5600
+AR Path="/5EC45070/5EF22AA6" Ref="R?"  Part="1" 
+AR Path="/5EFFFB7B/5EF22AA6" Ref="R?"  Part="1" 
+AR Path="/5EEC5CE7/5EF22AA6" Ref="R?"  Part="1" 
+AR Path="/5EFFF333/5EF22AA6" Ref="R25"  Part="1" 
+F 0 "R25" H 1618 5737 50  0000 L CNN
+F 1 "RES_330R_0603_SMD" H 1630 5410 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0603" H 1750 5200 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGTR-ND/135662" H 1550 5600 50  0001 C CNN
+F 4 "5%" H 1618 5646 50  0000 L CNN "Tolerance"
+F 5 "330R" H 1618 5555 50  0000 L CNN "Resistance"
+F 6 "ESR03EZPJ331" H 1550 5600 50  0001 C CNN "MPN"
+F 7 "Rohm" H 1550 5600 50  0001 C CNN "MFG"
+F 8 "0603" H 1618 5464 50  0000 L CNN "Package"
+	1    1550 5600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 5700 1550 5800
+Wire Wire Line
+	1550 5300 1550 5500
+$Comp
+L Pufferfish:VSYS-3V3 #PWR?
+U 1 1 5EF22AAF
+P 1550 4900
+AR Path="/5EDA3ECC/5EF22AAF" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFFB7B/5EF22AAF" Ref="#PWR?"  Part="1" 
+AR Path="/5EEC5CE7/5EF22AAF" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF333/5EF22AAF" Ref="#PWR043"  Part="1" 
+F 0 "#PWR043" H 1550 4750 50  0001 C CNN
+F 1 "VSYS-3V3" H 1567 5073 50  0000 C CNN
+F 2 "" H 1550 4900 50  0001 C CNN
+F 3 "" H 1550 4900 50  0001 C CNN
+	1    1550 4900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 4900 1550 5000
+Connection ~ 3750 5000
+$Comp
+L Pufferfish:LED_SMD_0603_YELLOW D4
+U 1 1 5EF3C8FE
+P 1550 5150
+F 0 "D4" V 1589 5032 50  0000 R CNN
+F 1 "LED_SMD_0603_YELLOW" H 1550 5000 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 1600 4900 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KSKT/160-1448-1-ND/386838" H 1550 5150 50  0001 C CNN
+F 4 "LTST-C191KSKT" V 1589 5032 50  0001 R CNN "MPN"
+F 5 "Lite-On" V 1498 5032 50  0001 R CNN "MFG"
+F 6 "Yellow" V 1498 5032 50  0000 R CNN "Color"
+	1    1550 5150
+	0    1    -1   0   
+$EndComp
+Text Notes 1950 4650 2    50   Italic 0
+Measurement Indicator
+$Comp
+L Pufferfish:TP_TH_KEYSTONE_5126 TP?
+U 1 1 5F014F3E
+P 3100 3400
+AR Path="/5EEC5CE7/5F014F3E" Ref="TP?"  Part="1" 
+AR Path="/5EFFF333/5F014F3E" Ref="TP4"  Part="1" 
+F 0 "TP4" V 3350 3350 50  0000 L CNN
+F 1 "TP_TH_KEYSTONE_5126" H 2800 3200 50  0001 L BNN
+F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 3100 3400 50  0001 L BNN
+F 3 "https://www.digikey.com/product-detail/en/keystone-electronics/5126/36-5126-ND/2170329" H 3100 3400 50  0001 L BNN
+F 4 "5126" V 3250 3300 50  0000 L CNN "MPN"
+F 5 "Keystone Electronics" H 3100 3400 50  0001 C CNN "MFG"
+	1    3100 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 3800 3100 3850
+Connection ~ 3100 3850
+$Comp
+L Pufferfish:TVS_15V_SOD123FL-2 D?
+U 1 1 5F0D426D
+P 7800 6200
+AR Path="/5EC45070/5F0D426D" Ref="D?"  Part="1" 
+AR Path="/5EFFF333/5F0D426D" Ref="D14"  Part="1" 
+F 0 "D14" V 7613 6279 50  0000 L CNN
+F 1 "TVS_15V_SOD123FL-2" V 7704 6279 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123F" H 7800 6000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/240/Littelfuse_TVS_Diode_SMF_Datasheet.pdf-1698977.pdf" H 7350 5900 50  0001 C CNN
+F 4 "SMF15CA" V 7795 6279 50  0000 L CNN "MPN"
+F 5 "Littlefuse" H 7450 6050 50  0001 C CNN "MFG"
+F 6 "15V" V 7886 6279 50  0000 L CNN "Standoff Voltage"
+	1    7800 6200
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	7800 5950 7800 5800
+$Comp
+L power:GND #PWR?
+U 1 1 5F0D4274
+P 7800 6400
+AR Path="/5EC321D9/5F0D4274" Ref="#PWR?"  Part="1" 
+AR Path="/5EC45070/5F0D4274" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF333/5F0D4274" Ref="#PWR080"  Part="1" 
+F 0 "#PWR080" H 7800 6150 50  0001 C CNN
+F 1 "GND" H 7805 6227 50  0000 C CNN
+F 2 "" H 7800 6400 50  0001 C CNN
+F 3 "" H 7800 6400 50  0001 C CNN
+	1    7800 6400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 6400 7800 6350
+$Comp
+L Power_Protection:ESDLC5V0PB8 D15
+U 1 1 5F0DA1E4
+P 10000 2000
+F 0 "D15" H 10555 2046 50  0000 L CNN
+F 1 "ESDLC5V0PB8" H 10555 1955 50  0000 L CNN
+F 2 "Package_DFN_QFN:UDFN-9_1.0x3.8mm_P0.5mm" H 10550 1950 50  0001 L CNN
+F 3 "https://www.mccsemi.com/pdf/Products/ESDLC5V0PB8(DFN3810-9)-A.pdf" H 10175 2025 50  0001 C CNN
+	1    10000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F0E22B2
+P 10000 2400
+AR Path="/5EC321D9/5F0E22B2" Ref="#PWR?"  Part="1" 
+AR Path="/5EDA3ECC/5F0E22B2" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF333/5F0E22B2" Ref="#PWR081"  Part="1" 
+F 0 "#PWR081" H 10000 2150 50  0001 C CNN
+F 1 "GND" H 10000 2250 50  0000 C CNN
+F 2 "" H 10000 2400 50  0001 C CNN
+F 3 "" H 10000 2400 50  0001 C CNN
+	1    10000 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 2400 10000 2300
+Text Label 9700 1700 1    50   ~ 0
+LTC4421-PWR-nCH1
+Wire Wire Line
+	9700 850  9700 1700
+Connection ~ 7800 5800
+Wire Wire Line
+	9800 850  9800 1700
+Wire Wire Line
+	9900 850  9900 1700
+Wire Wire Line
+	10000 850  10000 1700
+Wire Wire Line
+	10100 850  10100 1700
+Wire Wire Line
+	10200 850  10200 1700
+Wire Wire Line
+	10300 850  10300 1700
+Wire Wire Line
+	10400 850  10400 1700
+Text Label 9800 1700 1    50   ~ 0
+LTC4421-PWR-nVALID1
+Text Label 9900 1700 1    50   ~ 0
+LTC4421-PWR-nFAULT1
+Text Label 10000 1700 1    50   ~ 0
+LTC4421-PWR-nCH2
+Text Label 10100 1700 1    50   ~ 0
+LTC4421-PWR-nVALID2
+Text Label 10200 1700 1    50   ~ 0
+LTC4421-PWR-nFAULT2
+Text Label 10300 1700 1    50   ~ 0
+LTC4421-PWR-nDISABLE1
+Text Label 10400 1700 1    50   ~ 0
+LTC4421-PWR-nDISABLE2
+Wire Wire Line
+	3750 5000 3750 6000
+Wire Wire Line
+	1850 6000 3750 6000
+$Comp
+L Power_Protection:ESDLC5V0PB8 D13
+U 1 1 5F18EA9D
+P 1350 2000
+F 0 "D13" H 1905 2046 50  0000 L CNN
+F 1 "ESDLC5V0PB8" H 1905 1955 50  0000 L CNN
+F 2 "Package_DFN_QFN:UDFN-9_1.0x3.8mm_P0.5mm" H 1900 1950 50  0001 L CNN
+F 3 "https://www.mccsemi.com/pdf/Products/ESDLC5V0PB8(DFN3810-9)-A.pdf" H 1525 2025 50  0001 C CNN
+	1    1350 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F18EAA3
+P 1350 2400
+AR Path="/5EC321D9/5F18EAA3" Ref="#PWR?"  Part="1" 
+AR Path="/5EDA3ECC/5F18EAA3" Ref="#PWR?"  Part="1" 
+AR Path="/5EFFF333/5F18EAA3" Ref="#PWR079"  Part="1" 
+F 0 "#PWR079" H 1350 2150 50  0001 C CNN
+F 1 "GND" H 1350 2250 50  0000 C CNN
+F 2 "" H 1350 2400 50  0001 C CNN
+F 3 "" H 1350 2400 50  0001 C CNN
+	1    1350 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 2400 1350 2300
+Wire Wire Line
+	1050 850  1050 1700
+Text Label 1050 1650 1    50   ~ 0
+VSYS-5V0-PGOOD
+Wire Wire Line
+	1150 850  1150 1700
+Wire Wire Line
+	1250 850  1250 1700
+Wire Wire Line
+	1350 850  1350 1700
+Wire Wire Line
+	1450 850  1450 1700
+Text Label 1150 1650 1    50   ~ 0
+3V3-PGOOD
+Text Label 1250 1650 1    50   ~ 0
+BAT-MEAS-EN
+Text Label 1350 1650 1    50   ~ 0
+BAT-MEAS-ANALOG
+Text Label 1450 1650 1    50   ~ 0
+BAT-CHARGE-EN
+NoConn ~ 1550 1500
+NoConn ~ 1650 1500
+NoConn ~ 1750 1500
+Wire Wire Line
+	1550 1500 1550 1700
+Wire Wire Line
+	1650 1500 1650 1700
+Wire Wire Line
+	1750 1500 1750 1700
+Text Notes 700  2050 0    50   ~ 10
+ESD
+Text Notes 9350 2000 0    50   ~ 10
+ESD
+$EndSCHEMATC

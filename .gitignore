@@ -30,8 +30,5 @@ _autosave-*
 #*.gbr
 #*.drl
 
-# Ignore folders with double underscores as prefix
-**/__**
-
 # Notes
 # [1] The original gitignore was take from: https://github.com/github/gitignore/blob/master/KiCad.gitignore
