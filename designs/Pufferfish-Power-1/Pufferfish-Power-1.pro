@@ -1,4 +1,4 @@
-update=10-Jun-20 7:58:50 PM
+update=12-Jun-20 11:50:58 AM
 version=1
 last_client=kicad
 [general]
@@ -242,7 +242,7 @@ PageLayoutDescrFile=${KIPRJMOD}/../../Pufferfish.kicad_wks
 PlotDirectoryName=./
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1
