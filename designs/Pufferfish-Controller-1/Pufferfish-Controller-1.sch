@@ -20,13 +20,13 @@ F0 "Microcontroller" 50
 F1 "Microcontroller.sch" 50
 $EndSheet
 $Sheet
-S 1250 1900 950  300 
+S 1250 1850 950  300 
 U 5EC71B6B
 F0 "Sensors" 50
 F1 "Sensors.sch" 50
 $EndSheet
 $Sheet
-S 1250 2450 950  300 
+S 1250 2400 950  300 
 U 5EC71BD4
 F0 "Actuators" 50
 F1 "Actuators.sch" 50

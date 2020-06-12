@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 5103308-3
+D Headers & Wire Housings 16P 2 ROW HEADER LP
+K header
+F http://componentsearchengine.com/Datasheets/1/5103308-3.pdf
+$ENDCMP
+#
 $CMP ABPDANN005PG2A3
 D ABPDANN005PG2A3, Differential Pressure Sensor 5psi 6-Pin DIP
 F https://componentsearchengine.com/Datasheets/1/ABPDANN005PG2A3.pdf
@@ -13,6 +19,16 @@ $ENDCMP
 $CMP ABPMANN030PG2A3
 D ABPMANN030PG2A3, Differential Pressure Sensor 30psi 6-Pin SMT
 F https://www.mouser.com/datasheet/2/187/honeywell-sensing-pressure-board-mount-abp-series--1846114.pdf
+$ENDCMP
+#
+$CMP B2B-PH-SM4-TB(LF)(SN)
+D Connector Header Surface Mount 2 position 0.079" (2.00mm)
+F http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+$ENDCMP
+#
+$CMP B4B-PH-SM4-TB(LF)(SN)
+D Connector Header Surface Mount 4 position 0.079" (2.00mm)
+F JST
 $ENDCMP
 #
 $CMP BME280
@@ -222,8 +238,16 @@ $CMP TERMINAL_SCREW_2_2.54mm
 D Screw terminal, connector, 8x1 pin, 3.5mm
 $ENDCMP
 #
+$CMP TERMINAL_SCREW_4_2.54mm
+D Screw terminal, connector, 4x1 pin, 2.54mm
+$ENDCMP
+#
 $CMP TERMINAL_SCREW_4_3.5mm
 D Screw terminal, connector, 4x1 pin, 3.5mm
+$ENDCMP
+#
+$CMP TERMINAL_SCREW_8_2.54mm
+D Screw terminal, connector, 8x1 pin, 2.54mm
 $ENDCMP
 #
 $CMP TERMINAL_SCREW_8_3.5mm
