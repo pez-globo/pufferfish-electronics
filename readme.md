@@ -2,8 +2,6 @@
 
 Electronic hardware board layout files for the Pufferfish ventilator.
 
-The schematic and PCB files for this project can be viewed online at [CADLAB.io](https://cadlab.io/project/22897). 
-
 This folder contains the [KiCad](https://kicad-pcb.org/) design files for the Pufferfish ventilator.
 
 To review the hardware files, start by opening the project file `Pufferfish.pro` with KiCad. From there, schematics, boards, and library parts can be viewed.
