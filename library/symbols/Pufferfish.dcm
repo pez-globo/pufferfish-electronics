@@ -31,6 +31,10 @@ D Connector Header Surface Mount 4 position 0.079" (2.00mm)
 F JST
 $ENDCMP
 #
+$CMP B8B-PH-SM4-TB(LF)(SN)
+F None
+$ENDCMP
+#
 $CMP BME280
 D DIP Breakout for Adafruit's BME280 board
 $ENDCMP
@@ -211,7 +215,19 @@ K Pressure, Sensor
 F https://www.mouser.com/datasheet/2/682/Sensirion_Differential_Pressure_Sensors_EK-P4_Flow-1274207.pdf
 $ENDCMP
 #
+$CMP SENSIRION_EK-P4_JST
+D Pressure Sensor Development Tools Evaluation kit SDP31
+K Pressure, Sensor
+F https://www.mouser.com/datasheet/2/682/Sensirion_Differential_Pressure_Sensors_EK-P4_Flow-1274207.pdf
+$ENDCMP
+#
 $CMP SENSIRION_SFM3000
+D AIR/GAS FLOW SENSOR +/-200 SLM W (SFM3000-200C)
+K Flow, Sensor
+F https://www.sensirion.com/file/datasheet_sfm3000
+$ENDCMP
+#
+$CMP SENSIRION_SFM3000_JST
 D AIR/GAS FLOW SENSOR +/-200 SLM W (SFM3000-200C)
 K Flow, Sensor
 F https://www.sensirion.com/file/datasheet_sfm3000
