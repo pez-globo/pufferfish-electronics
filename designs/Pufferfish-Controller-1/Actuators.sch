@@ -30,97 +30,6 @@ DRIVE2_CH2_EN
 Text GLabel 1700 6900 0    50   Input ~ 0
 DRIVE2_CH1_EN
 $Comp
-L Pufferfish:SHORT_SMD_0603 R170
-U 1 1 5EE60027
-P 3200 7500
-F 0 "R170" V 3111 7475 50  0000 C CNN
-F 1 "SHORT_SMD_0603" H 3230 7360 50  0001 L CNN
-F 2 "Pufferfish:SHORT_SMD_0603" H 3400 7100 50  0001 C CNN
-F 3 "~" H 3550 7700 50  0001 C CNN
-F 4 "?%" H 3300 7450 50  0001 C CNN "Tolerance"
-F 5 "0Ω" H 3300 7550 50  0001 C CNN "Resistance"
-	1    3200 7500
-	0    1    1    0   
-$EndComp
-$Comp
-L Pufferfish:SHORT_SMD_0603 R169
-U 1 1 5EE6001F
-P 3200 7400
-F 0 "R169" V 3111 7375 50  0000 C CNN
-F 1 "SHORT_SMD_0603" H 3230 7260 50  0001 L CNN
-F 2 "Pufferfish:SHORT_SMD_0603" H 3400 7000 50  0001 C CNN
-F 3 "~" H 3550 7600 50  0001 C CNN
-F 4 "?%" H 3300 7350 50  0001 C CNN "Tolerance"
-F 5 "0Ω" H 3300 7450 50  0001 C CNN "Resistance"
-	1    3200 7400
-	0    1    1    0   
-$EndComp
-$Comp
-L Pufferfish:SHORT_SMD_0603 R168
-U 1 1 5EE60017
-P 3200 7300
-F 0 "R168" V 3111 7275 50  0000 C CNN
-F 1 "SHORT_SMD_0603" H 3230 7160 50  0001 L CNN
-F 2 "Pufferfish:SHORT_SMD_0603" H 3400 6900 50  0001 C CNN
-F 3 "~" H 3550 7500 50  0001 C CNN
-F 4 "?%" H 3300 7250 50  0001 C CNN "Tolerance"
-F 5 "0Ω" H 3300 7350 50  0001 C CNN "Resistance"
-	1    3200 7300
-	0    1    1    0   
-$EndComp
-$Comp
-L Pufferfish:SHORT_SMD_0603 R167
-U 1 1 5EE6000F
-P 3200 7200
-F 0 "R167" V 3111 7175 50  0000 C CNN
-F 1 "SHORT_SMD_0603" H 3230 7060 50  0001 L CNN
-F 2 "Pufferfish:SHORT_SMD_0603" H 3400 6800 50  0001 C CNN
-F 3 "~" H 3550 7400 50  0001 C CNN
-F 4 "?%" H 3300 7150 50  0001 C CNN "Tolerance"
-F 5 "0Ω" H 3300 7250 50  0001 C CNN "Resistance"
-	1    3200 7200
-	0    1    1    0   
-$EndComp
-$Comp
-L Pufferfish:SHORT_SMD_0603 R166
-U 1 1 5EE60007
-P 3200 7100
-F 0 "R166" V 3111 7075 50  0000 C CNN
-F 1 "SHORT_SMD_0603" H 3230 6960 50  0001 L CNN
-F 2 "Pufferfish:SHORT_SMD_0603" H 3400 6700 50  0001 C CNN
-F 3 "~" H 3550 7300 50  0001 C CNN
-F 4 "?%" H 3300 7050 50  0001 C CNN "Tolerance"
-F 5 "0Ω" H 3300 7150 50  0001 C CNN "Resistance"
-	1    3200 7100
-	0    1    1    0   
-$EndComp
-$Comp
-L Pufferfish:SHORT_SMD_0603 R165
-U 1 1 5EE5FFFF
-P 3200 7000
-F 0 "R165" V 3111 6975 50  0000 C CNN
-F 1 "SHORT_SMD_0603" H 3230 6860 50  0001 L CNN
-F 2 "Pufferfish:SHORT_SMD_0603" H 3400 6600 50  0001 C CNN
-F 3 "~" H 3550 7200 50  0001 C CNN
-F 4 "?%" H 3300 6950 50  0001 C CNN "Tolerance"
-F 5 "0Ω" H 3300 7050 50  0001 C CNN "Resistance"
-	1    3200 7000
-	0    1    1    0   
-$EndComp
-$Comp
-L Pufferfish:SHORT_SMD_0603 R164
-U 1 1 5EE5FFF7
-P 3200 6900
-F 0 "R164" V 3111 6875 50  0000 C CNN
-F 1 "SHORT_SMD_0603" H 3230 6760 50  0001 L CNN
-F 2 "Pufferfish:SHORT_SMD_0603" H 3400 6500 50  0001 C CNN
-F 3 "~" H 3550 7100 50  0001 C CNN
-F 4 "?%" H 3300 6850 50  0001 C CNN "Tolerance"
-F 5 "0Ω" H 3300 6950 50  0001 C CNN "Resistance"
-	1    3200 6900
-	0    1    1    0   
-$EndComp
-$Comp
 L Pufferfish:SHORT_SMD_0603 R154
 U 1 1 5EE5FFE9
 P 1850 7500
@@ -581,17 +490,6 @@ F 3 "" H 7400 3150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Pufferfish:5V #SUPPLY032
-U 1 1 5EC3484D
-P 7250 2650
-F 0 "#SUPPLY032" H 7250 2650 50  0001 C CNN
-F 1 "5V" V 7300 2750 59  0000 L CNN
-F 2 "" H 7250 2650 50  0001 C CNN
-F 3 "" H 7250 2650 50  0001 C CNN
-	1    7250 2650
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Pufferfish:SHORT_SMD_0603 R172
 U 1 1 5EC99746
 P 7400 3400
@@ -777,7 +675,7 @@ $Comp
 L Pufferfish:SHORT_SMD_0603 R171
 U 1 1 5EFC3064
 P 7400 2650
-F 0 "R171" V 7300 2500 50  0000 C CNN
+F 0 "R171" V 7350 2700 50  0000 C CNN
 F 1 "SHORT_SMD_0603" H 7430 2510 50  0001 L CNN
 F 2 "Pufferfish:SHORT_SMD_0603" H 7600 2250 50  0001 C CNN
 F 3 "~" H 7750 2850 50  0001 C CNN
@@ -812,17 +710,6 @@ F 2 "" H 7400 2350 50  0001 C CNN
 F 3 "" H 7400 2350 50  0001 C CNN
 	1    7400 2350
 	0    1    1    0   
-$EndComp
-$Comp
-L Pufferfish:5V #SUPPLY034
-U 1 1 5EFE9106
-P 7250 4450
-F 0 "#SUPPLY034" H 7250 4450 50  0001 C CNN
-F 1 "5V" V 7300 4550 59  0000 L CNN
-F 2 "" H 7250 4450 50  0001 C CNN
-F 3 "" H 7250 4450 50  0001 C CNN
-	1    7250 4450
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Pufferfish:SHORT_SMD_0603 R174
@@ -1006,19 +893,6 @@ Wire Wire Line
 Wire Wire Line
 	7750 5200 7750 5050
 Connection ~ 7550 5200
-$Comp
-L Pufferfish:SHORT_SMD_0603 R173
-U 1 1 5EFE9191
-P 7400 4450
-F 0 "R173" V 7300 4300 50  0000 C CNN
-F 1 "SHORT_SMD_0603" H 7430 4310 50  0001 L CNN
-F 2 "Pufferfish:SHORT_SMD_0603" H 7600 4050 50  0001 C CNN
-F 3 "~" H 7750 4650 50  0001 C CNN
-F 4 "?%" H 7500 4400 50  0001 C CNN "Tolerance"
-F 5 "0Ω" H 7500 4500 50  0001 C CNN "Resistance"
-	1    7400 4450
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7550 4400 7550 4450
 Wire Wire Line
@@ -1056,17 +930,6 @@ F 2 "" H 7400 6600 50  0001 C CNN
 F 3 "" H 7400 6600 50  0001 C CNN
 	1    7400 6600
 	0    1    1    0   
-$EndComp
-$Comp
-L Pufferfish:5V #SUPPLY036
-U 1 1 5F023D6D
-P 7250 6100
-F 0 "#SUPPLY036" H 7250 6100 50  0001 C CNN
-F 1 "5V" V 7300 6200 59  0000 L CNN
-F 2 "" H 7250 6100 50  0001 C CNN
-F 3 "" H 7250 6100 50  0001 C CNN
-	1    7250 6100
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Pufferfish:SHORT_SMD_0603 R194
@@ -1250,19 +1113,6 @@ Wire Wire Line
 Wire Wire Line
 	7750 6850 7750 6700
 Connection ~ 7550 6850
-$Comp
-L Pufferfish:SHORT_SMD_0603 R193
-U 1 1 5F023DF8
-P 7400 6100
-F 0 "R193" V 7300 5950 50  0000 C CNN
-F 1 "SHORT_SMD_0603" H 7430 5960 50  0001 L CNN
-F 2 "Pufferfish:SHORT_SMD_0603" H 7600 5700 50  0001 C CNN
-F 3 "~" H 7750 6300 50  0001 C CNN
-F 4 "?%" H 7500 6050 50  0001 C CNN "Tolerance"
-F 5 "0Ω" H 7500 6150 50  0001 C CNN "Resistance"
-	1    7400 6100
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7550 6050 7550 6100
 Wire Wire Line
@@ -1300,17 +1150,6 @@ F 2 "" H 7400 8400 50  0001 C CNN
 F 3 "" H 7400 8400 50  0001 C CNN
 	1    7400 8400
 	0    1    1    0   
-$EndComp
-$Comp
-L Pufferfish:5V #SUPPLY038
-U 1 1 5F023E22
-P 7250 7900
-F 0 "#SUPPLY038" H 7250 7900 50  0001 C CNN
-F 1 "5V" V 7300 8000 59  0000 L CNN
-F 2 "" H 7250 7900 50  0001 C CNN
-F 3 "" H 7250 7900 50  0001 C CNN
-	1    7250 7900
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Pufferfish:SHORT_SMD_0603 R196
@@ -1494,19 +1333,6 @@ Wire Wire Line
 Wire Wire Line
 	7750 8650 7750 8500
 Connection ~ 7550 8650
-$Comp
-L Pufferfish:SHORT_SMD_0603 R195
-U 1 1 5F023EAD
-P 7400 7900
-F 0 "R195" V 7300 7750 50  0000 C CNN
-F 1 "SHORT_SMD_0603" H 7430 7760 50  0001 L CNN
-F 2 "Pufferfish:SHORT_SMD_0603" H 7600 7500 50  0001 C CNN
-F 3 "~" H 7750 8100 50  0001 C CNN
-F 4 "?%" H 7500 7850 50  0001 C CNN "Tolerance"
-F 5 "0Ω" H 7500 7950 50  0001 C CNN "Resistance"
-	1    7400 7900
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7550 7850 7550 7900
 Wire Wire Line
@@ -1745,17 +1571,6 @@ F 4 "JST Sales America Inc." H 7800 4600 50  0001 C CNN "Manufacturer"
 $EndComp
 $Comp
 L Pufferfish:GND #GND?
-U 1 1 5EE5A34C
-P 6650 4500
-F 0 "#GND?" H 6650 4500 50  0001 C CNN
-F 1 "GND" V 6650 4431 59  0000 R CNN
-F 2 "" H 6650 4500 50  0001 C CNN
-F 3 "" H 6650 4500 50  0001 C CNN
-	1    6650 4500
-	0    1    1    0   
-$EndComp
-$Comp
-L Pufferfish:GND #GND?
 U 1 1 5EE5A7B7
 P 6650 4900
 F 0 "#GND?" H 6650 4900 50  0001 C CNN
@@ -1784,17 +1599,6 @@ F 3 "JST" H 7000 2900 50  0001 L BNN
 F 4 "JST Sales America Inc." H 7800 2800 50  0001 C CNN "Manufacturer"
 	1    7000 2900
 	-1   0    0    -1  
-$EndComp
-$Comp
-L Pufferfish:GND #GND?
-U 1 1 5EEBEB81
-P 6650 2700
-F 0 "#GND?" H 6650 2700 50  0001 C CNN
-F 1 "GND" V 6650 2631 59  0000 R CNN
-F 2 "" H 6650 2700 50  0001 C CNN
-F 3 "" H 6650 2700 50  0001 C CNN
-	1    6650 2700
-	0    1    1    0   
 $EndComp
 $Comp
 L Pufferfish:GND #GND?
@@ -1829,17 +1633,6 @@ F 4 "JST Sales America Inc." H 7800 6250 50  0001 C CNN "Manufacturer"
 $EndComp
 $Comp
 L Pufferfish:GND #GND?
-U 1 1 5EED269C
-P 6650 6150
-F 0 "#GND?" H 6650 6150 50  0001 C CNN
-F 1 "GND" V 6650 6081 59  0000 R CNN
-F 2 "" H 6650 6150 50  0001 C CNN
-F 3 "" H 6650 6150 50  0001 C CNN
-	1    6650 6150
-	0    1    1    0   
-$EndComp
-$Comp
-L Pufferfish:GND #GND?
 U 1 1 5EED26A2
 P 6650 6550
 F 0 "#GND?" H 6650 6550 50  0001 C CNN
@@ -1871,17 +1664,6 @@ F 4 "JST Sales America Inc." H 7800 8050 50  0001 C CNN "Manufacturer"
 $EndComp
 $Comp
 L Pufferfish:GND #GND?
-U 1 1 5EED7371
-P 6650 7950
-F 0 "#GND?" H 6650 7950 50  0001 C CNN
-F 1 "GND" V 6650 7881 59  0000 R CNN
-F 2 "" H 6650 7950 50  0001 C CNN
-F 3 "" H 6650 7950 50  0001 C CNN
-	1    6650 7950
-	0    1    1    0   
-$EndComp
-$Comp
-L Pufferfish:GND #GND?
 U 1 1 5EED7377
 P 6650 8350
 F 0 "#GND?" H 6650 8350 50  0001 C CNN
@@ -1899,293 +1681,10 @@ Wire Wire Line
 	7200 8200 7400 8200
 Wire Wire Line
 	7200 8300 7400 8300
-$Comp
-L Pufferfish:B2B-PH-SM4-TB(LF)(SN) CONN?
-U 1 1 5EF1812A
-P 3950 2450
-F 0 "CONN?" H 4550 2350 50  0000 C CNN
-F 1 "B2B-PH-SM4-TB(LF)(SN)" H 4800 2250 50  0000 C CNN
-F 2 "Pufferfish:JST_B2B-PH-SM4-TB" H 4400 2900 50  0001 L BNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4200 2500 50  0001 L BNN
-F 4 "JST Sales America Inc." H 4900 3050 50  0001 C CNN "Manufacturer"
-	1    3950 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish:GND #GND?
-U 1 1 5EF21239
-P 4350 2500
-F 0 "#GND?" H 4350 2500 50  0001 C CNN
-F 1 "GND" V 4450 2550 59  0000 R CNN
-F 2 "" H 4350 2500 50  0001 C CNN
-F 3 "" H 4350 2500 50  0001 C CNN
-	1    4350 2500
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4200 2400 4250 2400
-Wire Wire Line
-	4250 2400 4250 2500
-Wire Wire Line
-	4250 2500 4250 2600
 Wire Wire Line
 	4250 2600 4200 2600
-Connection ~ 4250 2500
-Wire Wire Line
-	4250 2600 4250 2700
-Wire Wire Line
-	4250 2700 3700 2700
-Wire Wire Line
-	3700 2700 3700 2550
-Connection ~ 4250 2600
 Wire Wire Line
 	3750 2550 3700 2550
-$Comp
-L Pufferfish:B2B-PH-SM4-TB(LF)(SN) CONN?
-U 1 1 5EF48E2E
-P 3950 2850
-F 0 "CONN?" H 4550 2750 50  0000 C CNN
-F 1 "B2B-PH-SM4-TB(LF)(SN)" H 4800 2650 50  0000 C CNN
-F 2 "Pufferfish:JST_B2B-PH-SM4-TB" H 4400 3300 50  0001 L BNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4200 2900 50  0001 L BNN
-F 4 "JST Sales America Inc." H 4900 3450 50  0001 C CNN "Manufacturer"
-	1    3950 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish:GND #GND?
-U 1 1 5EF48E34
-P 4350 2900
-F 0 "#GND?" H 4350 2900 50  0001 C CNN
-F 1 "GND" V 4450 2950 59  0000 R CNN
-F 2 "" H 4350 2900 50  0001 C CNN
-F 3 "" H 4350 2900 50  0001 C CNN
-	1    4350 2900
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4200 2800 4250 2800
-Wire Wire Line
-	4250 2800 4250 2900
-Wire Wire Line
-	4250 2900 4250 3000
-Wire Wire Line
-	4250 3000 4200 3000
-Connection ~ 4250 2900
-Wire Wire Line
-	4250 3000 4250 3100
-Wire Wire Line
-	4250 3100 3700 3100
-Wire Wire Line
-	3700 3100 3700 2950
-Connection ~ 4250 3000
-Wire Wire Line
-	3750 2950 3700 2950
-$Comp
-L Pufferfish:B2B-PH-SM4-TB(LF)(SN) CONN?
-U 1 1 5EF4ECE6
-P 3950 3250
-F 0 "CONN?" H 4550 3150 50  0000 C CNN
-F 1 "B2B-PH-SM4-TB(LF)(SN)" H 4800 3050 50  0000 C CNN
-F 2 "Pufferfish:JST_B2B-PH-SM4-TB" H 4400 3700 50  0001 L BNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4200 3300 50  0001 L BNN
-F 4 "JST Sales America Inc." H 4900 3850 50  0001 C CNN "Manufacturer"
-	1    3950 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish:GND #GND?
-U 1 1 5EF4ECEC
-P 4350 3300
-F 0 "#GND?" H 4350 3300 50  0001 C CNN
-F 1 "GND" V 4450 3350 59  0000 R CNN
-F 2 "" H 4350 3300 50  0001 C CNN
-F 3 "" H 4350 3300 50  0001 C CNN
-	1    4350 3300
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4200 3200 4250 3200
-Wire Wire Line
-	4250 3200 4250 3300
-Wire Wire Line
-	4250 3300 4250 3400
-Wire Wire Line
-	4250 3400 4200 3400
-Connection ~ 4250 3300
-Wire Wire Line
-	4250 3400 4250 3500
-Wire Wire Line
-	4250 3500 3700 3500
-Wire Wire Line
-	3700 3500 3700 3350
-Connection ~ 4250 3400
-Wire Wire Line
-	3750 3350 3700 3350
-$Comp
-L Pufferfish:B2B-PH-SM4-TB(LF)(SN) CONN?
-U 1 1 5EF55753
-P 3950 3650
-F 0 "CONN?" H 4550 3550 50  0000 C CNN
-F 1 "B2B-PH-SM4-TB(LF)(SN)" H 4800 3450 50  0000 C CNN
-F 2 "Pufferfish:JST_B2B-PH-SM4-TB" H 4400 4100 50  0001 L BNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4200 3700 50  0001 L BNN
-F 4 "JST Sales America Inc." H 4900 4250 50  0001 C CNN "Manufacturer"
-	1    3950 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish:GND #GND?
-U 1 1 5EF55759
-P 4350 3700
-F 0 "#GND?" H 4350 3700 50  0001 C CNN
-F 1 "GND" V 4450 3750 59  0000 R CNN
-F 2 "" H 4350 3700 50  0001 C CNN
-F 3 "" H 4350 3700 50  0001 C CNN
-	1    4350 3700
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4200 3600 4250 3600
-Wire Wire Line
-	4250 3600 4250 3700
-Wire Wire Line
-	4250 3700 4250 3800
-Wire Wire Line
-	4250 3800 4200 3800
-Connection ~ 4250 3700
-Wire Wire Line
-	4250 3800 4250 3900
-Wire Wire Line
-	4250 3900 3700 3900
-Wire Wire Line
-	3700 3900 3700 3750
-Connection ~ 4250 3800
-Wire Wire Line
-	3750 3750 3700 3750
-$Comp
-L Pufferfish:B2B-PH-SM4-TB(LF)(SN) CONN?
-U 1 1 5EF5D99A
-P 3950 4050
-F 0 "CONN?" H 4550 3950 50  0000 C CNN
-F 1 "B2B-PH-SM4-TB(LF)(SN)" H 4800 3850 50  0000 C CNN
-F 2 "Pufferfish:JST_B2B-PH-SM4-TB" H 4400 4500 50  0001 L BNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4200 4100 50  0001 L BNN
-F 4 "JST Sales America Inc." H 4900 4650 50  0001 C CNN "Manufacturer"
-	1    3950 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish:GND #GND?
-U 1 1 5EF5D9A0
-P 4350 4100
-F 0 "#GND?" H 4350 4100 50  0001 C CNN
-F 1 "GND" V 4450 4150 59  0000 R CNN
-F 2 "" H 4350 4100 50  0001 C CNN
-F 3 "" H 4350 4100 50  0001 C CNN
-	1    4350 4100
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4200 4000 4250 4000
-Wire Wire Line
-	4250 4000 4250 4100
-Wire Wire Line
-	4250 4100 4250 4200
-Wire Wire Line
-	4250 4200 4200 4200
-Connection ~ 4250 4100
-Wire Wire Line
-	4250 4200 4250 4300
-Wire Wire Line
-	4250 4300 3700 4300
-Wire Wire Line
-	3700 4300 3700 4150
-Connection ~ 4250 4200
-Wire Wire Line
-	3750 4150 3700 4150
-$Comp
-L Pufferfish:B2B-PH-SM4-TB(LF)(SN) CONN?
-U 1 1 5EF66160
-P 3950 4450
-F 0 "CONN?" H 4550 4350 50  0000 C CNN
-F 1 "B2B-PH-SM4-TB(LF)(SN)" H 4800 4250 50  0000 C CNN
-F 2 "Pufferfish:JST_B2B-PH-SM4-TB" H 4400 4900 50  0001 L BNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4200 4500 50  0001 L BNN
-F 4 "JST Sales America Inc." H 4900 5050 50  0001 C CNN "Manufacturer"
-	1    3950 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish:GND #GND?
-U 1 1 5EF66166
-P 4350 4500
-F 0 "#GND?" H 4350 4500 50  0001 C CNN
-F 1 "GND" V 4450 4550 59  0000 R CNN
-F 2 "" H 4350 4500 50  0001 C CNN
-F 3 "" H 4350 4500 50  0001 C CNN
-	1    4350 4500
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4200 4400 4250 4400
-Wire Wire Line
-	4250 4400 4250 4500
-Wire Wire Line
-	4250 4500 4250 4600
-Wire Wire Line
-	4250 4600 4200 4600
-Connection ~ 4250 4500
-Wire Wire Line
-	4250 4600 4250 4700
-Wire Wire Line
-	4250 4700 3700 4700
-Wire Wire Line
-	3700 4700 3700 4550
-Connection ~ 4250 4600
-Wire Wire Line
-	3750 4550 3700 4550
-$Comp
-L Pufferfish:B2B-PH-SM4-TB(LF)(SN) CONN?
-U 1 1 5EF6F0C8
-P 3950 4850
-F 0 "CONN?" H 4550 4750 50  0000 C CNN
-F 1 "B2B-PH-SM4-TB(LF)(SN)" H 4800 4650 50  0000 C CNN
-F 2 "Pufferfish:JST_B2B-PH-SM4-TB" H 4400 5300 50  0001 L BNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4200 4900 50  0001 L BNN
-F 4 "JST Sales America Inc." H 4900 5450 50  0001 C CNN "Manufacturer"
-	1    3950 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish:GND #GND?
-U 1 1 5EF6F0CE
-P 4350 4900
-F 0 "#GND?" H 4350 4900 50  0001 C CNN
-F 1 "GND" V 4450 4950 59  0000 R CNN
-F 2 "" H 4350 4900 50  0001 C CNN
-F 3 "" H 4350 4900 50  0001 C CNN
-	1    4350 4900
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4200 4800 4250 4800
-Wire Wire Line
-	4250 4800 4250 4900
-Wire Wire Line
-	4250 4900 4250 5000
-Wire Wire Line
-	4250 5000 4200 5000
-Connection ~ 4250 4900
-Wire Wire Line
-	4250 5000 4250 5100
-Wire Wire Line
-	4250 5100 3700 5100
-Wire Wire Line
-	3700 5100 3700 4950
-Connection ~ 4250 5000
-Wire Wire Line
-	3750 4950 3700 4950
 Wire Wire Line
 	3300 3950 3400 3950
 Wire Wire Line
@@ -2202,8 +1701,6 @@ Wire Wire Line
 	3300 3450 3500 3450
 Wire Wire Line
 	3500 3450 3500 2850
-Wire Wire Line
-	3500 2850 3750 2850
 Wire Wire Line
 	3300 3550 3600 3550
 Wire Wire Line
@@ -2225,292 +1722,350 @@ Wire Wire Line
 Wire Wire Line
 	3500 4450 3750 4450
 $Comp
-L Pufferfish:B2B-PH-SM4-TB(LF)(SN) CONN?
-U 1 1 5F047D14
-P 3950 6000
-F 0 "CONN?" H 4550 5900 50  0000 C CNN
-F 1 "B2B-PH-SM4-TB(LF)(SN)" H 4800 5800 50  0000 C CNN
-F 2 "Pufferfish:JST_B2B-PH-SM4-TB" H 4400 6450 50  0001 L BNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4200 6050 50  0001 L BNN
-F 4 "JST Sales America Inc." H 4900 6600 50  0001 C CNN "Manufacturer"
-	1    3950 6000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Pufferfish:GND #GND?
-U 1 1 5F047D1A
-P 4350 6050
-F 0 "#GND?" H 4350 6050 50  0001 C CNN
-F 1 "GND" V 4450 6100 59  0000 R CNN
-F 2 "" H 4350 6050 50  0001 C CNN
-F 3 "" H 4350 6050 50  0001 C CNN
-	1    4350 6050
+U 1 1 5EF21239
+P 4400 2600
+F 0 "#GND?" H 4400 2600 50  0001 C CNN
+F 1 "GND" V 4400 2500 59  0000 R CNN
+F 2 "" H 4400 2600 50  0001 C CNN
+F 3 "" H 4400 2600 50  0001 C CNN
+	1    4400 2600
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Pufferfish:B2B-PH-SM4-TB(LF)(SN) CONN?
+U 1 1 5EF1812A
+P 3950 2450
+F 0 "CONN?" H 4300 2550 50  0000 C CNN
+F 1 "B2B-PH-SM4-TB(LF)(SN)" H 4700 2450 50  0000 C CNN
+F 2 "Pufferfish:JST_B2B-PH-SM4-TB" H 4400 2900 50  0001 L BNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4200 2500 50  0001 L BNN
+F 4 "JST Sales America Inc." H 4900 3050 50  0001 C CNN "Manufacturer"
+	1    3950 2450
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	4200 5950 4250 5950
+	3700 2550 3700 2700
 Wire Wire Line
-	4250 5950 4250 6050
+	3700 2700 4250 2700
 Wire Wire Line
-	4250 6050 4250 6150
+	4250 2700 4250 2600
+Wire Wire Line
+	4250 2600 4300 2600
+Connection ~ 4250 2600
+Wire Wire Line
+	4250 3000 4200 3000
+Wire Wire Line
+	3750 2950 3700 2950
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5F0E627D
+P 4400 3000
+F 0 "#GND?" H 4400 3000 50  0001 C CNN
+F 1 "GND" V 4400 2900 59  0000 R CNN
+F 2 "" H 4400 3000 50  0001 C CNN
+F 3 "" H 4400 3000 50  0001 C CNN
+	1    4400 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Pufferfish:B2B-PH-SM4-TB(LF)(SN) CONN?
+U 1 1 5F0E6284
+P 3950 2850
+F 0 "CONN?" H 4300 2950 50  0000 C CNN
+F 1 "B2B-PH-SM4-TB(LF)(SN)" H 4700 2850 50  0000 C CNN
+F 2 "Pufferfish:JST_B2B-PH-SM4-TB" H 4400 3300 50  0001 L BNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4200 2900 50  0001 L BNN
+F 4 "JST Sales America Inc." H 4900 3450 50  0001 C CNN "Manufacturer"
+	1    3950 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2950 3700 3100
+Wire Wire Line
+	3700 3100 4250 3100
+Wire Wire Line
+	4250 3100 4250 3000
+Wire Wire Line
+	4250 3000 4300 3000
+Connection ~ 4250 3000
+Wire Wire Line
+	3500 2850 3750 2850
+Wire Wire Line
+	4250 3400 4200 3400
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5F123319
+P 4400 3400
+F 0 "#GND?" H 4400 3400 50  0001 C CNN
+F 1 "GND" V 4400 3300 59  0000 R CNN
+F 2 "" H 4400 3400 50  0001 C CNN
+F 3 "" H 4400 3400 50  0001 C CNN
+	1    4400 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Pufferfish:B2B-PH-SM4-TB(LF)(SN) CONN?
+U 1 1 5F123320
+P 3950 3250
+F 0 "CONN?" H 4300 3350 50  0000 C CNN
+F 1 "B2B-PH-SM4-TB(LF)(SN)" H 4700 3250 50  0000 C CNN
+F 2 "Pufferfish:JST_B2B-PH-SM4-TB" H 4400 3700 50  0001 L BNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4200 3300 50  0001 L BNN
+F 4 "JST Sales America Inc." H 4900 3850 50  0001 C CNN "Manufacturer"
+	1    3950 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3500 4250 3500
+Wire Wire Line
+	4250 3500 4250 3400
+Wire Wire Line
+	4250 3400 4300 3400
+Connection ~ 4250 3400
+Wire Wire Line
+	3700 3350 3700 3500
+Wire Wire Line
+	3750 3350 3700 3350
+Wire Wire Line
+	4250 3800 4200 3800
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5F130DE9
+P 4400 3800
+F 0 "#GND?" H 4400 3800 50  0001 C CNN
+F 1 "GND" V 4400 3700 59  0000 R CNN
+F 2 "" H 4400 3800 50  0001 C CNN
+F 3 "" H 4400 3800 50  0001 C CNN
+	1    4400 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Pufferfish:B2B-PH-SM4-TB(LF)(SN) CONN?
+U 1 1 5F130DF0
+P 3950 3650
+F 0 "CONN?" H 4300 3750 50  0000 C CNN
+F 1 "B2B-PH-SM4-TB(LF)(SN)" H 4700 3650 50  0000 C CNN
+F 2 "Pufferfish:JST_B2B-PH-SM4-TB" H 4400 4100 50  0001 L BNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4200 3700 50  0001 L BNN
+F 4 "JST Sales America Inc." H 4900 4250 50  0001 C CNN "Manufacturer"
+	1    3950 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3900 4250 3900
+Wire Wire Line
+	4250 3900 4250 3800
+Wire Wire Line
+	4250 3800 4300 3800
+Connection ~ 4250 3800
+Wire Wire Line
+	3700 3750 3700 3900
+Wire Wire Line
+	3750 3750 3700 3750
+Wire Wire Line
+	4250 4200 4200 4200
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5F13EF05
+P 4400 4200
+F 0 "#GND?" H 4400 4200 50  0001 C CNN
+F 1 "GND" V 4400 4100 59  0000 R CNN
+F 2 "" H 4400 4200 50  0001 C CNN
+F 3 "" H 4400 4200 50  0001 C CNN
+	1    4400 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Pufferfish:B2B-PH-SM4-TB(LF)(SN) CONN?
+U 1 1 5F13EF0C
+P 3950 4050
+F 0 "CONN?" H 4300 4150 50  0000 C CNN
+F 1 "B2B-PH-SM4-TB(LF)(SN)" H 4700 4050 50  0000 C CNN
+F 2 "Pufferfish:JST_B2B-PH-SM4-TB" H 4400 4500 50  0001 L BNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4200 4100 50  0001 L BNN
+F 4 "JST Sales America Inc." H 4900 4650 50  0001 C CNN "Manufacturer"
+	1    3950 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 4300 4250 4300
+Wire Wire Line
+	4250 4300 4250 4200
+Wire Wire Line
+	4250 4200 4300 4200
+Connection ~ 4250 4200
+Wire Wire Line
+	3700 4150 3700 4300
+Wire Wire Line
+	3750 4150 3700 4150
+Wire Wire Line
+	4250 4600 4200 4600
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5F14DF7C
+P 4400 4600
+F 0 "#GND?" H 4400 4600 50  0001 C CNN
+F 1 "GND" V 4400 4500 59  0000 R CNN
+F 2 "" H 4400 4600 50  0001 C CNN
+F 3 "" H 4400 4600 50  0001 C CNN
+	1    4400 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Pufferfish:B2B-PH-SM4-TB(LF)(SN) CONN?
+U 1 1 5F14DF83
+P 3950 4450
+F 0 "CONN?" H 4300 4550 50  0000 C CNN
+F 1 "B2B-PH-SM4-TB(LF)(SN)" H 4700 4450 50  0000 C CNN
+F 2 "Pufferfish:JST_B2B-PH-SM4-TB" H 4400 4900 50  0001 L BNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4200 4500 50  0001 L BNN
+F 4 "JST Sales America Inc." H 4900 5050 50  0001 C CNN "Manufacturer"
+	1    3950 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 4700 4250 4700
+Wire Wire Line
+	4250 4700 4250 4600
+Wire Wire Line
+	4250 4600 4300 4600
+Connection ~ 4250 4600
+Wire Wire Line
+	3700 4550 3700 4700
+Wire Wire Line
+	3750 4550 3700 4550
+Wire Wire Line
+	4250 5000 4200 5000
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5F15DEBD
+P 4400 5000
+F 0 "#GND?" H 4400 5000 50  0001 C CNN
+F 1 "GND" V 4400 4900 59  0000 R CNN
+F 2 "" H 4400 5000 50  0001 C CNN
+F 3 "" H 4400 5000 50  0001 C CNN
+	1    4400 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Pufferfish:B2B-PH-SM4-TB(LF)(SN) CONN?
+U 1 1 5F15DEC4
+P 3950 4850
+F 0 "CONN?" H 4300 4950 50  0000 C CNN
+F 1 "B2B-PH-SM4-TB(LF)(SN)" H 4700 4850 50  0000 C CNN
+F 2 "Pufferfish:JST_B2B-PH-SM4-TB" H 4400 5300 50  0001 L BNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4200 4900 50  0001 L BNN
+F 4 "JST Sales America Inc." H 4900 5450 50  0001 C CNN "Manufacturer"
+	1    3950 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 5100 4250 5100
+Wire Wire Line
+	4250 5100 4250 5000
+Wire Wire Line
+	4250 5000 4300 5000
+Connection ~ 4250 5000
+Wire Wire Line
+	3700 4950 3700 5100
+Wire Wire Line
+	3750 4950 3700 4950
+$Comp
+L Pufferfish:SHORT_SMD_0603 R?
+U 1 1 5F18AAC2
+P 3200 7500
+F 0 "R?" V 3111 7475 50  0000 C CNN
+F 1 "SHORT_SMD_0603" H 3230 7360 50  0001 L CNN
+F 2 "Pufferfish:SHORT_SMD_0603" H 3400 7100 50  0001 C CNN
+F 3 "~" H 3550 7700 50  0001 C CNN
+F 4 "?%" H 3300 7450 50  0001 C CNN "Tolerance"
+F 5 "0Ω" H 3300 7550 50  0001 C CNN "Resistance"
+	1    3200 7500
+	0    1    1    0   
+$EndComp
+$Comp
+L Pufferfish:SHORT_SMD_0603 R?
+U 1 1 5F18AACA
+P 3200 7400
+F 0 "R?" V 3111 7375 50  0000 C CNN
+F 1 "SHORT_SMD_0603" H 3230 7260 50  0001 L CNN
+F 2 "Pufferfish:SHORT_SMD_0603" H 3400 7000 50  0001 C CNN
+F 3 "~" H 3550 7600 50  0001 C CNN
+F 4 "?%" H 3300 7350 50  0001 C CNN "Tolerance"
+F 5 "0Ω" H 3300 7450 50  0001 C CNN "Resistance"
+	1    3200 7400
+	0    1    1    0   
+$EndComp
+$Comp
+L Pufferfish:SHORT_SMD_0603 R?
+U 1 1 5F18AAD2
+P 3200 7300
+F 0 "R?" V 3111 7275 50  0000 C CNN
+F 1 "SHORT_SMD_0603" H 3230 7160 50  0001 L CNN
+F 2 "Pufferfish:SHORT_SMD_0603" H 3400 6900 50  0001 C CNN
+F 3 "~" H 3550 7500 50  0001 C CNN
+F 4 "?%" H 3300 7250 50  0001 C CNN "Tolerance"
+F 5 "0Ω" H 3300 7350 50  0001 C CNN "Resistance"
+	1    3200 7300
+	0    1    1    0   
+$EndComp
+$Comp
+L Pufferfish:SHORT_SMD_0603 R?
+U 1 1 5F18AADA
+P 3200 7200
+F 0 "R?" V 3111 7175 50  0000 C CNN
+F 1 "SHORT_SMD_0603" H 3230 7060 50  0001 L CNN
+F 2 "Pufferfish:SHORT_SMD_0603" H 3400 6800 50  0001 C CNN
+F 3 "~" H 3550 7400 50  0001 C CNN
+F 4 "?%" H 3300 7150 50  0001 C CNN "Tolerance"
+F 5 "0Ω" H 3300 7250 50  0001 C CNN "Resistance"
+	1    3200 7200
+	0    1    1    0   
+$EndComp
+$Comp
+L Pufferfish:SHORT_SMD_0603 R?
+U 1 1 5F18AAE2
+P 3200 7100
+F 0 "R?" V 3111 7075 50  0000 C CNN
+F 1 "SHORT_SMD_0603" H 3230 6960 50  0001 L CNN
+F 2 "Pufferfish:SHORT_SMD_0603" H 3400 6700 50  0001 C CNN
+F 3 "~" H 3550 7300 50  0001 C CNN
+F 4 "?%" H 3300 7050 50  0001 C CNN "Tolerance"
+F 5 "0Ω" H 3300 7150 50  0001 C CNN "Resistance"
+	1    3200 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L Pufferfish:SHORT_SMD_0603 R?
+U 1 1 5F18AAEA
+P 3200 7000
+F 0 "R?" V 3111 6975 50  0000 C CNN
+F 1 "SHORT_SMD_0603" H 3230 6860 50  0001 L CNN
+F 2 "Pufferfish:SHORT_SMD_0603" H 3400 6600 50  0001 C CNN
+F 3 "~" H 3550 7200 50  0001 C CNN
+F 4 "?%" H 3300 6950 50  0001 C CNN "Tolerance"
+F 5 "0Ω" H 3300 7050 50  0001 C CNN "Resistance"
+	1    3200 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L Pufferfish:SHORT_SMD_0603 R?
+U 1 1 5F18AAF2
+P 3200 6900
+F 0 "R?" V 3111 6875 50  0000 C CNN
+F 1 "SHORT_SMD_0603" H 3230 6760 50  0001 L CNN
+F 2 "Pufferfish:SHORT_SMD_0603" H 3400 6500 50  0001 C CNN
+F 3 "~" H 3550 7100 50  0001 C CNN
+F 4 "?%" H 3300 6850 50  0001 C CNN "Tolerance"
+F 5 "0Ω" H 3300 6950 50  0001 C CNN "Resistance"
+	1    3200 6900
+	0    1    1    0   
+$EndComp
 Wire Wire Line
 	4250 6150 4200 6150
-Connection ~ 4250 6050
-Wire Wire Line
-	4250 6150 4250 6250
-Wire Wire Line
-	4250 6250 3700 6250
-Wire Wire Line
-	3700 6250 3700 6100
-Connection ~ 4250 6150
 Wire Wire Line
 	3750 6100 3700 6100
-$Comp
-L Pufferfish:B2B-PH-SM4-TB(LF)(SN) CONN?
-U 1 1 5F047D2B
-P 3950 6400
-F 0 "CONN?" H 4550 6300 50  0000 C CNN
-F 1 "B2B-PH-SM4-TB(LF)(SN)" H 4800 6200 50  0000 C CNN
-F 2 "Pufferfish:JST_B2B-PH-SM4-TB" H 4400 6850 50  0001 L BNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4200 6450 50  0001 L BNN
-F 4 "JST Sales America Inc." H 4900 7000 50  0001 C CNN "Manufacturer"
-	1    3950 6400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish:GND #GND?
-U 1 1 5F047D31
-P 4350 6450
-F 0 "#GND?" H 4350 6450 50  0001 C CNN
-F 1 "GND" V 4450 6500 59  0000 R CNN
-F 2 "" H 4350 6450 50  0001 C CNN
-F 3 "" H 4350 6450 50  0001 C CNN
-	1    4350 6450
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4200 6350 4250 6350
-Wire Wire Line
-	4250 6350 4250 6450
-Wire Wire Line
-	4250 6450 4250 6550
-Wire Wire Line
-	4250 6550 4200 6550
-Connection ~ 4250 6450
-Wire Wire Line
-	4250 6550 4250 6650
-Wire Wire Line
-	4250 6650 3700 6650
-Wire Wire Line
-	3700 6650 3700 6500
-Connection ~ 4250 6550
-Wire Wire Line
-	3750 6500 3700 6500
-$Comp
-L Pufferfish:B2B-PH-SM4-TB(LF)(SN) CONN?
-U 1 1 5F047D42
-P 3950 6800
-F 0 "CONN?" H 4550 6700 50  0000 C CNN
-F 1 "B2B-PH-SM4-TB(LF)(SN)" H 4800 6600 50  0000 C CNN
-F 2 "Pufferfish:JST_B2B-PH-SM4-TB" H 4400 7250 50  0001 L BNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4200 6850 50  0001 L BNN
-F 4 "JST Sales America Inc." H 4900 7400 50  0001 C CNN "Manufacturer"
-	1    3950 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish:GND #GND?
-U 1 1 5F047D48
-P 4350 6850
-F 0 "#GND?" H 4350 6850 50  0001 C CNN
-F 1 "GND" V 4450 6900 59  0000 R CNN
-F 2 "" H 4350 6850 50  0001 C CNN
-F 3 "" H 4350 6850 50  0001 C CNN
-	1    4350 6850
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4200 6750 4250 6750
-Wire Wire Line
-	4250 6750 4250 6850
-Wire Wire Line
-	4250 6850 4250 6950
-Wire Wire Line
-	4250 6950 4200 6950
-Connection ~ 4250 6850
-Wire Wire Line
-	4250 6950 4250 7050
-Wire Wire Line
-	4250 7050 3700 7050
-Wire Wire Line
-	3700 7050 3700 6900
-Connection ~ 4250 6950
-Wire Wire Line
-	3750 6900 3700 6900
-$Comp
-L Pufferfish:B2B-PH-SM4-TB(LF)(SN) CONN?
-U 1 1 5F047D59
-P 3950 7200
-F 0 "CONN?" H 4550 7100 50  0000 C CNN
-F 1 "B2B-PH-SM4-TB(LF)(SN)" H 4800 7000 50  0000 C CNN
-F 2 "Pufferfish:JST_B2B-PH-SM4-TB" H 4400 7650 50  0001 L BNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4200 7250 50  0001 L BNN
-F 4 "JST Sales America Inc." H 4900 7800 50  0001 C CNN "Manufacturer"
-	1    3950 7200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish:GND #GND?
-U 1 1 5F047D5F
-P 4350 7250
-F 0 "#GND?" H 4350 7250 50  0001 C CNN
-F 1 "GND" V 4450 7300 59  0000 R CNN
-F 2 "" H 4350 7250 50  0001 C CNN
-F 3 "" H 4350 7250 50  0001 C CNN
-	1    4350 7250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4200 7150 4250 7150
-Wire Wire Line
-	4250 7150 4250 7250
-Wire Wire Line
-	4250 7250 4250 7350
-Wire Wire Line
-	4250 7350 4200 7350
-Connection ~ 4250 7250
-Wire Wire Line
-	4250 7350 4250 7450
-Wire Wire Line
-	4250 7450 3700 7450
-Wire Wire Line
-	3700 7450 3700 7300
-Connection ~ 4250 7350
-Wire Wire Line
-	3750 7300 3700 7300
-$Comp
-L Pufferfish:B2B-PH-SM4-TB(LF)(SN) CONN?
-U 1 1 5F047D70
-P 3950 7600
-F 0 "CONN?" H 4550 7500 50  0000 C CNN
-F 1 "B2B-PH-SM4-TB(LF)(SN)" H 4800 7400 50  0000 C CNN
-F 2 "Pufferfish:JST_B2B-PH-SM4-TB" H 4400 8050 50  0001 L BNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4200 7650 50  0001 L BNN
-F 4 "JST Sales America Inc." H 4900 8200 50  0001 C CNN "Manufacturer"
-	1    3950 7600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish:GND #GND?
-U 1 1 5F047D76
-P 4350 7650
-F 0 "#GND?" H 4350 7650 50  0001 C CNN
-F 1 "GND" V 4450 7700 59  0000 R CNN
-F 2 "" H 4350 7650 50  0001 C CNN
-F 3 "" H 4350 7650 50  0001 C CNN
-	1    4350 7650
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4200 7550 4250 7550
-Wire Wire Line
-	4250 7550 4250 7650
-Wire Wire Line
-	4250 7650 4250 7750
-Wire Wire Line
-	4250 7750 4200 7750
-Connection ~ 4250 7650
-Wire Wire Line
-	4250 7750 4250 7850
-Wire Wire Line
-	4250 7850 3700 7850
-Wire Wire Line
-	3700 7850 3700 7700
-Connection ~ 4250 7750
-Wire Wire Line
-	3750 7700 3700 7700
-$Comp
-L Pufferfish:B2B-PH-SM4-TB(LF)(SN) CONN?
-U 1 1 5F047D87
-P 3950 8000
-F 0 "CONN?" H 4550 7900 50  0000 C CNN
-F 1 "B2B-PH-SM4-TB(LF)(SN)" H 4800 7800 50  0000 C CNN
-F 2 "Pufferfish:JST_B2B-PH-SM4-TB" H 4400 8450 50  0001 L BNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4200 8050 50  0001 L BNN
-F 4 "JST Sales America Inc." H 4900 8600 50  0001 C CNN "Manufacturer"
-	1    3950 8000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish:GND #GND?
-U 1 1 5F047D8D
-P 4350 8050
-F 0 "#GND?" H 4350 8050 50  0001 C CNN
-F 1 "GND" V 4450 8100 59  0000 R CNN
-F 2 "" H 4350 8050 50  0001 C CNN
-F 3 "" H 4350 8050 50  0001 C CNN
-	1    4350 8050
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4200 7950 4250 7950
-Wire Wire Line
-	4250 7950 4250 8050
-Wire Wire Line
-	4250 8050 4250 8150
-Wire Wire Line
-	4250 8150 4200 8150
-Connection ~ 4250 8050
-Wire Wire Line
-	4250 8150 4250 8250
-Wire Wire Line
-	4250 8250 3700 8250
-Wire Wire Line
-	3700 8250 3700 8100
-Connection ~ 4250 8150
-Wire Wire Line
-	3750 8100 3700 8100
-$Comp
-L Pufferfish:B2B-PH-SM4-TB(LF)(SN) CONN?
-U 1 1 5F047D9E
-P 3950 8400
-F 0 "CONN?" H 4550 8300 50  0000 C CNN
-F 1 "B2B-PH-SM4-TB(LF)(SN)" H 4800 8200 50  0000 C CNN
-F 2 "Pufferfish:JST_B2B-PH-SM4-TB" H 4400 8850 50  0001 L BNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4200 8450 50  0001 L BNN
-F 4 "JST Sales America Inc." H 4900 9000 50  0001 C CNN "Manufacturer"
-	1    3950 8400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish:GND #GND?
-U 1 1 5F047DA4
-P 4350 8450
-F 0 "#GND?" H 4350 8450 50  0001 C CNN
-F 1 "GND" V 4450 8500 59  0000 R CNN
-F 2 "" H 4350 8450 50  0001 C CNN
-F 3 "" H 4350 8450 50  0001 C CNN
-	1    4350 8450
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4200 8350 4250 8350
-Wire Wire Line
-	4250 8350 4250 8450
-Wire Wire Line
-	4250 8450 4250 8550
-Wire Wire Line
-	4250 8550 4200 8550
-Connection ~ 4250 8450
-Wire Wire Line
-	4250 8550 4250 8650
-Wire Wire Line
-	4250 8650 3700 8650
-Wire Wire Line
-	3700 8650 3700 8500
-Connection ~ 4250 8550
-Wire Wire Line
-	3750 8500 3700 8500
 Wire Wire Line
 	3300 7500 3400 7500
 Wire Wire Line
@@ -2527,8 +2082,6 @@ Wire Wire Line
 	3300 7000 3500 7000
 Wire Wire Line
 	3500 7000 3500 6400
-Wire Wire Line
-	3500 6400 3750 6400
 Wire Wire Line
 	3300 7100 3600 7100
 Wire Wire Line
@@ -2549,4 +2102,337 @@ Wire Wire Line
 	3500 7400 3500 8000
 Wire Wire Line
 	3500 8000 3750 8000
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5F18AB0C
+P 4400 6150
+F 0 "#GND?" H 4400 6150 50  0001 C CNN
+F 1 "GND" V 4400 6050 59  0000 R CNN
+F 2 "" H 4400 6150 50  0001 C CNN
+F 3 "" H 4400 6150 50  0001 C CNN
+	1    4400 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Pufferfish:B2B-PH-SM4-TB(LF)(SN) CONN?
+U 1 1 5F18AB13
+P 3950 6000
+F 0 "CONN?" H 4300 6100 50  0000 C CNN
+F 1 "B2B-PH-SM4-TB(LF)(SN)" H 4700 6000 50  0000 C CNN
+F 2 "Pufferfish:JST_B2B-PH-SM4-TB" H 4400 6450 50  0001 L BNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4200 6050 50  0001 L BNN
+F 4 "JST Sales America Inc." H 4900 6600 50  0001 C CNN "Manufacturer"
+	1    3950 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 6100 3700 6250
+Wire Wire Line
+	3700 6250 4250 6250
+Wire Wire Line
+	4250 6250 4250 6150
+Wire Wire Line
+	4250 6150 4300 6150
+Connection ~ 4250 6150
+Wire Wire Line
+	4250 6550 4200 6550
+Wire Wire Line
+	3750 6500 3700 6500
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5F18AB20
+P 4400 6550
+F 0 "#GND?" H 4400 6550 50  0001 C CNN
+F 1 "GND" V 4400 6450 59  0000 R CNN
+F 2 "" H 4400 6550 50  0001 C CNN
+F 3 "" H 4400 6550 50  0001 C CNN
+	1    4400 6550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Pufferfish:B2B-PH-SM4-TB(LF)(SN) CONN?
+U 1 1 5F18AB27
+P 3950 6400
+F 0 "CONN?" H 4300 6500 50  0000 C CNN
+F 1 "B2B-PH-SM4-TB(LF)(SN)" H 4700 6400 50  0000 C CNN
+F 2 "Pufferfish:JST_B2B-PH-SM4-TB" H 4400 6850 50  0001 L BNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4200 6450 50  0001 L BNN
+F 4 "JST Sales America Inc." H 4900 7000 50  0001 C CNN "Manufacturer"
+	1    3950 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 6500 3700 6650
+Wire Wire Line
+	3700 6650 4250 6650
+Wire Wire Line
+	4250 6650 4250 6550
+Wire Wire Line
+	4250 6550 4300 6550
+Connection ~ 4250 6550
+Wire Wire Line
+	3500 6400 3750 6400
+Wire Wire Line
+	4250 6950 4200 6950
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5F18AB34
+P 4400 6950
+F 0 "#GND?" H 4400 6950 50  0001 C CNN
+F 1 "GND" V 4400 6850 59  0000 R CNN
+F 2 "" H 4400 6950 50  0001 C CNN
+F 3 "" H 4400 6950 50  0001 C CNN
+	1    4400 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Pufferfish:B2B-PH-SM4-TB(LF)(SN) CONN?
+U 1 1 5F18AB3B
+P 3950 6800
+F 0 "CONN?" H 4300 6900 50  0000 C CNN
+F 1 "B2B-PH-SM4-TB(LF)(SN)" H 4700 6800 50  0000 C CNN
+F 2 "Pufferfish:JST_B2B-PH-SM4-TB" H 4400 7250 50  0001 L BNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4200 6850 50  0001 L BNN
+F 4 "JST Sales America Inc." H 4900 7400 50  0001 C CNN "Manufacturer"
+	1    3950 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 7050 4250 7050
+Wire Wire Line
+	4250 7050 4250 6950
+Wire Wire Line
+	4250 6950 4300 6950
+Connection ~ 4250 6950
+Wire Wire Line
+	3700 6900 3700 7050
+Wire Wire Line
+	3750 6900 3700 6900
+Wire Wire Line
+	4250 7350 4200 7350
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5F18AB48
+P 4400 7350
+F 0 "#GND?" H 4400 7350 50  0001 C CNN
+F 1 "GND" V 4400 7250 59  0000 R CNN
+F 2 "" H 4400 7350 50  0001 C CNN
+F 3 "" H 4400 7350 50  0001 C CNN
+	1    4400 7350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Pufferfish:B2B-PH-SM4-TB(LF)(SN) CONN?
+U 1 1 5F18AB4F
+P 3950 7200
+F 0 "CONN?" H 4300 7300 50  0000 C CNN
+F 1 "B2B-PH-SM4-TB(LF)(SN)" H 4700 7200 50  0000 C CNN
+F 2 "Pufferfish:JST_B2B-PH-SM4-TB" H 4400 7650 50  0001 L BNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4200 7250 50  0001 L BNN
+F 4 "JST Sales America Inc." H 4900 7800 50  0001 C CNN "Manufacturer"
+	1    3950 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 7450 4250 7450
+Wire Wire Line
+	4250 7450 4250 7350
+Wire Wire Line
+	4250 7350 4300 7350
+Connection ~ 4250 7350
+Wire Wire Line
+	3700 7300 3700 7450
+Wire Wire Line
+	3750 7300 3700 7300
+Wire Wire Line
+	4250 7750 4200 7750
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5F18AB5C
+P 4400 7750
+F 0 "#GND?" H 4400 7750 50  0001 C CNN
+F 1 "GND" V 4400 7650 59  0000 R CNN
+F 2 "" H 4400 7750 50  0001 C CNN
+F 3 "" H 4400 7750 50  0001 C CNN
+	1    4400 7750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Pufferfish:B2B-PH-SM4-TB(LF)(SN) CONN?
+U 1 1 5F18AB63
+P 3950 7600
+F 0 "CONN?" H 4300 7700 50  0000 C CNN
+F 1 "B2B-PH-SM4-TB(LF)(SN)" H 4700 7600 50  0000 C CNN
+F 2 "Pufferfish:JST_B2B-PH-SM4-TB" H 4400 8050 50  0001 L BNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4200 7650 50  0001 L BNN
+F 4 "JST Sales America Inc." H 4900 8200 50  0001 C CNN "Manufacturer"
+	1    3950 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 7850 4250 7850
+Wire Wire Line
+	4250 7850 4250 7750
+Wire Wire Line
+	4250 7750 4300 7750
+Connection ~ 4250 7750
+Wire Wire Line
+	3700 7700 3700 7850
+Wire Wire Line
+	3750 7700 3700 7700
+Wire Wire Line
+	4250 8150 4200 8150
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5F18AB70
+P 4400 8150
+F 0 "#GND?" H 4400 8150 50  0001 C CNN
+F 1 "GND" V 4400 8050 59  0000 R CNN
+F 2 "" H 4400 8150 50  0001 C CNN
+F 3 "" H 4400 8150 50  0001 C CNN
+	1    4400 8150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Pufferfish:B2B-PH-SM4-TB(LF)(SN) CONN?
+U 1 1 5F18AB77
+P 3950 8000
+F 0 "CONN?" H 4300 8100 50  0000 C CNN
+F 1 "B2B-PH-SM4-TB(LF)(SN)" H 4700 8000 50  0000 C CNN
+F 2 "Pufferfish:JST_B2B-PH-SM4-TB" H 4400 8450 50  0001 L BNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4200 8050 50  0001 L BNN
+F 4 "JST Sales America Inc." H 4900 8600 50  0001 C CNN "Manufacturer"
+	1    3950 8000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 8250 4250 8250
+Wire Wire Line
+	4250 8250 4250 8150
+Wire Wire Line
+	4250 8150 4300 8150
+Connection ~ 4250 8150
+Wire Wire Line
+	3700 8100 3700 8250
+Wire Wire Line
+	3750 8100 3700 8100
+Wire Wire Line
+	4250 8550 4200 8550
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5F18AB84
+P 4400 8550
+F 0 "#GND?" H 4400 8550 50  0001 C CNN
+F 1 "GND" V 4400 8450 59  0000 R CNN
+F 2 "" H 4400 8550 50  0001 C CNN
+F 3 "" H 4400 8550 50  0001 C CNN
+	1    4400 8550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Pufferfish:B2B-PH-SM4-TB(LF)(SN) CONN?
+U 1 1 5F18AB8B
+P 3950 8400
+F 0 "CONN?" H 4300 8500 50  0000 C CNN
+F 1 "B2B-PH-SM4-TB(LF)(SN)" H 4700 8400 50  0000 C CNN
+F 2 "Pufferfish:JST_B2B-PH-SM4-TB" H 4400 8850 50  0001 L BNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4200 8450 50  0001 L BNN
+F 4 "JST Sales America Inc." H 4900 9000 50  0001 C CNN "Manufacturer"
+	1    3950 8400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 8650 4250 8650
+Wire Wire Line
+	4250 8650 4250 8550
+Wire Wire Line
+	4250 8550 4300 8550
+Connection ~ 4250 8550
+Wire Wire Line
+	3700 8500 3700 8650
+Wire Wire Line
+	3750 8500 3700 8500
+$Comp
+L Pufferfish:3.3V #SUPPLY?
+U 1 1 5F2DE8AD
+P 7250 2650
+F 0 "#SUPPLY?" H 7250 2650 50  0001 C CNN
+F 1 "3.3V" V 7350 2650 59  0000 L CNN
+F 2 "" H 7250 2650 50  0001 C CNN
+F 3 "" H 7250 2650 50  0001 C CNN
+	1    7250 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Pufferfish:SHORT_SMD_0603 R?
+U 1 1 5F2F4D08
+P 7400 4450
+F 0 "R?" V 7350 4500 50  0000 C CNN
+F 1 "SHORT_SMD_0603" H 7430 4310 50  0001 L CNN
+F 2 "Pufferfish:SHORT_SMD_0603" H 7600 4050 50  0001 C CNN
+F 3 "~" H 7750 4650 50  0001 C CNN
+F 4 "?%" H 7500 4400 50  0001 C CNN "Tolerance"
+F 5 "0Ω" H 7500 4500 50  0001 C CNN "Resistance"
+	1    7400 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Pufferfish:3.3V #SUPPLY?
+U 1 1 5F2F4D1B
+P 7250 4450
+F 0 "#SUPPLY?" H 7250 4450 50  0001 C CNN
+F 1 "3.3V" V 7350 4450 59  0000 L CNN
+F 2 "" H 7250 4450 50  0001 C CNN
+F 3 "" H 7250 4450 50  0001 C CNN
+	1    7250 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Pufferfish:SHORT_SMD_0603 R?
+U 1 1 5F35A17F
+P 7400 6100
+F 0 "R?" V 7350 6150 50  0000 C CNN
+F 1 "SHORT_SMD_0603" H 7430 5960 50  0001 L CNN
+F 2 "Pufferfish:SHORT_SMD_0603" H 7600 5700 50  0001 C CNN
+F 3 "~" H 7750 6300 50  0001 C CNN
+F 4 "?%" H 7500 6050 50  0001 C CNN "Tolerance"
+F 5 "0Ω" H 7500 6150 50  0001 C CNN "Resistance"
+	1    7400 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L Pufferfish:3.3V #SUPPLY?
+U 1 1 5F35A185
+P 7250 6100
+F 0 "#SUPPLY?" H 7250 6100 50  0001 C CNN
+F 1 "3.3V" V 7350 6100 59  0000 L CNN
+F 2 "" H 7250 6100 50  0001 C CNN
+F 3 "" H 7250 6100 50  0001 C CNN
+	1    7250 6100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Pufferfish:SHORT_SMD_0603 R?
+U 1 1 5F36F013
+P 7400 7900
+F 0 "R?" V 7350 7950 50  0000 C CNN
+F 1 "SHORT_SMD_0603" H 7430 7760 50  0001 L CNN
+F 2 "Pufferfish:SHORT_SMD_0603" H 7600 7500 50  0001 C CNN
+F 3 "~" H 7750 8100 50  0001 C CNN
+F 4 "?%" H 7500 7850 50  0001 C CNN "Tolerance"
+F 5 "0Ω" H 7500 7950 50  0001 C CNN "Resistance"
+	1    7400 7900
+	0    1    1    0   
+$EndComp
+$Comp
+L Pufferfish:3.3V #SUPPLY?
+U 1 1 5F36F019
+P 7250 7900
+F 0 "#SUPPLY?" H 7250 7900 50  0001 C CNN
+F 1 "3.3V" V 7350 7900 59  0000 L CNN
+F 2 "" H 7250 7900 50  0001 C CNN
+F 3 "" H 7250 7900 50  0001 C CNN
+	1    7250 7900
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

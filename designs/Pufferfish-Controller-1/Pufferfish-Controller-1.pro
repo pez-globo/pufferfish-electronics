@@ -1,4 +1,4 @@
-update=Wednesday, June 03, 2020 at 04:28:02 PM
+update=Friday, June 12, 2020 at 04:58:46 PM
 version=1
 last_client=kicad
 [general]
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=${KIPRJMOD}/../../Pufferfish.kicad_wks
-PlotDirectoryName=
+PlotDirectoryName=../../../../../../Downloads/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
