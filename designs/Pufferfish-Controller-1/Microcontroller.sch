@@ -917,7 +917,6 @@ Text GLabel 8450 2750 0    50   Input ~ 0
 VDD_ANALOG
 NoConn ~ 8700 3450
 NoConn ~ 8700 4150
-NoConn ~ 8700 5850
 NoConn ~ 5100 2450
 NoConn ~ 5100 2850
 NoConn ~ 5100 3050
@@ -1846,4 +1845,19 @@ F 5 "0Ω" H 10150 4900 50  0001 C CNN "Resistance"
 $EndComp
 Text GLabel 10150 4850 2    50   BiDi ~ 0
 I2C3_SCL
+Text GLabel 8450 5850 0    50   Input ~ 0
+PRESS_VDD_EN
+$Comp
+L Pufferfish:SHORT_SMD_0603 R?
+U 1 1 5EFD357D
+P 8600 5850
+F 0 "R?" V 8511 5825 50  0000 C CNN
+F 1 "SHORT_SMD_0603" H 8630 5710 50  0001 L CNN
+F 2 "Pufferfish:SHORT_SMD_0603" H 8800 5450 50  0001 C CNN
+F 3 "~" H 8950 6050 50  0001 C CNN
+F 4 "?%" H 8700 5800 50  0001 C CNN "Tolerance"
+F 5 "0Ω" H 8700 5900 50  0001 C CNN "Resistance"
+	1    8600 5850
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
