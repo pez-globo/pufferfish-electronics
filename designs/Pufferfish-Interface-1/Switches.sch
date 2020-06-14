@@ -152,7 +152,7 @@ F 5 "10KΩ" V 6436 3000 50  0000 C CNN "Resistance"
 	1    0    0    -1  
 $EndComp
 Text GLabel 7900 3150 2    50   Input ~ 0
-SET_NOT_PAUSE
+SW_NOT_PAUSE
 Connection ~ 7000 3150
 Wire Wire Line
 	6900 3150 7000 3150
@@ -271,9 +271,9 @@ F 5 "10KΩ" V 3536 2950 50  0000 C CNN "Resistance"
 	1    0    0    -1  
 $EndComp
 Text GLabel 5000 3100 2    50   Input ~ 0
-SET_ALARM_EN
+SW_ALARM_EN
 Text GLabel 3650 5750 0    50   Input ~ 0
-SET_PWR_ON_OFF
+SW_PWR_ON_OFF
 Connection ~ 4100 3100
 Wire Wire Line
 	4000 3100 4100 3100
@@ -430,7 +430,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 5500 8600 5700
 Text GLabel 6700 5700 0    50   Input ~ 0
-SET_PWR_SRC
+SW_PWR_SRC
 $Comp
 L Power_Protection:TPD1E1B04 D?
 U 1 1 5EEA330A

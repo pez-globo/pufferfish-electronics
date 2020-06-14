@@ -1,0 +1,306 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1658623-3
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1658623&DocType=Customer+Drawing&DocLang=English&PartCntxt=1658623-3&DocFormat=pdf
+$ENDCMP
+#
+$CMP 5103308-3
+D Headers & Wire Housings 16P 2 ROW HEADER LP
+K header
+F http://componentsearchengine.com/Datasheets/1/5103308-3.pdf
+$ENDCMP
+#
+$CMP ABPDANN005PG2A3
+D ABPDANN005PG2A3, Differential Pressure Sensor 5psi 6-Pin DIP
+F https://componentsearchengine.com/Datasheets/1/ABPDANN005PG2A3.pdf
+$ENDCMP
+#
+$CMP ABPMAND001PG2A3
+D ABPMAND001PG2A3, Differential Pressure Sensor 1psi 6-Pin SMT
+F https://www.mouser.com/datasheet/2/187/honeywell-sensing-pressure-board-mount-abp-series--1846114.pdf
+$ENDCMP
+#
+$CMP ABPMANN030PG2A3
+D ABPMANN030PG2A3, Differential Pressure Sensor 30psi 6-Pin SMT
+F https://www.mouser.com/datasheet/2/187/honeywell-sensing-pressure-board-mount-abp-series--1846114.pdf
+$ENDCMP
+#
+$CMP B2B-PH-SM4-TB(LF)(SN)
+D Connector Header Surface Mount 2 position 0.079" (2.00mm)
+F http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+$ENDCMP
+#
+$CMP B4B-PH-SM4-TB(LF)(SN)
+D Connector Header Surface Mount 4 position 0.079" (2.00mm)
+F JST
+$ENDCMP
+#
+$CMP B8B-PH-SM4-TB(LF)(SN)
+F None
+$ENDCMP
+#
+$CMP BME280
+D DIP Breakout for Adafruit's BME280 board
+$ENDCMP
+#
+$CMP BUZZER-12MM
+D Generic 12mm Buzzer
+$ENDCMP
+#
+$CMP CAP_100pF_10V_NP0_0402
+D Capacitor, Ceramic, 1uF Capacitance, 35V Rating, X7R Dielectric, SMT, 0603 Package
+K capacitor cap
+F https://www.digikey.com/product-detail/en/kemet/C0402C101K8GAC7867/399-14413-6-ND/7104044
+$ENDCMP
+#
+$CMP CAP_1nF_50V_C0G_0402
+D Capacitor, Ceramic, 1uF Capacitance, 35V Rating, X7R Dielectric, SMT, 0603 Package
+K capacitor cap
+F https://www.digikey.com/product-detail/en/murata-electronics/GRM1555C1H102JA01D/490-3244-2-ND/702509
+$ENDCMP
+#
+$CMP CAP_1uF_35V_X7R_0603
+D Capacitor, Ceramic, 1uF Capacitance, 35V Rating, X7R Dielectric, SMT, 0603 Package
+K capacitor cap
+F https://www.digikey.com/product-detail/en/taiyo-yuden/GMK107AB7105KAHT/587-3352-1-ND/4157239
+$ENDCMP
+#
+$CMP CAP_POLAR_SMD_0805
+D Polarized capacitor, small symbol, 0805, SMD, SMT
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP CAP_SMD_0402
+D Unpolarized capacitor, small symbol, 0402, SMD, SMT
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP CAP_SMD_0603
+D Unpolarized capacitor, small symbol, 0603, SMD, SMT
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP CAP_SMD_0805
+D Unpolarized capacitor, small symbol, 0805, SMD, SMT
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP CAP_SMD_1206
+D Unpolarized capacitor, small symbol, 1206, SMD, SMT
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP HSCDRRN001BDSA3
+D Board Mount Pressure Sensors DIP, Dual Rad Barbed Differential, 3.3VBoard Mount Pressure Sensors DIP, Dual Rad Barbed Differential, 3.3VBoard Mount Pressure Sensors DIP, Dual Rad Barbed Differential, 3.3V
+K Pressure, Sensor
+F https://www.mouser.com/ProductDetail/Honeywell/HSCDRRN001BDSA3?qs=FIB5FJLAMZPKjXoG85AsFA%3D%3D
+$ENDCMP
+#
+$CMP HSCMRRN060MDSA3
+D Board Mount Pressure Sensors SMT, Dual Rad Barbed Differential, 3.3V Board Mount Pressure Sensors SMT, Dual Rad Barbed Differential, 3.3VBoard Mount Pressure Sensors SMT, Dual Rad Barbed Differential, 3.3VBoard Mount Pressure Sensors SMT, Dual Rad Barbed Differential, 3.3V
+K Pressure, Sensor
+F https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf
+$ENDCMP
+#
+$CMP HSCMRRN060PDSA3
+D Board Mount Pressure Sensors SMT, Dual Rad Barbed Differential, 3.3VBoard Mount Pressure Sensors SMT, Dual Rad Barbed Differential, 3.3V
+K Pressure, Sensor
+F https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf
+$ENDCMP
+#
+$CMP HSCMRRN100MDSA3
+D Board Mount Pressure Sensors SMT, Dual Rad Barbed Differential, 3.3V
+K Pressure, Sensor
+F https://www.mouser.com/datasheet/2/187/honeywell-sensing-trustability-hsc-series-high-acc-708740.pdf
+$ENDCMP
+#
+$CMP INA818IDR
+D 35-uV offset, 8-nV/Hz noise, low-power, precision instrumentation amplifier
+F http://www.ti.com/lit/gpn/INA818
+$ENDCMP
+#
+$CMP INTVCC-LTC4421
+D Power symbol creates a global label with name "VDD"
+K power-flag
+$ENDCMP
+#
+$CMP LED_PTH_5MM
+D Light emitting diode, filled shape, 5mm, through hole
+K LED diode
+F ~
+$ENDCMP
+#
+$CMP LED_SMD_0805
+D Light emitting diode, filled shape, SMT, SMD
+K LED diode
+F ~
+$ENDCMP
+#
+$CMP LM1117IMPX-3.3_NOPB
+D LM1117IMP-3.3/NOPB, Low Dropout Voltage Regulator, 1.5A, 3.3 V +/-1%, 4-Pin SOT-223
+$ENDCMP
+#
+$CMP LM1117IMPX-5.0_NOPB
+D Space saving 800-mA low-dropout linear regulator with internal current limit
+F http://www.ti.com/lit/gpn/lm1117
+$ENDCMP
+#
+$CMP LMP91000SDE
+D Texas Instruments,LMP91000SDE/NOPB,AFE LMP91000SDE/NOPB, Analogue Front End IC, 1-channel Serial-I2C, 14-Pin WSON
+F http://www.ti.com/lit/ds/symlink/lmp91000.pdf
+$ENDCMP
+#
+$CMP LTC4421IUHE
+D IC, Prioritized Power Path Controller, Dual-Channel, External FET, Industrial Temperature, SMT, QFN-36
+K Power
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC4421.pdf
+$ENDCMP
+#
+$CMP MAXTEC_Max-12c
+D Jumper, 3-pole, both open
+K Jumper SPDT
+F ~
+$ENDCMP
+#
+$CMP NUCLEO-F429ZI
+D STM32 Nucleo-144 development board with STM32F429ZIT6 MCU, supports Arduino, ST Zio and Morpho
+K module, microcontroller, mcu, nucleo
+F https://www.mouser.com/datasheet/2/389/nucleo-l496zg-1308758.pdf
+$ENDCMP
+#
+$CMP POLOLU_36V4
+D Pololu High-Power Stepper Motor Driver 36v4 (Part Number: 3730)
+K motor, driver
+F https://www.pololu.com/product/3730/resources
+$ENDCMP
+#
+$CMP RES_SMD_0402
+D Resistor, small US symbol, 0402, SMD, SMT
+K r resistor res
+F ~
+$ENDCMP
+#
+$CMP RES_SMD_0603
+D Resistor, small US symbol, 0603, SMD, SMT
+K r resistor res
+F ~
+$ENDCMP
+#
+$CMP RES_SMD_0805
+D Resistor, small US symbol, 0805, SMD, SMT
+K r resistor res
+F ~
+$ENDCMP
+#
+$CMP RES_SMD_1206
+D Resistor, small US symbol, 1206, SMD, SMT
+K r resistor res
+F ~
+$ENDCMP
+#
+$CMP SDP810-125PA
+D Sensirion SDP810-125PA, Differential Pressure Sensor +125Pa 4-Pin
+F https://www.mouser.com/datasheet/2/682/Sensirion_Differential_Pressure_Sensors_SDP8xx_Dig-1511125.pdf
+$ENDCMP
+#
+$CMP SDP810-500PA
+D Sensirion SDP810-500PA, Differential Pressure Sensor +500Pa 4-Pin
+F https://www.mouser.com/datasheet/2/682/Sensirion_Differential_Pressure_Sensors_SDP8xx_Dig-1511125.pdf
+$ENDCMP
+#
+$CMP SENSIRION_EK-P4
+D Pressure Sensor Development Tools Evaluation kit SDP31
+K Pressure, Sensor
+F https://www.mouser.com/datasheet/2/682/Sensirion_Differential_Pressure_Sensors_EK-P4_Flow-1274207.pdf
+$ENDCMP
+#
+$CMP SENSIRION_EK-P4_JST
+D Pressure Sensor Development Tools Evaluation kit SDP31
+K Pressure, Sensor
+F https://www.mouser.com/datasheet/2/682/Sensirion_Differential_Pressure_Sensors_EK-P4_Flow-1274207.pdf
+$ENDCMP
+#
+$CMP SENSIRION_SFM3000
+D AIR/GAS FLOW SENSOR +/-200 SLM W (SFM3000-200C)
+K Flow, Sensor
+F https://www.sensirion.com/file/datasheet_sfm3000
+$ENDCMP
+#
+$CMP SENSIRION_SFM3000_JST
+D AIR/GAS FLOW SENSOR +/-200 SLM W (SFM3000-200C)
+K Flow, Sensor
+F https://www.sensirion.com/file/datasheet_sfm3000
+$ENDCMP
+#
+$CMP SHORT_SMD_0603
+D Shorting resistor, small US symbol, 0603, SMD, SMT
+K r resistor res short
+F ~
+$ENDCMP
+#
+$CMP TCA9548APWR
+D TEXAS INSTRUMENTS - TCA9548APWR - I2C SWITCH W/ RESET, 8-CH, TSSOP-24
+F http://www.ti.com/lit/ds/symlink/tca9548a.pdf
+$ENDCMP
+#
+$CMP TERMINAL_JUMPER_3
+D Jumper, 3-pole, both open
+K Jumper SPDT
+F ~
+$ENDCMP
+#
+$CMP TERMINAL_SCREW_2_2.54mm
+D Screw terminal, connector, 8x1 pin, 3.5mm
+$ENDCMP
+#
+$CMP TERMINAL_SCREW_4_2.54mm
+D Screw terminal, connector, 4x1 pin, 2.54mm
+$ENDCMP
+#
+$CMP TERMINAL_SCREW_4_3.5mm
+D Screw terminal, connector, 4x1 pin, 3.5mm
+$ENDCMP
+#
+$CMP TERMINAL_SCREW_8_2.54mm
+D Screw terminal, connector, 8x1 pin, 2.54mm
+$ENDCMP
+#
+$CMP TERMINAL_SCREW_8_3.5mm
+D Screw terminal, connector, 8x1 pin, 3.5mm
+$ENDCMP
+#
+$CMP TERMINAL_SCREW_8_5mm
+D Screw terminal, connector, 8x1 pin, 5mm
+$ENDCMP
+#
+$CMP TMC2209-SilentStepStick
+D Stepper motor controller & driver
+K motor, driver
+F https://www.trinamic.com/fileadmin/assets/Products/Eval_Documents/TMC2209_SilentStepStick_Rev1.10.pdf
+$ENDCMP
+#
+$CMP TPL7407LADR
+D Gate Drivers 30-V, 7-Channel NMOS Array Low-Side Driver 16-SOIC -40 to 125
+F http://www.ti.com/lit/gpn/tpl7407la
+$ENDCMP
+#
+$CMP ULN2003A
+D Darlington Array x7 NPN 50V 0.5A PDIP16 STMicroelectronics ULN2003A, 7-element NPN Darlington Transistor Array, 0.5 A 50 V HFE:1000, 16-Pin PDIP
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00001244.pdf
+$ENDCMP
+#
+$CMP VBAT-IN-12V
+D Power symbol creates a global label with name "VDD"
+K power-flag
+$ENDCMP
+#
+$CMP VREF
+D analog reference voltage
+$ENDCMP
+#
+#End Doc Library

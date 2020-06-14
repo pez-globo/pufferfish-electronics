@@ -567,4 +567,6 @@ F 5 "1KΩ" V 2836 4350 50  0000 C CNN "Resistance"
 	1    2950 4350
 	0    1    1    0   
 $EndComp
+Text Label 5700 1100 0    50   ~ 0
+TODO:NewTransistors
 $EndSCHEMATC
