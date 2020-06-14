@@ -51,7 +51,6 @@ F 4 "STMicroelectronics" H 8450 750 50  0001 L BNN "Manufacturer"
 	2    8400 2850
 	1    0    0    -1  
 $EndComp
-U 1 1 5EE67DEB
 Text Label 6000 1650 0    118  ~ 0
 Control
 Text Label 3950 2950 0    118  ~ 0
