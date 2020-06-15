@@ -118,7 +118,7 @@ Connection ~ 2800 6550
 Wire Wire Line
 	2800 6550 2800 6400
 Text GLabel 1950 6900 0    50   Input ~ 0
-ALRM2_CNTRL
+ALARM2_CNTRL
 Text Label 2950 1450 0    118  ~ 0
 Alarms
 $Comp
@@ -165,7 +165,7 @@ F 3 "~" H 7300 3050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 6800 3450 0    50   Input ~ 0
-LEDR_CNTRL
+LEDR_EN
 $Comp
 L Transistor_BJT:2SC1815 Q?
 U 1 1 5EE527F6
@@ -292,7 +292,7 @@ F 5 "1KΩ" V 8486 4500 50  0000 C CNN "Resistance"
 	0    1    1    0   
 $EndComp
 Text GLabel 8500 4500 0    50   Input ~ 0
-LEDY_CNTRL
+LEDY_EN
 $Comp
 L power:GND #PWR?
 U 1 1 5EE52837
@@ -387,7 +387,7 @@ F 5 "1KΩ" V 6786 5800 50  0000 C CNN "Resistance"
 	0    1    1    0   
 $EndComp
 Text GLabel 6800 5800 0    50   Input ~ 0
-LEDG_CNTRL
+LEDG_EN
 Text Label 7850 1950 0    118  ~ 0
 LEDs
 $Comp
@@ -451,7 +451,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 2450 2350 2300
 Text GLabel 1500 2650 0    50   Input ~ 0
-ALRM1_HIGH
+ALARM1_HIGH
 $Comp
 L Transistor_BJT:2SC1815 Q?
 U 1 1 5EE5A234
@@ -498,7 +498,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 3400 2600 3400
 Text GLabel 2050 3400 0    50   Input ~ 0
-ALRM1_MED
+ALARM1_MED
 $Comp
 L Transistor_BJT:2SC1815 Q?
 U 1 1 5EE5B6FB
@@ -530,7 +530,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 4350 3400 4350
 Text GLabel 2850 4350 0    50   Input ~ 0
-ALRM1_LOW
+ALARM1_LOW
 $Comp
 L Pufferfish:5V #SUPPLY?
 U 1 1 5EE780F4
