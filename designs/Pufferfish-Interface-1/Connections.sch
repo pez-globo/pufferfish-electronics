@@ -13,8 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 2800 2050 0    118  ~ 0
-ControlBoard
 $Comp
 L Pufferfish:3.3V #SUPPLY?
 U 1 1 5EE37208
@@ -99,28 +97,6 @@ Text GLabel 3000 3450 0    50   Input ~ 0
 SET_PWR_ON_OFF
 Text GLabel 3900 3050 2    50   Input ~ 0
 ALARM1_LOW
-Text Label 4450 3100 0    50   ~ 0
-CN7_5_PB13
-Text Label 2000 3100 0    50   ~ 0
-CN8_6_PC10
-Text Label 2000 3300 0    50   ~ 0
-CN8_8_PC11
-Text Label 1950 3200 0    50   ~ 0
-CN8_10_PC12
-Text Label 1900 3400 0    50   ~ 0
-CN10_15_PB2
-Text Label 1750 3500 0    50   ~ 0
-CN10_25_PE2
-Text Label 1900 3000 0    50   ~ 0
-CN10_31_PB0
-Text Label 4450 3200 0    50   ~ 0
-CN10_28_PE14
-Text Label 4500 3300 0    50   ~ 0
-CN10_2_PF13
-Text Label 4600 3400 0    50   ~ 0
-CN8_14_PG2
-Text Label 4600 3500 0    50   ~ 0
-CN8_16_PG3
 Wire Wire Line
 	4150 2750 4150 2850
 Wire Wire Line
@@ -152,4 +128,28 @@ Wire Wire Line
 	4450 2650 4450 2750
 Wire Wire Line
 	3900 2950 4300 2950
+Text Notes 2650 2050 0    118  ~ 0
+To Control Board
+Text Notes 1750 3500 0    50   ~ 0
+CN10_25 PE2
+Text Notes 1750 3400 0    50   ~ 0
+CN10_15 PB2
+Text Notes 1750 3300 0    50   ~ 0
+CN8_8 PC11
+Text Notes 1750 3200 0    50   ~ 0
+CN8_10 PC12
+Text Notes 1750 3100 0    50   ~ 0
+CN8_6 PC10
+Text Notes 1750 3000 0    50   ~ 0
+CN10_31 PB0
+Text Notes 4600 3100 0    50   ~ 0
+CN7_5 PB13
+Text Notes 4600 3200 0    50   ~ 0
+CN10_28
+Text Notes 4600 3300 0    50   ~ 0
+CN10_2 PF13
+Text Notes 4600 3400 0    50   ~ 0
+CN8_14 PG2
+Text Notes 4600 3500 0    50   ~ 0
+CN8_16 PG3
 $EndSCHEMATC

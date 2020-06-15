@@ -14,19 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Transistor_BJT:2SC1815 Q?
-U 1 1 5EE45812
-P 2700 6900
-AR Path="/5EE45812" Ref="Q?"  Part="1" 
-AR Path="/5EE41C08/5EE45812" Ref="Q2"  Part="1" 
-F 0 "Q2" H 2890 6946 50  0000 L CNN
-F 1 "2SC1815" H 2890 6855 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2900 6825 50  0001 L CIN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf" H 2700 6900 50  0001 L CNN
-	1    2700 6900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Pufferfish:GND #GND?
 U 1 1 5EE45818
 P 2800 7250
@@ -119,8 +106,6 @@ Wire Wire Line
 	2800 6550 2800 6400
 Text GLabel 1950 6900 0    50   Input ~ 0
 ALARM2_CNTRL
-Text Label 2950 1450 0    118  ~ 0
-Alarms
 $Comp
 L Pufferfish:RES_SMD_0805 R?
 U 1 1 5EE4584A
@@ -164,40 +149,8 @@ F 3 "~" H 7300 3050 50  0001 C CNN
 	1    7300 3050
 	0    -1   -1   0   
 $EndComp
-Text GLabel 6800 3450 0    50   Input ~ 0
-LEDR_EN
-$Comp
-L Transistor_BJT:2SC1815 Q?
-U 1 1 5EE527F6
-P 7200 3450
-AR Path="/5EE527F6" Ref="Q?"  Part="1" 
-AR Path="/5EE41C08/5EE527F6" Ref="Q3"  Part="1" 
-F 0 "Q3" H 7390 3496 50  0000 L CNN
-F 1 "2SC1815" H 7390 3405 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7400 3375 50  0001 L CIN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf" H 7200 3450 50  0001 L CNN
-	1    7200 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish:RES_SMD_0805 R?
-U 1 1 5EE527FE
-P 6900 3450
-AR Path="/5EE527FE" Ref="R?"  Part="1" 
-AR Path="/5EE41C08/5EE527FE" Ref="R7"  Part="1" 
-F 0 "R7" V 6695 3450 50  0000 C CNN
-F 1 "RES_SMD_0805" H 6980 3260 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0805" H 7100 3050 50  0001 C CNN
-F 3 "~" H 6900 3450 50  0001 C CNN
-F 4 "?%" H 7050 3350 50  0001 C CNN "Tolerance"
-F 5 "1KΩ" V 6786 3450 50  0000 C CNN "Resistance"
-	1    6900 3450
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7300 2800 7300 2900
-Wire Wire Line
-	7300 3200 7300 3250
 $Comp
 L Pufferfish:3.3V #SUPPLY?
 U 1 1 5EE52806
@@ -224,47 +177,8 @@ F 5 "65Ω" V 8886 3750 50  0000 C CNN "Resistance"
 	1    9000 3750
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:LED D?
-U 1 1 5EE52814
-P 9000 4100
-AR Path="/5EE52814" Ref="D?"  Part="1" 
-AR Path="/5EE41C08/5EE52814" Ref="D2"  Part="1" 
-F 0 "D2" V 9039 3982 50  0000 R CNN
-F 1 "LED" V 8948 3982 50  0000 R CNN
-F 2 "" H 9000 4100 50  0001 C CNN
-F 3 "~" H 9000 4100 50  0001 C CNN
-	1    9000 4100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Transistor_BJT:2SC1815 Q?
-U 1 1 5EE5281A
-P 8900 4500
-AR Path="/5EE5281A" Ref="Q?"  Part="1" 
-AR Path="/5EE41C08/5EE5281A" Ref="Q4"  Part="1" 
-F 0 "Q4" H 9090 4546 50  0000 L CNN
-F 1 "2SC1815" H 9090 4455 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9100 4425 50  0001 L CIN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf" H 8900 4500 50  0001 L CNN
-	1    8900 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5EE52820
-P 9000 4700
-F 0 "#PWR?" H 9000 4450 50  0001 C CNN
-F 1 "GND" H 9005 4527 50  0000 C CNN
-F 2 "" H 9000 4700 50  0001 C CNN
-F 3 "" H 9000 4700 50  0001 C CNN
-	1    9000 4700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9000 3850 9000 3950
-Wire Wire Line
-	9000 4250 9000 4300
 $Comp
 L Pufferfish:3.3V #SUPPLY?
 U 1 1 5EE52828
@@ -274,34 +188,6 @@ F 1 "3.3V" H 9000 3872 59  0000 C CNN
 F 2 "" H 9000 3650 50  0001 C CNN
 F 3 "" H 9000 3650 50  0001 C CNN
 	1    9000 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish:RES_SMD_0805 R?
-U 1 1 5EE52830
-P 8600 4500
-AR Path="/5EE52830" Ref="R?"  Part="1" 
-AR Path="/5EE41C08/5EE52830" Ref="R9"  Part="1" 
-F 0 "R9" V 8395 4500 50  0000 C CNN
-F 1 "RES_SMD_0805" H 8680 4310 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0805" H 8800 4100 50  0001 C CNN
-F 3 "~" H 8600 4500 50  0001 C CNN
-F 4 "?%" H 8750 4400 50  0001 C CNN "Tolerance"
-F 5 "1KΩ" V 8486 4500 50  0000 C CNN "Resistance"
-	1    8600 4500
-	0    1    1    0   
-$EndComp
-Text GLabel 8500 4500 0    50   Input ~ 0
-LEDY_EN
-$Comp
-L power:GND #PWR?
-U 1 1 5EE52837
-P 7300 3650
-F 0 "#PWR?" H 7300 3400 50  0001 C CNN
-F 1 "GND" H 7305 3477 50  0000 C CNN
-F 2 "" H 7300 3650 50  0001 C CNN
-F 3 "" H 7300 3650 50  0001 C CNN
-	1    7300 3650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -332,34 +218,8 @@ F 3 "~" H 7300 5400 50  0001 C CNN
 	1    7300 5400
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Transistor_BJT:2SC1815 Q?
-U 1 1 5EE5284B
-P 7200 5800
-AR Path="/5EE5284B" Ref="Q?"  Part="1" 
-AR Path="/5EE41C08/5EE5284B" Ref="Q5"  Part="1" 
-F 0 "Q5" H 7390 5846 50  0000 L CNN
-F 1 "2SC1815" H 7390 5755 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7400 5725 50  0001 L CIN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf" H 7200 5800 50  0001 L CNN
-	1    7200 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5EE52851
-P 7300 6000
-F 0 "#PWR?" H 7300 5750 50  0001 C CNN
-F 1 "GND" H 7305 5827 50  0000 C CNN
-F 2 "" H 7300 6000 50  0001 C CNN
-F 3 "" H 7300 6000 50  0001 C CNN
-	1    7300 6000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7300 5150 7300 5250
-Wire Wire Line
-	7300 5550 7300 5600
 $Comp
 L Pufferfish:3.3V #SUPPLY?
 U 1 1 5EE52859
@@ -371,202 +231,436 @@ F 3 "" H 7300 4950 50  0001 C CNN
 	1    7300 4950
 	1    0    0    -1  
 $EndComp
-$Comp
-L Pufferfish:RES_SMD_0805 R?
-U 1 1 5EE52861
-P 6900 5800
-AR Path="/5EE52861" Ref="R?"  Part="1" 
-AR Path="/5EE41C08/5EE52861" Ref="R11"  Part="1" 
-F 0 "R11" V 6695 5800 50  0000 C CNN
-F 1 "RES_SMD_0805" H 6980 5610 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0805" H 7100 5400 50  0001 C CNN
-F 3 "~" H 6900 5800 50  0001 C CNN
-F 4 "?%" H 7050 5700 50  0001 C CNN "Tolerance"
-F 5 "1KΩ" V 6786 5800 50  0000 C CNN "Resistance"
-	1    6900 5800
-	0    1    1    0   
-$EndComp
-Text GLabel 6800 5800 0    50   Input ~ 0
+Text GLabel 6650 5750 0    50   Input ~ 0
 LEDG_EN
-Text Label 7850 1950 0    118  ~ 0
-LEDs
 $Comp
 L Pufferfish:BUZZER-MALLORY BUZZ1
 U 1 1 5EE38C1D
-P 4650 2300
-F 0 "BUZZ1" V 4604 2253 50  0000 L CNN
-F 1 "BUZZER-MALLORY" V 4695 2253 50  0000 L CNN
-F 2 "" H 4650 2300 50  0001 C CNN
-F 3 "https://www.mspindy.com/Specifications/MSS5MMG.pdf" H 4650 2300 50  0001 C CNN
-	1    4650 2300
+P 4700 3000
+F 0 "BUZZ1" V 4654 2953 50  0000 L CNN
+F 1 "BUZZER-MALLORY" V 4745 2953 50  0000 L CNN
+F 2 "" H 4700 3000 50  0001 C CNN
+F 3 "https://www.mspindy.com/Specifications/MSS5MMG.pdf" H 4700 3000 50  0001 C CNN
+	1    4700 3000
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4250 2150 4250 2200
-$Comp
-L Transistor_BJT:2SC1815 Q?
-U 1 1 5EE3DB4D
-P 2250 2650
-AR Path="/5EE3DB4D" Ref="Q?"  Part="1" 
-AR Path="/5EE41C08/5EE3DB4D" Ref="Q5"  Part="1" 
-F 0 "Q5" H 2440 2696 50  0000 L CNN
-F 1 "2SC1815" H 2440 2605 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2450 2575 50  0001 L CIN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf" H 2250 2650 50  0001 L CNN
-	1    2250 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish:GND #GND?
-U 1 1 5EE3DB57
-P 2350 3000
-AR Path="/5EE3DB57" Ref="#GND?"  Part="1" 
-AR Path="/5EE41C08/5EE3DB57" Ref="#GND?"  Part="1" 
-F 0 "#GND?" H 2350 3000 50  0001 C CNN
-F 1 "GND" H 2350 2870 59  0000 C CNN
-F 2 "" H 2350 3000 50  0001 C CNN
-F 3 "" H 2350 3000 50  0001 C CNN
-	1    2350 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish:RES_SMD_0805 R?
-U 1 1 5EE3DB63
-P 1600 2650
-AR Path="/5EE3DB63" Ref="R?"  Part="1" 
-AR Path="/5EE41C08/5EE3DB63" Ref="R1"  Part="1" 
-F 0 "R1" V 1395 2650 50  0000 C CNN
-F 1 "RES_SMD_0805" H 1680 2460 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0805" H 1800 2250 50  0001 C CNN
-F 3 "~" H 1600 2650 50  0001 C CNN
-F 4 "?%" H 1750 2550 50  0001 C CNN "Tolerance"
-F 5 "1KΩ" V 1486 2650 50  0000 C CNN "Resistance"
-	1    1600 2650
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2350 2850 2350 2900
-Wire Wire Line
-	1700 2650 2050 2650
-Wire Wire Line
-	2350 2450 2350 2300
-Text GLabel 1500 2650 0    50   Input ~ 0
-ALARM1_HIGH
-$Comp
-L Transistor_BJT:2SC1815 Q?
-U 1 1 5EE5A234
-P 2800 3400
-AR Path="/5EE5A234" Ref="Q?"  Part="1" 
-AR Path="/5EE41C08/5EE5A234" Ref="Q6"  Part="1" 
-F 0 "Q6" H 2990 3446 50  0000 L CNN
-F 1 "2SC1815" H 2990 3355 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3000 3325 50  0001 L CIN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf" H 2800 3400 50  0001 L CNN
-	1    2800 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish:GND #GND?
-U 1 1 5EE5A23E
-P 2900 3750
-AR Path="/5EE5A23E" Ref="#GND?"  Part="1" 
-AR Path="/5EE41C08/5EE5A23E" Ref="#GND?"  Part="1" 
-F 0 "#GND?" H 2900 3750 50  0001 C CNN
-F 1 "GND" H 2900 3620 59  0000 C CNN
-F 2 "" H 2900 3750 50  0001 C CNN
-F 3 "" H 2900 3750 50  0001 C CNN
-	1    2900 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish:RES_SMD_0805 R?
-U 1 1 5EE5A24A
-P 2150 3400
-AR Path="/5EE5A24A" Ref="R?"  Part="1" 
-AR Path="/5EE41C08/5EE5A24A" Ref="R2"  Part="1" 
-F 0 "R2" V 1945 3400 50  0000 C CNN
-F 1 "RES_SMD_0805" H 2230 3210 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0805" H 2350 3000 50  0001 C CNN
-F 3 "~" H 2150 3400 50  0001 C CNN
-F 4 "?%" H 2300 3300 50  0001 C CNN "Tolerance"
-F 5 "1KΩ" V 2036 3400 50  0000 C CNN "Resistance"
-	1    2150 3400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2900 3600 2900 3650
-Wire Wire Line
-	2250 3400 2600 3400
-Text GLabel 2050 3400 0    50   Input ~ 0
-ALARM1_MED
-$Comp
-L Transistor_BJT:2SC1815 Q?
-U 1 1 5EE5B6FB
-P 3600 4350
-AR Path="/5EE5B6FB" Ref="Q?"  Part="1" 
-AR Path="/5EE41C08/5EE5B6FB" Ref="Q1"  Part="1" 
-F 0 "Q1" H 3790 4396 50  0000 L CNN
-F 1 "2SC1815" H 3790 4305 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3800 4275 50  0001 L CIN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf" H 3600 4350 50  0001 L CNN
-	1    3600 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish:GND #GND?
-U 1 1 5EE5B705
-P 3700 4700
-AR Path="/5EE5B705" Ref="#GND?"  Part="1" 
-AR Path="/5EE41C08/5EE5B705" Ref="#GND?"  Part="1" 
-F 0 "#GND?" H 3700 4700 50  0001 C CNN
-F 1 "GND" H 3700 4570 59  0000 C CNN
-F 2 "" H 3700 4700 50  0001 C CNN
-F 3 "" H 3700 4700 50  0001 C CNN
-	1    3700 4700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3700 4550 3700 4600
-Wire Wire Line
-	3050 4350 3400 4350
-Text GLabel 2850 4350 0    50   Input ~ 0
-ALARM1_LOW
+	4300 2850 4300 2900
 $Comp
 L Pufferfish:5V #SUPPLY?
 U 1 1 5EE780F4
-P 4250 2150
-F 0 "#SUPPLY?" H 4250 2150 50  0001 C CNN
-F 1 "5V" H 4250 2372 59  0000 C CNN
-F 2 "" H 4250 2150 50  0001 C CNN
-F 3 "" H 4250 2150 50  0001 C CNN
-	1    4250 2150
+P 4300 2850
+F 0 "#SUPPLY?" H 4300 2850 50  0001 C CNN
+F 1 "5V" H 4300 3072 59  0000 C CNN
+F 2 "" H 4300 2850 50  0001 C CNN
+F 3 "" H 4300 2850 50  0001 C CNN
+	1    4300 2850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2350 2300 4250 2300
+	4300 3100 3750 3100
+$Comp
+L Device:D D4
+U 1 1 5EE7C741
+P 3600 3400
+F 0 "D4" H 3600 3617 50  0000 C CNN
+F 1 "D" H 3600 3526 50  0000 C CNN
+F 2 "" H 3600 3400 50  0001 C CNN
+F 3 "~" H 3600 3400 50  0001 C CNN
+	1    3600 3400
+	1    0    0    -1  
+$EndComp
+Text GLabel 2150 3250 0    50   Input ~ 0
+ALARM1_MED
+Connection ~ 2450 3250
 Wire Wire Line
-	2900 2350 4250 2350
+	2450 3250 2500 3250
 Wire Wire Line
-	2900 2350 2900 3200
+	2150 3250 2450 3250
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5EE93EE8
+P 2800 3600
+AR Path="/5EE93EE8" Ref="#GND?"  Part="1" 
+AR Path="/5EE41C08/5EE93EE8" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 2800 3600 50  0001 C CNN
+F 1 "GND" H 2800 3470 59  0000 C CNN
+F 2 "" H 2800 3600 50  0001 C CNN
+F 3 "" H 2800 3600 50  0001 C CNN
+	1    2800 3600
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	4250 2400 3700 2400
+	2800 3450 2800 3500
+$Comp
+L Pufferfish:RES_SMD_0805 R?
+U 1 1 5EE93EF5
+P 2450 3450
+AR Path="/5EE93EF5" Ref="R?"  Part="1" 
+AR Path="/5EE41C08/5EE93EF5" Ref="R2"  Part="1" 
+F 0 "R2" V 2245 3450 50  0000 C CNN
+F 1 "RES_SMD_0805" H 2530 3260 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0805" H 2650 3050 50  0001 C CNN
+F 3 "~" H 2450 3450 50  0001 C CNN
+F 4 "?%" H 2600 3350 50  0001 C CNN "Tolerance"
+F 5 "10KΩ" V 2336 3450 50  0000 C CNN "Resistance"
+	1    2450 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002E Q2
+U 1 1 5EE93EFF
+P 2700 3250
+F 0 "Q2" H 2904 3296 50  0000 L CNN
+F 1 "2N7002E" H 2904 3205 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2900 3175 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/ds30376.pdf" H 2700 3250 50  0001 L CNN
+	1    2700 3250
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	3700 2400 3700 4150
+	2450 3550 2800 3550
+Wire Wire Line
+	2450 3250 2450 3350
+Wire Wire Line
+	2450 4200 2450 4300
+Wire Wire Line
+	2450 4500 2800 4500
+$Comp
+L Transistor_FET:2N7002E Q3
+U 1 1 5EE7D50A
+P 2700 4200
+F 0 "Q3" H 2904 4246 50  0000 L CNN
+F 1 "2N7002E" H 2904 4155 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2900 4125 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/ds30376.pdf" H 2700 4200 50  0001 L CNN
+	1    2700 4200
+	1    0    0    -1  
+$EndComp
 $Comp
 L Pufferfish:RES_SMD_0805 R?
 U 1 1 5EE5B711
-P 2950 4350
+P 2450 4400
 AR Path="/5EE5B711" Ref="R?"  Part="1" 
 AR Path="/5EE41C08/5EE5B711" Ref="R3"  Part="1" 
-F 0 "R3" V 2745 4350 50  0000 C CNN
-F 1 "RES_SMD_0805" H 3030 4160 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0805" H 3150 3950 50  0001 C CNN
-F 3 "~" H 2950 4350 50  0001 C CNN
-F 4 "?%" H 3100 4250 50  0001 C CNN "Tolerance"
-F 5 "1KΩ" V 2836 4350 50  0000 C CNN "Resistance"
-	1    2950 4350
-	0    1    1    0   
+F 0 "R3" V 2245 4400 50  0000 C CNN
+F 1 "RES_SMD_0805" H 2530 4210 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0805" H 2650 4000 50  0001 C CNN
+F 3 "~" H 2450 4400 50  0001 C CNN
+F 4 "?%" H 2600 4300 50  0001 C CNN "Tolerance"
+F 5 "10KΩ" V 2336 4400 50  0000 C CNN "Resistance"
+	1    2450 4400
+	1    0    0    -1  
 $EndComp
-Text Label 5700 1100 0    50   ~ 0
-TODO:NewTransistors
+Wire Wire Line
+	2800 4400 2800 4450
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5EE5B705
+P 2800 4550
+AR Path="/5EE5B705" Ref="#GND?"  Part="1" 
+AR Path="/5EE41C08/5EE5B705" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 2800 4550 50  0001 C CNN
+F 1 "GND" H 2800 4420 59  0000 C CNN
+F 2 "" H 2800 4550 50  0001 C CNN
+F 3 "" H 2800 4550 50  0001 C CNN
+	1    2800 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 4200 2450 4200
+Wire Wire Line
+	2450 4200 2500 4200
+Connection ~ 2450 4200
+Text GLabel 2150 4200 0    50   Input ~ 0
+ALARM1_LOW
+Wire Wire Line
+	3750 3100 3750 3400
+Wire Wire Line
+	2800 3850 2800 4000
+Text GLabel 2150 2400 0    50   Input ~ 0
+ALARM1_HIGH
+Connection ~ 2450 2400
+Wire Wire Line
+	2450 2400 2500 2400
+Wire Wire Line
+	2150 2400 2450 2400
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5EEAC69F
+P 2800 2750
+AR Path="/5EEAC69F" Ref="#GND?"  Part="1" 
+AR Path="/5EE41C08/5EEAC69F" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 2800 2750 50  0001 C CNN
+F 1 "GND" H 2800 2620 59  0000 C CNN
+F 2 "" H 2800 2750 50  0001 C CNN
+F 3 "" H 2800 2750 50  0001 C CNN
+	1    2800 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 2600 2800 2650
+$Comp
+L Pufferfish:RES_SMD_0805 R?
+U 1 1 5EEAC6AC
+P 2450 2600
+AR Path="/5EEAC6AC" Ref="R?"  Part="1" 
+AR Path="/5EE41C08/5EEAC6AC" Ref="R1"  Part="1" 
+F 0 "R1" V 2245 2600 50  0000 C CNN
+F 1 "RES_SMD_0805" H 2530 2410 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0805" H 2650 2200 50  0001 C CNN
+F 3 "~" H 2450 2600 50  0001 C CNN
+F 4 "?%" H 2600 2500 50  0001 C CNN "Tolerance"
+F 5 "10KΩ" V 2336 2600 50  0000 C CNN "Resistance"
+	1    2450 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002E Q1
+U 1 1 5EEAC6B6
+P 2700 2400
+F 0 "Q1" H 2904 2446 50  0000 L CNN
+F 1 "2N7002E" H 2904 2355 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2900 2325 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/ds30376.pdf" H 2700 2400 50  0001 L CNN
+	1    2700 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 2700 2800 2700
+Wire Wire Line
+	2450 2400 2450 2500
+Wire Wire Line
+	3750 3000 4300 3000
+$Comp
+L Device:D D5
+U 1 1 5EEBEA4F
+P 3600 3750
+F 0 "D5" H 3600 3967 50  0000 C CNN
+F 1 "D" H 3600 3876 50  0000 C CNN
+F 2 "" H 3600 3750 50  0001 C CNN
+F 3 "~" H 3600 3750 50  0001 C CNN
+	1    3600 3750
+	1    0    0    -1  
+$EndComp
+Connection ~ 3750 3400
+Wire Wire Line
+	3750 3400 3750 3750
+Connection ~ 3750 3750
+Wire Wire Line
+	3750 3750 3750 3850
+Wire Wire Line
+	3750 2200 3750 3000
+Wire Wire Line
+	3450 3400 3450 2200
+Wire Wire Line
+	3450 2200 3750 2200
+Wire Wire Line
+	3400 3050 3400 3750
+Wire Wire Line
+	3400 3750 3450 3750
+Wire Wire Line
+	2800 3050 3400 3050
+Connection ~ 3400 3050
+Wire Wire Line
+	3400 3050 4300 3050
+Wire Wire Line
+	2800 3850 3750 3850
+Wire Wire Line
+	2800 2200 3450 2200
+Connection ~ 3450 2200
+$Comp
+L Transistor_BJT:2SC1815 Q?
+U 1 1 5EE45812
+P 2700 6900
+AR Path="/5EE45812" Ref="Q?"  Part="1" 
+AR Path="/5EE41C08/5EE45812" Ref="Q4"  Part="1" 
+F 0 "Q4" H 2890 6946 50  0000 L CNN
+F 1 "2SC1815" H 2890 6855 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2900 6825 50  0001 L CIN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf" H 2700 6900 50  0001 L CNN
+	1    2700 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 5750 6950 5850
+Wire Wire Line
+	6950 6050 7300 6050
+$Comp
+L Transistor_FET:2N7002E Q7
+U 1 1 5EEE3CF5
+P 7200 5750
+F 0 "Q7" H 7404 5796 50  0000 L CNN
+F 1 "2N7002E" H 7404 5705 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7400 5675 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/ds30376.pdf" H 7200 5750 50  0001 L CNN
+	1    7200 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:RES_SMD_0805 R?
+U 1 1 5EEE3D01
+P 6950 5950
+AR Path="/5EEE3D01" Ref="R?"  Part="1" 
+AR Path="/5EE41C08/5EEE3D01" Ref="R11"  Part="1" 
+F 0 "R11" V 6745 5950 50  0000 C CNN
+F 1 "RES_SMD_0805" H 7030 5760 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0805" H 7150 5550 50  0001 C CNN
+F 3 "~" H 6950 5950 50  0001 C CNN
+F 4 "?%" H 7100 5850 50  0001 C CNN "Tolerance"
+F 5 "10KΩ" V 6836 5950 50  0000 C CNN "Resistance"
+	1    6950 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 5950 7300 6000
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5EEE3D0C
+P 7300 6100
+AR Path="/5EEE3D0C" Ref="#GND?"  Part="1" 
+AR Path="/5EE41C08/5EEE3D0C" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 7300 6100 50  0001 C CNN
+F 1 "GND" H 7300 5970 59  0000 C CNN
+F 2 "" H 7300 6100 50  0001 C CNN
+F 3 "" H 7300 6100 50  0001 C CNN
+	1    7300 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 5750 6950 5750
+Wire Wire Line
+	6950 5750 7000 5750
+Connection ~ 6950 5750
+Text GLabel 8350 4450 0    50   Input ~ 0
+LEDY_EN
+Wire Wire Line
+	8650 4450 8650 4550
+Wire Wire Line
+	8650 4750 9000 4750
+$Comp
+L Transistor_FET:2N7002E Q6
+U 1 1 5EEF054F
+P 8900 4450
+F 0 "Q6" H 9104 4496 50  0000 L CNN
+F 1 "2N7002E" H 9104 4405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9100 4375 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/ds30376.pdf" H 8900 4450 50  0001 L CNN
+	1    8900 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:RES_SMD_0805 R?
+U 1 1 5EEF055B
+P 8650 4650
+AR Path="/5EEF055B" Ref="R?"  Part="1" 
+AR Path="/5EE41C08/5EEF055B" Ref="R9"  Part="1" 
+F 0 "R9" V 8445 4650 50  0000 C CNN
+F 1 "RES_SMD_0805" H 8730 4460 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0805" H 8850 4250 50  0001 C CNN
+F 3 "~" H 8650 4650 50  0001 C CNN
+F 4 "?%" H 8800 4550 50  0001 C CNN "Tolerance"
+F 5 "10KΩ" V 8536 4650 50  0000 C CNN "Resistance"
+	1    8650 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 4650 9000 4700
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5EEF0566
+P 9000 4800
+AR Path="/5EEF0566" Ref="#GND?"  Part="1" 
+AR Path="/5EE41C08/5EEF0566" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 9000 4800 50  0001 C CNN
+F 1 "GND" H 9000 4670 59  0000 C CNN
+F 2 "" H 9000 4800 50  0001 C CNN
+F 3 "" H 9000 4800 50  0001 C CNN
+	1    9000 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 4450 8650 4450
+Wire Wire Line
+	8650 4450 8700 4450
+Connection ~ 8650 4450
+$Comp
+L Device:LED D?
+U 1 1 5EE52814
+P 9000 4100
+AR Path="/5EE52814" Ref="D?"  Part="1" 
+AR Path="/5EE41C08/5EE52814" Ref="D2"  Part="1" 
+F 0 "D2" V 9039 3982 50  0000 R CNN
+F 1 "LED" V 8948 3982 50  0000 R CNN
+F 2 "" H 9000 4100 50  0001 C CNN
+F 3 "~" H 9000 4100 50  0001 C CNN
+	1    9000 4100
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6650 3400 0    50   Input ~ 0
+LEDR_EN
+Wire Wire Line
+	6950 3400 6950 3500
+Wire Wire Line
+	6950 3700 7300 3700
+$Comp
+L Transistor_FET:2N7002E Q5
+U 1 1 5EF03617
+P 7200 3400
+F 0 "Q5" H 7404 3446 50  0000 L CNN
+F 1 "2N7002E" H 7404 3355 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7400 3325 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/ds30376.pdf" H 7200 3400 50  0001 L CNN
+	1    7200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:RES_SMD_0805 R?
+U 1 1 5EF03623
+P 6950 3600
+AR Path="/5EF03623" Ref="R?"  Part="1" 
+AR Path="/5EE41C08/5EF03623" Ref="R7"  Part="1" 
+F 0 "R7" V 6745 3600 50  0000 C CNN
+F 1 "RES_SMD_0805" H 7030 3410 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0805" H 7150 3200 50  0001 C CNN
+F 3 "~" H 6950 3600 50  0001 C CNN
+F 4 "?%" H 7100 3500 50  0001 C CNN "Tolerance"
+F 5 "10KΩ" V 6836 3600 50  0000 C CNN "Resistance"
+	1    6950 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 3600 7300 3650
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5EF0362E
+P 7300 3750
+AR Path="/5EF0362E" Ref="#GND?"  Part="1" 
+AR Path="/5EE41C08/5EF0362E" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 7300 3750 50  0001 C CNN
+F 1 "GND" H 7300 3620 59  0000 C CNN
+F 2 "" H 7300 3750 50  0001 C CNN
+F 3 "" H 7300 3750 50  0001 C CNN
+	1    7300 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 3400 6950 3400
+Wire Wire Line
+	6950 3400 7000 3400
+Connection ~ 6950 3400
+Text Notes 7850 1850 0    118  ~ 24
+LEDs
+Text Notes 3000 1400 0    118  ~ 24
+Alarms
+Text Notes 2200 1950 0    118  ~ 0
+Regulatory Medical Alarm
+Text Notes 1750 5300 0    118  ~ 0
+System Non-Regulatory PWM Alarm
+Text Notes 6350 2900 0    118  ~ 0
+Red
+Text Notes 8000 4100 0    118  ~ 0
+Yellow
+Text Notes 6350 5500 0    118  ~ 0
+Green
 $EndSCHEMATC
