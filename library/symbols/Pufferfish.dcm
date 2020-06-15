@@ -299,4 +299,10 @@ $CMP VREF
 D analog reference voltage
 $ENDCMP
 #
+$CMP W25Q16JVSSIQ
+D NOR Flash spiFlash, 3V, 16M-bit, 4Kb Uniform Sector
+K memory, flash,
+F https://www.winbond.com/resource-files/w25q16jv%20spi%20revd%2008122016.pdf
+$ENDCMP
+#
 #End Doc Library
