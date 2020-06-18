@@ -259,17 +259,6 @@ F 3 "" H 4300 2850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4300 3100 3750 3100
-$Comp
-L Device:D D4
-U 1 1 5EE7C741
-P 3600 3400
-F 0 "D4" H 3600 3617 50  0000 C CNN
-F 1 "D" H 3600 3526 50  0000 C CNN
-F 2 "" H 3600 3400 50  0001 C CNN
-F 3 "~" H 3600 3400 50  0001 C CNN
-	1    3600 3400
-	1    0    0    -1  
-$EndComp
 Text GLabel 2150 3250 0    50   Input ~ 0
 ALARM1_MED
 Connection ~ 2450 3250
@@ -307,17 +296,6 @@ F 5 "10KΩ" V 2336 3450 50  0000 C CNN "Resistance"
 	1    2450 3450
 	1    0    0    -1  
 $EndComp
-$Comp
-L Transistor_FET:2N7002E Q2
-U 1 1 5EE93EFF
-P 2700 3250
-F 0 "Q2" H 2904 3296 50  0000 L CNN
-F 1 "2N7002E" H 2904 3205 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2900 3175 50  0001 L CIN
-F 3 "http://www.diodes.com/assets/Datasheets/ds30376.pdf" H 2700 3250 50  0001 L CNN
-	1    2700 3250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2450 3550 2800 3550
 Wire Wire Line
@@ -326,17 +304,6 @@ Wire Wire Line
 	2450 4200 2450 4300
 Wire Wire Line
 	2450 4500 2800 4500
-$Comp
-L Transistor_FET:2N7002E Q3
-U 1 1 5EE7D50A
-P 2700 4200
-F 0 "Q3" H 2904 4246 50  0000 L CNN
-F 1 "2N7002E" H 2904 4155 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2900 4125 50  0001 L CIN
-F 3 "http://www.diodes.com/assets/Datasheets/ds30376.pdf" H 2700 4200 50  0001 L CNN
-	1    2700 4200
-	1    0    0    -1  
-$EndComp
 $Comp
 L Pufferfish:RES_SMD_0805 R?
 U 1 1 5EE5B711
@@ -374,8 +341,6 @@ Wire Wire Line
 Connection ~ 2450 4200
 Text GLabel 2150 4200 0    50   Input ~ 0
 ALARM1_LOW
-Wire Wire Line
-	3750 3100 3750 3400
 Wire Wire Line
 	2800 3850 2800 4000
 Text GLabel 2150 2400 0    50   Input ~ 0
@@ -415,40 +380,12 @@ F 5 "10KΩ" V 2336 2600 50  0000 C CNN "Resistance"
 	1    2450 2600
 	1    0    0    -1  
 $EndComp
-$Comp
-L Transistor_FET:2N7002E Q1
-U 1 1 5EEAC6B6
-P 2700 2400
-F 0 "Q1" H 2904 2446 50  0000 L CNN
-F 1 "2N7002E" H 2904 2355 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2900 2325 50  0001 L CIN
-F 3 "http://www.diodes.com/assets/Datasheets/ds30376.pdf" H 2700 2400 50  0001 L CNN
-	1    2700 2400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2450 2700 2800 2700
 Wire Wire Line
 	2450 2400 2450 2500
 Wire Wire Line
 	3750 3000 4300 3000
-$Comp
-L Device:D D5
-U 1 1 5EEBEA4F
-P 3600 3750
-F 0 "D5" H 3600 3967 50  0000 C CNN
-F 1 "D" H 3600 3876 50  0000 C CNN
-F 2 "" H 3600 3750 50  0001 C CNN
-F 3 "~" H 3600 3750 50  0001 C CNN
-	1    3600 3750
-	1    0    0    -1  
-$EndComp
-Connection ~ 3750 3400
-Wire Wire Line
-	3750 3400 3750 3750
-Connection ~ 3750 3750
-Wire Wire Line
-	3750 3750 3750 3850
 Wire Wire Line
 	3750 2200 3750 3000
 Wire Wire Line
@@ -663,4 +600,67 @@ Text Notes 8000 4100 0    118  ~ 0
 Yellow
 Text Notes 6350 5500 0    118  ~ 0
 Green
+$Comp
+L Transistor_FET:DMN10H220L Q2
+U 1 1 5EEB3742
+P 2700 3250
+F 0 "Q2" H 2904 3296 50  0000 L CNN
+F 1 "DMN10H220L" H 2904 3205 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2900 3175 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/DMN10H220L.pdf" H 2700 3250 50  0001 L CNN
+	1    2700 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:DMN10H220L Q1
+U 1 1 5EEC3023
+P 2700 2400
+F 0 "Q1" H 2904 2446 50  0000 L CNN
+F 1 "DMN10H220L" H 2904 2355 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2900 2325 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/DMN10H220L.pdf" H 2700 2400 50  0001 L CNN
+	1    2700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:DMN10H220L Q3
+U 1 1 5EEC53F1
+P 2700 4200
+F 0 "Q3" H 2904 4246 50  0000 L CNN
+F 1 "DMN10H220L" H 2904 4155 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2900 4125 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/DMN10H220L.pdf" H 2700 4200 50  0001 L CNN
+	1    2700 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4001 D5
+U 1 1 5EEF6F14
+P 3600 3750
+F 0 "D5" H 3600 3967 50  0000 C CNN
+F 1 "1N4001" H 3600 3876 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3600 3575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3600 3750 50  0001 C CNN
+	1    3600 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 3100 3750 3400
+$Comp
+L Diode:1N4001 D4
+U 1 1 5EEF85A8
+P 3600 3400
+F 0 "D4" H 3600 3617 50  0000 C CNN
+F 1 "1N4001" H 3600 3526 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3600 3225 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3600 3400 50  0001 C CNN
+	1    3600 3400
+	1    0    0    -1  
+$EndComp
+Connection ~ 3750 3400
+Wire Wire Line
+	3750 3400 3750 3750
+Connection ~ 3750 3750
+Wire Wire Line
+	3750 3750 3750 3850
 $EndSCHEMATC

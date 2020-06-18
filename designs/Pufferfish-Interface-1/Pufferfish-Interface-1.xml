@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/laurenadachi/Documents/GitHub/pufferfish-electronics/designs/Pufferfish-Interface-1/Pufferfish-Interface-1.sch</source>
+    <date>Monday, June 15, 2020 at 11:31:27 AM</date>
+    <tool>Eeschema (5.1.6-0-10_14)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Pufferfish Interface Board</title>
+        <company/>
+        <rev>0</rev>
+        <date>2020-06-11</date>
+        <source>Pufferfish-Interface-1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/LEDsAlarm/" tstamps="/5EE41C08/">
+      <title_block>
+        <title>LEDs and Alarm</title>
+        <company/>
+        <rev>0</rev>
+        <date>2020-06-11</date>
+        <source>LEDsAlarm.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Connections/" tstamps="/5EE54DB7/">
+      <title_block>
+        <title>Connections</title>
+        <company/>
+        <rev>0</rev>
+        <date>2020-06-11</date>
+        <source>Connections.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/SwitchesMemory/" tstamps="/5EE48AD8/">
+      <title_block>
+        <title>Switches and External Memory</title>
+        <company/>
+        <rev>0</rev>
+        <date>2020-06-11</date>
+        <source>SwitchesMemory.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Switches/" tstamps="/5EE92D7E/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Switches.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R6">
+      <value>RES_SMD_0805</value>
+      <footprint>Pufferfish:RES_SMD_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Resistance">1KΩ</field>
+        <field name="Tolerance">?%</field>
+      </fields>
+      <libsource lib="Pufferfish" part="RES_SMD_0805" description="Resistor, small US symbol, 0805, SMD, SMT"/>
+      <sheetpath names="/LEDsAlarm/" tstamps="/5EE41C08/"/>
+      <tstamp>5EE45820</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>RES_SMD_0805</value>
+      <footprint>Pufferfish:RES_SMD_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Resistance">1KΩ</field>
+        <field name="Tolerance">?%</field>
+      </fields>
+      <libsource lib="Pufferfish" part="RES_SMD_0805" description="Resistor, small US symbol, 0805, SMD, SMT"/>
+      <sheetpath names="/LEDsAlarm/" tstamps="/5EE41C08/"/>
+      <tstamp>5EE45828</tstamp>
+    </comp>
+    <comp ref="BUZZ2">
+      <value>BUZZER</value>
+      <footprint>Pufferfish:BUZZER-12MM</footprint>
+      <libsource lib="Pufferfish" part="BUZZER-12MM" description="Generic 12mm Buzzer"/>
+      <sheetpath names="/LEDsAlarm/" tstamps="/5EE41C08/"/>
+      <tstamp>5EE45835</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>RES_SMD_0805</value>
+      <footprint>Pufferfish:RES_SMD_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Resistance">200Ω</field>
+        <field name="Tolerance">?%</field>
+      </fields>
+      <libsource lib="Pufferfish" part="RES_SMD_0805" description="Resistor, small US symbol, 0805, SMD, SMT"/>
+      <sheetpath names="/LEDsAlarm/" tstamps="/5EE41C08/"/>
+      <tstamp>5EE4584A</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>RES_SMD_0805</value>
+      <footprint>Pufferfish:RES_SMD_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Resistance">70Ω</field>
+        <field name="Tolerance">?%</field>
+      </fields>
+      <libsource lib="Pufferfish" part="RES_SMD_0805" description="Resistor, small US symbol, 0805, SMD, SMT"/>
+      <sheetpath names="/LEDsAlarm/" tstamps="/5EE41C08/"/>
+      <tstamp>5EE527E9</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/LEDsAlarm/" tstamps="/5EE41C08/"/>
+      <tstamp>5EE527EF</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>RES_SMD_0805</value>
+      <footprint>Pufferfish:RES_SMD_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Resistance">65Ω</field>
+        <field name="Tolerance">?%</field>
+      </fields>
+      <libsource lib="Pufferfish" part="RES_SMD_0805" description="Resistor, small US symbol, 0805, SMD, SMT"/>
+      <sheetpath names="/LEDsAlarm/" tstamps="/5EE41C08/"/>
+      <tstamp>5EE5280E</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>RES_SMD_0805</value>
+      <footprint>Pufferfish:RES_SMD_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Resistance">65Ω</field>
+        <field name="Tolerance">?%</field>
+      </fields>
+      <libsource lib="Pufferfish" part="RES_SMD_0805" description="Resistor, small US symbol, 0805, SMD, SMT"/>
+      <sheetpath names="/LEDsAlarm/" tstamps="/5EE41C08/"/>
+      <tstamp>5EE5283F</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/LEDsAlarm/" tstamps="/5EE41C08/"/>
+      <tstamp>5EE52845</tstamp>
+    </comp>
+    <comp ref="BUZZ1">
+      <value>BUZZER-MALLORY</value>
+      <datasheet>https://www.mspindy.com/Specifications/MSS5MMG.pdf</datasheet>
+      <libsource lib="Pufferfish" part="BUZZER-MALLORY" description=""/>
+      <sheetpath names="/LEDsAlarm/" tstamps="/5EE41C08/"/>
+      <tstamp>5EE38C1D</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>D</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/LEDsAlarm/" tstamps="/5EE41C08/"/>
+      <tstamp>5EE7C741</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>RES_SMD_0805</value>
+      <footprint>Pufferfish:RES_SMD_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Resistance">10KΩ</field>
+        <field name="Tolerance">?%</field>
+      </fields>
+      <libsource lib="Pufferfish" part="RES_SMD_0805" description="Resistor, small US symbol, 0805, SMD, SMT"/>
+      <sheetpath names="/LEDsAlarm/" tstamps="/5EE41C08/"/>
+      <tstamp>5EE93EF5</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>2N7002E</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.diodes.com/assets/Datasheets/ds30376.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/LEDsAlarm/" tstamps="/5EE41C08/"/>
+      <tstamp>5EE93EFF</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>2N7002E</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.diodes.com/assets/Datasheets/ds30376.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/LEDsAlarm/" tstamps="/5EE41C08/"/>
+      <tstamp>5EE7D50A</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>RES_SMD_0805</value>
+      <footprint>Pufferfish:RES_SMD_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Resistance">10KΩ</field>
+        <field name="Tolerance">?%</field>
+      </fields>
+      <libsource lib="Pufferfish" part="RES_SMD_0805" description="Resistor, small US symbol, 0805, SMD, SMT"/>
+      <sheetpath names="/LEDsAlarm/" tstamps="/5EE41C08/"/>
+      <tstamp>5EE5B711</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>RES_SMD_0805</value>
+      <footprint>Pufferfish:RES_SMD_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Resistance">10KΩ</field>
+        <field name="Tolerance">?%</field>
+      </fields>
+      <libsource lib="Pufferfish" part="RES_SMD_0805" description="Resistor, small US symbol, 0805, SMD, SMT"/>
+      <sheetpath names="/LEDsAlarm/" tstamps="/5EE41C08/"/>
+      <tstamp>5EEAC6AC</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2N7002E</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.diodes.com/assets/Datasheets/ds30376.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/LEDsAlarm/" tstamps="/5EE41C08/"/>
+      <tstamp>5EEAC6B6</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>D</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/LEDsAlarm/" tstamps="/5EE41C08/"/>
+      <tstamp>5EEBEA4F</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <sheetpath names="/LEDsAlarm/" tstamps="/5EE41C08/"/>
+      <tstamp>5EE45812</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>2N7002E</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.diodes.com/assets/Datasheets/ds30376.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/LEDsAlarm/" tstamps="/5EE41C08/"/>
+      <tstamp>5EEE3CF5</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>RES_SMD_0805</value>
+      <footprint>Pufferfish:RES_SMD_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Resistance">10KΩ</field>
+        <field name="Tolerance">?%</field>
+      </fields>
+      <libsource lib="Pufferfish" part="RES_SMD_0805" description="Resistor, small US symbol, 0805, SMD, SMT"/>
+      <sheetpath names="/LEDsAlarm/" tstamps="/5EE41C08/"/>
+      <tstamp>5EEE3D01</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>2N7002E</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.diodes.com/assets/Datasheets/ds30376.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/LEDsAlarm/" tstamps="/5EE41C08/"/>
+      <tstamp>5EEF054F</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>RES_SMD_0805</value>
+      <footprint>Pufferfish:RES_SMD_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Resistance">10KΩ</field>
+        <field name="Tolerance">?%</field>
+      </fields>
+      <libsource lib="Pufferfish" part="RES_SMD_0805" description="Resistor, small US symbol, 0805, SMD, SMT"/>
+      <sheetpath names="/LEDsAlarm/" tstamps="/5EE41C08/"/>
+      <tstamp>5EEF055B</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/LEDsAlarm/" tstamps="/5EE41C08/"/>
+      <tstamp>5EE52814</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>2N7002E</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.diodes.com/assets/Datasheets/ds30376.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/LEDsAlarm/" tstamps="/5EE41C08/"/>
+      <tstamp>5EF03617</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>RES_SMD_0805</value>
+      <footprint>Pufferfish:RES_SMD_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Resistance">10KΩ</field>
+        <field name="Tolerance">?%</field>
+      </fields>
+      <libsource lib="Pufferfish" part="RES_SMD_0805" description="Resistor, small US symbol, 0805, SMD, SMT"/>
+      <sheetpath names="/LEDsAlarm/" tstamps="/5EE41C08/"/>
+      <tstamp>5EF03623</tstamp>
+    </comp>
+    <comp ref="CONN1">
+      <value>1658623-3</value>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1658623&amp;DocType=Customer+Drawing&amp;DocLang=English&amp;PartCntxt=1658623-3&amp;DocFormat=pdf</datasheet>
+      <libsource lib="Controller_Library" part="1658623-3" description=""/>
+      <sheetpath names="/Connections/" tstamps="/5EE54DB7/"/>
+      <tstamp>5EE6F7F1</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>RES_SMD_0805</value>
+      <footprint>Pufferfish:RES_SMD_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Resistance">10KΩ</field>
+        <field name="Tolerance">?%</field>
+      </fields>
+      <libsource lib="Pufferfish" part="RES_SMD_0805" description="Resistor, small US symbol, 0805, SMD, SMT"/>
+      <sheetpath names="/SwitchesMemory/" tstamps="/5EE48AD8/"/>
+      <tstamp>5EE3D536</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>RES_SMD_0805</value>
+      <footprint>Pufferfish:RES_SMD_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Resistance">10KΩ</field>
+        <field name="Tolerance">?%</field>
+      </fields>
+      <libsource lib="Pufferfish" part="RES_SMD_0805" description="Resistor, small US symbol, 0805, SMD, SMT"/>
+      <sheetpath names="/SwitchesMemory/" tstamps="/5EE48AD8/"/>
+      <tstamp>5EE93700</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>RES_SMD_0805</value>
+      <footprint>Pufferfish:RES_SMD_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Resistance">10KΩ</field>
+        <field name="Tolerance">?%</field>
+      </fields>
+      <libsource lib="Pufferfish" part="RES_SMD_0805" description="Resistor, small US symbol, 0805, SMD, SMT"/>
+      <sheetpath names="/SwitchesMemory/" tstamps="/5EE48AD8/"/>
+      <tstamp>5EE49E38</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>RES_SMD_0805</value>
+      <footprint>Pufferfish:RES_SMD_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Resistance">10KΩ</field>
+        <field name="Tolerance">?%</field>
+      </fields>
+      <libsource lib="Pufferfish" part="RES_SMD_0805" description="Resistor, small US symbol, 0805, SMD, SMT"/>
+      <sheetpath names="/SwitchesMemory/" tstamps="/5EE48AD8/"/>
+      <tstamp>5EE48373</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>RES_SMD_0805</value>
+      <footprint>Pufferfish:RES_SMD_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Resistance">10KΩ</field>
+        <field name="Tolerance">?%</field>
+      </fields>
+      <libsource lib="Pufferfish" part="RES_SMD_0805" description="Resistor, small US symbol, 0805, SMD, SMT"/>
+      <sheetpath names="/SwitchesMemory/" tstamps="/5EE48AD8/"/>
+      <tstamp>5EE44701</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>W25Q16JV</value>
+      <datasheet>https://www.winbond.com/resource-files/w25q16jv%20spi%20revg%2003222018%20plus.pdf</datasheet>
+      <libsource lib="Memory_Flash" part="W25Q16JV" description="3V 16M-BIT SERIAL FLASH MEMORY WITH DUAL/QUAD SPI"/>
+      <sheetpath names="/SwitchesMemory/" tstamps="/5EE48AD8/"/>
+      <tstamp>5EE555ED</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>RES_SMD_0805</value>
+      <footprint>Pufferfish:RES_SMD_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Resistance">10KΩ</field>
+        <field name="Tolerance">?%</field>
+      </fields>
+      <libsource lib="Pufferfish" part="RES_SMD_0805" description="Resistor, small US symbol, 0805, SMD, SMT"/>
+      <sheetpath names="/SwitchesMemory/" tstamps="/5EE48AD8/"/>
+      <tstamp>5EE512D3</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/SwitchesMemory/" tstamps="/5EE48AD8/"/>
+      <tstamp>5EE78872</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/SwitchesMemory/" tstamps="/5EE48AD8/"/>
+      <tstamp>5EE7B64E</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>RES_SMD_0805</value>
+      <footprint>Pufferfish:RES_SMD_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Resistance">10KΩ</field>
+        <field name="Tolerance">?%</field>
+      </fields>
+      <libsource lib="Pufferfish" part="RES_SMD_0805" description="Resistor, small US symbol, 0805, SMD, SMT"/>
+      <sheetpath names="/Switches/" tstamps="/5EE92D7E/"/>
+      <tstamp>5EEA3260</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Switches/" tstamps="/5EE92D7E/"/>
+      <tstamp>5EEA3276</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>RES_SMD_0805</value>
+      <footprint>Pufferfish:RES_SMD_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Resistance">10KΩ</field>
+        <field name="Tolerance">?%</field>
+      </fields>
+      <libsource lib="Pufferfish" part="RES_SMD_0805" description="Resistor, small US symbol, 0805, SMD, SMT"/>
+      <sheetpath names="/Switches/" tstamps="/5EE92D7E/"/>
+      <tstamp>5EEA3280</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>RES_SMD_0805</value>
+      <footprint>Pufferfish:RES_SMD_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Resistance">10KΩ</field>
+        <field name="Tolerance">?%</field>
+      </fields>
+      <libsource lib="Pufferfish" part="RES_SMD_0805" description="Resistor, small US symbol, 0805, SMD, SMT"/>
+      <sheetpath names="/Switches/" tstamps="/5EE92D7E/"/>
+      <tstamp>5EEA328A</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/Switches/" tstamps="/5EE92D7E/"/>
+      <tstamp>5EEA329A</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Switches/" tstamps="/5EE92D7E/"/>
+      <tstamp>5EEA32A9</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>RES_SMD_0805</value>
+      <footprint>Pufferfish:RES_SMD_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Resistance">10KΩ</field>
+        <field name="Tolerance">?%</field>
+      </fields>
+      <libsource lib="Pufferfish" part="RES_SMD_0805" description="Resistor, small US symbol, 0805, SMD, SMT"/>
+      <sheetpath names="/Switches/" tstamps="/5EE92D7E/"/>
+      <tstamp>5EEA32B3</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>RES_SMD_0805</value>
+      <footprint>Pufferfish:RES_SMD_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Resistance">10KΩ</field>
+        <field name="Tolerance">?%</field>
+      </fields>
+      <libsource lib="Pufferfish" part="RES_SMD_0805" description="Resistor, small US symbol, 0805, SMD, SMT"/>
+      <sheetpath names="/Switches/" tstamps="/5EE92D7E/"/>
+      <tstamp>5EEA32BD</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/Switches/" tstamps="/5EE92D7E/"/>
+      <tstamp>5EEA32D4</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/Switches/" tstamps="/5EE92D7E/"/>
+      <tstamp>5EEA32DB</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/Switches/" tstamps="/5EE92D7E/"/>
+      <tstamp>5EEA32F0</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>RES_SMD_0805</value>
+      <footprint>Pufferfish:RES_SMD_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Resistance">10KΩ</field>
+        <field name="Tolerance">?%</field>
+      </fields>
+      <libsource lib="Pufferfish" part="RES_SMD_0805" description="Resistor, small US symbol, 0805, SMD, SMT"/>
+      <sheetpath names="/Switches/" tstamps="/5EE92D7E/"/>
+      <tstamp>5EEA32FE</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>TPD1E1B04</value>
+      <libsource lib="Power_Protection" part="TPD1E1B04" description="1-Channel ESD Protection Diode"/>
+      <sheetpath names="/Switches/" tstamps="/5EE92D7E/"/>
+      <tstamp>5EEA3321</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>TPD1E1B04</value>
+      <libsource lib="Power_Protection" part="TPD1E1B04" description="1-Channel ESD Protection Diode"/>
+      <sheetpath names="/Switches/" tstamps="/5EE92D7E/"/>
+      <tstamp>5EEA3316</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>TPD1E1B04</value>
+      <libsource lib="Power_Protection" part="TPD1E1B04" description="1-Channel ESD Protection Diode"/>
+      <sheetpath names="/Switches/" tstamps="/5EE92D7E/"/>
+      <tstamp>5EEA330A</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>TPD1E1B04</value>
+      <libsource lib="Power_Protection" part="TPD1E1B04" description="1-Channel ESD Protection Diode"/>
+      <sheetpath names="/Switches/" tstamps="/5EE92D7E/"/>
+      <tstamp>5EEA332C</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Controller_Library" part="1658623-3">
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1658623&amp;DocType=Customer+Drawing&amp;DocLang=English&amp;PartCntxt=1658623-3&amp;DocFormat=pdf</docs>
+      <fields>
+        <field name="Reference">CONN</field>
+        <field name="Value">1658623-3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Memory_Flash" part="W25Q16JV">
+      <description>3V 16M-BIT SERIAL FLASH MEMORY WITH DUAL/QUAD SPI</description>
+      <docs>https://www.winbond.com/resource-files/w25q16jv%20spi%20revg%2003222018%20plus.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">W25Q16JV</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~CS" type="input"/>
+        <pin num="2" name="DO(IO1)" type="BiDi"/>
+        <pin num="3" name="IO2" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DI(IO0)" type="BiDi"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="IO3" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Protection" part="TPD1E1B04">
+      <description>1-Channel ESD Protection Diode</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tpd1e1b04.pdf?ts=1591935517646&amp;ref_url=https%253A%252F%252Fwww.google.com%252F</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">TPD1E1B04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pufferfish" part="BUZZER-12MM">
+      <description>Generic 12mm Buzzer</description>
+      <fields>
+        <field name="Reference">BUZZ</field>
+        <field name="Value">BUZZER-12MM</field>
+        <field name="Footprint">Pufferfish:BUZZER-12MM</field>
+      </fields>
+      <pins>
+        <pin num="+" name="1" type="passive"/>
+        <pin num="-" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pufferfish" part="BUZZER-MALLORY">
+      <docs>https://www.mspindy.com/Specifications/MSS5MMG.pdf</docs>
+      <fields>
+        <field name="Reference">BUZZ</field>
+        <field name="Value">BUZZER-MALLORY</field>
+      </fields>
+      <pins>
+        <pin num="~" name="+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pufferfish" part="RES_SMD_0805">
+      <description>Resistor, small US symbol, 0805, SMD, SMT</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RES_SMD_0805</field>
+        <field name="Footprint">Pufferfish:RES_SMD_0805</field>
+        <field name="Tolerance">?%</field>
+        <field name="Resistance">?Ω</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2SC1815">
+      <description>0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92</description>
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2SC1815</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BSS138">
+      <aliases>
+        <alias>2N7002</alias>
+        <alias>2N7002E</alias>
+        <alias>2N7002H</alias>
+        <alias>2N7002K</alias>
+        <alias>BS170F</alias>
+        <alias>BS870</alias>
+        <alias>BSN20</alias>
+        <alias>BSS123</alias>
+        <alias>BSS127S</alias>
+        <alias>DMG2302U</alias>
+        <alias>DMG3402L</alias>
+        <alias>DMG3404L</alias>
+        <alias>DMG3406L</alias>
+        <alias>DMG3414U</alias>
+        <alias>DMG3418L</alias>
+        <alias>DMN10H220L</alias>
+        <alias>DMN10H700S</alias>
+        <alias>DMN13H750S</alias>
+        <alias>DMN2041L</alias>
+        <alias>DMN2050L</alias>
+        <alias>DMN2056U</alias>
+        <alias>DMN2058U</alias>
+        <alias>DMN2075U</alias>
+        <alias>DMN2230U</alias>
+        <alias>DMN24H11DS</alias>
+        <alias>DMN24H3D5L</alias>
+        <alias>DMN3042L</alias>
+        <alias>DMN3051L</alias>
+        <alias>DMN30H4D0L</alias>
+        <alias>DMN3110S</alias>
+        <alias>DMN3150L</alias>
+        <alias>DMN3300U</alias>
+        <alias>DMN3404L</alias>
+        <alias>DMN6075S</alias>
+        <alias>DMN6140L</alias>
+        <alias>DMN67D7L</alias>
+        <alias>DMN67D8L</alias>
+        <alias>MMBF170</alias>
+        <alias>VN10LF</alias>
+        <alias>ZVN3306F</alias>
+        <alias>ZVN3310F</alias>
+        <alias>ZVN3320F</alias>
+        <alias>ZVN4106F</alias>
+        <alias>ZXM61N02F</alias>
+        <alias>ZXM61N03F</alias>
+        <alias>ZXMN10A07F</alias>
+        <alias>ZXMN2A01F</alias>
+        <alias>ZXMN2A14F</alias>
+        <alias>ZXMN2B01F</alias>
+        <alias>ZXMN2B14FH</alias>
+        <alias>ZXMN2F30FH</alias>
+        <alias>ZXMN2F34FH</alias>
+        <alias>ZXMN3A01F</alias>
+        <alias>ZXMN3A14F</alias>
+        <alias>ZXMN3B01F</alias>
+        <alias>ZXMN3B14F</alias>
+        <alias>ZXMN3F30FH</alias>
+        <alias>ZXMN6A07F</alias>
+        <alias>IRLML0030</alias>
+        <alias>IRLML2060</alias>
+        <alias>TSM2302CX</alias>
+      </aliases>
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Controller_Library">
+      <uri>//Users/laurenadachi/Documents/GitHub/pufferfish-electronics/designs/Pufferfish-Interface-1/../../library/controller_symbols/Pufferfish.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Memory_Flash">
+      <uri>/Library/Application Support/kicad/library/Memory_Flash.lib</uri>
+    </library>
+    <library logical="Power_Protection">
+      <uri>/Library/Application Support/kicad/library/Power_Protection.lib</uri>
+    </library>
+    <library logical="Pufferfish">
+      <uri>/Users/laurenadachi/Documents/GitHub/pufferfish-electronics/designs/Pufferfish-Interface-1/../../library/symbols/Pufferfish.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/Library/Application Support/kicad/library/Switch.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/Library/Application Support/kicad/library/Transistor_BJT.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/Library/Application Support/kicad/library/Transistor_FET.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="2" name="GND">
+      <node ref="C2" pin="2"/>
+      <node ref="R17" pin="2"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="CONN1" pin="3"/>
+      <node ref="CONN1" pin="6"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="R18" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="D9" pin="2"/>
+      <node ref="D8" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="Q6" pin="2"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(Q4-Pad3)">
+      <node ref="Q4" pin="3"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="4" name="ALARM2_CNTRL">
+      <node ref="R4" pin="2"/>
+      <node ref="CONN1" pin="5"/>
+    </net>
+    <net code="5" name="5V">
+      <node ref="CONN1" pin="1"/>
+      <node ref="CONN1" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="BUZZ1" pin="~"/>
+    </net>
+    <net code="6" name="Net-(BUZZ2-Pad+)">
+      <node ref="BUZZ2" pin="+"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="7" name="Net-(BUZZ2-Pad-)">
+      <node ref="BUZZ2" pin="-"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="8" name="3.3V">
+      <node ref="U1" pin="8"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="SW4" pin="2"/>
+      <node ref="R21" pin="1"/>
+      <node ref="CONN1" pin="4"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="R22" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R23" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R24" pin="1"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="9" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="Q5" pin="3"/>
+    </net>
+    <net code="10" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="11" name="Net-(D2-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="12" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="Q7" pin="3"/>
+    </net>
+    <net code="13" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="14" name="Net-(BUZZ1-Pad~)">
+      <node ref="Q1" pin="3"/>
+      <node ref="D4" pin="1"/>
+      <node ref="BUZZ1" pin="~"/>
+    </net>
+    <net code="15" name="ALARM1_MED">
+      <node ref="R2" pin="1"/>
+      <node ref="CONN1" pin="10"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="16" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="17" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="18" name="ALARM1_LOW">
+      <node ref="CONN1" pin="8"/>
+      <node ref="R3" pin="1"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="19" name="ALARM1_HIGH">
+      <node ref="CONN1" pin="12"/>
+      <node ref="R1" pin="1"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="20" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="21" name="Net-(BUZZ1-Pad~)">
+      <node ref="BUZZ1" pin="~"/>
+      <node ref="D5" pin="2"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="22" name="Net-(BUZZ1-Pad~)">
+      <node ref="Q2" pin="3"/>
+      <node ref="BUZZ1" pin="~"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="23" name="Net-(R11-Pad2)">
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="24" name="LEDG_EN">
+      <node ref="R11" pin="1"/>
+      <node ref="Q7" pin="1"/>
+      <node ref="CONN1" pin="11"/>
+    </net>
+    <net code="25" name="Net-(R9-Pad2)">
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="26" name="LEDY_EN">
+      <node ref="CONN1" pin="9"/>
+      <node ref="R9" pin="1"/>
+      <node ref="Q6" pin="1"/>
+    </net>
+    <net code="27" name="Net-(D2-Pad1)">
+      <node ref="Q6" pin="3"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="28" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="29" name="LEDR_EN">
+      <node ref="Q5" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="CONN1" pin="7"/>
+    </net>
+    <net code="31" name="SPI1_MISO">
+      <node ref="R22" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="32" name="EXT_MEM_HOLD">
+      <node ref="R20" pin="2"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="33" name="SPI1_MOSI">
+      <node ref="U1" pin="5"/>
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="34" name="EXT_MEM_WRITE_PROTECT">
+      <node ref="U1" pin="3"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="36" name="SPI1_SCL">
+      <node ref="U1" pin="6"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="37" name="EXT_MEM_CS">
+      <node ref="U1" pin="1"/>
+      <node ref="R24" pin="2"/>
+    </net>
+    <net code="38" name="SET_NOT_PAUSE">
+      <node ref="D7" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="CONN1" pin="16"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="39" name="SET_PWR_ON_OFF">
+      <node ref="R17" pin="1"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="CONN1" pin="15"/>
+    </net>
+    <net code="40" name="SET_ALARM_EN">
+      <node ref="R13" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="CONN1" pin="14"/>
+    </net>
+    <net code="41" name="SET_PWR_SRC">
+      <node ref="R18" pin="1"/>
+      <node ref="SW4" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="CONN1" pin="13"/>
+    </net>
+    <net code="42" name="Net-(R15-Pad1)">
+      <node ref="R16" pin="2"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="43" name="Net-(R13-Pad1)">
+      <node ref="SW1" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="R13" pin="1"/>
+    </net>
+  </nets>
+</export>
