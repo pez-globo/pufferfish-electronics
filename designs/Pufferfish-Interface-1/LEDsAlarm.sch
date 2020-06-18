@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 2 4
 Title "LEDs and Alarm"
 Date "2020-06-11"
-Rev "0"
+Rev "1"
 Comp ""
 Comment1 ""
 Comment2 ""
