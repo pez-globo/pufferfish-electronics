@@ -1,4 +1,4 @@
-(module SON50P400X400X80-15N (layer F.Cu) (tedit 0)
+(module SON50P400X400X80-15N (layer F.Cu) (tedit 5EEBBB33)
   (descr NHL0014B)
   (tags "Integrated Circuit")
   (attr smd)
@@ -35,7 +35,7 @@
   (pad 12 smd rect (at 1.95 -0.5 90) (size 0.3 0.85) (layers F.Cu F.Paste F.Mask))
   (pad 13 smd rect (at 1.95 -1 90) (size 0.3 0.85) (layers F.Cu F.Paste F.Mask))
   (pad 14 smd rect (at 1.95 -1.5 90) (size 0.3 0.85) (layers F.Cu F.Paste F.Mask))
-  (pad 15 smd rect (at 0 0) (size 2.7 3.1) (layers F.Cu F.Paste F.Mask))
+  (pad 15 smd rect (at 0 0) (size 2.413 3.099999) (layers F.Cu F.Paste F.Mask))
   (model "C:\\Users\\chris\\Dropbox (Brown)\\Apps\\KiCad\\mouser\\SamacSys_Parts.3dshapes\\LMP91000SDE_NOPB.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
