@@ -63,7 +63,7 @@ control,CN12_50,PF14,I2C3_SCL,I2C4_SCL,I2C,oxygen sensor,oxygen sensor communica
 control,CN12_69,PG4,PRESS_VDD_EN,Digital I/O,DIO,pressure sensor,pressure sensor voltage supply enable (allows for software resetting certain pressure sensor devices)
 interface,CH7_5,PB13,ALARM1_LOW,Digital I/O,DIO,buzzer,"set high to turn on low-urgency, regulation-compliant, alarm sound"
 interface,CH10_2,PG12,ALARM1_HIGH,Digital I/O,DIO,buzzer,"set high to turn on high-urgency, regulation-compliant, alarm sound"
-interface,CH10_28,PE6,ALARM1_MED,Digital I/O,DIO,buzzer,"set high to turn on medium-urgency, regulation-compliant, alarm sound"
+interface,CH11_30,PA1,ALARM1_MED,Digital I/O,DIO,buzzer,"set high to turn on medium-urgency, regulation-compliant, alarm sound"
 interface,CN8_6,PC10,LEDR_CNTRL,Digital I/O,DIO,light indicator,set high to turn on red LED
 interface,CN8_8,PC11,LEDY_CNTRL,Digital I/O,DIO,light indicator,set high to turn on yellow LED
 interface,CN8_10,PD2,LEDG_CNTRL,Digital I/O,DIO,light indicator,set high to turn on green LED
@@ -71,17 +71,21 @@ interface,CN8_14,PG2,SET_ALARM_EN,Digital I/O,DIO,user button,"digital push inpu
 interface,CN8_16,PG3,SET_NOT_PAUSE,Digital I/O,DIO,user button,"digital push input, high = ventilation not paused"
 interface,CH10_15 ,PB2,SET_PWR_SRC,Digital I/O,DIO,user button,digital rocker input for selecting power source
 interface,CH10_25 ,PE2,SET_PWR_ON_OFF,Digital I/O,DIO,user button,digital rocker input for power on/off
-interface,CH10_31,PB0,ALARM2_CNTRL,Digital I/O,DIO,buzzer,pwm signal that controls piezo buzzer (not regulation compliant)
+interface,CN12_28,PB14,ALARM2_CNTRL,TIM12_CH1,PWM,buzzer,pwm signal that controls piezo buzzer (not regulation compliant)
 power,CN11_43,PD6,LTC4421-PWR-nDISABLE1,Digital I/O,DIO,power prioritizer,Channel 1 (primary power source) disable
-power,CN11_35,PC2,LTC4421-PWR-nCH1,Digital I/O,DIO,power prioritizer,Indicates if primary power source is currently used as power path
+power,CN11_59,PG0,LTC4421-PWR-nCH1,Digital I/O,DIO,power prioritizer,Indicates if primary power source is currently used as power path
 power,CN11_39,PD4,LTC4421-PWR-nVALID1,Digital I/O,DIO,power prioritizer,Indicates valid voltage range for primary power source
 power,CN11_45,PD7,LTC4421-PWR-nDISABLE2,Digital I/O,DIO,power prioritizer,Channel 2 (backup battery) disable
 power,CN11_51,PF1,LTC4421-PWR-nFAULT1,Digital I/O,DIO,power prioritizer,Fault flag for primary power channel
-power,CN11_37,PC3,LTC4421-PWR-nCH2,Digital I/O,DIO,power prioritizer,Indicates if battery backup is currently used as power path
+power,CN11_58,PG1,LTC4421-PWR-nCH2,Digital I/O,DIO,power prioritizer,Indicates if battery backup is currently used as power path
 power,CN11_41,PD5,LTC4421-PWR-nVALID2,Digital I/O,DIO,power prioritizer,Indicates valid voltage range for backup power source
 power,CN11_53,PF0,LTC4421-PWR-nFAULT2,Digital I/O,DIO,power prioritizer,Fault flag for backup power channel
 power,CN11_48,PE4,VSYS-5V0-PGOOD,Digital I/O,DIO,regulator,5V Buck PGOOD flag
-power,CN11_47,PE3,3V3-PGOOD,Digital I/O,DIO,regulator,3.3V Buck PGOOD flag
+power,CN11_47,PE3,VSYS-3V3-PGOOD,Digital I/O,DIO,regulator,3.3V Buck PGOOD flag
 power,CN11_52,PF2,BAT-CHARGE-EN,Digital I/O,DIO,battery,Enables charging path for SLA backup battery
 power,CN11_50,PE5,BAT-MEAS-EN,Digital I/O,DIO,battery,Enables analog measurement of backup battery
 power,CN11_54,PF8,BAT-MEAS-ANALOG,ADC3_INP7,ADC,battery,Analog divider measurement from battery
+control,CN12_6,PC5,GPIO1,Digital I/O,DIO,unused,unused general purpose I/O line for off board routing
+control,CN12_34,PC4,GPIO2,Digital I/O,DIO,unused,unused general purpose I/O line for off board routing
+control,CN12_40,PE8,GPIO3,Digital I/O,DIO,unused,unused general purpose I/O line for off board routing
+control,CN12_44,PE7,GPIO4,Digital I/O,DIO,unused,unused general purpose I/O line for off board routing
