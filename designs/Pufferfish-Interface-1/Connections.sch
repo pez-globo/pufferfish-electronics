@@ -65,7 +65,7 @@ F 3 "" H 3000 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Controller_Library:1658623-3 CONN1
+L Pufferfish:1658623-3 CONN1
 U 1 1 5EE6F7F1
 P 3450 2500
 F 0 "CONN1" H 3450 2515 50  0000 C CNN
@@ -141,11 +141,11 @@ CN8_10 PC12
 Text Notes 1750 3100 0    50   ~ 0
 CN8_6 PC10
 Text Notes 1750 3000 0    50   ~ 0
-CN10_31 PB0
+CN12_28 PB14
 Text Notes 4600 3100 0    50   ~ 0
 CN7_5 PB13
 Text Notes 4600 3200 0    50   ~ 0
-CN10_28
+CH11_30 PA1
 Text Notes 4600 3300 0    50   ~ 0
 CN10_2 PF13
 Text Notes 4600 3400 0    50   ~ 0

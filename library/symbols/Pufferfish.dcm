@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 1658623-3
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1658623&DocType=Customer+Drawing&DocLang=English&PartCntxt=1658623-3&DocFormat=pdf
+$ENDCMP
+#
 $CMP BME280
 D DIP Breakout for Adafruit's BME280 board
 $ENDCMP
