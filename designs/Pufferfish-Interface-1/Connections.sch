@@ -64,17 +64,6 @@ F 3 "" H 3000 2750 50  0001 C CNN
 	1    3000 2750
 	1    0    0    -1  
 $EndComp
-$Comp
-L Pufferfish:1658623-3 CONN1
-U 1 1 5EE6F7F1
-P 3450 2500
-F 0 "CONN1" H 3450 2515 50  0000 C CNN
-F 1 "1658623-3" H 3450 2424 50  0000 C CNN
-F 2 "" H 3450 2400 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1658623&DocType=Customer+Drawing&DocLang=English&PartCntxt=1658623-3&DocFormat=pdf" H 3450 2400 50  0001 C CNN
-	1    3450 2500
-	1    0    0    -1  
-$EndComp
 Text GLabel 3000 2950 0    50   Input ~ 0
 ALARM2_CNTRL
 Text GLabel 3000 3050 0    50   Input ~ 0
@@ -152,4 +141,21 @@ Text Notes 4600 3400 0    50   ~ 0
 CN8_14 PG2
 Text Notes 4600 3500 0    50   ~ 0
 CN8_16 PG3
+$Comp
+L Controller_Library:5103308-3 CONN1
+U 1 1 5EED929E
+P 3000 2750
+F 0 "CONN1" H 3450 3015 50  0000 C CNN
+F 1 "5103308-3" H 3450 2924 50  0000 C CNN
+F 2 "Pufferfish:SHDR16W66P254_2X8" H 4300 2750 50  0001 L CNN
+F 3 "http://componentsearchengine.com/Datasheets/1/5103308-3.pdf" H 4300 2650 50  0001 L CNN
+F 4 "HEADER, STRT 16WAY" H 4300 2550 50  0001 L CNN "Description"
+F 5 "9.982" H 4300 2450 50  0001 L CNN "Height"
+F 6 "571-5103308-3" H 4300 2350 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/5103308-3?qs=84A%2FDAdkstKEP4rFsvD2pQ%3D%3D" H 4300 2250 50  0001 L CNN "Mouser Price/Stock"
+F 8 "TE Connectivity" H 4300 2150 50  0001 L CNN "Manufacturer_Name"
+F 9 "5103308-3" H 4300 2050 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3000 2750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
