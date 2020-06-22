@@ -453,7 +453,7 @@ U 1 1 5EEE47D8
 P 7900 5700
 F 0 "CONN3" V 7971 5470 50  0000 R CNN
 F 1 "B2B-PH-SM4-TB(LF)(SN)" V 7880 5470 50  0000 R CNN
-F 2 "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical" H 8350 6150 50  0001 L BNN
+F 2 "Pufferfish:JST_B2B-PH-SM4-TB" H 8350 6150 50  0001 L BNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 8150 5550 50  0001 L BNN
 F 4 "JST Sales America Inc." H 8850 6300 50  0001 C CNN "Manufacturer"
 	1    7900 5700
@@ -515,7 +515,7 @@ U 1 1 5EE80B27
 P 4000 5750
 F 0 "CONN2" V 4071 5520 50  0000 R CNN
 F 1 "B2B-PH-SM4-TB(LF)(SN)" V 3980 5520 50  0000 R CNN
-F 2 "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical" H 4450 6200 50  0001 L BNN
+F 2 "Pufferfish:JST_B2B-PH-SM4-TB" H 4450 6200 50  0001 L BNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4250 5600 50  0001 L BNN
 F 4 "JST Sales America Inc." H 4950 6350 50  0001 C CNN "Manufacturer"
 	1    4000 5750
