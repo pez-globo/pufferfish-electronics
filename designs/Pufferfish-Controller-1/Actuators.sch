@@ -1049,18 +1049,6 @@ F 4 "Trinamic Motion Control " H 8200 5300 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish:TMC2209-SilentStepStick DRIVE4
-U 1 1 5EFE90FA
-P 8350 4750
-F 0 "DRIVE4" H 8375 5465 50  0000 C CNN
-F 1 "TMC2209-SilentStepStick" H 8375 5374 50  0000 C CNN
-F 2 "Pufferfish:MODULE_TMC2209_SilentStepStick" H 8400 3650 50  0001 C CNN
-F 3 "https://www.trinamic.com/fileadmin/assets/Products/Eval_Documents/TMC2209_SilentStepStick_Rev1.10.pdf" H 8750 4750 50  0001 C CNN
-F 4 "Trinamic Motion Control " H 8200 3650 50  0001 C CNN "Manufacturer"
-	1    8350 4750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Pufferfish:GND #GND084
 U 1 1 5F023EBC
 P 7400 7600
@@ -1137,8 +1125,6 @@ F 5 "0Ω" H 9250 8050 50  0001 C CNN "Resistance"
 	1    9150 8000
 	0    1    1    0   
 $EndComp
-NoConn ~ 9000 8400
-NoConn ~ 9000 8300
 NoConn ~ 9000 8200
 Text GLabel 9250 8500 2    50   Input ~ 0
 MOTOR4_EN
@@ -1344,8 +1330,6 @@ F 5 "0Ω" H 9250 6250 50  0001 C CNN "Resistance"
 	1    9150 6200
 	0    1    1    0   
 $EndComp
-NoConn ~ 9000 6600
-NoConn ~ 9000 6500
 NoConn ~ 9000 6400
 Text GLabel 9250 6700 2    50   Input ~ 0
 MOTOR2_EN
@@ -1551,8 +1535,6 @@ F 5 "0Ω" H 9250 4600 50  0001 C CNN "Resistance"
 	1    9150 4550
 	0    1    1    0   
 $EndComp
-NoConn ~ 9000 4950
-NoConn ~ 9000 4850
 NoConn ~ 9000 4750
 Text GLabel 9250 5050 2    50   Input ~ 0
 MOTOR3_EN
@@ -1747,8 +1729,6 @@ F 5 "0Ω" H 9250 2800 50  0001 C CNN "Resistance"
 	1    9150 2750
 	0    1    1    0   
 $EndComp
-NoConn ~ 9000 3150
-NoConn ~ 9000 3050
 NoConn ~ 9000 2950
 Text GLabel 9250 3250 2    50   Input ~ 0
 MOTOR1_EN
@@ -2434,5 +2414,209 @@ F 4 "?%" H 7500 6800 50  0001 C CNN "Tolerance"
 F 5 "0Ω" H 7500 6900 50  0001 C CNN "Resistance"
 	1    7400 6850
 	0    1    1    0   
+$EndComp
+$Comp
+L Pufferfish:SHORT_SMD_0603 R428
+U 1 1 5EF38346
+P 9150 3050
+F 0 "R428" V 9100 3050 50  0000 C CNN
+F 1 "SHORT_SMD_0603" H 9180 2910 50  0001 L CNN
+F 2 "Pufferfish:SHORT_SMD_0603" H 9350 2650 50  0001 C CNN
+F 3 "~" H 9500 3250 50  0001 C CNN
+F 4 "?%" H 9250 3000 50  0001 C CNN "Tolerance"
+F 5 "0Ω" H 9250 3100 50  0001 C CNN "Resistance"
+	1    9150 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Pufferfish:SHORT_SMD_0603 R429
+U 1 1 5EF38750
+P 9150 3150
+F 0 "R429" V 9100 3150 50  0000 C CNN
+F 1 "SHORT_SMD_0603" H 9180 3010 50  0001 L CNN
+F 2 "Pufferfish:SHORT_SMD_0603" H 9350 2750 50  0001 C CNN
+F 3 "~" H 9500 3350 50  0001 C CNN
+F 4 "?%" H 9250 3100 50  0001 C CNN "Tolerance"
+F 5 "0Ω" H 9250 3200 50  0001 C CNN "Resistance"
+	1    9150 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Pufferfish:GND #GND0115
+U 1 1 5EF38A21
+P 9350 3050
+F 0 "#GND0115" H 9350 3050 50  0001 C CNN
+F 1 "GND" V 9350 2981 59  0000 R CNN
+F 2 "" H 9350 3050 50  0001 C CNN
+F 3 "" H 9350 3050 50  0001 C CNN
+	1    9350 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Pufferfish:GND #GND0116
+U 1 1 5EF38D33
+P 9350 3150
+F 0 "#GND0116" H 9350 3150 50  0001 C CNN
+F 1 "GND" V 9350 3081 59  0000 R CNN
+F 2 "" H 9350 3150 50  0001 C CNN
+F 3 "" H 9350 3150 50  0001 C CNN
+	1    9350 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Pufferfish:SHORT_SMD_0603 R434
+U 1 1 5EF39B05
+P 9150 8300
+F 0 "R434" V 9100 8300 50  0000 C CNN
+F 1 "SHORT_SMD_0603" H 9180 8160 50  0001 L CNN
+F 2 "Pufferfish:SHORT_SMD_0603" H 9350 7900 50  0001 C CNN
+F 3 "~" H 9500 8500 50  0001 C CNN
+F 4 "?%" H 9250 8250 50  0001 C CNN "Tolerance"
+F 5 "0Ω" H 9250 8350 50  0001 C CNN "Resistance"
+	1    9150 8300
+	0    1    1    0   
+$EndComp
+$Comp
+L Pufferfish:SHORT_SMD_0603 R435
+U 1 1 5EF39B0D
+P 9150 8400
+F 0 "R435" V 9100 8400 50  0000 C CNN
+F 1 "SHORT_SMD_0603" H 9180 8260 50  0001 L CNN
+F 2 "Pufferfish:SHORT_SMD_0603" H 9350 8000 50  0001 C CNN
+F 3 "~" H 9500 8600 50  0001 C CNN
+F 4 "?%" H 9250 8350 50  0001 C CNN "Tolerance"
+F 5 "0Ω" H 9250 8450 50  0001 C CNN "Resistance"
+	1    9150 8400
+	0    1    1    0   
+$EndComp
+$Comp
+L Pufferfish:GND #GND0117
+U 1 1 5EF39B13
+P 9350 8300
+F 0 "#GND0117" H 9350 8300 50  0001 C CNN
+F 1 "GND" V 9350 8231 59  0000 R CNN
+F 2 "" H 9350 8300 50  0001 C CNN
+F 3 "" H 9350 8300 50  0001 C CNN
+	1    9350 8300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Pufferfish:GND #GND0118
+U 1 1 5EF39B19
+P 9350 8400
+F 0 "#GND0118" H 9350 8400 50  0001 C CNN
+F 1 "GND" V 9350 8331 59  0000 R CNN
+F 2 "" H 9350 8400 50  0001 C CNN
+F 3 "" H 9350 8400 50  0001 C CNN
+	1    9350 8400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Pufferfish:TMC2209-SilentStepStick DRIVE4
+U 1 1 5EFE90FA
+P 8350 4750
+F 0 "DRIVE4" H 8375 5465 50  0000 C CNN
+F 1 "TMC2209-SilentStepStick" H 8375 5374 50  0000 C CNN
+F 2 "Pufferfish:MODULE_TMC2209_SilentStepStick" H 8400 3650 50  0001 C CNN
+F 3 "https://www.trinamic.com/fileadmin/assets/Products/Eval_Documents/TMC2209_SilentStepStick_Rev1.10.pdf" H 8750 4750 50  0001 C CNN
+F 4 "Trinamic Motion Control " H 8200 3650 50  0001 C CNN "Manufacturer"
+	1    8350 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:SHORT_SMD_0603 R430
+U 1 1 5EF4AF65
+P 9150 4850
+F 0 "R430" V 9100 4850 50  0000 C CNN
+F 1 "SHORT_SMD_0603" H 9180 4710 50  0001 L CNN
+F 2 "Pufferfish:SHORT_SMD_0603" H 9350 4450 50  0001 C CNN
+F 3 "~" H 9500 5050 50  0001 C CNN
+F 4 "?%" H 9250 4800 50  0001 C CNN "Tolerance"
+F 5 "0Ω" H 9250 4900 50  0001 C CNN "Resistance"
+	1    9150 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Pufferfish:SHORT_SMD_0603 R431
+U 1 1 5EF4AF6D
+P 9150 4950
+F 0 "R431" V 9100 4950 50  0000 C CNN
+F 1 "SHORT_SMD_0603" H 9180 4810 50  0001 L CNN
+F 2 "Pufferfish:SHORT_SMD_0603" H 9350 4550 50  0001 C CNN
+F 3 "~" H 9500 5150 50  0001 C CNN
+F 4 "?%" H 9250 4900 50  0001 C CNN "Tolerance"
+F 5 "0Ω" H 9250 5000 50  0001 C CNN "Resistance"
+	1    9150 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L Pufferfish:GND #GND0119
+U 1 1 5EF4AF73
+P 9350 4850
+F 0 "#GND0119" H 9350 4850 50  0001 C CNN
+F 1 "GND" V 9350 4781 59  0000 R CNN
+F 2 "" H 9350 4850 50  0001 C CNN
+F 3 "" H 9350 4850 50  0001 C CNN
+	1    9350 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Pufferfish:GND #GND0120
+U 1 1 5EF4AF79
+P 9350 4950
+F 0 "#GND0120" H 9350 4950 50  0001 C CNN
+F 1 "GND" V 9350 4881 59  0000 R CNN
+F 2 "" H 9350 4950 50  0001 C CNN
+F 3 "" H 9350 4950 50  0001 C CNN
+	1    9350 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Pufferfish:SHORT_SMD_0603 R432
+U 1 1 5EF6C55B
+P 9150 6500
+F 0 "R432" V 9100 6500 50  0000 C CNN
+F 1 "SHORT_SMD_0603" H 9180 6360 50  0001 L CNN
+F 2 "Pufferfish:SHORT_SMD_0603" H 9350 6100 50  0001 C CNN
+F 3 "~" H 9500 6700 50  0001 C CNN
+F 4 "?%" H 9250 6450 50  0001 C CNN "Tolerance"
+F 5 "0Ω" H 9250 6550 50  0001 C CNN "Resistance"
+	1    9150 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L Pufferfish:SHORT_SMD_0603 R433
+U 1 1 5EF6C563
+P 9150 6600
+F 0 "R433" V 9100 6600 50  0000 C CNN
+F 1 "SHORT_SMD_0603" H 9180 6460 50  0001 L CNN
+F 2 "Pufferfish:SHORT_SMD_0603" H 9350 6200 50  0001 C CNN
+F 3 "~" H 9500 6800 50  0001 C CNN
+F 4 "?%" H 9250 6550 50  0001 C CNN "Tolerance"
+F 5 "0Ω" H 9250 6650 50  0001 C CNN "Resistance"
+	1    9150 6600
+	0    1    1    0   
+$EndComp
+$Comp
+L Pufferfish:GND #GND0121
+U 1 1 5EF6C569
+P 9350 6500
+F 0 "#GND0121" H 9350 6500 50  0001 C CNN
+F 1 "GND" V 9350 6431 59  0000 R CNN
+F 2 "" H 9350 6500 50  0001 C CNN
+F 3 "" H 9350 6500 50  0001 C CNN
+	1    9350 6500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Pufferfish:GND #GND0122
+U 1 1 5EF6C56F
+P 9350 6600
+F 0 "#GND0122" H 9350 6600 50  0001 C CNN
+F 1 "GND" V 9350 6531 59  0000 R CNN
+F 2 "" H 9350 6600 50  0001 C CNN
+F 3 "" H 9350 6600 50  0001 C CNN
+	1    9350 6600
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
