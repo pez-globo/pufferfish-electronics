@@ -139,10 +139,6 @@ F 9 "5103308-3" H 4300 2050 50  0001 L CNN "Manufacturer_Part_Number"
 	1    3000 2750
 	1    0    0    -1  
 $EndComp
-Text GLabel 5150 2800 2    50   Input ~ 0
-SET_EXTRA2
 Text GLabel 3900 2950 2    50   Input ~ 0
 SET_EXTRA1
-Text Notes 3350 3900 0    50   ~ 0
-Do we need a bigger connector?
 $EndSCHEMATC
