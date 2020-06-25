@@ -1,4 +1,4 @@
-(module Buzzer-MSS5MMG (layer F.Cu) (tedit 5EF12C83)
+(module Buzzer-MSS5MMG (layer F.Cu) (tedit 5EF4FAA1)
   (descr "Medical regulatory buzzer")
   (fp_text reference REF** (at 0 -13) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
