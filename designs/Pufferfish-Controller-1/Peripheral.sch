@@ -462,20 +462,6 @@ Text GLabel 7100 4350 2    50   Output ~ 0
 ALARM1_MED
 Text GLabel 7100 4450 2    50   Output ~ 0
 ALARM1_HIGH
-$Comp
-L Pufferfish:GND #GND?
-U 1 1 5EE7EF07
-P 7200 4150
-AR Path="/5EBC07ED/5EE7EF07" Ref="#GND?"  Part="1" 
-AR Path="/5EC71C15/5EE7EF07" Ref="#GND0104"  Part="1" 
-AR Path="/5EE3E095/5EE7EF07" Ref="#GND?"  Part="1" 
-F 0 "#GND0104" H 7200 4150 50  0001 C CNN
-F 1 "GND" V 7200 4082 59  0000 R CNN
-F 2 "" H 7200 4150 50  0001 C CNN
-F 3 "" H 7200 4150 50  0001 C CNN
-	1    7200 4150
-	0    -1   -1   0   
-$EndComp
 Text GLabel 7100 4550 2    50   Output ~ 0
 SET_ALARM_EN
 Text GLabel 5700 4250 0    50   Output ~ 0
@@ -2122,7 +2108,7 @@ F 3 "" H 10700 1750 50  0001 C CNN
 $EndComp
 Text GLabel 5950 8350 0    50   BiDi ~ 0
 GPIO3
-Text GLabel 5950 8450 0    50   BiDi ~ 0
+Text GLabel 7100 4150 2    50   Output ~ 0
 GPIO4
 Text GLabel 5950 8250 0    50   BiDi ~ 0
 GPIO2
@@ -2378,5 +2364,19 @@ F 2 "" H 13450 1650 50  0001 C CNN
 F 3 "" H 13450 1650 50  0001 C CNN
 	1    13450 1650
 	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5EF6A2B0
+P 5850 8450
+AR Path="/5EBC07ED/5EF6A2B0" Ref="#GND?"  Part="1" 
+AR Path="/5EC71C15/5EF6A2B0" Ref="#GND?"  Part="1" 
+AR Path="/5EE3E095/5EF6A2B0" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 5850 8450 50  0001 C CNN
+F 1 "GND" V 5850 8382 59  0000 R CNN
+F 2 "" H 5850 8450 50  0001 C CNN
+F 3 "" H 5850 8450 50  0001 C CNN
+	1    5850 8450
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
