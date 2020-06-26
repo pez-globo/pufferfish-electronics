@@ -77,13 +77,13 @@ ALARM1_HIGH
 Text GLabel 3900 3150 2    50   Input ~ 0
 ALARM1_MED
 Text GLabel 3900 3450 2    50   Input ~ 0
-SET_NOT_PAUSE
+SET_LOCK
 Text GLabel 3900 3350 2    50   Input ~ 0
 SET_ALARM_EN
 Text GLabel 3000 3350 0    50   Input ~ 0
 SET_PWR_SRC
 Text GLabel 3000 3450 0    50   Input ~ 0
-SET_PWR_ON_OFF
+SET_EXTRA1
 Text GLabel 3900 3050 2    50   Input ~ 0
 ALARM1_LOW
 Wire Wire Line
@@ -140,5 +140,5 @@ F 9 "5103308-3" H 4300 2050 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 Text GLabel 3900 2950 2    50   Input ~ 0
-SET_EXTRA1
+SET_EXTRA2
 $EndSCHEMATC
