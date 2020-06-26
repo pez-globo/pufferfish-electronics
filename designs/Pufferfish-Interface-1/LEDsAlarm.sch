@@ -146,18 +146,16 @@ Wire Wire Line
 $Comp
 L Pufferfish:GND #GND?
 U 1 1 5EE93EE8
-P 2800 3600
+P 2800 3650
 AR Path="/5EE93EE8" Ref="#GND?"  Part="1" 
 AR Path="/5EE41C08/5EE93EE8" Ref="#GND02"  Part="1" 
-F 0 "#GND02" H 2800 3600 50  0001 C CNN
-F 1 "GND" H 2800 3470 59  0000 C CNN
-F 2 "" H 2800 3600 50  0001 C CNN
-F 3 "" H 2800 3600 50  0001 C CNN
-	1    2800 3600
+F 0 "#GND02" H 2800 3650 50  0001 C CNN
+F 1 "GND" H 2800 3520 59  0000 C CNN
+F 2 "" H 2800 3650 50  0001 C CNN
+F 3 "" H 2800 3650 50  0001 C CNN
+	1    2800 3650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2800 3450 2800 3500
 $Comp
 L Pufferfish:RES_SMD_0805 R?
 U 1 1 5EE93EF5
@@ -196,19 +194,17 @@ F 5 "10KΩ" V 2336 4400 50  0000 C CNN "Resistance"
 	1    2450 4400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2800 4400 2800 4450
 $Comp
 L Pufferfish:GND #GND?
 U 1 1 5EE5B705
-P 2800 4550
+P 2800 4600
 AR Path="/5EE5B705" Ref="#GND?"  Part="1" 
 AR Path="/5EE41C08/5EE5B705" Ref="#GND03"  Part="1" 
-F 0 "#GND03" H 2800 4550 50  0001 C CNN
-F 1 "GND" H 2800 4420 59  0000 C CNN
-F 2 "" H 2800 4550 50  0001 C CNN
-F 3 "" H 2800 4550 50  0001 C CNN
-	1    2800 4550
+F 0 "#GND03" H 2800 4600 50  0001 C CNN
+F 1 "GND" H 2800 4470 59  0000 C CNN
+F 2 "" H 2800 4600 50  0001 C CNN
+F 3 "" H 2800 4600 50  0001 C CNN
+	1    2800 4600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -230,18 +226,16 @@ Wire Wire Line
 $Comp
 L Pufferfish:GND #GND?
 U 1 1 5EEAC69F
-P 2800 2750
+P 2800 2800
 AR Path="/5EEAC69F" Ref="#GND?"  Part="1" 
 AR Path="/5EE41C08/5EEAC69F" Ref="#GND01"  Part="1" 
-F 0 "#GND01" H 2800 2750 50  0001 C CNN
-F 1 "GND" H 2800 2620 59  0000 C CNN
-F 2 "" H 2800 2750 50  0001 C CNN
-F 3 "" H 2800 2750 50  0001 C CNN
-	1    2800 2750
+F 0 "#GND01" H 2800 2800 50  0001 C CNN
+F 1 "GND" H 2800 2670 59  0000 C CNN
+F 2 "" H 2800 2800 50  0001 C CNN
+F 3 "" H 2800 2800 50  0001 C CNN
+	1    2800 2800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2800 2600 2800 2650
 $Comp
 L Pufferfish:RES_SMD_0805 R?
 U 1 1 5EEAC6AC
@@ -257,8 +251,6 @@ F 5 "10KΩ" V 2336 2600 50  0000 C CNN "Resistance"
 	1    2450 2600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2450 2700 2800 2700
 Wire Wire Line
 	2450 2400 2450 2500
 Wire Wire Line
@@ -372,38 +364,6 @@ LEDR_EN
 Wire Wire Line
 	7100 3600 7100 3700
 Wire Wire Line
-	7100 3900 7450 3900
-$Comp
-L Pufferfish:RES_SMD_0805 R?
-U 1 1 5EF19DFB
-P 7100 3800
-AR Path="/5EF19DFB" Ref="R?"  Part="1" 
-AR Path="/5EE41C08/5EF19DFB" Ref="R8"  Part="1" 
-F 0 "R8" V 6895 3800 50  0000 C CNN
-F 1 "RES_SMD_0805" H 7180 3610 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0805" H 7300 3400 50  0001 C CNN
-F 3 "~" H 7100 3800 50  0001 C CNN
-F 4 "?%" H 7250 3700 50  0001 C CNN "Tolerance"
-F 5 "10KΩ" V 6986 3800 50  0000 C CNN "Resistance"
-	1    7100 3800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7450 3800 7450 3850
-$Comp
-L Pufferfish:GND #GND?
-U 1 1 5EF19E02
-P 7450 3950
-AR Path="/5EF19E02" Ref="#GND?"  Part="1" 
-AR Path="/5EE41C08/5EF19E02" Ref="#GND06"  Part="1" 
-F 0 "#GND06" H 7450 3950 50  0001 C CNN
-F 1 "GND" H 7450 3820 59  0000 C CNN
-F 2 "" H 7450 3950 50  0001 C CNN
-F 3 "" H 7450 3950 50  0001 C CNN
-	1    7450 3950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	6800 3600 7100 3600
 Wire Wire Line
 	7100 3600 7150 3600
@@ -424,38 +384,6 @@ LEDG_EN
 Wire Wire Line
 	7100 2700 7100 2800
 Wire Wire Line
-	7100 3000 7450 3000
-$Comp
-L Pufferfish:RES_SMD_0805 R?
-U 1 1 5EF1AFA9
-P 7100 2900
-AR Path="/5EF1AFA9" Ref="R?"  Part="1" 
-AR Path="/5EE41C08/5EF1AFA9" Ref="R7"  Part="1" 
-F 0 "R7" V 6895 2900 50  0000 C CNN
-F 1 "RES_SMD_0805" H 7180 2710 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0805" H 7300 2500 50  0001 C CNN
-F 3 "~" H 7100 2900 50  0001 C CNN
-F 4 "?%" H 7250 2800 50  0001 C CNN "Tolerance"
-F 5 "10KΩ" V 6986 2900 50  0000 C CNN "Resistance"
-	1    7100 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7450 2900 7450 2950
-$Comp
-L Pufferfish:GND #GND?
-U 1 1 5EF1AFB4
-P 7450 3050
-AR Path="/5EF1AFB4" Ref="#GND?"  Part="1" 
-AR Path="/5EE41C08/5EF1AFB4" Ref="#GND05"  Part="1" 
-F 0 "#GND05" H 7450 3050 50  0001 C CNN
-F 1 "GND" H 7450 2920 59  0000 C CNN
-F 2 "" H 7450 3050 50  0001 C CNN
-F 3 "" H 7450 3050 50  0001 C CNN
-	1    7450 3050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	6800 2700 7100 2700
 Wire Wire Line
 	7100 2700 7150 2700
@@ -475,8 +403,6 @@ Text GLabel 6800 4400 0    50   Input ~ 0
 LEDB_EN
 Wire Wire Line
 	7100 4400 7100 4500
-Wire Wire Line
-	7100 4700 7450 4700
 $Comp
 L Pufferfish:RES_SMD_0805 R?
 U 1 1 5EF24A20
@@ -493,36 +419,10 @@ F 5 "10KΩ" V 6986 4600 50  0000 C CNN "Resistance"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7450 4600 7450 4650
-$Comp
-L Pufferfish:GND #GND?
-U 1 1 5EF24A2B
-P 7450 4750
-AR Path="/5EF24A2B" Ref="#GND?"  Part="1" 
-AR Path="/5EE41C08/5EF24A2B" Ref="#GND07"  Part="1" 
-F 0 "#GND07" H 7450 4750 50  0001 C CNN
-F 1 "GND" H 7450 4620 59  0000 C CNN
-F 2 "" H 7450 4750 50  0001 C CNN
-F 3 "" H 7450 4750 50  0001 C CNN
-	1    7450 4750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	6800 4400 7100 4400
 Wire Wire Line
 	7100 4400 7150 4400
 Connection ~ 7100 4400
-$Comp
-L Transistor_FET:2N7002E Q7
-U 1 1 5EF24A38
-P 7350 4400
-F 0 "Q7" H 7554 4446 50  0000 L CNN
-F 1 "2N7002E" H 7554 4355 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7550 4325 50  0001 L CIN
-F 3 "http://www.diodes.com/assets/Datasheets/ds30376.pdf" H 7350 4400 50  0001 L CNN
-	1    7350 4400
-	1    0    0    -1  
-$EndComp
 Text Notes 8400 3300 0    50   ~ 0
 G
 Text Notes 8400 3400 0    50   ~ 0
@@ -583,4 +483,110 @@ F 3 "https://www.mspindy.com/Specifications/MSS5MMG.pdf" H 4700 3000 50  0001 C 
 	1    4700 3000
 	0    1    1    0   
 $EndComp
+$Comp
+L Transistor_FET:2N7002E Q7
+U 1 1 5EF24A38
+P 7350 4400
+F 0 "Q7" H 7554 4446 50  0000 L CNN
+F 1 "2N7002E" H 7554 4355 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7550 4325 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/ds30376.pdf" H 7350 4400 50  0001 L CNN
+	1    7350 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5EF24A2B
+P 7450 4800
+AR Path="/5EF24A2B" Ref="#GND?"  Part="1" 
+AR Path="/5EE41C08/5EF24A2B" Ref="#GND07"  Part="1" 
+F 0 "#GND07" H 7450 4800 50  0001 C CNN
+F 1 "GND" H 7450 4670 59  0000 C CNN
+F 2 "" H 7450 4800 50  0001 C CNN
+F 3 "" H 7450 4800 50  0001 C CNN
+	1    7450 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 4700 7450 4700
+Wire Wire Line
+	7450 4600 7450 4700
+Connection ~ 7450 4700
+$Comp
+L Pufferfish:RES_SMD_0805 R?
+U 1 1 5F0DEB12
+P 7100 3800
+AR Path="/5F0DEB12" Ref="R?"  Part="1" 
+AR Path="/5EE41C08/5F0DEB12" Ref="R8"  Part="1" 
+F 0 "R8" V 6895 3800 50  0000 C CNN
+F 1 "RES_SMD_0805" H 7180 3610 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0805" H 7300 3400 50  0001 C CNN
+F 3 "~" H 7100 3800 50  0001 C CNN
+F 4 "?%" H 7250 3700 50  0001 C CNN "Tolerance"
+F 5 "10KΩ" V 6986 3800 50  0000 C CNN "Resistance"
+	1    7100 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5F0DEB18
+P 7450 4000
+AR Path="/5F0DEB18" Ref="#GND?"  Part="1" 
+AR Path="/5EE41C08/5F0DEB18" Ref="#GND0101"  Part="1" 
+F 0 "#GND0101" H 7450 4000 50  0001 C CNN
+F 1 "GND" H 7450 3870 59  0000 C CNN
+F 2 "" H 7450 4000 50  0001 C CNN
+F 3 "" H 7450 4000 50  0001 C CNN
+	1    7450 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 3900 7450 3900
+Wire Wire Line
+	7450 3800 7450 3900
+Connection ~ 7450 3900
+$Comp
+L Pufferfish:RES_SMD_0805 R?
+U 1 1 5F0E1E1E
+P 7100 2900
+AR Path="/5F0E1E1E" Ref="R?"  Part="1" 
+AR Path="/5EE41C08/5F0E1E1E" Ref="R7"  Part="1" 
+F 0 "R7" V 6895 2900 50  0000 C CNN
+F 1 "RES_SMD_0805" H 7180 2710 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0805" H 7300 2500 50  0001 C CNN
+F 3 "~" H 7100 2900 50  0001 C CNN
+F 4 "?%" H 7250 2800 50  0001 C CNN "Tolerance"
+F 5 "10KΩ" V 6986 2900 50  0000 C CNN "Resistance"
+	1    7100 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5F0E1E24
+P 7450 3100
+AR Path="/5F0E1E24" Ref="#GND?"  Part="1" 
+AR Path="/5EE41C08/5F0E1E24" Ref="#GND0102"  Part="1" 
+F 0 "#GND0102" H 7450 3100 50  0001 C CNN
+F 1 "GND" H 7450 2970 59  0000 C CNN
+F 2 "" H 7450 3100 50  0001 C CNN
+F 3 "" H 7450 3100 50  0001 C CNN
+	1    7450 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 3000 7450 3000
+Wire Wire Line
+	7450 2900 7450 3000
+Connection ~ 7450 3000
+Wire Wire Line
+	2450 2700 2800 2700
+Wire Wire Line
+	2800 2600 2800 2700
+Connection ~ 2800 2700
+Wire Wire Line
+	2800 3450 2800 3550
+Connection ~ 2800 3550
+Wire Wire Line
+	2800 4400 2800 4500
+Connection ~ 2800 4500
 $EndSCHEMATC
