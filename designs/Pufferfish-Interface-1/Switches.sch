@@ -13,761 +13,932 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Pufferfish:3.3V #SUPPLY?
-U 1 1 5EEA326D
-P 4900 3150
-AR Path="/5EEA326D" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5EE1053C/5EEA326D" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5EE81B75/5EEA326D" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5EE48AD8/5EEA326D" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5EE92D7E/5EEA326D" Ref="#SUPPLY09"  Part="1" 
-F 0 "#SUPPLY09" H 4900 3150 50  0001 C CNN
-F 1 "3.3V" H 4900 3372 59  0000 C CNN
-F 2 "" H 4900 3150 50  0001 C CNN
-F 3 "" H 4900 3150 50  0001 C CNN
-	1    4900 3150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5350 3850 4900 3850
-Wire Wire Line
-	5350 3800 5350 3850
-Wire Wire Line
-	5350 3400 5350 3500
-$Comp
-L Device:C C?
-U 1 1 5EEA3276
-P 5350 3650
-AR Path="/5EEA3276" Ref="C?"  Part="1" 
-AR Path="/5EE1053C/5EEA3276" Ref="C?"  Part="1" 
-AR Path="/5EE81B75/5EEA3276" Ref="C?"  Part="1" 
-AR Path="/5EE48AD8/5EEA3276" Ref="C?"  Part="1" 
-AR Path="/5EE92D7E/5EEA3276" Ref="C3"  Part="1" 
-F 0 "C3" H 5465 3696 50  0000 L CNN
-F 1 "0.1uF" H 5465 3605 50  0000 L CNN
-F 2 "Pufferfish:CAP_SMD_0805" H 5388 3500 50  0001 C CNN
-F 3 "~" H 5350 3650 50  0001 C CNN
-	1    5350 3650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4900 3400 4900 3450
-Wire Wire Line
-	5050 3400 4900 3400
-$Comp
-L Pufferfish:RES_SMD_0805 R?
-U 1 1 5EEA3280
-P 5150 3400
-AR Path="/5EEA3280" Ref="R?"  Part="1" 
-AR Path="/5EE1053C/5EEA3280" Ref="R?"  Part="1" 
-AR Path="/5EE81B75/5EEA3280" Ref="R?"  Part="1" 
-AR Path="/5EE48AD8/5EEA3280" Ref="R?"  Part="1" 
-AR Path="/5EE92D7E/5EEA3280" Ref="R15"  Part="1" 
-F 0 "R15" V 4945 3400 50  0000 C CNN
-F 1 "RES_SMD_0805" H 5230 3210 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0805" H 5350 3000 50  0001 C CNN
-F 3 "~" H 5150 3400 50  0001 C CNN
-F 4 "?%" H 5300 3300 50  0001 C CNN "Tolerance"
-F 5 "10KΩ" V 5036 3400 50  0000 C CNN "Resistance"
-	1    5150 3400
-	0    -1   -1   0   
-$EndComp
-Connection ~ 4900 3400
-Wire Wire Line
-	4900 3350 4900 3400
-$Comp
-L Pufferfish:RES_SMD_0805 R?
-U 1 1 5EEA328A
-P 4900 3250
-AR Path="/5EEA328A" Ref="R?"  Part="1" 
-AR Path="/5EE1053C/5EEA328A" Ref="R?"  Part="1" 
-AR Path="/5EE81B75/5EEA328A" Ref="R?"  Part="1" 
-AR Path="/5EE48AD8/5EEA328A" Ref="R?"  Part="1" 
-AR Path="/5EE92D7E/5EEA328A" Ref="R14"  Part="1" 
-F 0 "R14" V 4695 3250 50  0000 C CNN
-F 1 "RES_SMD_0805" H 4980 3060 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0805" H 5100 2850 50  0001 C CNN
-F 3 "~" H 4900 3250 50  0001 C CNN
-F 4 "?%" H 5050 3150 50  0001 C CNN "Tolerance"
-F 5 "10KΩ" V 4786 3250 50  0000 C CNN "Resistance"
-	1    4900 3250
-	1    0    0    -1  
-$EndComp
-Text GLabel 6250 3400 2    50   Input ~ 0
-SET_NOT_PAUSE
-Connection ~ 5350 3400
-Wire Wire Line
-	5250 3400 5350 3400
-$Comp
-L Pufferfish:GND #GND?
-U 1 1 5EEA3293
-P 4900 3950
-AR Path="/5EEA3293" Ref="#GND?"  Part="1" 
-AR Path="/5EE1053C/5EEA3293" Ref="#GND?"  Part="1" 
-AR Path="/5EE81B75/5EEA3293" Ref="#GND?"  Part="1" 
-AR Path="/5EE48AD8/5EEA3293" Ref="#GND?"  Part="1" 
-AR Path="/5EE92D7E/5EEA3293" Ref="#GND010"  Part="1" 
-F 0 "#GND010" H 4900 3950 50  0001 C CNN
-F 1 "GND" H 4900 3820 59  0000 C CNN
-F 2 "" H 4900 3950 50  0001 C CNN
-F 3 "" H 4900 3950 50  0001 C CNN
-	1    4900 3950
-	1    0    0    -1  
-$EndComp
-Connection ~ 4900 3850
-$Comp
-L Switch:SW_Push SW?
-U 1 1 5EEA329A
-P 4900 3650
-AR Path="/5EEA329A" Ref="SW?"  Part="1" 
-AR Path="/5EE1053C/5EEA329A" Ref="SW?"  Part="1" 
-AR Path="/5EE81B75/5EEA329A" Ref="SW?"  Part="1" 
-AR Path="/5EE48AD8/5EEA329A" Ref="SW?"  Part="1" 
-AR Path="/5EE92D7E/5EEA329A" Ref="SW2"  Part="1" 
-F 0 "SW2" H 4900 3935 50  0000 C CNN
-F 1 "SW_Push" H 4900 3844 50  0000 C CNN
-F 2 "Pufferfish:SW_SPST_TC013" H 4900 3850 50  0001 C CNN
-F 3 "~" H 4900 3850 50  0001 C CNN
-	1    4900 3650
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5950 3850 5350 3850
-Connection ~ 5350 3850
-Wire Wire Line
-	5350 3400 5950 3400
-Wire Wire Line
-	5950 3450 5950 3400
-Connection ~ 5950 3400
-Wire Wire Line
-	5950 3400 6250 3400
-Wire Wire Line
-	5950 3750 5950 3850
-Text Notes 4800 2450 0    118  ~ 0
-Front Push Buttons
-Text Notes 4900 4850 0    118  ~ 0
-Back Push Buttons
+Text Notes 4850 1850 0    118  ~ 0
+Front Tactile Switches
+Text Notes 5000 5550 0    118  ~ 0
+Back Push Button
 Text Notes 5350 1450 0    118  ~ 24
 Switches
-Text Notes 5650 3250 0    50   ~ 0
-1: Alarms not paused
-$Comp
-L Power_Protection:TPD1E1B04 D?
-U 1 1 5EEA332C
-P 6100 3600
-AR Path="/5EE48AD8/5EEA332C" Ref="D?"  Part="1" 
-AR Path="/5EE92D7E/5EEA332C" Ref="D5"  Part="1" 
-F 0 "D5" V 6054 3529 50  0000 L CNN
-F 1 "TPD1E1B04" V 6145 3529 50  0000 L CNN
-F 2 "Pufferfish:D_0402_TPD1E1B04DPYR" H 6100 3600 50  0001 C CNN
-F 3 "" H 6100 3600 50  0001 C CNN
-	1    6100 3600
-	0    1    1    0   
-$EndComp
-$Comp
-L Pufferfish:3.3V #SUPPLY?
-U 1 1 5EFECCB2
-P 7300 3150
-AR Path="/5EFECCB2" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5EE1053C/5EFECCB2" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5EE81B75/5EFECCB2" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5EE48AD8/5EFECCB2" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5EE92D7E/5EFECCB2" Ref="#SUPPLY010"  Part="1" 
-F 0 "#SUPPLY010" H 7300 3150 50  0001 C CNN
-F 1 "3.3V" H 7300 3372 59  0000 C CNN
-F 2 "" H 7300 3150 50  0001 C CNN
-F 3 "" H 7300 3150 50  0001 C CNN
-	1    7300 3150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7750 3850 7300 3850
-Wire Wire Line
-	7750 3800 7750 3850
-Wire Wire Line
-	7750 3400 7750 3500
-$Comp
-L Device:C C?
-U 1 1 5EFECCBF
-P 7750 3650
-AR Path="/5EFECCBF" Ref="C?"  Part="1" 
-AR Path="/5EE1053C/5EFECCBF" Ref="C?"  Part="1" 
-AR Path="/5EE81B75/5EFECCBF" Ref="C?"  Part="1" 
-AR Path="/5EE48AD8/5EFECCBF" Ref="C?"  Part="1" 
-AR Path="/5EE92D7E/5EFECCBF" Ref="C4"  Part="1" 
-F 0 "C4" H 7865 3696 50  0000 L CNN
-F 1 "0.1uF" H 7865 3605 50  0000 L CNN
-F 2 "Pufferfish:CAP_SMD_0805" H 7788 3500 50  0001 C CNN
-F 3 "~" H 7750 3650 50  0001 C CNN
-	1    7750 3650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7300 3400 7300 3450
-Wire Wire Line
-	7450 3400 7300 3400
-$Comp
-L Pufferfish:RES_SMD_0805 R?
-U 1 1 5EFECCCD
-P 7550 3400
-AR Path="/5EFECCCD" Ref="R?"  Part="1" 
-AR Path="/5EE1053C/5EFECCCD" Ref="R?"  Part="1" 
-AR Path="/5EE81B75/5EFECCCD" Ref="R?"  Part="1" 
-AR Path="/5EE48AD8/5EFECCCD" Ref="R?"  Part="1" 
-AR Path="/5EE92D7E/5EFECCCD" Ref="R17"  Part="1" 
-F 0 "R17" V 7345 3400 50  0000 C CNN
-F 1 "RES_SMD_0805" H 7630 3210 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0805" H 7750 3000 50  0001 C CNN
-F 3 "~" H 7550 3400 50  0001 C CNN
-F 4 "?%" H 7700 3300 50  0001 C CNN "Tolerance"
-F 5 "10KΩ" V 7436 3400 50  0000 C CNN "Resistance"
-	1    7550 3400
-	0    -1   -1   0   
-$EndComp
-Connection ~ 7300 3400
-Wire Wire Line
-	7300 3350 7300 3400
-$Comp
-L Pufferfish:RES_SMD_0805 R?
-U 1 1 5EFECCDB
-P 7300 3250
-AR Path="/5EFECCDB" Ref="R?"  Part="1" 
-AR Path="/5EE1053C/5EFECCDB" Ref="R?"  Part="1" 
-AR Path="/5EE81B75/5EFECCDB" Ref="R?"  Part="1" 
-AR Path="/5EE48AD8/5EFECCDB" Ref="R?"  Part="1" 
-AR Path="/5EE92D7E/5EFECCDB" Ref="R16"  Part="1" 
-F 0 "R16" V 7095 3250 50  0000 C CNN
-F 1 "RES_SMD_0805" H 7380 3060 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0805" H 7500 2850 50  0001 C CNN
-F 3 "~" H 7300 3250 50  0001 C CNN
-F 4 "?%" H 7450 3150 50  0001 C CNN "Tolerance"
-F 5 "10KΩ" V 7186 3250 50  0000 C CNN "Resistance"
-	1    7300 3250
-	1    0    0    -1  
-$EndComp
-Text GLabel 8650 3400 2    50   Input ~ 0
-SET_EXTRA1
-Connection ~ 7750 3400
-Wire Wire Line
-	7650 3400 7750 3400
-$Comp
-L Pufferfish:GND #GND?
-U 1 1 5EFECCE8
-P 7300 3950
-AR Path="/5EFECCE8" Ref="#GND?"  Part="1" 
-AR Path="/5EE1053C/5EFECCE8" Ref="#GND?"  Part="1" 
-AR Path="/5EE81B75/5EFECCE8" Ref="#GND?"  Part="1" 
-AR Path="/5EE48AD8/5EFECCE8" Ref="#GND?"  Part="1" 
-AR Path="/5EE92D7E/5EFECCE8" Ref="#GND011"  Part="1" 
-F 0 "#GND011" H 7300 3950 50  0001 C CNN
-F 1 "GND" H 7300 3820 59  0000 C CNN
-F 2 "" H 7300 3950 50  0001 C CNN
-F 3 "" H 7300 3950 50  0001 C CNN
-	1    7300 3950
-	1    0    0    -1  
-$EndComp
-Connection ~ 7300 3850
-$Comp
-L Switch:SW_Push SW?
-U 1 1 5EFECCF3
-P 7300 3650
-AR Path="/5EFECCF3" Ref="SW?"  Part="1" 
-AR Path="/5EE1053C/5EFECCF3" Ref="SW?"  Part="1" 
-AR Path="/5EE81B75/5EFECCF3" Ref="SW?"  Part="1" 
-AR Path="/5EE48AD8/5EFECCF3" Ref="SW?"  Part="1" 
-AR Path="/5EE92D7E/5EFECCF3" Ref="SW3"  Part="1" 
-F 0 "SW3" H 7300 3935 50  0000 C CNN
-F 1 "SW_Push" H 7300 3844 50  0000 C CNN
-F 2 "Pufferfish:SW_SPST_TC013" H 7300 3850 50  0001 C CNN
-F 3 "~" H 7300 3850 50  0001 C CNN
-	1    7300 3650
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8350 3850 7750 3850
-Connection ~ 7750 3850
-Wire Wire Line
-	7750 3400 8350 3400
-$Comp
-L Power_Protection:TPD1E1B04 D?
-U 1 1 5EFECD02
-P 8500 3600
-AR Path="/5EE48AD8/5EFECD02" Ref="D?"  Part="1" 
-AR Path="/5EE92D7E/5EFECD02" Ref="D6"  Part="1" 
-F 0 "D6" V 8454 3529 50  0000 L CNN
-F 1 "TPD1E1B04" V 8545 3529 50  0000 L CNN
-F 2 "Pufferfish:D_0402_TPD1E1B04DPYR" H 8500 3600 50  0001 C CNN
-F 3 "" H 8500 3600 50  0001 C CNN
-	1    8500 3600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8350 3400 8350 3450
-Connection ~ 8350 3400
-Wire Wire Line
-	8350 3400 8650 3400
-Wire Wire Line
-	8350 3750 8350 3850
-Text Notes 7950 3250 0    50   ~ 0
-1: Button not pressed
 $Comp
 L Pufferfish:3.3V #SUPPLY?
 U 1 1 5EF4CF71
-P 3300 5650
+P 5900 6200
 AR Path="/5EF4CF71" Ref="#SUPPLY?"  Part="1" 
 AR Path="/5EE1053C/5EF4CF71" Ref="#SUPPLY?"  Part="1" 
 AR Path="/5EE81B75/5EF4CF71" Ref="#SUPPLY?"  Part="1" 
 AR Path="/5EE48AD8/5EF4CF71" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5EE92D7E/5EF4CF71" Ref="#SUPPLY08"  Part="1" 
-F 0 "#SUPPLY08" H 3300 5650 50  0001 C CNN
-F 1 "3.3V" H 3300 5872 59  0000 C CNN
-F 2 "" H 3300 5650 50  0001 C CNN
-F 3 "" H 3300 5650 50  0001 C CNN
-	1    3300 5650
+AR Path="/5EE92D7E/5EF4CF71" Ref="#SUPPLY011"  Part="1" 
+F 0 "#SUPPLY011" H 5900 6200 50  0001 C CNN
+F 1 "3.3V" H 5900 6422 59  0000 C CNN
+F 2 "" H 5900 6200 50  0001 C CNN
+F 3 "" H 5900 6200 50  0001 C CNN
+	1    5900 6200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3750 6350 3300 6350
+	6350 6900 5900 6900
 Wire Wire Line
-	3750 6300 3750 6350
+	6350 6850 6350 6900
 Wire Wire Line
-	3750 5900 3750 6000
+	6350 6450 6350 6550
 $Comp
 L Device:C C?
 U 1 1 5EF4CF7E
-P 3750 6150
+P 6350 6700
 AR Path="/5EF4CF7E" Ref="C?"  Part="1" 
 AR Path="/5EE1053C/5EF4CF7E" Ref="C?"  Part="1" 
 AR Path="/5EE81B75/5EF4CF7E" Ref="C?"  Part="1" 
 AR Path="/5EE48AD8/5EF4CF7E" Ref="C?"  Part="1" 
-AR Path="/5EE92D7E/5EF4CF7E" Ref="C2"  Part="1" 
-F 0 "C2" H 3865 6196 50  0000 L CNN
-F 1 "0.1uF" H 3865 6105 50  0000 L CNN
-F 2 "Pufferfish:CAP_SMD_0805" H 3788 6000 50  0001 C CNN
-F 3 "~" H 3750 6150 50  0001 C CNN
-	1    3750 6150
+AR Path="/5EE92D7E/5EF4CF7E" Ref="C3"  Part="1" 
+F 0 "C3" H 6465 6746 50  0000 L CNN
+F 1 "0.1uF" H 6465 6655 50  0000 L CNN
+F 2 "Pufferfish:CAP_SMD_0805" H 6388 6550 50  0001 C CNN
+F 3 "~" H 6350 6700 50  0001 C CNN
+	1    6350 6700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3450 5900 3300 5900
+	6050 6450 5900 6450
 $Comp
 L Pufferfish:RES_SMD_0805 R?
 U 1 1 5EF4CF8C
-P 3550 5900
+P 6150 6450
 AR Path="/5EF4CF8C" Ref="R?"  Part="1" 
 AR Path="/5EE1053C/5EF4CF8C" Ref="R?"  Part="1" 
 AR Path="/5EE81B75/5EF4CF8C" Ref="R?"  Part="1" 
 AR Path="/5EE48AD8/5EF4CF8C" Ref="R?"  Part="1" 
-AR Path="/5EE92D7E/5EF4CF8C" Ref="R13"  Part="1" 
-F 0 "R13" V 3345 5900 50  0000 C CNN
-F 1 "RES_SMD_0805" H 3630 5710 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0805" H 3750 5500 50  0001 C CNN
-F 3 "~" H 3550 5900 50  0001 C CNN
-F 4 "?%" H 3700 5800 50  0001 C CNN "Tolerance"
-F 5 "10KΩ" V 3436 5900 50  0000 C CNN "Resistance"
-	1    3550 5900
+AR Path="/5EE92D7E/5EF4CF8C" Ref="R17"  Part="1" 
+F 0 "R17" V 5945 6450 50  0000 C CNN
+F 1 "RES_SMD_0805" H 6230 6260 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0805" H 6350 6050 50  0001 C CNN
+F 3 "~" H 6150 6450 50  0001 C CNN
+F 4 "?%" H 6300 6350 50  0001 C CNN "Tolerance"
+F 5 "10KΩ" V 6036 6450 50  0000 C CNN "Resistance"
+	1    6150 6450
 	0    -1   -1   0   
 $EndComp
-Connection ~ 3300 5900
+Connection ~ 5900 6450
 Wire Wire Line
-	3300 5850 3300 5900
+	5900 6400 5900 6450
 $Comp
 L Pufferfish:RES_SMD_0805 R?
 U 1 1 5EF4CF9A
-P 3300 5750
+P 5900 6300
 AR Path="/5EF4CF9A" Ref="R?"  Part="1" 
 AR Path="/5EE1053C/5EF4CF9A" Ref="R?"  Part="1" 
 AR Path="/5EE81B75/5EF4CF9A" Ref="R?"  Part="1" 
 AR Path="/5EE48AD8/5EF4CF9A" Ref="R?"  Part="1" 
-AR Path="/5EE92D7E/5EF4CF9A" Ref="R12"  Part="1" 
-F 0 "R12" V 3095 5750 50  0000 C CNN
-F 1 "RES_SMD_0805" H 3380 5560 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0805" H 3500 5350 50  0001 C CNN
-F 3 "~" H 3300 5750 50  0001 C CNN
-F 4 "?%" H 3450 5650 50  0001 C CNN "Tolerance"
-F 5 "10KΩ" V 3186 5750 50  0000 C CNN "Resistance"
-	1    3300 5750
+AR Path="/5EE92D7E/5EF4CF9A" Ref="R16"  Part="1" 
+F 0 "R16" V 5695 6300 50  0000 C CNN
+F 1 "RES_SMD_0805" H 5980 6110 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0805" H 6100 5900 50  0001 C CNN
+F 3 "~" H 5900 6300 50  0001 C CNN
+F 4 "?%" H 6050 6200 50  0001 C CNN "Tolerance"
+F 5 "10KΩ" V 5786 6300 50  0000 C CNN "Resistance"
+	1    5900 6300
 	1    0    0    -1  
 $EndComp
-Text GLabel 4650 5900 2    50   Input ~ 0
+Text GLabel 7250 6450 2    50   Input ~ 0
 SET_PWR_ON_OFF
-Connection ~ 3750 5900
+Connection ~ 6350 6450
 Wire Wire Line
-	3650 5900 3750 5900
+	6250 6450 6350 6450
 $Comp
 L Pufferfish:GND #GND?
 U 1 1 5EF4CFA7
-P 3300 6450
+P 5900 7000
 AR Path="/5EF4CFA7" Ref="#GND?"  Part="1" 
 AR Path="/5EE1053C/5EF4CFA7" Ref="#GND?"  Part="1" 
 AR Path="/5EE81B75/5EF4CFA7" Ref="#GND?"  Part="1" 
 AR Path="/5EE48AD8/5EF4CFA7" Ref="#GND?"  Part="1" 
-AR Path="/5EE92D7E/5EF4CFA7" Ref="#GND09"  Part="1" 
-F 0 "#GND09" H 3300 6450 50  0001 C CNN
-F 1 "GND" H 3300 6320 59  0000 C CNN
-F 2 "" H 3300 6450 50  0001 C CNN
-F 3 "" H 3300 6450 50  0001 C CNN
-	1    3300 6450
+AR Path="/5EE92D7E/5EF4CFA7" Ref="#GND010"  Part="1" 
+F 0 "#GND010" H 5900 7000 50  0001 C CNN
+F 1 "GND" H 5900 6870 59  0000 C CNN
+F 2 "" H 5900 7000 50  0001 C CNN
+F 3 "" H 5900 7000 50  0001 C CNN
+	1    5900 7000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3750 5900 4350 5900
+	6350 6450 6950 6450
 Wire Wire Line
-	4350 5900 4350 5950
-Connection ~ 4350 5900
-Text Notes 3950 5750 0    50   ~ 0
+	6950 6450 6950 6500
+Connection ~ 6950 6450
+Text Notes 6550 6300 0    50   ~ 0
 1: Alarms enabled
-Text Notes 1550 5500 0    50   ~ 0
+Text Notes 4150 6050 0    50   ~ 0
 To SW5 (Back SPST)
 $Comp
 L Controller_Library:B2B-PH-SM4-TB(LF)(SN) CONN3
 U 1 1 5EF55E2E
-P 1750 5800
-F 0 "CONN3" V 1821 5570 50  0000 R CNN
-F 1 "B2B-PH-SM4-TB(LF)(SN)" V 1730 5570 50  0000 R CNN
-F 2 "Pufferfish:JST_B2B-PH-SM4-TB" H 2200 6250 50  0001 L BNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 2000 5650 50  0001 L BNN
-F 4 "JST Sales America Inc." H 2700 6400 50  0001 C CNN "Manufacturer"
-	1    1750 5800
+P 4350 6350
+F 0 "CONN3" V 4421 6120 50  0000 R CNN
+F 1 "B2B-PH-SM4-TB(LF)(SN)" V 4330 6120 50  0000 R CNN
+F 2 "Pufferfish:JST_B2B-PH-SM4-TB" H 4800 6800 50  0001 L BNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4600 6200 50  0001 L BNN
+F 4 "JST Sales America Inc." H 5300 6950 50  0001 C CNN "Manufacturer"
+	1    4350 6350
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1850 6000 3300 6000
+	4450 6550 5900 6550
 Wire Wire Line
-	1750 6000 1750 6350
+	4350 6550 4350 6900
 Wire Wire Line
-	1750 6350 3300 6350
-Connection ~ 3300 6350
-Connection ~ 3750 6350
+	4350 6900 5900 6900
+Connection ~ 5900 6900
+Connection ~ 6350 6900
 Wire Wire Line
-	4350 5900 4650 5900
+	6950 6450 7250 6450
 Wire Wire Line
-	4350 6250 4350 6350
+	6950 6800 6950 6900
 $Comp
 L Power_Protection:TPD1E1B04 D?
 U 1 1 5EF4CFBF
-P 4500 6100
+P 7100 6650
 AR Path="/5EE48AD8/5EF4CFBF" Ref="D?"  Part="1" 
-AR Path="/5EE92D7E/5EF4CFBF" Ref="D4"  Part="1" 
-F 0 "D4" V 4454 6029 50  0000 L CNN
-F 1 "TPD1E1B04" V 4545 6029 50  0000 L CNN
-F 2 "Pufferfish:D_0402_TPD1E1B04DPYR" H 4500 6100 50  0001 C CNN
-F 3 "" H 4500 6100 50  0001 C CNN
-	1    4500 6100
+AR Path="/5EE92D7E/5EF4CFBF" Ref="D5"  Part="1" 
+F 0 "D5" V 7054 6579 50  0000 L CNN
+F 1 "TPD1E1B04" V 7145 6579 50  0000 L CNN
+F 2 "Pufferfish:D_0402_TPD1E1B04DPYR" H 7100 6650 50  0001 C CNN
+F 3 "" H 7100 6650 50  0001 C CNN
+	1    7100 6650
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4350 6350 3750 6350
+	6950 6900 6350 6900
 Wire Wire Line
-	3300 5900 3300 6000
-Text Notes 6850 5500 0    50   ~ 0
-To SW6 (Back SPST)
-Wire Wire Line
-	8600 5900 8600 6000
-Wire Wire Line
-	9650 6350 9050 6350
-$Comp
-L Power_Protection:TPD1E1B04 D?
-U 1 1 5EF7CAD9
-P 9800 6100
-AR Path="/5EE48AD8/5EF7CAD9" Ref="D?"  Part="1" 
-AR Path="/5EE92D7E/5EF7CAD9" Ref="D7"  Part="1" 
-F 0 "D7" V 9754 6029 50  0000 L CNN
-F 1 "TPD1E1B04" V 9845 6029 50  0000 L CNN
-F 2 "Pufferfish:D_0402_TPD1E1B04DPYR" H 9800 6100 50  0001 C CNN
-F 3 "" H 9800 6100 50  0001 C CNN
-	1    9800 6100
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9650 6250 9650 6350
-Wire Wire Line
-	9650 5900 9950 5900
-Connection ~ 9050 6350
-Connection ~ 8600 6350
-Wire Wire Line
-	7050 6350 8600 6350
-Wire Wire Line
-	7050 6000 7050 6350
-Wire Wire Line
-	7150 6000 8600 6000
-$Comp
-L Controller_Library:B2B-PH-SM4-TB(LF)(SN) CONN4
-U 1 1 5EF7CAC8
-P 7050 5800
-F 0 "CONN4" V 7121 5570 50  0000 R CNN
-F 1 "B2B-PH-SM4-TB(LF)(SN)" V 7030 5570 50  0000 R CNN
-F 2 "Pufferfish:JST_B2B-PH-SM4-TB" H 7500 6250 50  0001 L BNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 7300 5650 50  0001 L BNN
-F 4 "JST Sales America Inc." H 8000 6400 50  0001 C CNN "Manufacturer"
-	1    7050 5800
-	0    -1   -1   0   
-$EndComp
-Text Notes 9250 5750 0    50   ~ 0
-1: Alarms enabled
-Connection ~ 9650 5900
-Wire Wire Line
-	9650 5900 9650 5950
-Wire Wire Line
-	9050 5900 9650 5900
-$Comp
-L Pufferfish:GND #GND?
-U 1 1 5EF7CAB8
-P 8600 6450
-AR Path="/5EF7CAB8" Ref="#GND?"  Part="1" 
-AR Path="/5EE1053C/5EF7CAB8" Ref="#GND?"  Part="1" 
-AR Path="/5EE81B75/5EF7CAB8" Ref="#GND?"  Part="1" 
-AR Path="/5EE48AD8/5EF7CAB8" Ref="#GND?"  Part="1" 
-AR Path="/5EE92D7E/5EF7CAB8" Ref="#GND012"  Part="1" 
-F 0 "#GND012" H 8600 6450 50  0001 C CNN
-F 1 "GND" H 8600 6320 59  0000 C CNN
-F 2 "" H 8600 6450 50  0001 C CNN
-F 3 "" H 8600 6450 50  0001 C CNN
-	1    8600 6450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8950 5900 9050 5900
-Connection ~ 9050 5900
-Text GLabel 9950 5900 2    50   Input ~ 0
-SET_PWR_SRC
-$Comp
-L Pufferfish:RES_SMD_0805 R?
-U 1 1 5EF7CAAB
-P 8600 5750
-AR Path="/5EF7CAAB" Ref="R?"  Part="1" 
-AR Path="/5EE1053C/5EF7CAAB" Ref="R?"  Part="1" 
-AR Path="/5EE81B75/5EF7CAAB" Ref="R?"  Part="1" 
-AR Path="/5EE48AD8/5EF7CAAB" Ref="R?"  Part="1" 
-AR Path="/5EE92D7E/5EF7CAAB" Ref="R18"  Part="1" 
-F 0 "R18" V 8395 5750 50  0000 C CNN
-F 1 "RES_SMD_0805" H 8680 5560 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0805" H 8800 5350 50  0001 C CNN
-F 3 "~" H 8600 5750 50  0001 C CNN
-F 4 "?%" H 8750 5650 50  0001 C CNN "Tolerance"
-F 5 "10KΩ" V 8486 5750 50  0000 C CNN "Resistance"
-	1    8600 5750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8600 5850 8600 5900
-Connection ~ 8600 5900
-$Comp
-L Pufferfish:RES_SMD_0805 R?
-U 1 1 5EF7CA9D
-P 8850 5900
-AR Path="/5EF7CA9D" Ref="R?"  Part="1" 
-AR Path="/5EE1053C/5EF7CA9D" Ref="R?"  Part="1" 
-AR Path="/5EE81B75/5EF7CA9D" Ref="R?"  Part="1" 
-AR Path="/5EE48AD8/5EF7CA9D" Ref="R?"  Part="1" 
-AR Path="/5EE92D7E/5EF7CA9D" Ref="R19"  Part="1" 
-F 0 "R19" V 8645 5900 50  0000 C CNN
-F 1 "RES_SMD_0805" H 8930 5710 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0805" H 9050 5500 50  0001 C CNN
-F 3 "~" H 8850 5900 50  0001 C CNN
-F 4 "?%" H 9000 5800 50  0001 C CNN "Tolerance"
-F 5 "10KΩ" V 8736 5900 50  0000 C CNN "Resistance"
-	1    8850 5900
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8750 5900 8600 5900
-$Comp
-L Device:C C?
-U 1 1 5EF7CA90
-P 9050 6150
-AR Path="/5EF7CA90" Ref="C?"  Part="1" 
-AR Path="/5EE1053C/5EF7CA90" Ref="C?"  Part="1" 
-AR Path="/5EE81B75/5EF7CA90" Ref="C?"  Part="1" 
-AR Path="/5EE48AD8/5EF7CA90" Ref="C?"  Part="1" 
-AR Path="/5EE92D7E/5EF7CA90" Ref="C5"  Part="1" 
-F 0 "C5" H 9165 6196 50  0000 L CNN
-F 1 "0.1uF" H 9165 6105 50  0000 L CNN
-F 2 "Pufferfish:CAP_SMD_0805" H 9088 6000 50  0001 C CNN
-F 3 "~" H 9050 6150 50  0001 C CNN
-	1    9050 6150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9050 5900 9050 6000
-Wire Wire Line
-	9050 6300 9050 6350
-Wire Wire Line
-	9050 6350 8600 6350
-$Comp
-L Pufferfish:3.3V #SUPPLY?
-U 1 1 5EF7CA83
-P 8600 5650
-AR Path="/5EF7CA83" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5EE1053C/5EF7CA83" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5EE81B75/5EF7CA83" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5EE48AD8/5EF7CA83" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5EE92D7E/5EF7CA83" Ref="#SUPPLY011"  Part="1" 
-F 0 "#SUPPLY011" H 8600 5650 50  0001 C CNN
-F 1 "3.3V" H 8600 5872 59  0000 C CNN
-F 2 "" H 8600 5650 50  0001 C CNN
-F 3 "" H 8600 5650 50  0001 C CNN
-	1    8600 5650
-	1    0    0    -1  
-$EndComp
-Text Notes 3300 3250 0    50   ~ 0
+	5900 6450 5900 6550
+Text Notes 4300 2550 0    50   ~ 0
 1: Alarms enabled
 Wire Wire Line
-	3700 3750 3700 3850
-Wire Wire Line
-	3700 3400 4000 3400
-Connection ~ 3700 3400
-Wire Wire Line
-	3700 3400 3700 3450
+	4700 3100 4700 3200
 $Comp
 L Power_Protection:TPD1E1B04 D?
 U 1 1 5EEA3321
-P 3850 3600
+P 4850 2950
 AR Path="/5EE48AD8/5EEA3321" Ref="D?"  Part="1" 
 AR Path="/5EE92D7E/5EEA3321" Ref="D3"  Part="1" 
-F 0 "D3" V 3804 3529 50  0000 L CNN
-F 1 "TPD1E1B04" V 3895 3529 50  0000 L CNN
-F 2 "Pufferfish:D_0402_TPD1E1B04DPYR" H 3850 3600 50  0001 C CNN
-F 3 "" H 3850 3600 50  0001 C CNN
-	1    3850 3600
+F 0 "D3" V 4804 2879 50  0000 L CNN
+F 1 "TPD1E1B04" V 4895 2879 50  0000 L CNN
+F 2 "Pufferfish:D_0402_TPD1E1B04DPYR" H 4850 2950 50  0001 C CNN
+F 3 "" H 4850 2950 50  0001 C CNN
+	1    4850 2950
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3100 3400 3700 3400
-Connection ~ 3100 3850
-Wire Wire Line
-	3700 3850 3100 3850
-$Comp
-L Pufferfish:GND #GND?
-U 1 1 5EEA32C8
-P 2650 3950
-AR Path="/5EEA32C8" Ref="#GND?"  Part="1" 
-AR Path="/5EE1053C/5EEA32C8" Ref="#GND?"  Part="1" 
-AR Path="/5EE81B75/5EEA32C8" Ref="#GND?"  Part="1" 
-AR Path="/5EE48AD8/5EEA32C8" Ref="#GND?"  Part="1" 
-AR Path="/5EE92D7E/5EEA32C8" Ref="#GND08"  Part="1" 
-F 0 "#GND08" H 2650 3950 50  0001 C CNN
-F 1 "GND" H 2650 3820 59  0000 C CNN
-F 2 "" H 2650 3950 50  0001 C CNN
-F 3 "" H 2650 3950 50  0001 C CNN
-	1    2650 3950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3000 3400 3100 3400
-Connection ~ 3100 3400
-Text GLabel 4000 3400 2    50   Input ~ 0
+Text GLabel 5000 2700 2    50   Input ~ 0
 SET_ALARM_EN
 $Comp
 L Pufferfish:RES_SMD_0805 R?
 U 1 1 5EEA32BD
-P 2650 3250
+P 3650 2550
 AR Path="/5EEA32BD" Ref="R?"  Part="1" 
 AR Path="/5EE1053C/5EEA32BD" Ref="R?"  Part="1" 
 AR Path="/5EE81B75/5EEA32BD" Ref="R?"  Part="1" 
 AR Path="/5EE48AD8/5EEA32BD" Ref="R?"  Part="1" 
-AR Path="/5EE92D7E/5EEA32BD" Ref="R10"  Part="1" 
-F 0 "R10" V 2445 3250 50  0000 C CNN
-F 1 "RES_SMD_0805" H 2730 3060 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0805" H 2850 2850 50  0001 C CNN
-F 3 "~" H 2650 3250 50  0001 C CNN
-F 4 "?%" H 2800 3150 50  0001 C CNN "Tolerance"
-F 5 "10KΩ" V 2536 3250 50  0000 C CNN "Resistance"
-	1    2650 3250
+AR Path="/5EE92D7E/5EEA32BD" Ref="R12"  Part="1" 
+F 0 "R12" V 3445 2550 50  0000 C CNN
+F 1 "RES_SMD_0805" H 3730 2360 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0805" H 3850 2150 50  0001 C CNN
+F 3 "~" H 3650 2550 50  0001 C CNN
+F 4 "?%" H 3800 2450 50  0001 C CNN "Tolerance"
+F 5 "10KΩ" V 3536 2550 50  0000 C CNN "Resistance"
+	1    3650 2550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2650 3350 2650 3400
-Connection ~ 2650 3400
+	3650 2650 3650 2700
 $Comp
 L Pufferfish:RES_SMD_0805 R?
 U 1 1 5EEA32B3
-P 2900 3400
+P 3850 2700
 AR Path="/5EEA32B3" Ref="R?"  Part="1" 
 AR Path="/5EE1053C/5EEA32B3" Ref="R?"  Part="1" 
 AR Path="/5EE81B75/5EEA32B3" Ref="R?"  Part="1" 
 AR Path="/5EE48AD8/5EEA32B3" Ref="R?"  Part="1" 
-AR Path="/5EE92D7E/5EEA32B3" Ref="R11"  Part="1" 
-F 0 "R11" V 2695 3400 50  0000 C CNN
-F 1 "RES_SMD_0805" H 2980 3210 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0805" H 3100 3000 50  0001 C CNN
-F 3 "~" H 2900 3400 50  0001 C CNN
-F 4 "?%" H 3050 3300 50  0001 C CNN "Tolerance"
-F 5 "10KΩ" V 2786 3400 50  0000 C CNN "Resistance"
-	1    2900 3400
+AR Path="/5EE92D7E/5EEA32B3" Ref="R14"  Part="1" 
+F 0 "R14" V 3645 2700 50  0000 C CNN
+F 1 "RES_SMD_0805" H 3930 2510 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0805" H 4050 2300 50  0001 C CNN
+F 3 "~" H 3850 2700 50  0001 C CNN
+F 4 "?%" H 4000 2600 50  0001 C CNN "Tolerance"
+F 5 "10KΩ" V 3736 2700 50  0000 C CNN "Resistance"
+	1    3850 2700
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Pufferfish:3.3V #SUPPLY?
+U 1 1 5EEA32A0
+P 3650 2450
+AR Path="/5EEA32A0" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EE1053C/5EEA32A0" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EE81B75/5EEA32A0" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EE48AD8/5EEA32A0" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EE92D7E/5EEA32A0" Ref="#SUPPLY09"  Part="1" 
+F 0 "#SUPPLY09" H 3650 2450 50  0001 C CNN
+F 1 "3.3V" H 3650 2672 59  0000 C CNN
+F 2 "" H 3650 2450 50  0001 C CNN
+F 3 "" H 3650 2450 50  0001 C CNN
+	1    3650 2450
+	1    0    0    -1  
+$EndComp
+Text Notes 2700 2200 0    50   ~ 0
+Node 1: \nunpressed: 3.3\npressed: 0\n
 Wire Wire Line
-	2800 3400 2650 3400
+	3350 2750 3350 2700
+Wire Wire Line
+	3350 2700 3650 2700
+Wire Wire Line
+	3350 2700 3250 2700
+Wire Wire Line
+	3250 2700 3250 2750
+Connection ~ 3350 2700
+$Comp
+L Pufferfish:RES_SMD_0805 R?
+U 1 1 5EF86791
+P 2900 2900
+AR Path="/5EF86791" Ref="R?"  Part="1" 
+AR Path="/5EE1053C/5EF86791" Ref="R?"  Part="1" 
+AR Path="/5EE81B75/5EF86791" Ref="R?"  Part="1" 
+AR Path="/5EE48AD8/5EF86791" Ref="R?"  Part="1" 
+AR Path="/5EE92D7E/5EF86791" Ref="R10"  Part="1" 
+F 0 "R10" V 2695 2900 50  0000 C CNN
+F 1 "RES_SMD_0805" H 2980 2710 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0805" H 3100 2500 50  0001 C CNN
+F 3 "~" H 2900 2900 50  0001 C CNN
+F 4 "?%" H 3050 2800 50  0001 C CNN "Tolerance"
+F 5 "120Ω" V 2786 2900 50  0000 C CNN "Resistance"
+	1    2900 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:3.3V #SUPPLY?
+U 1 1 5EF8679C
+P 2900 2800
+AR Path="/5EF8679C" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EE1053C/5EF8679C" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EE81B75/5EF8679C" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EE48AD8/5EF8679C" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EE92D7E/5EF8679C" Ref="#SUPPLY07"  Part="1" 
+F 0 "#SUPPLY07" H 2900 2800 50  0001 C CNN
+F 1 "3.3V" H 2900 3022 59  0000 C CNN
+F 2 "" H 2900 2800 50  0001 C CNN
+F 3 "" H 2900 2800 50  0001 C CNN
+	1    2900 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2700 4700 2800
+Connection ~ 4700 2700
+Wire Wire Line
+	4700 2700 5000 2700
+Connection ~ 3650 3200
+Wire Wire Line
+	3350 3200 3650 3200
+$Comp
+L Switch:SW_SPST_LED SW1
+U 1 1 5F02C9A9
+P 3250 2950
+F 0 "SW1" V 3204 3147 50  0000 L CNN
+F 1 "SW_SPST_LED" V 3295 3147 50  0000 L CNN
+F 2 "" H 3250 3250 50  0001 C CNN
+F 3 "~" H 3250 3250 50  0001 C CNN
+	1    3250 2950
+	0    1    1    0   
+$EndComp
 $Comp
 L Device:C C?
 U 1 1 5EEA32A9
-P 3100 3650
+P 4100 2950
 AR Path="/5EEA32A9" Ref="C?"  Part="1" 
 AR Path="/5EE1053C/5EEA32A9" Ref="C?"  Part="1" 
 AR Path="/5EE81B75/5EEA32A9" Ref="C?"  Part="1" 
 AR Path="/5EE48AD8/5EEA32A9" Ref="C?"  Part="1" 
 AR Path="/5EE92D7E/5EEA32A9" Ref="C1"  Part="1" 
-F 0 "C1" H 3215 3696 50  0000 L CNN
-F 1 "0.1uF" H 3215 3605 50  0000 L CNN
-F 2 "Pufferfish:CAP_SMD_0805" H 3138 3500 50  0001 C CNN
-F 3 "~" H 3100 3650 50  0001 C CNN
-	1    3100 3650
+F 0 "C1" H 4215 2996 50  0000 L CNN
+F 1 "0.1uF" H 4215 2905 50  0000 L CNN
+F 2 "Pufferfish:CAP_SMD_0805" H 4138 2800 50  0001 C CNN
+F 3 "~" H 4100 2950 50  0001 C CNN
+	1    4100 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5EEA32C8
+P 3650 3300
+AR Path="/5EEA32C8" Ref="#GND?"  Part="1" 
+AR Path="/5EE1053C/5EEA32C8" Ref="#GND?"  Part="1" 
+AR Path="/5EE81B75/5EEA32C8" Ref="#GND?"  Part="1" 
+AR Path="/5EE48AD8/5EEA32C8" Ref="#GND?"  Part="1" 
+AR Path="/5EE92D7E/5EEA32C8" Ref="#GND08"  Part="1" 
+F 0 "#GND08" H 3650 3300 50  0001 C CNN
+F 1 "GND" H 3650 3170 59  0000 C CNN
+F 2 "" H 3650 3300 50  0001 C CNN
+F 3 "" H 3650 3300 50  0001 C CNN
+	1    3650 3300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3100 3400 3100 3500
+	3250 3150 3250 3200
 Wire Wire Line
-	3100 3800 3100 3850
+	3250 3200 2900 3200
 Wire Wire Line
-	3100 3850 2650 3850
+	2900 3000 2900 3200
+Wire Wire Line
+	3350 3200 3350 3150
+Wire Wire Line
+	3650 3200 4100 3200
+Wire Wire Line
+	4100 2700 4100 2800
+Connection ~ 4100 2700
+Wire Wire Line
+	4100 2700 4700 2700
+Wire Wire Line
+	4100 3100 4100 3200
+Connection ~ 4100 3200
+Wire Wire Line
+	4100 3200 4700 3200
+Wire Wire Line
+	3750 2700 3650 2700
+Connection ~ 3650 2700
+Wire Wire Line
+	3950 2700 4100 2700
+Text Notes 2250 3450 0    50   ~ 0
+Assuming green LED \nwith Vf = 2.1V
+Text Notes 4300 3950 0    50   ~ 0
+1: Locked
+Wire Wire Line
+	4700 4500 4700 4600
 $Comp
-L Pufferfish:3.3V #SUPPLY?
-U 1 1 5EEA32A0
-P 2650 3150
-AR Path="/5EEA32A0" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5EE1053C/5EEA32A0" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5EE81B75/5EEA32A0" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5EE48AD8/5EEA32A0" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5EE92D7E/5EEA32A0" Ref="#SUPPLY07"  Part="1" 
-F 0 "#SUPPLY07" H 2650 3150 50  0001 C CNN
-F 1 "3.3V" H 2650 3372 59  0000 C CNN
-F 2 "" H 2650 3150 50  0001 C CNN
-F 3 "" H 2650 3150 50  0001 C CNN
-	1    2650 3150
+L Power_Protection:TPD1E1B04 D?
+U 1 1 5EFCC8F6
+P 4850 4350
+AR Path="/5EE48AD8/5EFCC8F6" Ref="D?"  Part="1" 
+AR Path="/5EE92D7E/5EFCC8F6" Ref="D4"  Part="1" 
+F 0 "D4" V 4804 4279 50  0000 L CNN
+F 1 "TPD1E1B04" V 4895 4279 50  0000 L CNN
+F 2 "Pufferfish:D_0402_TPD1E1B04DPYR" H 4850 4350 50  0001 C CNN
+F 3 "" H 4850 4350 50  0001 C CNN
+	1    4850 4350
+	0    1    1    0   
+$EndComp
+Text GLabel 5000 4100 2    50   Input ~ 0
+SET_LOCK
+$Comp
+L Pufferfish:RES_SMD_0805 R?
+U 1 1 5EFCC903
+P 3650 3950
+AR Path="/5EFCC903" Ref="R?"  Part="1" 
+AR Path="/5EE1053C/5EFCC903" Ref="R?"  Part="1" 
+AR Path="/5EE81B75/5EFCC903" Ref="R?"  Part="1" 
+AR Path="/5EE48AD8/5EFCC903" Ref="R?"  Part="1" 
+AR Path="/5EE92D7E/5EFCC903" Ref="R13"  Part="1" 
+F 0 "R13" V 3445 3950 50  0000 C CNN
+F 1 "RES_SMD_0805" H 3730 3760 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0805" H 3850 3550 50  0001 C CNN
+F 3 "~" H 3650 3950 50  0001 C CNN
+F 4 "?%" H 3800 3850 50  0001 C CNN "Tolerance"
+F 5 "10KΩ" V 3536 3950 50  0000 C CNN "Resistance"
+	1    3650 3950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2650 3400 2650 3450
-Connection ~ 2650 3850
+	3650 4050 3650 4100
 $Comp
-L Switch:SW_Push SW?
-U 1 1 5EEA32DB
-P 2650 3650
-AR Path="/5EEA32DB" Ref="SW?"  Part="1" 
-AR Path="/5EE1053C/5EEA32DB" Ref="SW?"  Part="1" 
-AR Path="/5EE81B75/5EEA32DB" Ref="SW?"  Part="1" 
-AR Path="/5EE48AD8/5EEA32DB" Ref="SW?"  Part="1" 
-AR Path="/5EE92D7E/5EEA32DB" Ref="SW1"  Part="1" 
-F 0 "SW1" H 2650 3935 50  0000 C CNN
-F 1 "SW_Push" H 2650 3844 50  0000 C CNN
-F 2 "Pufferfish:SW_SPST_TC013" H 2650 3850 50  0001 C CNN
-F 3 "~" H 2650 3850 50  0001 C CNN
-	1    2650 3650
+L Pufferfish:RES_SMD_0805 R?
+U 1 1 5EFCC910
+P 3850 4100
+AR Path="/5EFCC910" Ref="R?"  Part="1" 
+AR Path="/5EE1053C/5EFCC910" Ref="R?"  Part="1" 
+AR Path="/5EE81B75/5EFCC910" Ref="R?"  Part="1" 
+AR Path="/5EE48AD8/5EFCC910" Ref="R?"  Part="1" 
+AR Path="/5EE92D7E/5EFCC910" Ref="R15"  Part="1" 
+F 0 "R15" V 3645 4100 50  0000 C CNN
+F 1 "RES_SMD_0805" H 3930 3910 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0805" H 4050 3700 50  0001 C CNN
+F 3 "~" H 3850 4100 50  0001 C CNN
+F 4 "?%" H 4000 4000 50  0001 C CNN "Tolerance"
+F 5 "10KΩ" V 3736 4100 50  0000 C CNN "Resistance"
+	1    3850 4100
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_SPST_LED SW?
-U 1 1 5F02C9A9
-P 1550 3650
-F 0 "SW?" V 1504 3847 50  0000 L CNN
-F 1 "SW_SPST_LED" V 1595 3847 50  0000 L CNN
-F 2 "" H 1550 3950 50  0001 C CNN
-F 3 "~" H 1550 3950 50  0001 C CNN
-	1    1550 3650
+L Pufferfish:3.3V #SUPPLY?
+U 1 1 5EFCC91A
+P 3650 3850
+AR Path="/5EFCC91A" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EE1053C/5EFCC91A" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EE81B75/5EFCC91A" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EE48AD8/5EFCC91A" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EE92D7E/5EFCC91A" Ref="#SUPPLY010"  Part="1" 
+F 0 "#SUPPLY010" H 3650 3850 50  0001 C CNN
+F 1 "3.3V" H 3650 4072 59  0000 C CNN
+F 2 "" H 3650 3850 50  0001 C CNN
+F 3 "" H 3650 3850 50  0001 C CNN
+	1    3650 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 4150 3350 4100
+Wire Wire Line
+	3350 4100 3650 4100
+Wire Wire Line
+	3350 4100 3250 4100
+Wire Wire Line
+	3250 4100 3250 4150
+Connection ~ 3350 4100
+$Comp
+L Pufferfish:RES_SMD_0805 R?
+U 1 1 5EFCC92B
+P 2900 4300
+AR Path="/5EFCC92B" Ref="R?"  Part="1" 
+AR Path="/5EE1053C/5EFCC92B" Ref="R?"  Part="1" 
+AR Path="/5EE81B75/5EFCC92B" Ref="R?"  Part="1" 
+AR Path="/5EE48AD8/5EFCC92B" Ref="R?"  Part="1" 
+AR Path="/5EE92D7E/5EFCC92B" Ref="R11"  Part="1" 
+F 0 "R11" V 2695 4300 50  0000 C CNN
+F 1 "RES_SMD_0805" H 2980 4110 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0805" H 3100 3900 50  0001 C CNN
+F 3 "~" H 2900 4300 50  0001 C CNN
+F 4 "?%" H 3050 4200 50  0001 C CNN "Tolerance"
+F 5 "120Ω" V 2786 4300 50  0000 C CNN "Resistance"
+	1    2900 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:3.3V #SUPPLY?
+U 1 1 5EFCC935
+P 2900 4200
+AR Path="/5EFCC935" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EE1053C/5EFCC935" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EE81B75/5EFCC935" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EE48AD8/5EFCC935" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EE92D7E/5EFCC935" Ref="#SUPPLY08"  Part="1" 
+F 0 "#SUPPLY08" H 2900 4200 50  0001 C CNN
+F 1 "3.3V" H 2900 4422 59  0000 C CNN
+F 2 "" H 2900 4200 50  0001 C CNN
+F 3 "" H 2900 4200 50  0001 C CNN
+	1    2900 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 4100 4700 4200
+Connection ~ 4700 4100
+Wire Wire Line
+	4700 4100 5000 4100
+Connection ~ 3650 4600
+Wire Wire Line
+	3350 4600 3650 4600
+$Comp
+L Switch:SW_SPST_LED SW2
+U 1 1 5EFCC944
+P 3250 4350
+F 0 "SW2" V 3204 4547 50  0000 L CNN
+F 1 "SW_SPST_LED" V 3295 4547 50  0000 L CNN
+F 2 "" H 3250 4650 50  0001 C CNN
+F 3 "~" H 3250 4650 50  0001 C CNN
+	1    3250 4350
 	0    1    1    0   
 $EndComp
-Text Notes 1100 3350 0    50   ~ 0
-Light-up would need these
+$Comp
+L Device:C C?
+U 1 1 5EFCC94E
+P 4100 4350
+AR Path="/5EFCC94E" Ref="C?"  Part="1" 
+AR Path="/5EE1053C/5EFCC94E" Ref="C?"  Part="1" 
+AR Path="/5EE81B75/5EFCC94E" Ref="C?"  Part="1" 
+AR Path="/5EE48AD8/5EFCC94E" Ref="C?"  Part="1" 
+AR Path="/5EE92D7E/5EFCC94E" Ref="C2"  Part="1" 
+F 0 "C2" H 4215 4396 50  0000 L CNN
+F 1 "0.1uF" H 4215 4305 50  0000 L CNN
+F 2 "Pufferfish:CAP_SMD_0805" H 4138 4200 50  0001 C CNN
+F 3 "~" H 4100 4350 50  0001 C CNN
+	1    4100 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5EFCC958
+P 3650 4700
+AR Path="/5EFCC958" Ref="#GND?"  Part="1" 
+AR Path="/5EE1053C/5EFCC958" Ref="#GND?"  Part="1" 
+AR Path="/5EE81B75/5EFCC958" Ref="#GND?"  Part="1" 
+AR Path="/5EE48AD8/5EFCC958" Ref="#GND?"  Part="1" 
+AR Path="/5EE92D7E/5EFCC958" Ref="#GND09"  Part="1" 
+F 0 "#GND09" H 3650 4700 50  0001 C CNN
+F 1 "GND" H 3650 4570 59  0000 C CNN
+F 2 "" H 3650 4700 50  0001 C CNN
+F 3 "" H 3650 4700 50  0001 C CNN
+	1    3650 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 4550 3250 4600
+Wire Wire Line
+	3250 4600 2900 4600
+Wire Wire Line
+	2900 4400 2900 4600
+Wire Wire Line
+	3350 4600 3350 4550
+Wire Wire Line
+	3650 4600 4100 4600
+Wire Wire Line
+	4100 4100 4100 4200
+Connection ~ 4100 4100
+Wire Wire Line
+	4100 4100 4700 4100
+Wire Wire Line
+	4100 4500 4100 4600
+Connection ~ 4100 4600
+Wire Wire Line
+	4100 4600 4700 4600
+Wire Wire Line
+	3750 4100 3650 4100
+Connection ~ 3650 4100
+Wire Wire Line
+	3950 4100 4100 4100
+Text Notes 7950 2500 0    50   ~ 0
+1: Button not pressed
+Wire Wire Line
+	8350 3050 8350 3150
+$Comp
+L Power_Protection:TPD1E1B04 D?
+U 1 1 5EFF5CD1
+P 8500 2900
+AR Path="/5EE48AD8/5EFF5CD1" Ref="D?"  Part="1" 
+AR Path="/5EE92D7E/5EFF5CD1" Ref="D6"  Part="1" 
+F 0 "D6" V 8454 2829 50  0000 L CNN
+F 1 "TPD1E1B04" V 8545 2829 50  0000 L CNN
+F 2 "Pufferfish:D_0402_TPD1E1B04DPYR" H 8500 2900 50  0001 C CNN
+F 3 "" H 8500 2900 50  0001 C CNN
+	1    8500 2900
+	0    1    1    0   
+$EndComp
+Text GLabel 8650 2650 2    50   Input ~ 0
+SET_EXTRA1
+$Comp
+L Pufferfish:RES_SMD_0805 R?
+U 1 1 5EFF5CDE
+P 7300 2500
+AR Path="/5EFF5CDE" Ref="R?"  Part="1" 
+AR Path="/5EE1053C/5EFF5CDE" Ref="R?"  Part="1" 
+AR Path="/5EE81B75/5EFF5CDE" Ref="R?"  Part="1" 
+AR Path="/5EE48AD8/5EFF5CDE" Ref="R?"  Part="1" 
+AR Path="/5EE92D7E/5EFF5CDE" Ref="R20"  Part="1" 
+F 0 "R20" V 7095 2500 50  0000 C CNN
+F 1 "RES_SMD_0805" H 7380 2310 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0805" H 7500 2100 50  0001 C CNN
+F 3 "~" H 7300 2500 50  0001 C CNN
+F 4 "?%" H 7450 2400 50  0001 C CNN "Tolerance"
+F 5 "10KΩ" V 7186 2500 50  0000 C CNN "Resistance"
+	1    7300 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 2600 7300 2650
+$Comp
+L Pufferfish:RES_SMD_0805 R?
+U 1 1 5EFF5CEB
+P 7500 2650
+AR Path="/5EFF5CEB" Ref="R?"  Part="1" 
+AR Path="/5EE1053C/5EFF5CEB" Ref="R?"  Part="1" 
+AR Path="/5EE81B75/5EFF5CEB" Ref="R?"  Part="1" 
+AR Path="/5EE48AD8/5EFF5CEB" Ref="R?"  Part="1" 
+AR Path="/5EE92D7E/5EFF5CEB" Ref="R22"  Part="1" 
+F 0 "R22" V 7295 2650 50  0000 C CNN
+F 1 "RES_SMD_0805" H 7580 2460 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0805" H 7700 2250 50  0001 C CNN
+F 3 "~" H 7500 2650 50  0001 C CNN
+F 4 "?%" H 7650 2550 50  0001 C CNN "Tolerance"
+F 5 "10KΩ" V 7386 2650 50  0000 C CNN "Resistance"
+	1    7500 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Pufferfish:3.3V #SUPPLY?
+U 1 1 5EFF5CF5
+P 7300 2400
+AR Path="/5EFF5CF5" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EE1053C/5EFF5CF5" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EE81B75/5EFF5CF5" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EE48AD8/5EFF5CF5" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EE92D7E/5EFF5CF5" Ref="#SUPPLY014"  Part="1" 
+F 0 "#SUPPLY014" H 7300 2400 50  0001 C CNN
+F 1 "3.3V" H 7300 2622 59  0000 C CNN
+F 2 "" H 7300 2400 50  0001 C CNN
+F 3 "" H 7300 2400 50  0001 C CNN
+	1    7300 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 2700 7000 2650
+Wire Wire Line
+	7000 2650 7300 2650
+Wire Wire Line
+	7000 2650 6900 2650
+Wire Wire Line
+	6900 2650 6900 2700
+Connection ~ 7000 2650
+$Comp
+L Pufferfish:RES_SMD_0805 R?
+U 1 1 5EFF5D06
+P 6550 2850
+AR Path="/5EFF5D06" Ref="R?"  Part="1" 
+AR Path="/5EE1053C/5EFF5D06" Ref="R?"  Part="1" 
+AR Path="/5EE81B75/5EFF5D06" Ref="R?"  Part="1" 
+AR Path="/5EE48AD8/5EFF5D06" Ref="R?"  Part="1" 
+AR Path="/5EE92D7E/5EFF5D06" Ref="R18"  Part="1" 
+F 0 "R18" V 6345 2850 50  0000 C CNN
+F 1 "RES_SMD_0805" H 6630 2660 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0805" H 6750 2450 50  0001 C CNN
+F 3 "~" H 6550 2850 50  0001 C CNN
+F 4 "?%" H 6700 2750 50  0001 C CNN "Tolerance"
+F 5 "120Ω" V 6436 2850 50  0000 C CNN "Resistance"
+	1    6550 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:3.3V #SUPPLY?
+U 1 1 5EFF5D10
+P 6550 2750
+AR Path="/5EFF5D10" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EE1053C/5EFF5D10" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EE81B75/5EFF5D10" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EE48AD8/5EFF5D10" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EE92D7E/5EFF5D10" Ref="#SUPPLY012"  Part="1" 
+F 0 "#SUPPLY012" H 6550 2750 50  0001 C CNN
+F 1 "3.3V" H 6550 2972 59  0000 C CNN
+F 2 "" H 6550 2750 50  0001 C CNN
+F 3 "" H 6550 2750 50  0001 C CNN
+	1    6550 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 2650 8350 2750
+Connection ~ 8350 2650
+Wire Wire Line
+	8350 2650 8650 2650
+Connection ~ 7300 3150
+Wire Wire Line
+	7000 3150 7300 3150
+$Comp
+L Switch:SW_SPST_LED SW3
+U 1 1 5EFF5D1F
+P 6900 2900
+F 0 "SW3" V 6854 3097 50  0000 L CNN
+F 1 "SW_SPST_LED" V 6945 3097 50  0000 L CNN
+F 2 "" H 6900 3200 50  0001 C CNN
+F 3 "~" H 6900 3200 50  0001 C CNN
+	1    6900 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EFF5D29
+P 7750 2900
+AR Path="/5EFF5D29" Ref="C?"  Part="1" 
+AR Path="/5EE1053C/5EFF5D29" Ref="C?"  Part="1" 
+AR Path="/5EE81B75/5EFF5D29" Ref="C?"  Part="1" 
+AR Path="/5EE48AD8/5EFF5D29" Ref="C?"  Part="1" 
+AR Path="/5EE92D7E/5EFF5D29" Ref="C4"  Part="1" 
+F 0 "C4" H 7865 2946 50  0000 L CNN
+F 1 "0.1uF" H 7865 2855 50  0000 L CNN
+F 2 "Pufferfish:CAP_SMD_0805" H 7788 2750 50  0001 C CNN
+F 3 "~" H 7750 2900 50  0001 C CNN
+	1    7750 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5EFF5D33
+P 7300 3250
+AR Path="/5EFF5D33" Ref="#GND?"  Part="1" 
+AR Path="/5EE1053C/5EFF5D33" Ref="#GND?"  Part="1" 
+AR Path="/5EE81B75/5EFF5D33" Ref="#GND?"  Part="1" 
+AR Path="/5EE48AD8/5EFF5D33" Ref="#GND?"  Part="1" 
+AR Path="/5EE92D7E/5EFF5D33" Ref="#GND011"  Part="1" 
+F 0 "#GND011" H 7300 3250 50  0001 C CNN
+F 1 "GND" H 7300 3120 59  0000 C CNN
+F 2 "" H 7300 3250 50  0001 C CNN
+F 3 "" H 7300 3250 50  0001 C CNN
+	1    7300 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 3100 6900 3150
+Wire Wire Line
+	6900 3150 6550 3150
+Wire Wire Line
+	6550 2950 6550 3150
+Wire Wire Line
+	7000 3150 7000 3100
+Wire Wire Line
+	7300 3150 7750 3150
+Wire Wire Line
+	7750 2650 7750 2750
+Connection ~ 7750 2650
+Wire Wire Line
+	7750 2650 8350 2650
+Wire Wire Line
+	7750 3050 7750 3150
+Connection ~ 7750 3150
+Wire Wire Line
+	7750 3150 8350 3150
+Wire Wire Line
+	7400 2650 7300 2650
+Connection ~ 7300 2650
+Wire Wire Line
+	7600 2650 7750 2650
+Text Notes 7950 3950 0    50   ~ 0
+1: Button not pressed
+Wire Wire Line
+	8350 4500 8350 4600
+$Comp
+L Power_Protection:TPD1E1B04 D?
+U 1 1 5EFFC774
+P 8500 4350
+AR Path="/5EE48AD8/5EFFC774" Ref="D?"  Part="1" 
+AR Path="/5EE92D7E/5EFFC774" Ref="D7"  Part="1" 
+F 0 "D7" V 8454 4279 50  0000 L CNN
+F 1 "TPD1E1B04" V 8545 4279 50  0000 L CNN
+F 2 "Pufferfish:D_0402_TPD1E1B04DPYR" H 8500 4350 50  0001 C CNN
+F 3 "" H 8500 4350 50  0001 C CNN
+	1    8500 4350
+	0    1    1    0   
+$EndComp
+Text GLabel 8650 4100 2    50   Input ~ 0
+SET_EXTRA2
+$Comp
+L Pufferfish:RES_SMD_0805 R?
+U 1 1 5EFFC781
+P 7300 3950
+AR Path="/5EFFC781" Ref="R?"  Part="1" 
+AR Path="/5EE1053C/5EFFC781" Ref="R?"  Part="1" 
+AR Path="/5EE81B75/5EFFC781" Ref="R?"  Part="1" 
+AR Path="/5EE48AD8/5EFFC781" Ref="R?"  Part="1" 
+AR Path="/5EE92D7E/5EFFC781" Ref="R21"  Part="1" 
+F 0 "R21" V 7095 3950 50  0000 C CNN
+F 1 "RES_SMD_0805" H 7380 3760 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0805" H 7500 3550 50  0001 C CNN
+F 3 "~" H 7300 3950 50  0001 C CNN
+F 4 "?%" H 7450 3850 50  0001 C CNN "Tolerance"
+F 5 "10KΩ" V 7186 3950 50  0000 C CNN "Resistance"
+	1    7300 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 4050 7300 4100
+$Comp
+L Pufferfish:RES_SMD_0805 R?
+U 1 1 5EFFC78E
+P 7500 4100
+AR Path="/5EFFC78E" Ref="R?"  Part="1" 
+AR Path="/5EE1053C/5EFFC78E" Ref="R?"  Part="1" 
+AR Path="/5EE81B75/5EFFC78E" Ref="R?"  Part="1" 
+AR Path="/5EE48AD8/5EFFC78E" Ref="R?"  Part="1" 
+AR Path="/5EE92D7E/5EFFC78E" Ref="R23"  Part="1" 
+F 0 "R23" V 7295 4100 50  0000 C CNN
+F 1 "RES_SMD_0805" H 7580 3910 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0805" H 7700 3700 50  0001 C CNN
+F 3 "~" H 7500 4100 50  0001 C CNN
+F 4 "?%" H 7650 4000 50  0001 C CNN "Tolerance"
+F 5 "10KΩ" V 7386 4100 50  0000 C CNN "Resistance"
+	1    7500 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Pufferfish:3.3V #SUPPLY?
+U 1 1 5EFFC798
+P 7300 3850
+AR Path="/5EFFC798" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EE1053C/5EFFC798" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EE81B75/5EFFC798" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EE48AD8/5EFFC798" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EE92D7E/5EFFC798" Ref="#SUPPLY015"  Part="1" 
+F 0 "#SUPPLY015" H 7300 3850 50  0001 C CNN
+F 1 "3.3V" H 7300 4072 59  0000 C CNN
+F 2 "" H 7300 3850 50  0001 C CNN
+F 3 "" H 7300 3850 50  0001 C CNN
+	1    7300 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 4150 7000 4100
+Wire Wire Line
+	7000 4100 7300 4100
+Wire Wire Line
+	7000 4100 6900 4100
+Wire Wire Line
+	6900 4100 6900 4150
+Connection ~ 7000 4100
+$Comp
+L Pufferfish:RES_SMD_0805 R?
+U 1 1 5EFFC7A9
+P 6550 4300
+AR Path="/5EFFC7A9" Ref="R?"  Part="1" 
+AR Path="/5EE1053C/5EFFC7A9" Ref="R?"  Part="1" 
+AR Path="/5EE81B75/5EFFC7A9" Ref="R?"  Part="1" 
+AR Path="/5EE48AD8/5EFFC7A9" Ref="R?"  Part="1" 
+AR Path="/5EE92D7E/5EFFC7A9" Ref="R19"  Part="1" 
+F 0 "R19" V 6345 4300 50  0000 C CNN
+F 1 "RES_SMD_0805" H 6630 4110 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0805" H 6750 3900 50  0001 C CNN
+F 3 "~" H 6550 4300 50  0001 C CNN
+F 4 "?%" H 6700 4200 50  0001 C CNN "Tolerance"
+F 5 "120Ω" V 6436 4300 50  0000 C CNN "Resistance"
+	1    6550 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:3.3V #SUPPLY?
+U 1 1 5EFFC7B3
+P 6550 4200
+AR Path="/5EFFC7B3" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EE1053C/5EFFC7B3" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EE81B75/5EFFC7B3" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EE48AD8/5EFFC7B3" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5EE92D7E/5EFFC7B3" Ref="#SUPPLY013"  Part="1" 
+F 0 "#SUPPLY013" H 6550 4200 50  0001 C CNN
+F 1 "3.3V" H 6550 4422 59  0000 C CNN
+F 2 "" H 6550 4200 50  0001 C CNN
+F 3 "" H 6550 4200 50  0001 C CNN
+	1    6550 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 4100 8350 4200
+Connection ~ 8350 4100
+Wire Wire Line
+	8350 4100 8650 4100
+Connection ~ 7300 4600
+Wire Wire Line
+	7000 4600 7300 4600
+$Comp
+L Switch:SW_SPST_LED SW4
+U 1 1 5EFFC7C2
+P 6900 4350
+F 0 "SW4" V 6854 4547 50  0000 L CNN
+F 1 "SW_SPST_LED" V 6945 4547 50  0000 L CNN
+F 2 "" H 6900 4650 50  0001 C CNN
+F 3 "~" H 6900 4650 50  0001 C CNN
+	1    6900 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EFFC7CC
+P 7750 4350
+AR Path="/5EFFC7CC" Ref="C?"  Part="1" 
+AR Path="/5EE1053C/5EFFC7CC" Ref="C?"  Part="1" 
+AR Path="/5EE81B75/5EFFC7CC" Ref="C?"  Part="1" 
+AR Path="/5EE48AD8/5EFFC7CC" Ref="C?"  Part="1" 
+AR Path="/5EE92D7E/5EFFC7CC" Ref="C5"  Part="1" 
+F 0 "C5" H 7865 4396 50  0000 L CNN
+F 1 "0.1uF" H 7865 4305 50  0000 L CNN
+F 2 "Pufferfish:CAP_SMD_0805" H 7788 4200 50  0001 C CNN
+F 3 "~" H 7750 4350 50  0001 C CNN
+	1    7750 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:GND #GND?
+U 1 1 5EFFC7D6
+P 7300 4700
+AR Path="/5EFFC7D6" Ref="#GND?"  Part="1" 
+AR Path="/5EE1053C/5EFFC7D6" Ref="#GND?"  Part="1" 
+AR Path="/5EE81B75/5EFFC7D6" Ref="#GND?"  Part="1" 
+AR Path="/5EE48AD8/5EFFC7D6" Ref="#GND?"  Part="1" 
+AR Path="/5EE92D7E/5EFFC7D6" Ref="#GND012"  Part="1" 
+F 0 "#GND012" H 7300 4700 50  0001 C CNN
+F 1 "GND" H 7300 4570 59  0000 C CNN
+F 2 "" H 7300 4700 50  0001 C CNN
+F 3 "" H 7300 4700 50  0001 C CNN
+	1    7300 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 4550 6900 4600
+Wire Wire Line
+	6900 4600 6550 4600
+Wire Wire Line
+	6550 4400 6550 4600
+Wire Wire Line
+	7000 4600 7000 4550
+Wire Wire Line
+	7300 4600 7750 4600
+Wire Wire Line
+	7750 4100 7750 4200
+Connection ~ 7750 4100
+Wire Wire Line
+	7750 4100 8350 4100
+Wire Wire Line
+	7750 4500 7750 4600
+Connection ~ 7750 4600
+Wire Wire Line
+	7750 4600 8350 4600
+Wire Wire Line
+	7400 4100 7300 4100
+Connection ~ 7300 4100
+Wire Wire Line
+	7600 4100 7750 4100
 $EndSCHEMATC

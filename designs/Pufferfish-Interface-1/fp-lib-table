@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name Pufferfish)(type KiCad)(uri ${KIPRJMOD}/../../library/footprints/Pufferfish.pretty)(options "")(descr ""))
   (lib (name Controller_Library)(type KiCad)(uri ${KIPRJMOD}/../../library/controller_symbols)(options "")(descr ""))
+  (lib (name Pufferfish)(type KiCad)(uri ${KIPRJMOD}/../../library/footprints/Pufferfish.pretty)(options "")(descr ""))
 )
