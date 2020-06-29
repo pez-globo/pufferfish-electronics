@@ -163,6 +163,11 @@ K Jumper SPDT
 F ~
 $ENDCMP
 #
+$CMP NPPC081KFXC-RC
+D Female Header .100", Connector HDR 8 position, 0.1 inch pitch, GOLD, SMD (8 Position Header, Top or Bottom Entry Connector Surface Mount)
+F https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/NPxCxx1KFXx-RC%2010487-D.pdf
+$ENDCMP
+#
 $CMP NUCLEO-F429ZI
 D STM32 Nucleo-144 development board with STM32F429ZIT6 MCU, supports Arduino, ST Zio and Morpho
 K module, microcontroller, mcu, nucleo
@@ -281,6 +286,12 @@ D Screw terminal, connector, 8x1 pin, 5mm
 $ENDCMP
 #
 $CMP TMC2209-SilentStepStick
+D Stepper motor controller & driver
+K motor, driver
+F https://www.trinamic.com/fileadmin/assets/Products/Eval_Documents/TMC2209_SilentStepStick_Rev1.10.pdf
+$ENDCMP
+#
+$CMP TMC2209-SilentStepStick_SMT_HEAD
 D Stepper motor controller & driver
 K motor, driver
 F https://www.trinamic.com/fileadmin/assets/Products/Eval_Documents/TMC2209_SilentStepStick_Rev1.10.pdf

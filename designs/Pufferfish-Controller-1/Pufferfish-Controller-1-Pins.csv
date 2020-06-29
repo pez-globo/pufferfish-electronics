@@ -65,10 +65,10 @@ interface,CH7_5,PB13,ALARM1_LOW,Digital I/O,DIO,buzzer,"set high to turn on low-
 interface,CH10_2,PG12,ALARM1_HIGH,Digital I/O,DIO,buzzer,"set high to turn on high-urgency, regulation-compliant, alarm sound"
 interface,CH11_30,PA1,ALARM1_MED,Digital I/O,DIO,buzzer,"set high to turn on medium-urgency, regulation-compliant, alarm sound"
 interface,CN8_6,PC10,LEDR_CNTRL,Digital I/O,DIO,light indicator,set high to turn on red LED
-interface,CN8_8,PC11,LEDY_CNTRL,Digital I/O,DIO,light indicator,set high to turn on yellow LED
+interface,CN8_8,PC11,LEDB_CNTRL,Digital I/O,DIO,light indicator,set high to turn on blue LED
 interface,CN8_10,PD2,LEDG_CNTRL,Digital I/O,DIO,light indicator,set high to turn on green LED
 interface,CN8_14,PG2,SET_ALARM_EN,Digital I/O,DIO,user button,"digital push input, high = alarm enabled"
-interface,CN8_16,PG3,SET_NOT_PAUSE,Digital I/O,DIO,user button,"digital push input, high = ventilation not paused"
+interface,CN8_16,PG3,SET_LOCK,Digital I/O,DIO,user button,"digital push input, high = ventilation lock"
 interface,CH10_15 ,PB2,SET_PWR_SRC,Digital I/O,DIO,user button,digital rocker input for selecting power source
 interface,CH10_25 ,PE2,SET_PWR_ON_OFF,Digital I/O,DIO,user button,digital rocker input for power on/off
 interface,CN12_28,PB14,ALARM2_CNTRL,TIM12_CH1,PWM,buzzer,pwm signal that controls piezo buzzer (not regulation compliant)
@@ -88,4 +88,4 @@ power,CN11_54,PF8,BAT-MEAS-ANALOG,ADC3_INP7,ADC,battery,Analog divider measureme
 control,CN12_6,PC5,GPIO1,Digital I/O,DIO,unused,unused general purpose I/O line for off board routing
 control,CN12_34,PC4,GPIO2,Digital I/O,DIO,unused,unused general purpose I/O line for off board routing
 control,CN12_40,PE8,GPIO3,Digital I/O,DIO,unused,unused general purpose I/O line for off board routing
-control,CN12_44,PE7,GPIO4,Digital I/O,DIO,unused,unused general purpose I/O line for off board routing
+control,CN12_44,PE7,SET_EXTRA,Digital I/O,DIO,unused,unused general purpose I/O line for off board routing

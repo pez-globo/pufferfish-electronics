@@ -98,11 +98,11 @@ SET_ALARM_EN
 Text GLabel 4700 9250 2    50   Output ~ 0
 LEDR_EN
 Text GLabel 4700 9750 2    50   Output ~ 0
-SET_NOT_PAUSE
+SET_LOCK
 Text GLabel 4700 9450 2    50   Output ~ 0
 LEDG_EN
 Text GLabel 4700 9350 2    50   Output ~ 0
-LEDY_EN
+LEDB_EN
 $Comp
 L Pufferfish:SHORT_SMD_0603 R118
 U 1 1 5EF3B9C6
@@ -2265,5 +2265,5 @@ F 5 "0Ω" H 10150 4600 50  0001 C CNN "Resistance"
 	0    1    1    0   
 $EndComp
 Text GLabel 10150 4550 2    50   BiDi ~ 0
-GPIO4
+SET_EXTRA
 $EndSCHEMATC
