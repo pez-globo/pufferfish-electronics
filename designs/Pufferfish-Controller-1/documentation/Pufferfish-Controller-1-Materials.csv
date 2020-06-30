@@ -1,7 +1,3 @@
-"Source:","/Users/chrisarcadia/Dropbox (Brown)/Ventilator/repositories/pufferfish-electronics/designs/Pufferfish-Controller-1/Pufferfish-Controller-1.sch"
-"Date:","Monday, June 29, 2020 at 11:50:05 PM"
-"Tool:","Eeschema (5.1.5-0-10_14)"
-"Component Count:","559"
 "Ref","Value","Part","Footprint","Description","Vendor","Manufacturer","Datasheet","Tolerance","Resistance","Capacitance","Pressure"
 "BUZZ1","BUZZER-12MM","Pufferfish:BUZZER-12MM","Pufferfish:BUZZER-12MM","Generic 12mm Buzzer","","","","","","",""
 "C1","CAP_POLAR_SMD_0805","Pufferfish:CAP_POLAR_SMD_0805","Pufferfish:CAP_POLAR_SMD_0805","Polarized capacitor, small symbol, 0805, SMD, SMT","","","~","?%","","47uF",""
