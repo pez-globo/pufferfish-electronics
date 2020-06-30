@@ -56,19 +56,6 @@ F 5 "1KΩ" V 2536 6950 50  0000 C CNN "Resistance"
 	1    2650 6950
 	0    1    1    0   
 $EndComp
-$Comp
-L Pufferfish:12V #SUPPLY?
-U 1 1 5EE4582E
-P 3400 5800
-AR Path="/5EE4582E" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5EE41C08/5EE4582E" Ref="#SUPPLY01"  Part="1" 
-F 0 "#SUPPLY01" H 3400 5800 50  0001 C CNN
-F 1 "12V" H 3400 6022 59  0000 C CNN
-F 2 "" H 3400 5800 50  0001 C CNN
-F 3 "" H 3400 5800 50  0001 C CNN
-	1    3400 5800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3400 7150 3400 7200
 $Comp
@@ -459,17 +446,6 @@ Text Notes 8500 3800 0    50   ~ 0
 Note: Current-limiting resistors already included in strip
 Text Notes 9150 3400 0    50   ~ 0
 To LED strip
-$Comp
-L Pufferfish:12V #SUPPLY03
-U 1 1 5EFE1DD7
-P 8650 2800
-F 0 "#SUPPLY03" H 8650 2800 50  0001 C CNN
-F 1 "12V" H 8650 3022 59  0000 C CNN
-F 2 "" H 8650 2800 50  0001 C CNN
-F 3 "" H 8650 2800 50  0001 C CNN
-	1    8650 2800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8650 2800 8650 3200
 $Comp
@@ -589,4 +565,28 @@ Connection ~ 2800 3550
 Wire Wire Line
 	2800 4400 2800 4500
 Connection ~ 2800 4500
+Wire Wire Line
+	3400 5750 3400 5800
+$Comp
+L power:+12V #PWR?
+U 1 1 5EFC5BA0
+P 8650 2800
+F 0 "#PWR?" H 8650 2650 50  0001 C CNN
+F 1 "+12V" H 8665 2973 50  0000 C CNN
+F 2 "" H 8650 2800 50  0001 C CNN
+F 3 "" H 8650 2800 50  0001 C CNN
+	1    8650 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5EFCBDB1
+P 3400 5750
+F 0 "#PWR?" H 3400 5600 50  0001 C CNN
+F 1 "+12V" H 3415 5923 50  0000 C CNN
+F 2 "" H 3400 5750 50  0001 C CNN
+F 3 "" H 3400 5750 50  0001 C CNN
+	1    3400 5750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

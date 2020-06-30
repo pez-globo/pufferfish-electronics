@@ -40,20 +40,6 @@ F 3 "" H 2600 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish:12V #SUPPLY?
-U 1 1 5EE8E828
-P 3900 2750
-AR Path="/5EE8E828" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5EE41C08/5EE8E828" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5EE54DB7/5EE8E828" Ref="#SUPPLY05"  Part="1" 
-F 0 "#SUPPLY05" H 3900 2750 50  0001 C CNN
-F 1 "12V" H 3900 2972 59  0000 C CNN
-F 2 "" H 3900 2750 50  0001 C CNN
-F 3 "" H 3900 2750 50  0001 C CNN
-	1    3900 2750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Pufferfish:5V #SUPPLY04
 U 1 1 5EEAEBA1
 P 3000 2750
@@ -122,6 +108,12 @@ Text Notes 4600 3500 0    50   ~ 0
 CN8_16 PG3
 Wire Wire Line
 	4150 2850 3900 2850
+Text GLabel 3900 2950 2    50   Input ~ 0
+SET_EXTRA2
+Wire Wire Line
+	3950 2750 3900 2750
+Wire Wire Line
+	3950 2650 3950 2750
 $Comp
 L Controller_Library:5103308-3 CONN2
 U 1 1 5EED929E
@@ -139,6 +131,15 @@ F 9 "5103308-3" H 4300 2050 50  0001 L CNN "Manufacturer_Part_Number"
 	1    3000 2750
 	1    0    0    -1  
 $EndComp
-Text GLabel 3900 2950 2    50   Input ~ 0
-SET_EXTRA2
+$Comp
+L power:+12V #PWR?
+U 1 1 5EFCE42F
+P 3950 2650
+F 0 "#PWR?" H 3950 2500 50  0001 C CNN
+F 1 "+12V" H 3965 2823 50  0000 C CNN
+F 2 "" H 3950 2650 50  0001 C CNN
+F 3 "" H 3950 2650 50  0001 C CNN
+	1    3950 2650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
