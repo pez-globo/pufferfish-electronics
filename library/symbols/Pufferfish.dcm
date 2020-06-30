@@ -302,6 +302,11 @@ D Gate Drivers 30-V, 7-Channel NMOS Array Low-Side Driver 16-SOIC -40 to 125
 F http://www.ti.com/lit/gpn/tpl7407la
 $ENDCMP
 #
+$CMP UCQ1E101MCL1GS
+D Aluminum Electrolytic Capacitors - SMD 25V 100uf 20% Audio-SMT
+F https://componentsearchengine.com/Datasheets/1/UCQ1E101MCL1GS.pdf
+$ENDCMP
+#
 $CMP ULN2003A
 D Darlington Array x7 NPN 50V 0.5A PDIP16 STMicroelectronics ULN2003A, 7-element NPN Darlington Transistor Array, 0.5 A 50 V HFE:1000, 16-Pin PDIP
 F http://www.st.com/web/en/resource/technical/document/datasheet/CD00001244.pdf

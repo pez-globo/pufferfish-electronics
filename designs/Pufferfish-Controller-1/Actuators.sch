@@ -916,7 +916,7 @@ F 5 "10uF" H 7500 4100 50  0000 C CNN "Capacitance"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7550 3150 7750 3150
+	7550 3150 7700 3150
 Wire Wire Line
 	7500 3150 7550 3150
 Connection ~ 7550 3150
@@ -934,7 +934,7 @@ F 5 "10uF" H 7700 3350 50  0000 C CNN "Capacitance"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7550 6600 7750 6600
+	7550 6600 7700 6600
 Wire Wire Line
 	7500 6600 7550 6600
 Connection ~ 7550 6600
@@ -952,7 +952,7 @@ F 5 "10uF" H 7700 6800 50  0000 C CNN "Capacitance"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7550 8400 7750 8400
+	7550 8400 7700 8400
 Wire Wire Line
 	7500 8400 7550 8400
 Connection ~ 7550 8400
@@ -981,7 +981,7 @@ F 3 "" H 7400 4950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7550 4950 7750 4950
+	7550 4950 7700 4950
 Wire Wire Line
 	7500 4950 7550 4950
 Connection ~ 7550 4950
@@ -1054,7 +1054,7 @@ Wire Wire Line
 Wire Wire Line
 	7750 8650 7750 8500
 Wire Wire Line
-	7550 8650 7750 8650
+	7550 8650 7700 8650
 Wire Wire Line
 	7550 8650 7500 8650
 Connection ~ 7550 8650
@@ -1257,7 +1257,7 @@ Wire Wire Line
 Wire Wire Line
 	7750 6850 7750 6700
 Wire Wire Line
-	7550 6850 7750 6850
+	7550 6850 7700 6850
 Wire Wire Line
 	7550 6850 7500 6850
 Connection ~ 7550 6850
@@ -1460,7 +1460,7 @@ Wire Wire Line
 Wire Wire Line
 	7750 5200 7750 5050
 Wire Wire Line
-	7550 5200 7750 5200
+	7550 5200 7700 5200
 Wire Wire Line
 	7550 5200 7500 5200
 Connection ~ 7550 5200
@@ -1652,7 +1652,7 @@ Wire Wire Line
 Wire Wire Line
 	7750 3400 7750 3250
 Wire Wire Line
-	7550 3400 7750 3400
+	7550 3400 7700 3400
 Wire Wire Line
 	7550 3400 7500 3400
 Connection ~ 7550 3400
@@ -2619,4 +2619,182 @@ F 4 "Trinamic Motion Control " H 8200 1850 50  0001 C CNN "Manufacturer"
 	1    8350 2950
 	1    0    0    -1  
 $EndComp
+$Comp
+L Pufferfish:UCQ1E101MCL1GS C53
+U 1 1 5F07580D
+P 7700 8600
+F 0 "C53" V 7550 8650 50  0000 R CNN
+F 1 "UCQ1E101MCL1GS" H 7450 8350 50  0001 L CNN
+F 2 "Pufferfish:CAPAE660X820N" H 8550 8600 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/UCQ1E101MCL1GS.pdf" H 8550 8500 50  0001 L CNN
+F 4 "Aluminum Electrolytic Capacitors - SMD 25V 100uf 20% Audio-SMT" H 8550 8400 50  0001 L CNN "Description"
+F 5 "8.2" H 8550 8300 50  0001 L CNN "Height"
+F 6 "647-UCQ1E101MCL1GS" H 8550 8200 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=647-UCQ1E101MCL1GS" H 8550 8100 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Nichicon" H 8550 8000 50  0001 L CNN "Manufacturer_Name"
+F 9 "UCQ1E101MCL1GS" H 8550 7900 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "100uF" V 7450 8750 50  0000 R CNN "Capacitance"
+F 11 "20%" H 8050 8450 50  0001 C CNN "Tolerance"
+	1    7700 8600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7700 8400
+Wire Wire Line
+	7700 8400 7750 8400
+Wire Wire Line
+	7700 8600 7700 8650
+Connection ~ 7700 8650
+Wire Wire Line
+	7700 8650 7750 8650
+$Comp
+L Pufferfish:UCQ1E101MCL1GS C50
+U 1 1 5F0A3E78
+P 7700 6800
+F 0 "C50" V 7550 6850 50  0000 R CNN
+F 1 "UCQ1E101MCL1GS" H 7450 6550 50  0001 L CNN
+F 2 "Pufferfish:CAPAE660X820N" H 8550 6800 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/UCQ1E101MCL1GS.pdf" H 8550 6700 50  0001 L CNN
+F 4 "Aluminum Electrolytic Capacitors - SMD 25V 100uf 20% Audio-SMT" H 8550 6600 50  0001 L CNN "Description"
+F 5 "8.2" H 8550 6500 50  0001 L CNN "Height"
+F 6 "647-UCQ1E101MCL1GS" H 8550 6400 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=647-UCQ1E101MCL1GS" H 8550 6300 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Nichicon" H 8550 6200 50  0001 L CNN "Manufacturer_Name"
+F 9 "UCQ1E101MCL1GS" H 8550 6100 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "100uF" V 7450 6950 50  0000 R CNN "Capacitance"
+F 11 "20%" H 8050 6650 50  0001 C CNN "Tolerance"
+	1    7700 6800
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7700 6600
+Wire Wire Line
+	7700 6600 7750 6600
+$Comp
+L Pufferfish:UCQ1E101MCL1GS C49
+U 1 1 5F0A4BDB
+P 7700 5150
+F 0 "C49" V 7550 5200 50  0000 R CNN
+F 1 "UCQ1E101MCL1GS" H 7450 4900 50  0001 L CNN
+F 2 "Pufferfish:CAPAE660X820N" H 8550 5150 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/UCQ1E101MCL1GS.pdf" H 8550 5050 50  0001 L CNN
+F 4 "Aluminum Electrolytic Capacitors - SMD 25V 100uf 20% Audio-SMT" H 8550 4950 50  0001 L CNN "Description"
+F 5 "8.2" H 8550 4850 50  0001 L CNN "Height"
+F 6 "647-UCQ1E101MCL1GS" H 8550 4750 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=647-UCQ1E101MCL1GS" H 8550 4650 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Nichicon" H 8550 4550 50  0001 L CNN "Manufacturer_Name"
+F 9 "UCQ1E101MCL1GS" H 8550 4450 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "100uF" V 7450 5300 50  0000 R CNN "Capacitance"
+F 11 "20%" H 8050 5000 50  0001 C CNN "Tolerance"
+	1    7700 5150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7700 4950
+Wire Wire Line
+	7700 4950 7750 4950
+$Comp
+L Pufferfish:UCQ1E101MCL1GS C48
+U 1 1 5F0A5654
+P 7700 3350
+F 0 "C48" V 7550 3400 50  0000 R CNN
+F 1 "UCQ1E101MCL1GS" H 7450 3100 50  0001 L CNN
+F 2 "Pufferfish:CAPAE660X820N" H 8550 3350 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/UCQ1E101MCL1GS.pdf" H 8550 3250 50  0001 L CNN
+F 4 "Aluminum Electrolytic Capacitors - SMD 25V 100uf 20% Audio-SMT" H 8550 3150 50  0001 L CNN "Description"
+F 5 "8.2" H 8550 3050 50  0001 L CNN "Height"
+F 6 "647-UCQ1E101MCL1GS" H 8550 2950 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=647-UCQ1E101MCL1GS" H 8550 2850 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Nichicon" H 8550 2750 50  0001 L CNN "Manufacturer_Name"
+F 9 "UCQ1E101MCL1GS" H 8550 2650 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "100uF" V 7450 3500 50  0000 R CNN "Capacitance"
+F 11 "20%" H 8050 3200 50  0001 C CNN "Tolerance"
+	1    7700 3350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7700 3150
+Wire Wire Line
+	7700 3150 7750 3150
+Wire Wire Line
+	7700 3350 7700 3400
+Connection ~ 7700 3400
+Wire Wire Line
+	7700 3400 7750 3400
+Wire Wire Line
+	7700 5150 7700 5200
+Connection ~ 7700 5200
+Wire Wire Line
+	7700 5200 7750 5200
+Wire Wire Line
+	7700 6800 7700 6850
+Connection ~ 7700 6850
+Wire Wire Line
+	7700 6850 7750 6850
+$Comp
+L Pufferfish:UCQ1E101MCL1GS C51
+U 1 1 5EFC1285
+P 3000 4650
+F 0 "C51" H 3300 4750 50  0000 R CNN
+F 1 "UCQ1E101MCL1GS" H 2750 4400 50  0001 L CNN
+F 2 "Pufferfish:CAPAE660X820N" H 3850 4650 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/UCQ1E101MCL1GS.pdf" H 3850 4550 50  0001 L CNN
+F 4 "Aluminum Electrolytic Capacitors - SMD 25V 100uf 20% Audio-SMT" H 3850 4450 50  0001 L CNN "Description"
+F 5 "8.2" H 3850 4350 50  0001 L CNN "Height"
+F 6 "647-UCQ1E101MCL1GS" H 3850 4250 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=647-UCQ1E101MCL1GS" H 3850 4150 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Nichicon" H 3850 4050 50  0001 L CNN "Manufacturer_Name"
+F 9 "UCQ1E101MCL1GS" H 3850 3950 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "100uF" H 3050 4750 50  0000 R CNN "Capacitance"
+F 11 "20%" H 3350 4500 50  0001 C CNN "Tolerance"
+	1    3000 4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3000 4650 3100 4650
+Wire Wire Line
+	3100 4650 3100 4450
+Connection ~ 3100 4450
+$Comp
+L Pufferfish:GND #GND0123
+U 1 1 5EFD5431
+P 2700 4650
+F 0 "#GND0123" H 2700 4650 50  0001 C CNN
+F 1 "GND" V 2700 4450 59  0000 C CNN
+F 2 "" H 2700 4650 50  0001 C CNN
+F 3 "" H 2700 4650 50  0001 C CNN
+	1    2700 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L Pufferfish:UCQ1E101MCL1GS C52
+U 1 1 5EFD6E17
+P 3000 8200
+F 0 "C52" H 3300 8300 50  0000 R CNN
+F 1 "UCQ1E101MCL1GS" H 2750 7950 50  0001 L CNN
+F 2 "Pufferfish:CAPAE660X820N" H 3850 8200 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/UCQ1E101MCL1GS.pdf" H 3850 8100 50  0001 L CNN
+F 4 "Aluminum Electrolytic Capacitors - SMD 25V 100uf 20% Audio-SMT" H 3850 8000 50  0001 L CNN "Description"
+F 5 "8.2" H 3850 7900 50  0001 L CNN "Height"
+F 6 "647-UCQ1E101MCL1GS" H 3850 7800 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=647-UCQ1E101MCL1GS" H 3850 7700 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Nichicon" H 3850 7600 50  0001 L CNN "Manufacturer_Name"
+F 9 "UCQ1E101MCL1GS" H 3850 7500 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "100uF" H 3050 8300 50  0000 R CNN "Capacitance"
+F 11 "20%" H 3350 8050 50  0001 C CNN "Tolerance"
+	1    3000 8200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3000 8200 3100 8200
+$Comp
+L Pufferfish:GND #GND0124
+U 1 1 5EFD6E1F
+P 2700 8200
+F 0 "#GND0124" H 2700 8200 50  0001 C CNN
+F 1 "GND" V 2700 8000 59  0000 C CNN
+F 2 "" H 2700 8200 50  0001 C CNN
+F 3 "" H 2700 8200 50  0001 C CNN
+	1    2700 8200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3100 8200 3100 8000
+Connection ~ 3100 8000
 $EndSCHEMATC
