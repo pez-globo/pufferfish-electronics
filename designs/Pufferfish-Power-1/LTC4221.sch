@@ -820,9 +820,9 @@ Connection ~ 7200 3700
 Wire Wire Line
 	7200 3700 7200 2850
 Text Label 7150 2850 0    50   ~ 0
-LTC4421-GATE2
+LTC4421-SRC2
 Text Label 6550 4000 1    50   ~ 0
-LTC4421-SOURCE2
+LTC4421-GATE2
 Wire Wire Line
 	8550 2850 8500 2850
 Wire Wire Line
@@ -895,7 +895,7 @@ U 1 1 5EDF35E7
 P 5950 3850
 F 0 "C8" V 5750 3800 50  0000 L CNN
 F 1 "CAP_10uF_35V_X5R_0805" H 5000 4250 50  0001 L CNN
-F 2 "Pufferfish:CAP_SMD_0805" H 6000 3450 50  0001 C CNN
+F 2 "Pufferfish:CAP_SMD_0603" H 6000 3450 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/taiyo-yuden/GMK107AB7105KAHT/587-3352-1-ND/4157239" H 6100 3800 50  0001 C CNN
 F 4 "10%" V 6050 3800 30  0000 L CNN "Tolerance"
 F 5 "10uF" V 5850 3800 30  0000 L CNN "Capacitance"
@@ -911,10 +911,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 4100 6100 3850
 Wire Wire Line
-	6100 3450 5800 3450
-Wire Wire Line
 	5550 3400 5550 3450
-Connection ~ 5800 3450
 Text Label 5800 4050 1    50   ~ 0
 LTC4421-CPO
 Wire Wire Line
@@ -944,14 +941,11 @@ Wire Wire Line
 	5850 3850 5800 3850
 Wire Wire Line
 	6050 3850 6100 3850
-Connection ~ 5800 3850
 Wire Wire Line
 	5800 3850 5800 4100
 Connection ~ 6100 3850
 Wire Wire Line
 	6100 3450 6100 3850
-Wire Wire Line
-	5800 3450 5800 3850
 $Comp
 L Pufferfish:RES_1R2_0805_SMD R12
 U 1 1 5ED03118
@@ -1043,8 +1037,6 @@ $EndComp
 Connection ~ 5550 3450
 Wire Wire Line
 	5550 3450 5450 3450
-Wire Wire Line
-	5550 3450 5800 3450
 Wire Wire Line
 	6100 2450 6400 2450
 Connection ~ 6400 2450
@@ -1561,4 +1553,8 @@ Wire Wire Line
 Connection ~ 9700 2850
 Wire Wire Line
 	9700 2850 9550 2850
+Wire Wire Line
+	5550 3450 6100 3450
+Text Label 8700 5850 0    50   ~ 0
+LTC4421-RETRY
 $EndSCHEMATC

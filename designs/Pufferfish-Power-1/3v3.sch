@@ -665,4 +665,6 @@ Wire Wire Line
 Connection ~ 7900 3500
 Wire Wire Line
 	7900 3500 8050 3500
+Text Label 5100 3700 0    50   ~ 0
+3V3-EN
 $EndSCHEMATC

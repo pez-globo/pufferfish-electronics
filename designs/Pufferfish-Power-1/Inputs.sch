@@ -407,20 +407,7 @@ Connection ~ 8850 6150
 Text Notes 8650 5350 0    35   Italic 0
 From SLA Battery
 Wire Wire Line
-	8850 5550 8850 5650
-$Comp
-L Pufferfish:VIN-BACKUP-12V0 #PWR?
-U 1 1 5F01221B
-P 8850 5550
-AR Path="/5EC321D9/5F01221B" Ref="#PWR?"  Part="1" 
-AR Path="/5EC45070/5F01221B" Ref="#PWR039"  Part="1" 
-F 0 "#PWR039" H 8850 5400 50  0001 C CNN
-F 1 "VIN-BACKUP-12V0" H 8950 5700 50  0000 C CNN
-F 2 "" H 8850 5550 50  0001 C CNN
-F 3 "" H 8850 5550 50  0001 C CNN
-	1    8850 5550
-	1    0    0    -1  
-$EndComp
+	8850 5550 8850 5600
 Text Notes 3800 850  0    118  ~ 0
 Input Power Connectors and Charging Circuit
 $Comp
@@ -560,7 +547,7 @@ Connection ~ 5000 5650
 Wire Wire Line
 	5000 5650 4700 5650
 Wire Wire Line
-	5000 5650 7650 5650
+	5000 5650 5050 5650
 $Comp
 L Pufferfish:CAP_22uF_25V_X5R_0805 C?
 U 1 1 5F01134C
@@ -895,23 +882,6 @@ Connection ~ 7300 2150
 Wire Wire Line
 	7300 2150 7300 2200
 $Comp
-L Pufferfish:TP_TH_KEYSTONE_5010 TP?
-U 1 1 5EFC6CBC
-P 9750 5600
-AR Path="/5EEC5CE7/5EFC6CBC" Ref="TP?"  Part="1" 
-AR Path="/5EC45070/5EFC6CBC" Ref="TP3"  Part="1" 
-F 0 "TP3" H 9880 5646 50  0000 L CNN
-F 1 "TP_TH_KEYSTONE_5010" H 9450 5400 50  0001 L BNN
-F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 9750 5600 50  0001 L BNN
-F 3 "https://www.digikey.com/product-detail/en/keystone-electronics/5010/36-5010-ND/255332" H 9750 5600 50  0001 L BNN
-F 4 "5010" H 9880 5555 50  0000 L CNN "MPN"
-F 5 "Keystone Electronics" H 9750 5600 50  0001 C CNN "MFG"
-	1    9750 5600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9350 5600 8850 5600
-$Comp
 L Pufferfish:Molex_MicroFit_2P J5
 U 1 1 5F041E29
 P 4300 1500
@@ -982,4 +952,40 @@ Wire Wire Line
 	4600 5100 4600 5050
 Wire Wire Line
 	4550 5050 4600 5050
+Wire Wire Line
+	9350 5600 8850 5600
+$Comp
+L Pufferfish:TP_TH_KEYSTONE_5010 TP?
+U 1 1 5EFC6CBC
+P 9750 5600
+AR Path="/5EEC5CE7/5EFC6CBC" Ref="TP?"  Part="1" 
+AR Path="/5EC45070/5EFC6CBC" Ref="TP3"  Part="1" 
+F 0 "TP3" H 9880 5646 50  0000 L CNN
+F 1 "TP_TH_KEYSTONE_5010" H 9450 5400 50  0001 L BNN
+F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 9750 5600 50  0001 L BNN
+F 3 "https://www.digikey.com/product-detail/en/keystone-electronics/5010/36-5010-ND/255332" H 9750 5600 50  0001 L BNN
+F 4 "5010" H 9880 5555 50  0000 L CNN "MPN"
+F 5 "Keystone Electronics" H 9750 5600 50  0001 C CNN "MFG"
+	1    9750 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:VIN-BACKUP-12V0 #PWR?
+U 1 1 5F01221B
+P 8850 5550
+AR Path="/5EC321D9/5F01221B" Ref="#PWR?"  Part="1" 
+AR Path="/5EC45070/5F01221B" Ref="#PWR039"  Part="1" 
+F 0 "#PWR039" H 8850 5400 50  0001 C CNN
+F 1 "VIN-BACKUP-12V0" H 8950 5700 50  0000 C CNN
+F 2 "" H 8850 5550 50  0001 C CNN
+F 3 "" H 8850 5550 50  0001 C CNN
+	1    8850 5550
+	1    0    0    -1  
+$EndComp
+Connection ~ 8850 5600
+Wire Wire Line
+	8850 5600 8850 5650
+Connection ~ 5050 5650
+Wire Wire Line
+	5050 5650 7650 5650
 $EndSCHEMATC
