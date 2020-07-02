@@ -163,6 +163,11 @@ K capacitor cap
 F ~
 $ENDCMP
 #
+$CMP CSQG703BP
+D 12mm Buzzer Transducer, Externally Driven Magnetic 3V 90mA 2kHz 85dB @ 3V, 5cm Through Hole PC Pins
+F https://www.cuidevices.com/product/resource/csqg703bp.pdf
+$ENDCMP
+#
 $CMP DMG2301L
 D -3A Id, -20V Vds, P-Channel MOSFET, SOT-23
 K P-Channel MOSFET
