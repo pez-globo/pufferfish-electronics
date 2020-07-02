@@ -341,12 +341,12 @@ Wire Wire Line
 Text GLabel 15050 5850 0    50   Input ~ 0
 PRESS_VDD_EN
 $Comp
-L Transistor_FET:TP0610T Q2
+L Pufferfish:TP0610T Q2
 U 1 1 5EE8DB44
 P 15700 5300
 F 0 "Q2" V 16050 5250 50  0000 L CNN
 F 1 "TP0610T" V 15950 5150 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 15900 5225 50  0001 L CIN
+F 2 "Pufferfish:SOT-23" H 15900 5225 50  0001 L CIN
 F 3 "http://www.vishay.com/docs/70209/70209.pdf" H 15700 5300 50  0001 L CNN
 	1    15700 5300
 	0    1    -1   0   
@@ -418,12 +418,12 @@ F 5 "0Ω" H 16100 5250 50  0001 C CNN "Resistance"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Transistor_FET:2N7002E Q1
+L Pufferfish:2N7002E Q1
 U 1 1 5EE8A776
 P 15600 5850
 F 0 "Q1" H 15804 5896 50  0000 L CNN
 F 1 "2N7002E" H 15804 5805 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 15800 5775 50  0001 L CIN
+F 2 "Pufferfish:SOT-23" H 15800 5775 50  0001 L CIN
 F 3 "http://www.diodes.com/assets/Datasheets/ds30376.pdf" H 15600 5850 50  0001 L CNN
 	1    15600 5850
 	1    0    0    -1  

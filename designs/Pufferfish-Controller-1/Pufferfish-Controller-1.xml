@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/chrisarcadia/Dropbox (Brown)/Ventilator/repositories/pufferfish-electronics/designs/Pufferfish-Controller-1/Pufferfish-Controller-1.sch</source>
-    <date>Monday, June 29, 2020 at 11:50:05 PM</date>
+    <date>Thursday, July 02, 2020 at 11:10:22 AM</date>
     <tool>Eeschema (5.1.5-0-10_14)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -541,7 +541,7 @@
     </comp>
     <comp ref="MOD1">
       <value>NUCLEO-F429ZI</value>
-      <footprint>MODULE_NUCLEO-F429ZI</footprint>
+      <footprint>Pufferfish:MODULE_NUCLEO-F429ZI</footprint>
       <datasheet>https://www.st.com/en/evaluation-tools/nucleo-h743zi.html</datasheet>
       <fields>
         <field name="Field4">None</field>
@@ -1653,9 +1653,9 @@
     </comp>
     <comp ref="Q2">
       <value>TP0610T</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <footprint>Pufferfish:SOT-23</footprint>
       <datasheet>http://www.vishay.com/docs/70209/70209.pdf</datasheet>
-      <libsource lib="Transistor_FET" part="TP0610T" description="-0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23"/>
+      <libsource lib="Pufferfish" part="TP0610T" description="-0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23"/>
       <sheetpath names="/Sensors/" tstamps="/5EC71B6B/"/>
       <tstamp>5EE8DB44</tstamp>
     </comp>
@@ -1697,9 +1697,9 @@
     </comp>
     <comp ref="Q1">
       <value>2N7002E</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <footprint>Pufferfish:SOT-23</footprint>
       <datasheet>http://www.diodes.com/assets/Datasheets/ds30376.pdf</datasheet>
-      <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <libsource lib="Pufferfish" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
       <sheetpath names="/Sensors/" tstamps="/5EC71B6B/"/>
       <tstamp>5EE8A776</tstamp>
     </comp>
@@ -6772,6 +6772,85 @@
     </comp>
   </components>
   <libparts>
+    <libpart lib="Pufferfish" part="2N7002">
+      <aliases>
+        <alias>2N7002E</alias>
+        <alias>2N7002H</alias>
+        <alias>2N7002K</alias>
+        <alias>BS170F</alias>
+        <alias>BS870</alias>
+        <alias>BSN20</alias>
+        <alias>BSS123</alias>
+        <alias>BSS127S</alias>
+        <alias>DMG2302U</alias>
+        <alias>DMG3402L</alias>
+        <alias>DMG3404L</alias>
+        <alias>DMG3406L</alias>
+        <alias>DMG3414U</alias>
+        <alias>DMG3418L</alias>
+        <alias>DMN10H220L</alias>
+        <alias>DMN10H700S</alias>
+        <alias>DMN13H750S</alias>
+        <alias>DMN2041L</alias>
+        <alias>DMN2050L</alias>
+        <alias>DMN2056U</alias>
+        <alias>DMN2058U</alias>
+        <alias>DMN2075U</alias>
+        <alias>DMN2230U</alias>
+        <alias>DMN24H11DS</alias>
+        <alias>DMN24H3D5L</alias>
+        <alias>DMN3042L</alias>
+        <alias>DMN3051L</alias>
+        <alias>DMN30H4D0L</alias>
+        <alias>DMN3110S</alias>
+        <alias>DMN3150L</alias>
+        <alias>DMN3300U</alias>
+        <alias>DMN3404L</alias>
+        <alias>DMN6075S</alias>
+        <alias>DMN6140L</alias>
+        <alias>DMN67D7L</alias>
+        <alias>DMN67D8L</alias>
+        <alias>MMBF170</alias>
+        <alias>VN10LF</alias>
+        <alias>ZVN3306F</alias>
+        <alias>ZVN3310F</alias>
+        <alias>ZVN3320F</alias>
+        <alias>ZVN4106F</alias>
+        <alias>ZXM61N02F</alias>
+        <alias>ZXM61N03F</alias>
+        <alias>ZXMN10A07F</alias>
+        <alias>ZXMN2A01F</alias>
+        <alias>ZXMN2A14F</alias>
+        <alias>ZXMN2B01F</alias>
+        <alias>ZXMN2B14FH</alias>
+        <alias>ZXMN2F30FH</alias>
+        <alias>ZXMN2F34FH</alias>
+        <alias>ZXMN3A01F</alias>
+        <alias>ZXMN3A14F</alias>
+        <alias>ZXMN3B01F</alias>
+        <alias>ZXMN3B14F</alias>
+        <alias>ZXMN3F30FH</alias>
+        <alias>ZXMN6A07F</alias>
+        <alias>IRLML0030</alias>
+        <alias>IRLML2060</alias>
+        <alias>TSM2302CX</alias>
+      </aliases>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N7002</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Pufferfish" part="5103308-3">
       <description>Headers &amp; Wire Housings 16P 2 ROW HEADER LP</description>
       <docs>http://componentsearchengine.com/Datasheets/1/5103308-3.pdf</docs>
@@ -7052,7 +7131,7 @@
       <fields>
         <field name="Reference">MOD</field>
         <field name="Value">NUCLEO-F429ZI</field>
-        <field name="Footprint">MODULE_NUCLEO-F429ZI</field>
+        <field name="Footprint">Pufferfish:MODULE_NUCLEO-F429ZI</field>
         <field name="Manufacturer">STMicroelectronics</field>
       </fields>
       <pins>
@@ -7528,6 +7607,37 @@
         <pin num="18" name="DIAG" type="unspc"/>
       </pins>
     </libpart>
+    <libpart lib="Pufferfish" part="TP0610T">
+      <aliases>
+        <alias>VP0610T</alias>
+        <alias>BSS84</alias>
+        <alias>NTR2101P</alias>
+        <alias>BSS83P</alias>
+        <alias>Si2319CDS</alias>
+        <alias>IRLML6402</alias>
+        <alias>DMG2301L</alias>
+        <alias>AO3401A</alias>
+        <alias>IRLML9301</alias>
+        <alias>IRLML5203</alias>
+        <alias>Si2371EDS</alias>
+        <alias>TSM2301ACX</alias>
+      </aliases>
+      <description>-0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23</description>
+      <docs>http://www.vishay.com/docs/70209/70209.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">TP0610T</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Pufferfish" part="TPL7407LADR">
       <description>Gate Drivers 30-V, 7-Channel NMOS Array Low-Side Driver 16-SOIC -40 to 125</description>
       <docs>http://www.ti.com/lit/gpn/tpl7407la</docs>
@@ -7607,124 +7717,10 @@
         <pin num="8" name="VCC" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="Transistor_FET" part="BSS138">
-      <aliases>
-        <alias>2N7002</alias>
-        <alias>2N7002E</alias>
-        <alias>2N7002H</alias>
-        <alias>2N7002K</alias>
-        <alias>BS170F</alias>
-        <alias>BS870</alias>
-        <alias>BSN20</alias>
-        <alias>BSS123</alias>
-        <alias>BSS127S</alias>
-        <alias>DMG2302U</alias>
-        <alias>DMG3402L</alias>
-        <alias>DMG3404L</alias>
-        <alias>DMG3406L</alias>
-        <alias>DMG3414U</alias>
-        <alias>DMG3418L</alias>
-        <alias>DMN10H220L</alias>
-        <alias>DMN10H700S</alias>
-        <alias>DMN13H750S</alias>
-        <alias>DMN2041L</alias>
-        <alias>DMN2050L</alias>
-        <alias>DMN2056U</alias>
-        <alias>DMN2058U</alias>
-        <alias>DMN2075U</alias>
-        <alias>DMN2230U</alias>
-        <alias>DMN24H11DS</alias>
-        <alias>DMN24H3D5L</alias>
-        <alias>DMN3042L</alias>
-        <alias>DMN3051L</alias>
-        <alias>DMN30H4D0L</alias>
-        <alias>DMN3110S</alias>
-        <alias>DMN3150L</alias>
-        <alias>DMN3300U</alias>
-        <alias>DMN3404L</alias>
-        <alias>DMN6075S</alias>
-        <alias>DMN6140L</alias>
-        <alias>DMN67D7L</alias>
-        <alias>DMN67D8L</alias>
-        <alias>MMBF170</alias>
-        <alias>VN10LF</alias>
-        <alias>ZVN3306F</alias>
-        <alias>ZVN3310F</alias>
-        <alias>ZVN3320F</alias>
-        <alias>ZVN4106F</alias>
-        <alias>ZXM61N02F</alias>
-        <alias>ZXM61N03F</alias>
-        <alias>ZXMN10A07F</alias>
-        <alias>ZXMN2A01F</alias>
-        <alias>ZXMN2A14F</alias>
-        <alias>ZXMN2B01F</alias>
-        <alias>ZXMN2B14FH</alias>
-        <alias>ZXMN2F30FH</alias>
-        <alias>ZXMN2F34FH</alias>
-        <alias>ZXMN3A01F</alias>
-        <alias>ZXMN3A14F</alias>
-        <alias>ZXMN3B01F</alias>
-        <alias>ZXMN3B14F</alias>
-        <alias>ZXMN3F30FH</alias>
-        <alias>ZXMN6A07F</alias>
-        <alias>IRLML0030</alias>
-        <alias>IRLML2060</alias>
-        <alias>TSM2302CX</alias>
-      </aliases>
-      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
-      <docs>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</docs>
-      <footprints>
-        <fp>SOT?23*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">BSS138</field>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
-      </fields>
-      <pins>
-        <pin num="1" name="G" type="input"/>
-        <pin num="2" name="S" type="passive"/>
-        <pin num="3" name="D" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Transistor_FET" part="TP0610T">
-      <aliases>
-        <alias>VP0610T</alias>
-        <alias>BSS84</alias>
-        <alias>NTR2101P</alias>
-        <alias>BSS83P</alias>
-        <alias>Si2319CDS</alias>
-        <alias>IRLML6402</alias>
-        <alias>DMG2301L</alias>
-        <alias>AO3401A</alias>
-        <alias>IRLML9301</alias>
-        <alias>IRLML5203</alias>
-        <alias>Si2371EDS</alias>
-        <alias>TSM2301ACX</alias>
-      </aliases>
-      <description>-0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23</description>
-      <docs>http://www.vishay.com/docs/70209/70209.pdf</docs>
-      <footprints>
-        <fp>SOT?23*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">TP0610T</field>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
-      </fields>
-      <pins>
-        <pin num="1" name="G" type="input"/>
-        <pin num="2" name="S" type="passive"/>
-        <pin num="3" name="D" type="passive"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
     <library logical="Pufferfish">
       <uri>/Users/chrisarcadia/Dropbox (Brown)/Ventilator/repositories/pufferfish-electronics/designs/Pufferfish-Controller-1/../../library/symbols/Pufferfish.lib</uri>
-    </library>
-    <library logical="Transistor_FET">
-      <uri>/Users/chrisarcadia/Dropbox (Brown)/Apps/KiCad/symbols/Transistor_FET.lib</uri>
     </library>
   </libraries>
   <nets>
