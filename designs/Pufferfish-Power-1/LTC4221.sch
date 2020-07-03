@@ -1557,4 +1557,14 @@ Wire Wire Line
 	5550 3450 6100 3450
 Text Label 8700 5850 0    50   ~ 0
 LTC4421-RETRY
+Wire Notes Line
+	9600 5550 10000 5550
+Wire Notes Line
+	10000 5550 10000 5850
+Wire Notes Line
+	10000 5850 9600 5850
+Wire Notes Line
+	9600 5850 9600 5550
+Text Notes 9400 5700 0    47   Italic 9
+DNP
 $EndSCHEMATC

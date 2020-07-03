@@ -1,4 +1,4 @@
-(module L_Pulse_PA5001 (layer F.Cu) (tedit 5EE1CBA4)
+(module L_Pulse_PA5001 (layer F.Cu) (tedit 5EFE7568)
   (descr "Inductor SMD Pulse PA5001")
   (tags "Inductor SMD Pulse PA5001")
   (attr smd)
@@ -27,9 +27,4 @@
   (fp_line (start -2.5654 2.6416) (end 2.4892 2.6416) (layer F.CrtYd) (width 0.05))
   (pad 1 smd rect (at -1.2 0 90) (size 3.8 1) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.2 0 90) (size 3.8 1) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_Pulse_PA4320.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )
