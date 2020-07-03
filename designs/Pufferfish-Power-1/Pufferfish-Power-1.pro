@@ -1,4 +1,4 @@
-update=02-Jul-20 5:58:33 PM
+update=02-Jul-20 9:10:25 PM
 version=1
 last_client=kicad
 [general]
@@ -12,6 +12,16 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=${KIPRJMOD}/../../Pufferfish.kicad_wks
+PlotDirectoryName=./
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=${KIPRJMOD}/Pufferfish.kicad_wks
@@ -22,20 +32,18 @@ AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
-MinTrackWidth=0.07619999999999999
+MinTrackWidth=0.1524
 MinViaDiameter=0.3556
 MinViaDrill=0.1524
 MinMicroViaDiameter=0.2032
 MinMicroViaDrill=0.1016
 MinHoleToHole=0.254
-TrackWidth1=0.1016
-TrackWidth2=0.1016
-TrackWidth3=0.127
-TrackWidth4=0.2032
-TrackWidth5=0.254
-TrackWidth6=0.508
-TrackWidth7=1.016
-TrackWidth8=3.048
+TrackWidth1=0.2032
+TrackWidth2=0.2032
+TrackWidth3=0.254
+TrackWidth4=0.508
+TrackWidth5=1.016
+TrackWidth6=3.048
 ViaDiameter1=0.4572
 ViaDrill1=0.2032
 ViaDiameter2=0.4572
@@ -239,7 +247,7 @@ Enabled=0
 [pcbnew/Netclasses/Default]
 Name=Default
 Clearance=0.1524
-TrackWidth=0.1016
+TrackWidth=0.2032
 ViaDiameter=0.4572
 ViaDrill=0.2032
 uViaDiameter=0.2032
@@ -247,13 +255,3 @@ uViaDrill=0.1016
 dPairWidth=0.2032
 dPairGap=0.254
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=${KIPRJMOD}/../../Pufferfish.kicad_wks
-PlotDirectoryName=./
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
