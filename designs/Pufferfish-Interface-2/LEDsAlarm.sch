@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
-Title "LEDs and Alarm"
+Title "Pufferface Interface Schematic"
 Date "2020-07-09"
-Rev "1"
+Rev "2"
 Comp ""
 Comment1 ""
 Comment2 ""
