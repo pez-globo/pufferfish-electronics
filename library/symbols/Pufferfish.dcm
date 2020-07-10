@@ -180,6 +180,11 @@ K r resistor res short
 F ~
 $ENDCMP
 #
+$CMP STPIC6D595
+D 8-bit shift registerPower logic 8-bit shift registerPower logic 8-bit shift registerPower logic 8-bit shift registerPower logic 8-bit shift register
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/e5/1c/d3/4a/66/f5/41/dc/CD00163738.pdf/files/CD00163738.pdf/jcr:content/translations/en.CD00163738.pdf
+$ENDCMP
+#
 $CMP TERMINAL_JUMPER_3
 D Jumper, 3-pole, both open
 K Jumper SPDT
