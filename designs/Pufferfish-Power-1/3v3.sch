@@ -19,7 +19,7 @@ U 1 1 5EDA57E7
 P 6050 3700
 F 0 "U3" H 6050 4167 50  0000 C CNN
 F 1 "TPS82130" H 6050 4076 50  0000 C CNN
-F 2 "Package_LGA:Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm_ThermalVias" H 6050 3050 50  0001 C CNN
+F 2 "Pufferfish:Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm_ThermalVias" H 6050 3050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps82130.pdf" H 6050 2950 50  0001 C CNN
 	1    6050 3700
 	1    0    0    -1  
