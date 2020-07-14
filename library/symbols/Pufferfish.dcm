@@ -473,6 +473,11 @@ K motor, driver
 F https://www.pololu.com/product/3730/resources
 $ENDCMP
 #
+$CMP POWER_JACK_PTH
+D DC Barrel Power Jack/Connector PTH, 5.5mm jack, 2.1mm center pole diameter
+F https://www.sparkfun.com/datasheets/Prototyping/Barrel-Connector-PJ-202A.pdf
+$ENDCMP
+#
 $CMP RES_SMD_0402
 D Resistor, small US symbol, 0402, SMD, SMT
 K r resistor res
