@@ -1,7 +1,7 @@
 M48
-; DRILL file {KiCad (5.1.6-0-10_14)} date Thursday, July 16, 2020 at 02:36:29 PM
+; DRILL file {KiCad (5.1.6-0-10_14)} date Thursday, July 23, 2020 at 03:18:15 PM
 ; FORMAT={3:3/ absolute / metric / suppress leading zeros}
-; #@! TF.CreationDate,2020-07-16T14:36:29-04:00
+; #@! TF.CreationDate,2020-07-23T15:18:16-04:00
 ; #@! TF.GenerationSoftware,Kicad,Pcbnew,(5.1.6-0-10_14)
 FMAT,2
 METRIC,TZ
@@ -84,8 +84,8 @@ X53340Y-41910
 X53340Y-44450
 T5
 X-3810Y-6350
+X63500Y-50800
 X63500Y-6350
 X-3810Y-50800
-X63500Y-50800
 T0
 M30
