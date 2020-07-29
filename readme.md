@@ -15,3 +15,5 @@ The files `sym-lib-table` and `fp-lib-table` define the paths for local part lib
   * if this relative linking fails, an alternative way to share these library parts amongst each project is to add them to KiCad's global library path (open any project or schematic or pcb, add the appropriate library directories by going to "Preferences/Manage <Footprint/Symbol> Library", and when prompted choose global).
 
 The file `Pufferfish.kicad_wks` contains the template schematic page layout for this project.
+
+Copyright 2020, the Pez Globo team and the Pufferfish project contributors
