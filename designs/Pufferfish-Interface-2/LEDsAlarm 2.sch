@@ -478,8 +478,4 @@ Text Notes 2500 6150 0    50   ~ 0
 Moving to a speaker straight to the Pi
 Text Notes 6000 2550 0    50   ~ 0
 Note: 5V LED control signals
-Text Notes 4450 2750 0    50   ~ 0
-FLIPPED FOOTPRINT\n
-Text Notes 3200 2800 0    50   ~ 0
-Cathode (marking)
 $EndSCHEMATC

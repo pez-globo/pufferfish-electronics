@@ -136,7 +136,7 @@ Wire Wire Line
 Wire Wire Line
 	10100 4250 10100 4350
 $Comp
-L Pufferfish:D_TVS_Unidirectional D?
+L Power_Protection:TPD1E1B04 D?
 U 1 1 5EF4CFBF
 P 10250 4100
 AR Path="/5EE48AD8/5EF4CFBF" Ref="D?"  Part="1" 
@@ -156,7 +156,7 @@ Text Notes 4800 2250 0    50   ~ 0
 Wire Wire Line
 	5200 2800 5200 2900
 $Comp
-L Pufferfish:D_TVS_Unidirectional D?
+L Power_Protection:TPD1E1B04 D?
 U 1 1 5EEA3321
 P 5350 2650
 AR Path="/5EE48AD8/5EEA3321" Ref="D?"  Part="1" 
@@ -286,6 +286,20 @@ Text Notes 4800 5100 0    50   ~ 0
 1: Button not pressed, no action
 Wire Wire Line
 	5200 5650 5200 5750
+$Comp
+L Power_Protection:TPD1E1B04 D?
+U 1 1 5EFF5CD1
+P 5350 5500
+AR Path="/5EE48AD8/5EFF5CD1" Ref="D?"  Part="1" 
+AR Path="/5EE92D7E/5EFF5CD1" Ref="D?"  Part="1" 
+AR Path="/5F074012/5EFF5CD1" Ref="D5"  Part="1" 
+F 0 "D5" V 5304 5429 50  0000 L CNN
+F 1 "SMF3.3" V 5395 5429 50  0000 L CNN
+F 2 "Pufferfish:D_TVS_SMF3.3" H 5350 5500 50  0001 C CNN
+F 3 "" H 5350 5500 50  0001 C CNN
+	1    5350 5500
+	0    1    1    0   
+$EndComp
 Text GLabel 5500 5250 2    50   Input ~ 0
 SET_MANUAL_BREATH
 $Comp
@@ -503,6 +517,20 @@ F 5 "10KΩ" V 4036 3650 50  0000 C CNN "Resistance"
 	1    4150 3650
 	1    0    0    -1  
 $EndComp
+$Comp
+L Power_Protection:TPD1E1B04 D?
+U 1 1 5EFCC8F6
+P 5350 4050
+AR Path="/5EE48AD8/5EFCC8F6" Ref="D?"  Part="1" 
+AR Path="/5EE92D7E/5EFCC8F6" Ref="D?"  Part="1" 
+AR Path="/5F074012/5EFCC8F6" Ref="D4"  Part="1" 
+F 0 "D4" V 5304 3979 50  0000 L CNN
+F 1 "SMF3.3" V 5395 3979 50  0000 L CNN
+F 2 "Pufferfish:D_TVS_SMF3.3" H 5350 4050 50  0001 C CNN
+F 3 "" H 5350 4050 50  0001 C CNN
+	1    5350 4050
+	0    1    1    0   
+$EndComp
 Wire Wire Line
 	5200 4200 5200 4300
 Text Notes 4800 3650 0    50   ~ 0
@@ -512,7 +540,7 @@ Text Notes 4800 6450 0    50   ~ 0
 Wire Wire Line
 	5200 7000 5200 7100
 $Comp
-L Pufferfish:D_TVS_Unidirectional D?
+L Power_Protection:TPD1E1B04 D?
 U 1 1 5EFFC774
 P 5350 6850
 AR Path="/5EE48AD8/5EFFC774" Ref="D?"  Part="1" 
@@ -905,34 +933,6 @@ Text GLabel 5500 6600 2    50   Input ~ 0
 SET_LOCK
 Wire Wire Line
 	5200 3800 5500 3800
-$Comp
-L Pufferfish:D_TVS_Unidirectional D?
-U 1 1 5EFF5CD1
-P 5350 5500
-AR Path="/5EE48AD8/5EFF5CD1" Ref="D?"  Part="1" 
-AR Path="/5EE92D7E/5EFF5CD1" Ref="D?"  Part="1" 
-AR Path="/5F074012/5EFF5CD1" Ref="D5"  Part="1" 
-F 0 "D5" V 5304 5429 50  0000 L CNN
-F 1 "SMF3.3" V 5395 5429 50  0000 L CNN
-F 2 "Pufferfish:D_TVS_SMF3.3" H 5350 5500 50  0001 C CNN
-F 3 "" H 5350 5500 50  0001 C CNN
-	1    5350 5500
-	0    1    1    0   
-$EndComp
-Text Notes 5450 5650 0    50   ~ 0
-Cathode (Line)\n\nAnode
-$Comp
-L Pufferfish:D_TVS_Unidirectional D?
-U 1 1 5EFCC8F6
-P 5350 4050
-AR Path="/5EE48AD8/5EFCC8F6" Ref="D?"  Part="1" 
-AR Path="/5EE92D7E/5EFCC8F6" Ref="D?"  Part="1" 
-AR Path="/5F074012/5EFCC8F6" Ref="D4"  Part="1" 
-F 0 "D4" V 5304 3979 50  0000 L CNN
-F 1 "SMF3.3" V 5395 3979 50  0000 L CNN
-F 2 "Pufferfish:D_TVS_SMF3.3" H 5350 4050 50  0001 C CNN
-F 3 "" H 5350 4050 50  0001 C CNN
-	1    5350 4050
-	0    1    1    0   
-$EndComp
+Text Notes 5550 5550 0    50   ~ 0
+Wrong way
 $EndSCHEMATC
