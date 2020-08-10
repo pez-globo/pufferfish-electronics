@@ -127,8 +127,8 @@ Wire Wire Line
 	10100 3900 10100 3950
 Connection ~ 10100 3900
 Text Notes 9700 3750 0    50   ~ 0
-1: Pressed
-Text Notes 6400 4150 0    50   ~ 0
+1: Button pressed (latched)
+Text Notes 6200 4150 0    50   ~ 0
 To SW5 (Back SPDT)
 Connection ~ 9500 4350
 Wire Wire Line
@@ -694,8 +694,6 @@ Wire Wire Line
 Wire Wire Line
 	9050 3900 8500 3900
 Connection ~ 9050 3900
-Text Notes 7700 5050 0    50   ~ 0
-Note:\n1 = COM\nUnpressed, 1 and 3 connected\n
 $Comp
 L Pufferfish:GND #GND?
 U 1 1 5F1158AA
@@ -888,7 +886,7 @@ Wire Wire Line
 	1800 4250 1800 4500
 Text Notes 1050 4100 0    50   ~ 0
 640457-9 \n2.54mm pitch connector
-Text Notes 6400 4350 0    50   ~ 0
+Text Notes 6200 4350 0    50   ~ 0
 Switch: 108-PLP16-C1RD3-SE6-ND\nor HA1B-A2C5-R
 Text Notes 700  4600 0    50   ~ 0
 Silence Alarms
@@ -935,4 +933,10 @@ F 3 "" H 5350 4050 50  0001 C CNN
 	1    5350 4050
 	0    1    1    0   
 $EndComp
+Text Notes 8550 4250 0    50   ~ 0
+C
+Text Notes 8350 4250 0    50   ~ 0
+NO
+Text Notes 8150 4250 0    50   ~ 0
+NC
 $EndSCHEMATC

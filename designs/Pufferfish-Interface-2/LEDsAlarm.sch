@@ -182,39 +182,6 @@ Regulatory Medical Alarm
 Text Notes 1850 6000 0    118  ~ 0
 System Non-Regulatory PWM Alarm
 $Comp
-L Transistor_FET:DMN10H220L Q6
-U 1 1 5EEB3742
-P 2700 3250
-F 0 "Q6" H 2904 3296 50  0000 L CNN
-F 1 "DMN10H220L" H 2904 3205 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2900 3175 50  0001 L CIN
-F 3 "http://www.diodes.com/assets/Datasheets/DMN10H220L.pdf" H 2700 3250 50  0001 L CNN
-	1    2700 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_FET:DMN10H220L Q5
-U 1 1 5EEC3023
-P 2700 2400
-F 0 "Q5" H 2904 2446 50  0000 L CNN
-F 1 "DMN10H220L" H 2904 2355 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2900 2325 50  0001 L CIN
-F 3 "http://www.diodes.com/assets/Datasheets/DMN10H220L.pdf" H 2700 2400 50  0001 L CNN
-	1    2700 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_FET:DMN10H220L Q7
-U 1 1 5EEC53F1
-P 2700 4200
-F 0 "Q7" H 2904 4246 50  0000 L CNN
-F 1 "DMN10H220L" H 2904 4155 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2900 4125 50  0001 L CIN
-F 3 "http://www.diodes.com/assets/Datasheets/DMN10H220L.pdf" H 2700 4200 50  0001 L CNN
-	1    2700 4200
-	1    0    0    -1  
-$EndComp
-$Comp
 L Diode:1N4001 D2
 U 1 1 5EEF6F14
 P 3600 3750
@@ -348,17 +315,6 @@ To LED strip
 Wire Wire Line
 	8650 2800 8650 3200
 $Comp
-L Pufferfish:BUZZER-MALLORY BUZZ1
-U 1 1 5EFEDE5A
-P 4700 3000
-F 0 "BUZZ1" V 4654 2953 50  0000 L CNN
-F 1 "BUZZER-MALLORY" V 4745 2953 50  0000 L CNN
-F 2 "Pufferfish:Buzzer-MSS5MMG" H 4700 3000 50  0001 C CNN
-F 3 "https://www.mspindy.com/Specifications/MSS5MMG.pdf" H 4700 3000 50  0001 C CNN
-	1    4700 3000
-	0    1    1    0   
-$EndComp
-$Comp
 L Transistor_FET:2N7002E Q10
 U 1 1 5EF24A38
 P 7350 4400
@@ -478,8 +434,52 @@ Text Notes 2500 6150 0    50   ~ 0
 Moving to a speaker straight to the Pi
 Text Notes 6000 2550 0    50   ~ 0
 Note: 5V LED control signals
-Text Notes 4450 2750 0    50   ~ 0
-FLIPPED FOOTPRINT\n
 Text Notes 3200 2800 0    50   ~ 0
 Cathode (marking)
+$Comp
+L Pufferfish:FDN337N Q5
+U 1 1 5EEC3023
+P 2800 2400
+F 0 "Q5" H 3004 2446 50  0000 L CNN
+F 1 "FDN337N" H 3004 2355 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SuperSOT-3" H 3000 2325 50  0001 L CIN
+F 3 "" H 2800 2400 50  0001 L CNN
+	1    2800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:FDN337N Q7
+U 1 1 5EEC53F1
+P 2800 4200
+F 0 "Q7" H 3004 4246 50  0000 L CNN
+F 1 "FDN337N" H 3004 4155 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SuperSOT-3" H 3000 4125 50  0001 L CIN
+F 3 "" H 2800 4200 50  0001 L CNN
+	1    2800 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:FDN337N Q6
+U 1 1 5EEB3742
+P 2800 3250
+F 0 "Q6" H 3004 3296 50  0000 L CNN
+F 1 "FDN337N" H 3004 3205 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SuperSOT-3" H 3000 3175 50  0001 L CIN
+F 3 "" H 2800 3250 50  0001 L CNN
+	1    2800 3250
+	1    0    0    -1  
+$EndComp
+Text Notes 3950 3400 0    50   ~ 0
+applying GND directly here OK
+$Comp
+L Pufferfish:BUZZER-MALLORY BUZZ1
+U 1 1 5EFEDE5A
+P 4700 3000
+F 0 "BUZZ1" V 4654 2953 50  0000 L CNN
+F 1 "BUZZER-MALLORY" V 4745 2953 50  0000 L CNN
+F 2 "Pufferfish:Buzzer-MSS5MMG" H 4700 3000 50  0001 C CNN
+F 3 "https://www.mspindy.com/Specifications/MSS5MMG.pdf" H 4700 3000 50  0001 C CNN
+	1    4700 3000
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
