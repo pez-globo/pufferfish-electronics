@@ -13,7 +13,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 2200 1600 0    118  ~ 0
+Text Notes 2900 1600 0    118  ~ 0
 Front Membrane Switches
 Text Notes 8350 2900 0    118  ~ 0
 Back Push Button
@@ -128,7 +128,7 @@ Wire Wire Line
 Connection ~ 10100 3900
 Text Notes 9700 3750 0    50   ~ 0
 1: Button pressed (latched)
-Text Notes 6200 4150 0    50   ~ 0
+Text Notes 7200 4700 0    50   ~ 0
 To SW5 (Back SPDT)
 Connection ~ 9500 4350
 Wire Wire Line
@@ -715,17 +715,6 @@ Wire Wire Line
 	1950 4250 1950 4300
 Wire Wire Line
 	1500 4500 1800 4500
-$Comp
-L Connector:Conn_01x09_Male J1
-U 1 1 5F10AB91
-P 1300 4900
-F 0 "J1" H 1408 5481 50  0000 C CNN
-F 1 "Conn_01x09_Male" H 1408 5390 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Horizontal" H 1300 4900 50  0001 C CNN
-F 3 "~" H 1300 4900 50  0001 C CNN
-	1    1300 4900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1800 4250 1950 4250
 Connection ~ 4150 2400
@@ -886,7 +875,7 @@ Wire Wire Line
 	1800 4250 1800 4500
 Text Notes 1050 4100 0    50   ~ 0
 640457-9 \n2.54mm pitch connector
-Text Notes 6200 4350 0    50   ~ 0
+Text Notes 7200 4900 0    50   ~ 0
 Switch: 108-PLP16-C1RD3-SE6-ND\nor HA1B-A2C5-R
 Text Notes 700  4600 0    50   ~ 0
 Silence Alarms
@@ -939,4 +928,15 @@ Text Notes 8350 4250 0    50   ~ 0
 NO
 Text Notes 8150 4250 0    50   ~ 0
 NC
+$Comp
+L Connector:Conn_01x09_Male J1
+U 1 1 5F10AB91
+P 1300 4900
+F 0 "J1" H 1408 5481 50  0000 C CNN
+F 1 "Conn_01x09_Male" H 1408 5390 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Horizontal" H 1300 4900 50  0001 C CNN
+F 3 "~" H 1300 4900 50  0001 C CNN
+	1    1300 4900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

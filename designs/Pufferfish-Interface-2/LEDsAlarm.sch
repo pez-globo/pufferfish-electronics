@@ -434,8 +434,8 @@ Text Notes 2500 6150 0    50   ~ 0
 Moving to a speaker straight to the Pi
 Text Notes 6000 2550 0    50   ~ 0
 Note: 5V LED control signals
-Text Notes 3200 2800 0    50   ~ 0
-Cathode (marking)
+Text Notes 3450 2850 2    50   ~ 0
+Cathode \n(marking)
 $Comp
 L Pufferfish:FDN337N Q5
 U 1 1 5EEC3023
@@ -469,8 +469,6 @@ F 3 "" H 2800 3250 50  0001 L CNN
 	1    2800 3250
 	1    0    0    -1  
 $EndComp
-Text Notes 3950 3400 0    50   ~ 0
-applying GND directly here OK
 $Comp
 L Pufferfish:BUZZER-MALLORY BUZZ1
 U 1 1 5EFEDE5A
