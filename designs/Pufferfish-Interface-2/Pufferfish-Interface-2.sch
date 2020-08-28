@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title "Pufferface Interface Schematic"
 Date "2020-07-09"
 Rev "2"
@@ -33,4 +33,10 @@ F1 "Switches.sch" 50
 $EndSheet
 Text Notes 4350 2800 0    118  ~ 24
 Pufferface Interface Schematic
+$Sheet
+S 4650 5100 1850 250 
+U 5F496851
+F0 "Microphone" 50
+F1 "Microphone.sch" 50
+$EndSheet
 $EndSCHEMATC

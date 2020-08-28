@@ -152,6 +152,11 @@ K r resistor res
 F ~
 $ENDCMP
 #
+$CMP SB6286
+D High Efficiency 1.2MHz 2A Step Up Converter
+F https://datasheet.lcsc.com/szlcsc/1810242120_SHOUDING-SB6286_C157668.pdf
+$ENDCMP
+#
 $CMP SDP810-125PA
 D Sensirion SDP810-125PA, Differential Pressure Sensor +125Pa 4-Pin
 F https://www.mouser.com/datasheet/2/682/Sensirion_Differential_Pressure_Sensors_SDP8xx_Dig-1511125.pdf
