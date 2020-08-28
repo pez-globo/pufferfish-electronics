@@ -505,10 +505,10 @@ Wire Wire Line
 	7850 3850 8300 3850
 Connection ~ 6000 5600
 Text Notes 7000 1350 0    118  ~ 0
-Serial Control (LEDs)
-Text Notes 9800 3500 0    50   ~ 0
+Serial Control
+Text Notes 9950 3500 0    50   ~ 0
 To LED strip
-Text Notes 9800 3850 0    50   ~ 0
+Text Notes 9950 3850 0    50   ~ 0
 To Membrane LEDs
 Text GLabel 2400 3650 0    50   Input ~ 0
 ~SER_CLR
@@ -550,8 +550,8 @@ F 3 "" H 8800 4450 50  0001 C CNN
 	1    8800 4450
 	1    0    0    -1  
 $EndComp
-Text Notes 4100 3600 0    50   ~ 0
-Used to have ALARM1_LOW
+Text Notes 3950 3600 0    50   ~ 0
+Used to have ALARM1_LOW here
 $Comp
 L Controller_Library:5103308-3 CONN1
 U 1 1 5F0AC62C
@@ -571,4 +571,6 @@ F 9 "5103308-3" H 3700 2550 50  0001 L CNN "Manufacturer_Part_Number"
 $EndComp
 Text GLabel 3300 3550 2    50   Input ~ 0
 ALARM1_SENSE
+Text Notes 9950 4100 0    50   ~ 0
+To Alarm
 $EndSCHEMATC

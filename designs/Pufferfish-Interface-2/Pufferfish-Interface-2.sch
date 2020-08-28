@@ -34,9 +34,9 @@ $EndSheet
 Text Notes 4350 2800 0    118  ~ 24
 Pufferface Interface Schematic
 $Sheet
-S 4650 5100 1850 250 
-U 5F496851
-F0 "Microphone" 50
-F1 "Microphone.sch" 50
+S 4650 5100 1900 350 
+U 5F6B426B
+F0 "AlarmDetect" 50
+F1 "AlarmDetect.sch" 50
 $EndSheet
 $EndSCHEMATC

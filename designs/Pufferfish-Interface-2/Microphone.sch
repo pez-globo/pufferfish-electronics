@@ -14,156 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Pufferfish:SB6286 U?
-U 1 1 5F49D8DE
-P 7400 2700
-F 0 "U?" H 7400 3125 50  0000 C CNN
-F 1 "SB6286" H 7400 3034 50  0000 C CNN
-F 2 "" H 7400 3050 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810242120_SHOUDING-SB6286_C157668.pdf" H 7400 3050 50  0001 C CNN
-	1    7400 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5F49DD7C
-P 6650 2700
-F 0 "C?" H 6765 2746 50  0000 L CNN
-F 1 "10uF" H 6765 2655 50  0000 L CNN
-F 2 "" H 6688 2550 50  0001 C CNN
-F 3 "~" H 6650 2700 50  0001 C CNN
-	1    6650 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Controller_Library:GND #GND?
-U 1 1 5F49ED6F
-P 6650 3150
-F 0 "#GND?" H 6650 3150 50  0001 C CNN
-F 1 "GND" H 6650 3020 59  0000 C CNN
-F 2 "" H 6650 3150 50  0001 C CNN
-F 3 "" H 6650 3150 50  0001 C CNN
-	1    6650 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:L L?
-U 1 1 5F4A03D0
-P 7400 2100
-F 0 "L?" V 7219 2100 50  0000 C CNN
-F 1 "L" V 7310 2100 50  0000 C CNN
-F 2 "" H 7400 2100 50  0001 C CNN
-F 3 "~" H 7400 2100 50  0001 C CNN
-	1    7400 2100
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Schottky D?
-U 1 1 5F4A0C22
-P 7900 2100
-F 0 "D?" H 7900 1883 50  0000 C CNN
-F 1 "D_Schottky SS22" H 7900 1974 50  0000 C CNN
-F 2 "" H 7900 2100 50  0001 C CNN
-F 3 "~" H 7900 2100 50  0001 C CNN
-	1    7900 2100
-	-1   0    0    1   
-$EndComp
-$Comp
-L Pufferfish:RES_SMD_0805 R?
-U 1 1 5F4A1BEF
-P 8150 2900
-F 0 "R?" H 8218 2946 50  0000 L CNN
-F 1 "RES_SMD_0805" H 8230 2710 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0805" H 8350 2500 50  0001 C CNN
-F 3 "~" H 8150 2900 50  0001 C CNN
-F 4 "?%" H 8300 2800 50  0001 C CNN "Tolerance"
-F 5 "30KΩ" H 8218 2855 50  0000 L CNN "Resistance"
-	1    8150 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5F4A31D3
-P 8550 2700
-F 0 "C?" H 8665 2746 50  0000 L CNN
-F 1 "10uF" H 8665 2655 50  0000 L CNN
-F 2 "" H 8588 2550 50  0001 C CNN
-F 3 "~" H 8550 2700 50  0001 C CNN
-	1    8550 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5F4A3B54
-P 8950 2700
-F 0 "C?" H 9065 2746 50  0000 L CNN
-F 1 "100nF" H 9065 2655 50  0000 L CNN
-F 2 "" H 8988 2550 50  0001 C CNN
-F 3 "~" H 8950 2700 50  0001 C CNN
-	1    8950 2700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6650 2850 6650 3050
-Wire Wire Line
-	6650 2100 7000 2100
-Wire Wire Line
-	7550 2100 7700 2100
-Wire Wire Line
-	7100 2500 7000 2500
-Wire Wire Line
-	7000 2500 7000 2100
-Connection ~ 7000 2100
-Wire Wire Line
-	7000 2100 7250 2100
-Wire Wire Line
-	7100 2600 7000 2600
-Wire Wire Line
-	7000 2600 7000 2500
-Connection ~ 7000 2500
-Wire Wire Line
-	7100 2700 7100 3050
-Wire Wire Line
-	7100 3050 6650 3050
-Connection ~ 6650 3050
-Wire Wire Line
-	7700 2500 7700 2100
-Connection ~ 7700 2100
-Wire Wire Line
-	7700 2100 7750 2100
-Wire Wire Line
-	7700 2700 8150 2700
-Wire Wire Line
-	8150 2700 8150 2600
-Connection ~ 8150 2700
-Wire Wire Line
-	8150 2700 8150 2800
-Wire Wire Line
-	8050 2100 8150 2100
-Wire Wire Line
-	8150 2100 8150 2400
-Wire Wire Line
-	8150 2100 8550 2100
-Wire Wire Line
-	8550 2100 8550 2550
-Connection ~ 8150 2100
-Wire Wire Line
-	8550 2100 8950 2100
-Wire Wire Line
-	8950 2100 8950 2550
-Connection ~ 8550 2100
-Wire Wire Line
-	8150 3050 8550 3050
-Wire Wire Line
-	8550 3050 8550 2850
-Wire Wire Line
-	8950 2850 8950 3050
-Wire Wire Line
-	8950 3050 8550 3050
-Connection ~ 8550 3050
-Wire Wire Line
-	8150 3000 8150 3050
-$Comp
 L Amplifier_Operational:TL072 U?
 U 1 1 5F4ABF0E
 P 5900 4350
@@ -549,26 +399,7 @@ Wire Wire Line
 	8950 4700 8950 4750
 Text Notes 9400 4600 0    50   ~ 0
 Sound level output
-Text GLabel 9100 2100 2    50   Input ~ 0
-SENSOR_PWR
 Connection ~ 2850 3700
-Wire Wire Line
-	9100 2100 8950 2100
-Connection ~ 8950 2100
-Connection ~ 6650 2100
-Wire Wire Line
-	6650 2100 6650 2550
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5F49E548
-P 6650 2100
-F 0 "#PWR?" H 6650 1950 50  0001 C CNN
-F 1 "+3V3" H 6665 2273 50  0000 C CNN
-F 2 "" H 6650 2100 50  0001 C CNN
-F 3 "" H 6650 2100 50  0001 C CNN
-	1    6650 2100
-	1    0    0    -1  
-$EndComp
 $Comp
 L Controller_Library:12V #SUPPLY?
 U 1 1 5F567BA1
@@ -582,19 +413,6 @@ F 3 "" H 1800 3350 50  0001 C CNN
 $EndComp
 $Comp
 L Pufferfish:RES_SMD_0805 R?
-U 1 1 5F4A1876
-P 8150 2500
-F 0 "R?" H 8218 2546 50  0000 L CNN
-F 1 "RES_SMD_0805" H 8230 2310 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0805" H 8350 2100 50  0001 C CNN
-F 3 "~" H 8150 2500 50  0001 C CNN
-F 4 "?%" H 8300 2400 50  0001 C CNN "Tolerance"
-F 5 "360KΩ" H 8218 2455 50  0000 L CNN "Resistance"
-	1    8150 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish:RES_SMD_0805 R?
 U 1 1 5F56E7A1
 P 1800 3950
 F 0 "R?" H 1868 3996 50  0000 L CNN
@@ -604,18 +422,6 @@ F 3 "~" H 1800 3950 50  0001 C CNN
 F 4 "?%" H 1950 3850 50  0001 C CNN "Tolerance"
 F 5 "1.5KΩ" H 1868 3905 50  0000 L CNN "Resistance"
 	1    1800 3950
-	1    0    0    -1  
-$EndComp
-Connection ~ 8150 3050
-$Comp
-L Controller_Library:GND #GND?
-U 1 1 5F4A7A34
-P 8150 3150
-F 0 "#GND?" H 8150 3150 50  0001 C CNN
-F 1 "GND" H 8150 3020 59  0000 C CNN
-F 2 "" H 8150 3150 50  0001 C CNN
-F 3 "" H 8150 3150 50  0001 C CNN
-	1    8150 3150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -671,4 +477,6 @@ Wire Wire Line
 	5600 5400 6050 5400
 Text GLabel 9800 4700 2    50   Input ~ 0
 ALARM1_SENSE
+Text Notes 5600 2600 0    118  ~ 24
+Microphone
 $EndSCHEMATC
