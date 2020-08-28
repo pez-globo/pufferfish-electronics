@@ -179,7 +179,7 @@ Text Notes 3000 1400 0    118  ~ 24
 Alarms
 Text Notes 2200 1950 0    118  ~ 0
 Regulatory Medical Alarm
-Text Notes 1850 6000 0    118  ~ 0
+Text Notes 2200 6150 0    118  ~ 0
 System Non-Regulatory PWM Alarm
 $Comp
 L Diode:1N4001 D2
@@ -430,7 +430,7 @@ F 3 "" H 8650 2800 50  0001 C CNN
 	1    8650 2800
 	1    0    0    -1  
 $EndComp
-Text Notes 2500 6150 0    50   ~ 0
+Text Notes 2850 6300 0    50   ~ 0
 Moving to a speaker straight to the Pi
 Text Notes 6000 2550 0    50   ~ 0
 Note: 5V LED control signals
