@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name Pufferfish)(type Legacy)(uri /Users/laurenadachi/Documents/GitHub/pufferfish-electronics/library/symbols/Pufferfish.lib)(options "")(descr ""))
   (lib (name Controller_Library)(type Legacy)(uri /Users/laurenadachi/Documents/GitHub/pufferfish-electronics/library/controller_symbols/Pufferfish.lib)(options "")(descr ""))
+  (lib (name Pufferfish)(type Legacy)(uri /Users/laurenadachi/Documents/GitHub/pufferfish-electronics/library/symbols/Pufferfish.lib)(options "")(descr ""))
 )
