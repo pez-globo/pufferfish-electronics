@@ -69,26 +69,6 @@ Wire Wire Line
 	2750 3800 3100 3800
 Wire Wire Line
 	2750 3500 2750 3600
-Wire Wire Line
-	2750 4450 2750 4550
-Wire Wire Line
-	2750 4750 3100 4750
-$Comp
-L Pufferfish:RES_SMD_0805 R?
-U 1 1 5EE5B711
-P 2750 4650
-AR Path="/5EE5B711" Ref="R?"  Part="1" 
-AR Path="/5EE41C08/5EE5B711" Ref="R?"  Part="1" 
-AR Path="/5F073FE9/5EE5B711" Ref="R11"  Part="1" 
-F 0 "R11" V 2545 4650 50  0000 C CNN
-F 1 "RES_SMD_0805" H 2830 4460 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0805" H 2950 4250 50  0001 C CNN
-F 3 "~" H 2750 4650 50  0001 C CNN
-F 4 "?%" H 2900 4550 50  0001 C CNN "Tolerance"
-F 5 "10KΩ" V 2636 4650 50  0000 C CNN "Resistance"
-	1    2750 4650
-	1    0    0    -1  
-$EndComp
 $Comp
 L Pufferfish:GND #GND?
 U 1 1 5EE5B705
@@ -103,11 +83,6 @@ F 3 "" H 3100 4850 50  0001 C CNN
 	1    3100 4850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2450 4450 2750 4450
-Wire Wire Line
-	2750 4450 2800 4450
-Connection ~ 2750 4450
 Text GLabel 2450 4450 0    50   Input ~ 0
 ALARM1_LOW
 Wire Wire Line
@@ -211,33 +186,8 @@ Wire Wire Line
 	4050 4000 4050 4100
 Text GLabel 7000 3500 0    50   Input ~ 0
 LEDR_EN
-Wire Wire Line
-	7300 3500 7300 3600
-Wire Wire Line
-	7000 3500 7300 3500
-Wire Wire Line
-	7300 3500 7350 3500
-Connection ~ 7300 3500
-$Comp
-L Transistor_FET:2N7002E Q9
-U 1 1 5EF19E0B
-P 7550 3500
-F 0 "Q9" H 7754 3546 50  0000 L CNN
-F 1 "2N7002E" H 7754 3455 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7750 3425 50  0001 L CIN
-F 3 "http://www.diodes.com/assets/Datasheets/ds30376.pdf" H 7550 3500 50  0001 L CNN
-	1    7550 3500
-	1    0    0    -1  
-$EndComp
 Text GLabel 7000 2600 0    50   Input ~ 0
 LEDG_EN
-Wire Wire Line
-	7300 2600 7300 2700
-Wire Wire Line
-	7000 2600 7300 2600
-Wire Wire Line
-	7300 2600 7350 2600
-Connection ~ 7300 2600
 $Comp
 L Transistor_FET:2N7002E Q8
 U 1 1 5EF1AFC1
@@ -251,29 +201,6 @@ F 3 "http://www.diodes.com/assets/Datasheets/ds30376.pdf" H 7550 2600 50  0001 L
 $EndComp
 Text GLabel 7000 4300 0    50   Input ~ 0
 LEDB_EN
-Wire Wire Line
-	7300 4300 7300 4400
-$Comp
-L Pufferfish:RES_SMD_0805 R?
-U 1 1 5EF24A20
-P 7300 4500
-AR Path="/5EF24A20" Ref="R?"  Part="1" 
-AR Path="/5EE41C08/5EF24A20" Ref="R?"  Part="1" 
-AR Path="/5F073FE9/5EF24A20" Ref="R14"  Part="1" 
-F 0 "R14" V 7095 4500 50  0000 C CNN
-F 1 "RES_SMD_0805" H 7380 4310 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0805" H 7500 4100 50  0001 C CNN
-F 3 "~" H 7300 4500 50  0001 C CNN
-F 4 "?%" H 7450 4400 50  0001 C CNN "Tolerance"
-F 5 "10KΩ" V 7186 4500 50  0000 C CNN "Resistance"
-	1    7300 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7000 4300 7300 4300
-Wire Wire Line
-	7300 4300 7350 4300
-Connection ~ 7300 4300
 Text Notes 8600 3200 0    50   ~ 0
 G
 Text Notes 8600 3300 0    50   ~ 0
@@ -338,25 +265,7 @@ F 3 "" H 7650 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7300 4600 7650 4600
-Wire Wire Line
 	7650 4500 7650 4600
-$Comp
-L Pufferfish:RES_SMD_0805 R?
-U 1 1 5F0DEB12
-P 7300 3700
-AR Path="/5F0DEB12" Ref="R?"  Part="1" 
-AR Path="/5EE41C08/5F0DEB12" Ref="R?"  Part="1" 
-AR Path="/5F073FE9/5F0DEB12" Ref="R13"  Part="1" 
-F 0 "R13" V 7095 3700 50  0000 C CNN
-F 1 "RES_SMD_0805" H 7380 3510 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0805" H 7500 3300 50  0001 C CNN
-F 3 "~" H 7300 3700 50  0001 C CNN
-F 4 "?%" H 7450 3600 50  0001 C CNN "Tolerance"
-F 5 "10KΩ" V 7186 3700 50  0000 C CNN "Resistance"
-	1    7300 3700
-	1    0    0    -1  
-$EndComp
 $Comp
 L Pufferfish:GND #GND?
 U 1 1 5F0DEB18
@@ -372,25 +281,7 @@ F 3 "" H 7650 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7300 3800 7650 3800
-Wire Wire Line
 	7650 3700 7650 3800
-$Comp
-L Pufferfish:RES_SMD_0805 R?
-U 1 1 5F0E1E1E
-P 7300 2800
-AR Path="/5F0E1E1E" Ref="R?"  Part="1" 
-AR Path="/5EE41C08/5F0E1E1E" Ref="R?"  Part="1" 
-AR Path="/5F073FE9/5F0E1E1E" Ref="R12"  Part="1" 
-F 0 "R12" V 7095 2800 50  0000 C CNN
-F 1 "RES_SMD_0805" H 7380 2610 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0805" H 7500 2400 50  0001 C CNN
-F 3 "~" H 7300 2800 50  0001 C CNN
-F 4 "?%" H 7450 2700 50  0001 C CNN "Tolerance"
-F 5 "10KΩ" V 7186 2800 50  0000 C CNN "Resistance"
-	1    7300 2800
-	1    0    0    -1  
-$EndComp
 $Comp
 L Pufferfish:GND #GND?
 U 1 1 5F0E1E24
@@ -405,8 +296,6 @@ F 3 "" H 7650 3000 50  0001 C CNN
 	1    7650 3000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7300 2900 7650 2900
 Wire Wire Line
 	7650 2800 7650 2900
 Wire Wire Line
@@ -428,8 +317,8 @@ F 3 "" H 8850 2700 50  0001 C CNN
 	1    8850 2700
 	1    0    0    -1  
 $EndComp
-Text Notes 6200 2450 0    50   ~ 0
-Note: 5V LED control signals
+Text Notes 6250 2400 0    50   ~ 0
+Driven by barrel shifter \n(5V = HIGH, pulled up)
 Text Notes 3750 3100 2    50   ~ 0
 Cathode \n(marking)
 $Comp
@@ -441,17 +330,6 @@ F 1 "FDN337N" H 3304 2605 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SuperSOT-3" H 3300 2575 50  0001 L CIN
 F 3 "" H 3100 2650 50  0001 L CNN
 	1    3100 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish:FDN337N Q7
-U 1 1 5EEC53F1
-P 3100 4450
-F 0 "Q7" H 3304 4496 50  0000 L CNN
-F 1 "FDN337N" H 3304 4405 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SuperSOT-3" H 3300 4375 50  0001 L CIN
-F 3 "" H 3100 4450 50  0001 L CNN
-	1    3100 4450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -478,41 +356,22 @@ F 3 "https://www.mspindy.com/Specifications/MSS5MMG.pdf" H 5000 3250 50  0001 C 
 $EndComp
 Connection ~ 3100 2950
 Connection ~ 3100 3800
-Connection ~ 3100 4750
-Connection ~ 7650 2900
-Connection ~ 7650 3800
-Connection ~ 7650 4600
 Text Notes 1700 5400 0    118  ~ 0
 System Non-Regulatory Alarm - Control Board
-Text Notes 1050 4350 0    50   ~ 0
-Driven by barrel shifter (5V = HIGH)
-Text Notes 1000 2550 0    50   ~ 0
-Driven by MCU directly (3V3 = HIGH)
-Text Notes 1050 3400 0    50   ~ 0
+Text Notes 1000 2450 0    50   ~ 0
 Driven by MCU directly (3V3 = HIGH)
 Text Notes 2000 7650 0    118  ~ 0
 Click confirmation speaker - RPi
 $Comp
-L Pufferfish:BUZZER-12MM BUZZ?
+L Pufferfish:BUZZER-12MM BUZZ2
 U 1 1 5F8C2AEB
-P 3900 5950
-F 0 "BUZZ?" V 3889 6152 70  0000 L CNN
-F 1 "BUZZER" V 4010 6152 70  0000 L CNN
-F 2 "Pufferfish:BUZZER-12MM" H 3900 5600 50  0001 C CNN
-F 3 "" H 3900 5950 50  0001 C CNN
-	1    3900 5950
+P 3900 5850
+F 0 "BUZZ2" V 3889 6052 70  0000 L CNN
+F 1 "BUZZER" V 4010 6052 70  0000 L CNN
+F 2 "Pufferfish:BUZZER-12MM" H 3900 5500 50  0001 C CNN
+F 3 "" H 3900 5850 50  0001 C CNN
+	1    3900 5850
 	0    1    1    0   
-$EndComp
-$Comp
-L Transistor_BJT:2SC1815 Q?
-U 1 1 5F8C4132
-P 3700 6450
-F 0 "Q?" H 3890 6496 50  0000 L CNN
-F 1 "2SC1815" H 3890 6405 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3900 6375 50  0001 L CIN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf" H 3700 6450 50  0001 L CNN
-	1    3700 6450
-	1    0    0    -1  
 $EndComp
 $Comp
 L Pufferfish:GND #GND?
@@ -528,66 +387,127 @@ F 3 "" H 3800 6750 50  0001 C CNN
 	1    3800 6750
 	1    0    0    -1  
 $EndComp
-Text GLabel 3200 6450 0    50   Input ~ 0
+Text GLabel 2900 6450 0    50   Input ~ 0
 ALARM2_EN
-$Comp
-L Pufferfish:RES_SMD_0805 R?
-U 1 1 5F8C731B
-P 3400 6450
-AR Path="/5F8C731B" Ref="R?"  Part="1" 
-AR Path="/5EE41C08/5F8C731B" Ref="R?"  Part="1" 
-AR Path="/5F073FE9/5F8C731B" Ref="R?"  Part="1" 
-F 0 "R?" V 3195 6450 50  0000 C CNN
-F 1 "RES_SMD_0805" H 3480 6260 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0805" H 3600 6050 50  0001 C CNN
-F 3 "~" H 3400 6450 50  0001 C CNN
-F 4 "?%" H 3550 6350 50  0001 C CNN "Tolerance"
-F 5 "180Ω" V 3286 6450 50  0000 C CNN "Resistance"
-	1    3400 6450
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3300 6450 3200 6450
-Text Notes 4850 6200 0    50   ~ 0
-Todo: figure out which exact buzzer+driving ckt
-$Comp
-L Pufferfish:BUZZER-12MM BUZZ?
-U 1 1 5FCDB64A
-P 1650 6200
-F 0 "BUZZ?" V 1639 6402 70  0000 L CNN
-F 1 "BUZZER" V 1760 6402 70  0000 L CNN
-F 2 "Pufferfish:BUZZER-12MM" H 1650 5850 50  0001 C CNN
-F 3 "" H 1650 6200 50  0001 C CNN
-	1    1650 6200
-	0    1    1    0   
-$EndComp
-Text GLabel 1550 6200 0    50   Input ~ 0
-ALARM2_EN
-$Comp
-L Pufferfish:GND #GND?
-U 1 1 5FCDF5CF
-P 1550 6400
-AR Path="/5FCDF5CF" Ref="#GND?"  Part="1" 
-AR Path="/5EE41C08/5FCDF5CF" Ref="#GND?"  Part="1" 
-AR Path="/5F073FE9/5FCDF5CF" Ref="#GND0109"  Part="1" 
-F 0 "#GND0109" H 1550 6400 50  0001 C CNN
-F 1 "GND" H 1550 6270 59  0000 C CNN
-F 2 "" H 1550 6400 50  0001 C CNN
-F 3 "" H 1550 6400 50  0001 C CNN
-	1    1550 6400
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+3V3 #PWR0103
 U 1 1 5FCED619
-P 3800 5950
-F 0 "#PWR0103" H 3800 5800 50  0001 C CNN
-F 1 "+3V3" H 3815 6123 50  0000 C CNN
-F 2 "" H 3800 5950 50  0001 C CNN
-F 3 "" H 3800 5950 50  0001 C CNN
-	1    3800 5950
+P 3800 5650
+F 0 "#PWR0103" H 3800 5500 50  0001 C CNN
+F 1 "+3V3" H 3815 5823 50  0000 C CNN
+F 2 "" H 3800 5650 50  0001 C CNN
+F 3 "" H 3800 5650 50  0001 C CNN
+	1    3800 5650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3800 6050 3800 6250
+$Comp
+L Diode:1N4001 D10
+U 1 1 5F512610
+P 3450 5900
+F 0 "D10" H 3450 6117 50  0000 C CNN
+F 1 "1N4001" H 3450 6026 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3450 5725 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3450 5900 50  0001 C CNN
+	1    3450 5900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3450 5750 3800 5750
+Wire Wire Line
+	3800 5750 3800 5650
+Wire Wire Line
+	3800 5850 3800 5750
+Connection ~ 3800 5750
+Wire Wire Line
+	3450 6050 3800 6050
+Wire Wire Line
+	3800 5950 3800 6050
+Connection ~ 3800 6050
+$Comp
+L Transistor_BJT:2N2219 Q11
+U 1 1 5F5385FF
+P 3700 6450
+F 0 "Q11" H 3890 6496 50  0000 L CNN
+F 1 "PN2222ABU" H 3890 6405 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 3900 6375 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 3700 6450 50  0001 L CNN
+	1    3700 6450
+	1    0    0    -1  
+$EndComp
+Connection ~ 3100 4750
+$Comp
+L Pufferfish:FDN337N Q7
+U 1 1 5EEC53F1
+P 3100 4450
+F 0 "Q7" H 3304 4496 50  0000 L CNN
+F 1 "FDN337N" H 3304 4405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SuperSOT-3" H 3300 4375 50  0001 L CIN
+F 3 "" H 3100 4450 50  0001 L CNN
+	1    3100 4450
+	1    0    0    -1  
+$EndComp
+Connection ~ 2750 4450
+Wire Wire Line
+	2750 4450 2800 4450
+Wire Wire Line
+	2450 4450 2750 4450
+$Comp
+L Pufferfish:RES_SMD_0805 R?
+U 1 1 5EE5B711
+P 2750 4650
+AR Path="/5EE5B711" Ref="R?"  Part="1" 
+AR Path="/5EE41C08/5EE5B711" Ref="R?"  Part="1" 
+AR Path="/5F073FE9/5EE5B711" Ref="R11"  Part="1" 
+F 0 "R11" V 2545 4650 50  0000 C CNN
+F 1 "RES_SMD_0805" H 2830 4460 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0805" H 2950 4250 50  0001 C CNN
+F 3 "~" H 2750 4650 50  0001 C CNN
+F 4 "?%" H 2900 4550 50  0001 C CNN "Tolerance"
+F 5 "10KΩ" V 2636 4650 50  0000 C CNN "Resistance"
+	1    2750 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 4750 3100 4750
+Wire Wire Line
+	2750 4450 2750 4550
+$Comp
+L Pufferfish:RES_SMD_0805 R?
+U 1 1 5F5452FF
+P 3300 6450
+AR Path="/5F5452FF" Ref="R?"  Part="1" 
+AR Path="/5EE41C08/5F5452FF" Ref="R?"  Part="1" 
+AR Path="/5F073FE9/5F5452FF" Ref="R46"  Part="1" 
+F 0 "R46" V 3095 6450 50  0000 C CNN
+F 1 "RES_SMD_0805" H 3380 6260 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0805" H 3500 6050 50  0001 C CNN
+F 3 "~" H 3300 6450 50  0001 C CNN
+F 4 "?%" H 3450 6350 50  0001 C CNN "Tolerance"
+F 5 "180Ω" V 3186 6450 50  0000 C CNN "Resistance"
+	1    3300 6450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2900 6450 3200 6450
+Wire Wire Line
+	3400 6450 3500 6450
+Wire Wire Line
+	7000 2600 7350 2600
+$Comp
+L Transistor_FET:2N7002E Q9
+U 1 1 5EF19E0B
+P 7550 3500
+F 0 "Q9" H 7754 3546 50  0000 L CNN
+F 1 "2N7002E" H 7754 3455 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7750 3425 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/ds30376.pdf" H 7550 3500 50  0001 L CNN
+	1    7550 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 3500 7350 3500
+Wire Wire Line
+	7000 4300 7350 4300
 $EndSCHEMATC

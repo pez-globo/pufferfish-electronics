@@ -107,7 +107,7 @@ AR Path="/5F073FE9/5F6C7128" Ref="MK?"  Part="1"
 AR Path="/5F6B426B/5F6C7128" Ref="MK1"  Part="1" 
 F 0 "MK1" H 3980 4946 50  0000 L CNN
 F 1 "Microphone" H 3980 4855 50  0000 L CNN
-F 2 "" V 3850 5000 50  0001 C CNN
+F 2 "Pufferfish:Microphone-EM-6022P" V 3850 5000 50  0001 C CNN
 F 3 "~" V 3850 5000 50  0001 C CNN
 	1    3850 4900
 	1    0    0    -1  
