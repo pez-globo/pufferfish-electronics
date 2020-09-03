@@ -262,107 +262,105 @@ Wire Wire Line
 Text Notes 1150 5550 0    50   ~ 0
 Note: 5V high\nResistors sized assuming: \n    Vf = 3.3V, Imax = 20 mA
 Wire Wire Line
-	2100 3950 2350 3950
+	2300 3750 2550 3750
 Wire Wire Line
-	2100 3350 2100 3950
+	2400 3450 2550 3450
 Wire Wire Line
-	2200 3650 2350 3650
+	2400 3050 2400 3450
 Wire Wire Line
-	2200 3250 2200 3650
+	2500 3150 2550 3150
 Wire Wire Line
-	2300 3350 2350 3350
+	2500 2950 2500 3150
 Wire Wire Line
-	2300 3150 2300 3350
+	2750 3750 2850 3750
 Wire Wire Line
-	2550 3950 2650 3950
+	2750 3450 2850 3450
 Wire Wire Line
-	2550 3650 2650 3650
+	2750 3150 2850 3150
 Wire Wire Line
-	2550 3350 2650 3350
-Wire Wire Line
-	2550 3050 2650 3050
+	2750 2850 2850 2850
 $Comp
 L Pufferfish:RES_SMD_0805 R?
 U 1 1 5F0E3427
-P 2450 3950
+P 2650 3750
 AR Path="/5F0E3427" Ref="R?"  Part="1" 
 AR Path="/5EE1053C/5F0E3427" Ref="R?"  Part="1" 
 AR Path="/5EE81B75/5F0E3427" Ref="R?"  Part="1" 
 AR Path="/5EE48AD8/5F0E3427" Ref="R?"  Part="1" 
 AR Path="/5EE92D7E/5F0E3427" Ref="R?"  Part="1" 
 AR Path="/5F074012/5F0E3427" Ref="R18"  Part="1" 
-F 0 "R18" V 2245 3950 50  0000 C CNN
-F 1 "RES_SMD_0805" H 2530 3760 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0805" H 2650 3550 50  0001 C CNN
-F 3 "~" H 2450 3950 50  0001 C CNN
-F 4 "?%" H 2600 3850 50  0001 C CNN "Tolerance"
-F 5 "85Ω" V 2336 3950 50  0000 C CNN "Resistance"
-	1    2450 3950
+F 0 "R18" V 2445 3750 50  0000 C CNN
+F 1 "RES_SMD_0805" H 2730 3560 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0805" H 2850 3350 50  0001 C CNN
+F 3 "~" H 2650 3750 50  0001 C CNN
+F 4 "?%" H 2800 3650 50  0001 C CNN "Tolerance"
+F 5 "85Ω" V 2536 3750 50  0000 C CNN "Resistance"
+	1    2650 3750
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Pufferfish:RES_SMD_0805 R?
 U 1 1 5F0E1295
-P 2450 3650
+P 2650 3450
 AR Path="/5F0E1295" Ref="R?"  Part="1" 
 AR Path="/5EE1053C/5F0E1295" Ref="R?"  Part="1" 
 AR Path="/5EE81B75/5F0E1295" Ref="R?"  Part="1" 
 AR Path="/5EE48AD8/5F0E1295" Ref="R?"  Part="1" 
 AR Path="/5EE92D7E/5F0E1295" Ref="R?"  Part="1" 
 AR Path="/5F074012/5F0E1295" Ref="R17"  Part="1" 
-F 0 "R17" V 2245 3650 50  0000 C CNN
-F 1 "RES_SMD_0805" H 2530 3460 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0805" H 2650 3250 50  0001 C CNN
-F 3 "~" H 2450 3650 50  0001 C CNN
-F 4 "?%" H 2600 3550 50  0001 C CNN "Tolerance"
-F 5 "85Ω" V 2336 3650 50  0000 C CNN "Resistance"
-	1    2450 3650
+F 0 "R17" V 2445 3450 50  0000 C CNN
+F 1 "RES_SMD_0805" H 2730 3260 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0805" H 2850 3050 50  0001 C CNN
+F 3 "~" H 2650 3450 50  0001 C CNN
+F 4 "?%" H 2800 3350 50  0001 C CNN "Tolerance"
+F 5 "85Ω" V 2536 3450 50  0000 C CNN "Resistance"
+	1    2650 3450
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Pufferfish:RES_SMD_0805 R?
 U 1 1 5F0DF248
-P 2450 3350
+P 2650 3150
 AR Path="/5F0DF248" Ref="R?"  Part="1" 
 AR Path="/5EE1053C/5F0DF248" Ref="R?"  Part="1" 
 AR Path="/5EE81B75/5F0DF248" Ref="R?"  Part="1" 
 AR Path="/5EE48AD8/5F0DF248" Ref="R?"  Part="1" 
 AR Path="/5EE92D7E/5F0DF248" Ref="R?"  Part="1" 
 AR Path="/5F074012/5F0DF248" Ref="R16"  Part="1" 
-F 0 "R16" V 2245 3350 50  0000 C CNN
-F 1 "RES_SMD_0805" H 2530 3160 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0805" H 2650 2950 50  0001 C CNN
-F 3 "~" H 2450 3350 50  0001 C CNN
-F 4 "?%" H 2600 3250 50  0001 C CNN "Tolerance"
-F 5 "85Ω" V 2336 3350 50  0000 C CNN "Resistance"
-	1    2450 3350
+F 0 "R16" V 2445 3150 50  0000 C CNN
+F 1 "RES_SMD_0805" H 2730 2960 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0805" H 2850 2750 50  0001 C CNN
+F 3 "~" H 2650 3150 50  0001 C CNN
+F 4 "?%" H 2800 3050 50  0001 C CNN "Tolerance"
+F 5 "85Ω" V 2536 3150 50  0000 C CNN "Resistance"
+	1    2650 3150
 	0    -1   -1   0   
 $EndComp
-Text GLabel 2650 3950 2    50   Input ~ 0
+Text GLabel 2850 3750 2    50   Input ~ 0
 SW4_LED
-Text GLabel 2650 3650 2    50   Input ~ 0
+Text GLabel 2850 3450 2    50   Input ~ 0
 SW3_LED
-Text GLabel 2650 3350 2    50   Input ~ 0
+Text GLabel 2850 3150 2    50   Input ~ 0
 SW2_LED
-Text GLabel 2650 3050 2    50   Input ~ 0
+Text GLabel 2850 2850 2    50   Input ~ 0
 SW1_LED
 $Comp
 L Pufferfish:RES_SMD_0805 R?
 U 1 1 5F0D568A
-P 2450 3050
+P 2650 2850
 AR Path="/5F0D568A" Ref="R?"  Part="1" 
 AR Path="/5EE1053C/5F0D568A" Ref="R?"  Part="1" 
 AR Path="/5EE81B75/5F0D568A" Ref="R?"  Part="1" 
 AR Path="/5EE48AD8/5F0D568A" Ref="R?"  Part="1" 
 AR Path="/5EE92D7E/5F0D568A" Ref="R?"  Part="1" 
 AR Path="/5F074012/5F0D568A" Ref="R15"  Part="1" 
-F 0 "R15" V 2245 3050 50  0000 C CNN
-F 1 "RES_SMD_0805" H 2530 2860 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0805" H 2650 2650 50  0001 C CNN
-F 3 "~" H 2450 3050 50  0001 C CNN
-F 4 "?%" H 2600 2950 50  0001 C CNN "Tolerance"
-F 5 "85Ω" V 2336 3050 50  0000 C CNN "Resistance"
-	1    2450 3050
+F 0 "R15" V 2445 2850 50  0000 C CNN
+F 1 "RES_SMD_0805" H 2730 2660 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0805" H 2850 2450 50  0001 C CNN
+F 3 "~" H 2650 2850 50  0001 C CNN
+F 4 "?%" H 2800 2750 50  0001 C CNN "Tolerance"
+F 5 "85Ω" V 2536 2850 50  0000 C CNN "Resistance"
+	1    2650 2850
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -410,14 +408,6 @@ Text GLabel 1850 2550 2    50   Input ~ 0
 SW2_EN
 Text GLabel 1850 2450 2    50   Input ~ 0
 SW1_EN
-Wire Wire Line
-	1850 3050 2350 3050
-Wire Wire Line
-	1850 3150 2300 3150
-Wire Wire Line
-	1850 3250 2200 3250
-Wire Wire Line
-	1850 3350 2100 3350
 Wire Wire Line
 	1850 2350 2150 2350
 Connection ~ 8200 2350
@@ -1031,9 +1021,9 @@ F 5 "85Ω" V 2336 4300 50  0000 C CNN "Resistance"
 $EndComp
 Wire Wire Line
 	2550 4300 2650 4300
-Text GLabel 1850 2850 2    50   Input ~ 0
+Text GLabel 1850 3250 2    50   Input ~ 0
 SW5_EN
-Text GLabel 1850 2950 2    50   Input ~ 0
+Text GLabel 1850 3350 2    50   Input ~ 0
 SW6_EN
 Text GLabel 2650 4650 2    50   Input ~ 0
 SW6_LED
@@ -1070,7 +1060,7 @@ U 1 1 5FA80C61
 P 1650 2950
 F 0 "J2" H 1758 3731 50  0000 C CNN
 F 1 "Conn_01x13_Male" H 1758 3640 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x13_P1.00mm_Vertical" H 1650 2950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x13_P2.54mm_Vertical" H 1650 2950 50  0001 C CNN
 F 3 "~" H 1650 2950 50  0001 C CNN
 	1    1650 2950
 	1    0    0    -1  
@@ -1079,4 +1069,14 @@ Wire Wire Line
 	2000 4300 2350 4300
 Wire Wire Line
 	1850 4650 2350 4650
+Wire Wire Line
+	2300 3150 2300 3750
+Wire Wire Line
+	1850 2850 2550 2850
+Wire Wire Line
+	1850 2950 2500 2950
+Wire Wire Line
+	1850 3050 2400 3050
+Wire Wire Line
+	1850 3150 2300 3150
 $EndSCHEMATC
