@@ -419,8 +419,6 @@ $EndComp
 Wire Wire Line
 	8500 4300 8800 4300
 Connection ~ 8500 4300
-Wire Wire Line
-	8800 4500 8800 4550
 $Comp
 L Controller_Library:GND #GND?
 U 1 1 5F6C71C8
@@ -464,13 +462,6 @@ F 3 "" H 8800 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 8800 4800
-Wire Wire Line
-	8800 4550 9650 4550
-Connection ~ 8800 4550
-Wire Wire Line
-	8800 4550 8800 4600
-Text Notes 9250 4450 0    50   ~ 0
-Sound level output
 Connection ~ 2700 3550
 $Comp
 L Controller_Library:12V #SUPPLY?
@@ -559,10 +550,19 @@ Wire Wire Line
 	6550 4850 6550 5250
 Wire Wire Line
 	5450 5250 5900 5250
-Text GLabel 9650 4550 2    50   Input ~ 0
-ALARM1_SENSE
 Text Notes 5100 2400 0    118  ~ 24
 Alarm Detector
 Text Notes 5250 2650 0    118  ~ 0
 Microphone
+Connection ~ 8800 4550
+Wire Wire Line
+	8800 4550 8800 4600
+Wire Wire Line
+	8800 4500 8800 4550
+Text GLabel 9650 4550 2    50   Input ~ 0
+ALARM1_SENSE
+Text Notes 9250 4450 0    50   ~ 0
+Sound level output
+Wire Wire Line
+	8800 4550 9650 4550
 $EndSCHEMATC
