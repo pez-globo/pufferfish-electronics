@@ -463,73 +463,8 @@ F 3 "" H 8800 4900 50  0001 C CNN
 $EndComp
 Connection ~ 8800 4800
 Connection ~ 2700 3550
-$Comp
-L Controller_Library:12V #SUPPLY?
-U 1 1 5F6C71E0
-P 1650 3200
-AR Path="/5F496851/5F6C71E0" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5F073FE9/5F6C71E0" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5F6B426B/5F6C71E0" Ref="#SUPPLY0101"  Part="1" 
-F 0 "#SUPPLY0101" H 1650 3200 50  0001 C CNN
-F 1 "12V" H 1650 3422 59  0000 C CNN
-F 2 "" H 1650 3200 50  0001 C CNN
-F 3 "" H 1650 3200 50  0001 C CNN
-	1    1650 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish:RES_SMD_0805 R?
-U 1 1 5F6C71E8
-P 1650 3800
-AR Path="/5F496851/5F6C71E8" Ref="R?"  Part="1" 
-AR Path="/5F073FE9/5F6C71E8" Ref="R?"  Part="1" 
-AR Path="/5F6B426B/5F6C71E8" Ref="R30"  Part="1" 
-F 0 "R30" H 1718 3846 50  0000 L CNN
-F 1 "RES_SMD_0805" H 1730 3610 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0805" H 1850 3400 50  0001 C CNN
-F 3 "~" H 1650 3800 50  0001 C CNN
-F 4 "?%" H 1800 3700 50  0001 C CNN "Tolerance"
-F 5 "1.5KΩ" H 1718 3755 50  0000 L CNN "Resistance"
-	1    1650 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Controller_Library:GND #GND?
-U 1 1 5F6C71EE
-P 1650 4000
-AR Path="/5F496851/5F6C71EE" Ref="#GND?"  Part="1" 
-AR Path="/5F073FE9/5F6C71EE" Ref="#GND?"  Part="1" 
-AR Path="/5F6B426B/5F6C71EE" Ref="#GND0107"  Part="1" 
-F 0 "#GND0107" H 1650 4000 50  0001 C CNN
-F 1 "GND" H 1650 3870 59  0000 C CNN
-F 2 "" H 1650 4000 50  0001 C CNN
-F 3 "" H 1650 4000 50  0001 C CNN
-	1    1650 4000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1650 3400 1650 3550
 Wire Wire Line
 	1650 3550 2700 3550
-Connection ~ 1650 3550
-Wire Wire Line
-	1650 3550 1650 3700
-$Comp
-L Pufferfish:RES_SMD_0805 R?
-U 1 1 5F6C71FA
-P 1650 3300
-AR Path="/5F496851/5F6C71FA" Ref="R?"  Part="1" 
-AR Path="/5F073FE9/5F6C71FA" Ref="R?"  Part="1" 
-AR Path="/5F6B426B/5F6C71FA" Ref="R29"  Part="1" 
-F 0 "R29" H 1718 3346 50  0000 L CNN
-F 1 "RES_SMD_0805" H 1730 3110 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0805" H 1850 2900 50  0001 C CNN
-F 3 "~" H 1650 3300 50  0001 C CNN
-F 4 "?%" H 1800 3200 50  0001 C CNN "Tolerance"
-F 5 "820Ω" H 1718 3255 50  0000 L CNN "Resistance"
-	1    1650 3300
-	1    0    0    -1  
-$EndComp
 Text Notes 1750 3500 0    50   ~ 0
 7.8V (7.759)
 Wire Wire Line
@@ -780,4 +715,8 @@ $EndComp
 Wire Wire Line
 	1550 1300 1550 1350
 Connection ~ 1550 1350
+Text GLabel 4350 1350 2    50   Input ~ 0
+MK_PWR
+Text GLabel 1650 3550 0    50   Input ~ 0
+MK_PWR
 $EndSCHEMATC
