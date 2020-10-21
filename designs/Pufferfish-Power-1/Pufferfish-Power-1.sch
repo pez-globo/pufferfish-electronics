@@ -16,13 +16,13 @@ $EndDescr
 $Sheet
 S 3400 3650 1600 250 
 U 5EC321D9
-F0 "LTC4221" 50
-F1 "LTC4221.sch" 50
+F0 "LTC4015" 50
+F1 "LTC4015.sch" 50
 $EndSheet
 Text Notes 1800 1200 0    236  ~ 47
-Pufferfish - Power Management Board v0.1
+Pufferfish - Power Management Board v2.0\n
 Text Notes 3400 3500 0    118  Italic 0
-LTC4221 Design
+LTC4015 Design
 $Sheet
 S 3400 2900 1600 250 
 U 5EC45070
