@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:LTC7812_1-cache
+LIBS:Connectors_1-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 9
+Sheet 5 10
 Title "Pufferfish Power: TPS56821"
 Date "2020-06-05"
 Rev "v1.0"

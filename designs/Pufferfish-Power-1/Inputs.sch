@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:LTC7812_1-cache
+LIBS:Connectors_1-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 9
+Sheet 3 10
 Title "Pufferfish Power - Connector Inputs"
 Date "2020-05-19"
 Rev "v1.0"
