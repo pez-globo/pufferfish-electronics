@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:LTC7812_1-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 7
+Sheet 2 9
 Title "Pufferfish Power: LTC4221"
 Date "2020-05-17"
 Rev "v1.0"

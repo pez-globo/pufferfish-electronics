@@ -1,0 +1,277 @@
+EESchema Schematic File Version 4
+LIBS:LTC2955_1-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x04_Top_Bottom J?
+U 1 1 5F941926
+P 1525 1425
+F 0 "J?" H 1575 1742 50  0000 C CNN
+F 1 "CONN_3_POWER" H 1575 1651 50  0000 C CNN
+F 2 "" H 1525 1425 50  0001 C CNN
+F 3 "~" H 1525 1425 50  0001 C CNN
+	1    1525 1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F94202A
+P 1325 1325
+F 0 "#PWR?" H 1325 1175 50  0001 C CNN
+F 1 "+3V3" H 1225 1425 50  0000 C CNN
+F 2 "" H 1325 1325 50  0001 C CNN
+F 3 "" H 1325 1325 50  0001 C CNN
+	1    1325 1325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F942C51
+P 1225 1425
+F 0 "#PWR?" H 1225 1275 50  0001 C CNN
+F 1 "+5V" H 1100 1525 50  0000 C CNN
+F 2 "" H 1225 1425 50  0001 C CNN
+F 3 "" H 1225 1425 50  0001 C CNN
+	1    1225 1425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1325 1425 1225 1425
+$Comp
+L power:+12V #PWR?
+U 1 1 5F943536
+P 1175 1500
+F 0 "#PWR?" H 1175 1350 50  0001 C CNN
+F 1 "+12V" H 1050 1525 50  0000 C CNN
+F 2 "" H 1175 1500 50  0001 C CNN
+F 3 "" H 1175 1500 50  0001 C CNN
+	1    1175 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1325 1525 1175 1525
+Wire Wire Line
+	1175 1525 1175 1500
+Wire Wire Line
+	1325 1625 975  1625
+Wire Wire Line
+	975  1625 975  1575
+$Comp
+L power:+24V #PWR?
+U 1 1 5F943EA1
+P 975 1575
+F 0 "#PWR?" H 975 1425 50  0001 C CNN
+F 1 "+24V" H 875 1575 50  0000 C CNN
+F 2 "" H 975 1575 50  0001 C CNN
+F 3 "" H 975 1575 50  0001 C CNN
+	1    975  1575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1825 1325 1825 1425
+Wire Wire Line
+	1825 1425 1825 1525
+Connection ~ 1825 1425
+Wire Wire Line
+	1825 1525 1825 1625
+Connection ~ 1825 1525
+$Comp
+L power:GND #PWR?
+U 1 1 5F945EF0
+P 1825 1625
+F 0 "#PWR?" H 1825 1375 50  0001 C CNN
+F 1 "GND" H 1830 1452 50  0000 C CNN
+F 2 "" H 1825 1625 50  0001 C CNN
+F 3 "" H 1825 1625 50  0001 C CNN
+	1    1825 1625
+	1    0    0    -1  
+$EndComp
+Connection ~ 1825 1625
+$Comp
+L Device:C_Small C?
+U 1 1 5F947017
+P 2400 1450
+F 0 "C?" H 2492 1496 50  0000 L CNN
+F 1 "100n" H 2125 1375 50  0000 L CNN
+F 2 "" H 2400 1450 50  0001 C CNN
+F 3 "~" H 2400 1450 50  0001 C CNN
+	1    2400 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F947DAE
+P 2700 1450
+F 0 "C?" H 2792 1496 50  0000 L CNN
+F 1 "100n" H 2475 1275 50  0000 L CNN
+F 2 "" H 2700 1450 50  0001 C CNN
+F 3 "~" H 2700 1450 50  0001 C CNN
+	1    2700 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F948176
+P 2900 1450
+F 0 "C?" H 2992 1496 50  0000 L CNN
+F 1 "100n" H 2725 1400 50  0000 L CNN
+F 2 "" H 2900 1450 50  0001 C CNN
+F 3 "~" H 2900 1450 50  0001 C CNN
+	1    2900 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F948421
+P 3150 1425
+F 0 "C?" H 3242 1471 50  0000 L CNN
+F 1 "100n" H 3175 1350 50  0000 L CNN
+F 2 "" H 3150 1425 50  0001 C CNN
+F 3 "~" H 3150 1425 50  0001 C CNN
+	1    3150 1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F948D5C
+P 2400 1350
+F 0 "#PWR?" H 2400 1200 50  0001 C CNN
+F 1 "+3V3" H 2275 1425 50  0000 C CNN
+F 2 "" H 2400 1350 50  0001 C CNN
+F 3 "" H 2400 1350 50  0001 C CNN
+	1    2400 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F949905
+P 2700 1350
+F 0 "#PWR?" H 2700 1200 50  0001 C CNN
+F 1 "+5V" H 2600 1450 50  0000 C CNN
+F 2 "" H 2700 1350 50  0001 C CNN
+F 3 "" H 2700 1350 50  0001 C CNN
+	1    2700 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5F949DA1
+P 2900 1350
+F 0 "#PWR?" H 2900 1200 50  0001 C CNN
+F 1 "+12V" H 2875 1500 50  0000 C CNN
+F 2 "" H 2900 1350 50  0001 C CNN
+F 3 "" H 2900 1350 50  0001 C CNN
+	1    2900 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR?
+U 1 1 5F94A39A
+P 3150 1325
+F 0 "#PWR?" H 3150 1175 50  0001 C CNN
+F 1 "+24V" H 3150 1500 50  0000 C CNN
+F 2 "" H 3150 1325 50  0001 C CNN
+F 3 "" H 3150 1325 50  0001 C CNN
+	1    3150 1325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F951A45
+P 2900 1600
+F 0 "#PWR?" H 2900 1350 50  0001 C CNN
+F 1 "GND" H 2905 1427 50  0000 C CNN
+F 2 "" H 2900 1600 50  0001 C CNN
+F 3 "" H 2900 1600 50  0001 C CNN
+	1    2900 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 1550 2700 1550
+Wire Wire Line
+	2700 1550 2900 1550
+Connection ~ 2700 1550
+Wire Wire Line
+	2900 1550 3150 1550
+Wire Wire Line
+	3150 1550 3150 1525
+Connection ~ 2900 1550
+Wire Wire Line
+	2900 1600 2900 1550
+$Comp
+L Connector_Generic:Conn_01x10 J?
+U 1 1 5F9798B3
+P 4575 1425
+F 0 "J?" H 4655 1417 50  0000 L CNN
+F 1 "Conn_01x10" H 4655 1326 50  0000 L CNN
+F 2 "" H 4575 1425 50  0001 C CNN
+F 3 "~" H 4575 1425 50  0001 C CNN
+	1    4575 1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F949C03
+P 4375 1025
+F 0 "#PWR?" H 4375 875 50  0001 C CNN
+F 1 "+3V3" H 4250 1100 50  0000 C CNN
+F 2 "" H 4375 1025 50  0001 C CNN
+F 3 "" H 4375 1025 50  0001 C CNN
+	1    4375 1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F94AE84
+P 4375 1925
+F 0 "#PWR?" H 4375 1675 50  0001 C CNN
+F 1 "GND" H 4380 1752 50  0000 C CNN
+F 2 "" H 4375 1925 50  0001 C CNN
+F 3 "" H 4375 1925 50  0001 C CNN
+	1    4375 1925
+	1    0    0    -1  
+$EndComp
+Text GLabel 4375 1825 0    50   Input ~ 0
+STM32_LTC2955_PGD
+Text GLabel 4375 1725 0    50   Input ~ 0
+STM32_nKILL
+Text GLabel 4375 1625 0    50   Input ~ 0
+STM32_SHDN_INT
+$Comp
+L power:GND #PWR?
+U 1 1 5F94E00D
+P 3875 1425
+F 0 "#PWR?" H 3875 1175 50  0001 C CNN
+F 1 "GND" H 3725 1350 50  0000 C CNN
+F 2 "" H 3875 1425 50  0001 C CNN
+F 3 "" H 3875 1425 50  0001 C CNN
+	1    3875 1425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4375 1425 3875 1425
+Text Notes 750  7500 0    50   ~ 0
+All resistance values in Ohms unless otherwise mentioned. \nAll capacitance values in Farads unless otherwise mentioned. \nAll inductance values in Henry unless otherwise mentioned. \nUnits: mm
+Wire Notes Line
+	600  550  5375 550 
+Wire Notes Line
+	5375 550  5375 2325
+Wire Notes Line
+	5375 2325 600  2325
+Wire Notes Line
+	600  2325 600  550 
+Text Notes 2325 800  0    79   ~ 16
+Interface (Todo: shift to Interface page)
+$EndSCHEMATC
