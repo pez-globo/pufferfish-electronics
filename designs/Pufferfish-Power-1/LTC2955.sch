@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Connectors_1-cache
+LIBS:Pufferfish-Power-1-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #PWR?
+L power:GND #PWR048
 U 1 1 5F940871
 P 3600 2575
-F 0 "#PWR?" H 3600 2325 50  0001 C CNN
+F 0 "#PWR048" H 3600 2325 50  0001 C CNN
 F 1 "GND" H 3605 2402 50  0000 C CNN
 F 2 "" H 3600 2575 50  0001 C CNN
 F 3 "" H 3600 2575 50  0001 C CNN
@@ -28,10 +28,10 @@ $EndComp
 Text GLabel 2100 1875 0    50   Input ~ 0
 V_LTC4015_OUT
 $Comp
-L power:GND #PWR?
+L power:GND #PWR047
 U 1 1 5F956698
 P 2300 2125
-F 0 "#PWR?" H 2300 1875 50  0001 C CNN
+F 0 "#PWR047" H 2300 1875 50  0001 C CNN
 F 1 "GND" H 2425 2050 50  0000 C CNN
 F 2 "" H 2300 2125 50  0001 C CNN
 F 3 "" H 2300 2125 50  0001 C CNN
@@ -39,10 +39,10 @@ F 3 "" H 2300 2125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R26
 U 1 1 5F956DA0
 P 2200 1875
-F 0 "R?" V 2004 1875 50  0000 C CNN
+F 0 "R26" V 2004 1875 50  0000 C CNN
 F 1 "1k" V 2095 1875 50  0000 C CNN
 F 2 "" H 2200 1875 50  0001 C CNN
 F 3 "~" H 2200 1875 50  0001 C CNN
@@ -50,10 +50,10 @@ F 3 "~" H 2200 1875 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C26
 U 1 1 5F958A4A
 P 2300 2025
-F 0 "C?" H 2392 2071 50  0000 L CNN
+F 0 "C26" H 2392 2071 50  0000 L CNN
 F 1 "10n" H 2392 1980 50  0000 L CNN
 F 2 "" H 2300 2025 50  0001 C CNN
 F 3 "~" H 2300 2025 50  0001 C CNN
@@ -77,10 +77,10 @@ Wire Wire Line
 Text GLabel 1850 2300 0    50   Input ~ 0
 V_LTC4015_OUT
 $Comp
-L Device:C_Small C?
+L Device:C_Small C25
 U 1 1 5F960C42
 P 2250 2650
-F 0 "C?" H 2342 2696 50  0000 L CNN
+F 0 "C25" H 2342 2696 50  0000 L CNN
 F 1 "100n" H 2342 2605 50  0000 L CNN
 F 2 "" H 2250 2650 50  0001 C CNN
 F 3 "~" H 2250 2650 50  0001 C CNN
@@ -88,10 +88,10 @@ F 3 "~" H 2250 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR039
 U 1 1 5F961034
 P 2250 2800
-F 0 "#PWR?" H 2250 2550 50  0001 C CNN
+F 0 "#PWR039" H 2250 2550 50  0001 C CNN
 F 1 "GND" H 2255 2627 50  0000 C CNN
 F 2 "" H 2250 2800 50  0001 C CNN
 F 3 "" H 2250 2800 50  0001 C CNN
@@ -99,10 +99,10 @@ F 3 "" H 2250 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_SPST SW?
+L Switch:SW_SPST SW1
 U 1 1 5F961872
 P 2050 2300
-F 0 "SW?" H 1925 2375 50  0000 C CNN
+F 0 "SW1" H 1925 2375 50  0000 C CNN
 F 1 "SW_SPST" H 1975 2150 50  0000 C CNN
 F 2 "" H 2050 2300 50  0001 C CNN
 F 3 "~" H 2050 2300 50  0001 C CNN
@@ -110,22 +110,22 @@ F 3 "~" H 2050 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R27
 U 1 1 5F962082
 P 2550 2400
-F 0 "R?" H 2491 2354 50  0000 R CNN
-F 1 "R" H 2491 2445 50  0000 R CNN
+F 0 "R27" H 2491 2354 50  0000 R CNN
+F 1 "576k" H 2491 2445 50  0000 R CNN
 F 2 "" H 2550 2400 50  0001 C CNN
 F 3 "~" H 2550 2400 50  0001 C CNN
 	1    2550 2400
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R72
 U 1 1 5F96337F
 P 2550 2675
-F 0 "R?" H 2491 2629 50  0000 R CNN
-F 1 "R" H 2491 2720 50  0000 R CNN
+F 0 "R72" H 2491 2629 50  0000 R CNN
+F 1 "47k" H 2491 2720 50  0000 R CNN
 F 2 "" H 2550 2675 50  0001 C CNN
 F 3 "~" H 2550 2675 50  0001 C CNN
 	1    2550 2675
@@ -153,19 +153,17 @@ Wire Wire Line
 	2250 2775 2250 2800
 Connection ~ 2300 1875
 Connection ~ 2250 2300
-Wire Wire Line
-	3300 2575 3600 2575
 Text GLabel 4200 1875 2    50   Output ~ 0
-STM32_SHDN_INT
+LTC2955_SHDN_INT
 Text GLabel 6350 2100 0    50   Input ~ 0
-STM32_nKILL
+LTC2955_nKILL
 Text GLabel 4000 2075 2    50   Output ~ 0
-STM32_LTC2955_PGD
+LTC2955_PGD
 $Comp
-L Device:R_Small R?
+L Device:R_Small R73
 U 1 1 5F955702
 P 4200 1750
-F 0 "R?" H 4100 1700 50  0000 C CNN
+F 0 "R73" H 4100 1700 50  0000 C CNN
 F 1 "1Mega" H 4050 1775 50  0000 C CNN
 F 2 "" H 4200 1750 50  0001 C CNN
 F 3 "~" H 4200 1750 50  0001 C CNN
@@ -179,10 +177,10 @@ Wire Wire Line
 Text Notes 750  7500 0    50   ~ 0
 All resistance values in Ohms unless otherwise mentioned. \nAll capacitance values in Farads unless otherwise mentioned. \nAll inductance values in Henry unless otherwise mentioned. \nUnits: mm
 $Comp
-L Transistor_BJT:BC547 Q?
+L Transistor_BJT:BC547 Q20
 U 1 1 5F96B3A5
 P 6750 2100
-F 0 "Q?" H 6940 2146 50  0000 L CNN
+F 0 "Q20" H 6940 2146 50  0000 L CNN
 F 1 "2SC2712" H 6940 2055 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6950 2025 50  0001 L CIN
 F 3 "" H 6750 2100 50  0001 L CNN
@@ -190,10 +188,10 @@ F 3 "" H 6750 2100 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR081
 U 1 1 5F96F147
 P 6850 2300
-F 0 "#PWR?" H 6850 2050 50  0001 C CNN
+F 0 "#PWR081" H 6850 2050 50  0001 C CNN
 F 1 "GND" H 6855 2127 50  0000 C CNN
 F 2 "" H 6850 2300 50  0001 C CNN
 F 3 "" H 6850 2300 50  0001 C CNN
@@ -205,10 +203,10 @@ KILL'
 Text GLabel 6850 1850 2    50   Input ~ 0
 KILL'
 $Comp
-L Device:R_Small R?
+L Device:R_Small R75
 U 1 1 5F974320
 P 6850 1675
-F 0 "R?" H 6791 1629 50  0000 R CNN
+F 0 "R75" H 6791 1629 50  0000 R CNN
 F 1 "4k7" H 6791 1720 50  0000 R CNN
 F 2 "" H 6850 1675 50  0001 C CNN
 F 3 "~" H 6850 1675 50  0001 C CNN
@@ -218,10 +216,10 @@ $EndComp
 Wire Wire Line
 	6850 1900 6850 1775
 $Comp
-L Device:R_Small R?
+L Device:R_Small R74
 U 1 1 5F97B2DF
 P 6450 2100
-F 0 "R?" H 6391 2054 50  0000 R CNN
+F 0 "R74" H 6391 2054 50  0000 R CNN
 F 1 "680" H 6391 2145 50  0000 R CNN
 F 2 "" H 6450 2100 50  0001 C CNN
 F 3 "~" H 6450 2100 50  0001 C CNN
@@ -259,8 +257,8 @@ L LTC2955:LTC2955-1(DFN)-Pufferish_Power U?
 U 1 1 5F99198E
 P 3450 2225
 AR Path="/5F99198E" Ref="U?"  Part="1" 
-AR Path="/5F97DDCF/5F99198E" Ref="U?"  Part="1" 
-F 0 "U?" H 3450 3078 60  0000 C CNN
+AR Path="/5F97DDCF/5F99198E" Ref="U4"  Part="1" 
+F 0 "U4" H 3450 3078 60  0000 C CNN
 F 1 "LTC2955" H 3250 2950 60  0000 C CNN
 F 2 "Housings_DFN_QFN:DFN-10-1EP_2x3mm_Pitch0.5mm" H 4800 2875 60  0001 C CNN
 F 3 "" H 3500 2175 60  0000 C CNN
@@ -270,10 +268,10 @@ F 5 "LTC2955CDDB-1" H 3900 2175 60  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish:VSYS-3V3 #PWR?
+L Pufferfish:VSYS-3V3 #PWR049
 U 1 1 5F9AB5C5
 P 4200 1650
-F 0 "#PWR?" H 4200 1500 50  0001 C CNN
+F 0 "#PWR049" H 4200 1500 50  0001 C CNN
 F 1 "VSYS-3V3" H 4217 1823 50  0000 C CNN
 F 2 "" H 4200 1650 50  0001 C CNN
 F 3 "" H 4200 1650 50  0001 C CNN
@@ -281,14 +279,74 @@ F 3 "" H 4200 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish:VSYS-5V0 #PWR?
+L Pufferfish:VSYS-5V0 #PWR079
 U 1 1 5F9AC30A
 P 6850 1575
-F 0 "#PWR?" H 6850 1425 50  0001 C CNN
+F 0 "#PWR079" H 6850 1425 50  0001 C CNN
 F 1 "VSYS-5V0" H 6867 1748 50  0000 C CNN
 F 2 "" H 6850 1575 50  0001 C CNN
 F 3 "" H 6850 1575 50  0001 C CNN
 	1    6850 1575
 	1    0    0    -1  
 $EndComp
+Text Notes 1100 3525 0    50   ~ 10
+Voltage Divider output : 0.8V at 10.5VDC (Battery Low Voltage). \nAuto cut off when the battery is low.
+Wire Notes Line
+	2825 3100 2800 3100
+$Comp
+L Device:C_Small C58
+U 1 1 5F9DA773
+P 3450 2575
+F 0 "C58" V 3475 2350 50  0000 C CNN
+F 1 "22n" V 3575 2350 50  0000 C CNN
+F 2 "" H 3450 2575 50  0001 C CNN
+F 3 "~" H 3450 2575 50  0001 C CNN
+	1    3450 2575
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3300 2575 3350 2575
+Wire Wire Line
+	3550 2575 3600 2575
+Connection ~ 3600 2575
+Text Notes 2875 2925 0    50   ~ 10
+100ms to Shut Down the system
+Wire Notes Line
+	4150 2825 4150 2975
+Wire Notes Line
+	4150 2975 2850 2975
+Wire Notes Line
+	2850 2975 2850 2825
+Wire Notes Line
+	2850 2825 4150 2825
+Wire Notes Line
+	3200 2800 3200 2750
+Wire Notes Line
+	1075 3325 3550 3325
+Wire Notes Line
+	3550 3325 3550 3550
+Wire Notes Line
+	3550 3550 1075 3550
+Wire Notes Line
+	1075 3550 1075 3325
+Wire Notes Line
+	2825 2075 2825 3325
+Wire Notes Line
+	2225 2125 2225 2475
+Wire Notes Line
+	2225 2475 1125 2475
+Wire Notes Line
+	1125 2125 2225 2125
+Text Notes 725  1075 0    50   ~ 0
+TODO: Label name and Switch as terminal or solder pads?
+Wire Notes Line
+	600  1175 600  850 
+Wire Notes Line
+	600  850  3125 850 
+Wire Notes Line
+	3125 850  3125 1175
+Wire Notes Line
+	1125 1175 1125 2475
+Wire Notes Line
+	600  1175 3125 1175
 $EndSCHEMATC
