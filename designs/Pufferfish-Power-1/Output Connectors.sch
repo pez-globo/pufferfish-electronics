@@ -137,7 +137,7 @@ LTC7812_PG
 Wire Wire Line
 	6700 3875 7400 3875
 $Comp
-L 172316-1108:172316-1108 J1
+L Molex:172316-1108 J1
 U 1 1 5F9A92F5
 P 4475 3750
 F 0 "J1" H 4705 3746 50  0000 L CNN
@@ -162,19 +162,6 @@ F 3 "" H 3750 4025 50  0001 C CNN
 	1    3750 4025
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4075 3850 4075 3950
-Connection ~ 4075 3950
-Connection ~ 4075 4050
-Wire Wire Line
-	4075 4050 4075 4150
-Wire Wire Line
-	3750 4025 4075 4025
-Wire Wire Line
-	4075 3950 4075 4025
-Connection ~ 4075 4025
-Wire Wire Line
-	4075 4025 4075 4050
 $Comp
 L Pufferfish:VSYS-3V3 #PWR0101
 U 1 1 5F9B5FE0
@@ -290,4 +277,17 @@ Wire Notes Line
 	3175 3000 8400 3000
 Text Notes 4225 4475 0    50   Italic 0
 Right-Angled
+Wire Wire Line
+	4075 3850 4075 3950
+Wire Wire Line
+	4075 4050 4075 4025
+Connection ~ 4075 3950
+Wire Wire Line
+	4075 4050 4075 4150
+Connection ~ 4075 4050
+Wire Wire Line
+	3750 4025 4075 4025
+Connection ~ 4075 4025
+Wire Wire Line
+	4075 4025 4075 3950
 $EndSCHEMATC
