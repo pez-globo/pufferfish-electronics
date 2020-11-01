@@ -74,7 +74,7 @@ Wire Wire Line
 NoConn ~ 2900 2175
 Wire Wire Line
 	2900 2075 2725 2075
-Text GLabel 1850 2300 0    50   Input ~ 0
+Text GLabel 1500 2275 2    50   Input ~ 0
 V_LTC4015_OUT
 $Comp
 L Device:C_Small C25
@@ -96,17 +96,6 @@ F 1 "GND" H 2255 2627 50  0000 C CNN
 F 2 "" H 2250 2800 50  0001 C CNN
 F 3 "" H 2250 2800 50  0001 C CNN
 	1    2250 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_SPST SW1
-U 1 1 5F961872
-P 2050 2300
-F 0 "SW1" H 1925 2375 50  0000 C CNN
-F 1 "SW_SPST" H 1975 2150 50  0000 C CNN
-F 2 "" H 2050 2300 50  0001 C CNN
-F 3 "~" H 2050 2300 50  0001 C CNN
-	1    2050 2300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -152,7 +141,6 @@ Connection ~ 2250 2775
 Wire Wire Line
 	2250 2775 2250 2800
 Connection ~ 2300 1875
-Connection ~ 2250 2300
 Text GLabel 4200 1875 2    50   Output ~ 0
 LTC2955_SHDN_INT
 Text GLabel 6350 2100 0    50   Input ~ 0
@@ -331,22 +319,30 @@ Wire Notes Line
 	1075 3550 1075 3325
 Wire Notes Line
 	2825 2075 2825 3325
-Wire Notes Line
-	2225 2125 2225 2475
-Wire Notes Line
-	2225 2475 1125 2475
-Wire Notes Line
-	1125 2125 2225 2125
-Text Notes 725  1075 0    50   ~ 0
-TODO: Label name and Switch as terminal or solder pads?
-Wire Notes Line
-	600  1175 600  850 
-Wire Notes Line
-	600  850  3125 850 
-Wire Notes Line
-	3125 850  3125 1175
-Wire Notes Line
-	1125 1175 1125 2475
-Wire Notes Line
-	600  1175 3125 1175
+$Comp
+L Pufferfish:Molex_MicroFit_2P J?
+U 1 1 5FA0D717
+P 1300 2275
+AR Path="/5EC45070/5FA0D717" Ref="J?"  Part="1" 
+AR Path="/5F97DDCF/5FA0D717" Ref="J?"  Part="1" 
+F 0 "J?" H 1218 2674 50  0000 C CNN
+F 1 "Molex_MicroFit_2P" H 1218 2583 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0200_2x01_P3.00mm_Horizontal" H 1300 2275 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/molex/0430450200/WM1813-ND/252526" H 1300 2275 50  0001 C CNN
+F 4 "0430450200" H 1218 2492 50  0000 C CNN "MPN"
+F 5 "Molex" H 1218 2401 50  0000 C CNN "MFG"
+	1    1300 2275
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 2375 2200 2375
+Wire Wire Line
+	2200 2375 2200 2300
+Wire Wire Line
+	2200 2300 2250 2300
+Connection ~ 2250 2300
+Text Notes 1250 2350 2    55   ~ 11
+TO DPST Switch >
+Text Notes 900  1150 0    79   ~ 16
+Todo: Confirm the V_LTC4015_OUT Label \n
 $EndSCHEMATC
