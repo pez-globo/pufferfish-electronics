@@ -1,3 +1,5 @@
 (sym_lib_table
   (lib (name Pufferfish)(type Legacy)(uri ${KIPRJMOD}/../../library/symbols/Pufferfish.lib)(options "")(descr ""))
+  (lib (name libs)(type Legacy)(uri C:/Users/NIC/github/pufferfish-electronics/library/symbols/Pufferfish.lib)(options "")(descr ""))
+  (lib (name LT)(type Legacy)(uri "F:/Dell Precision/Desktop/KiCad-libraries-master2/KiCad-libraries-master/Linear Technology.lib")(options "")(descr ""))
 )
