@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 10
+Sheet 9 9
 Title ""
 Date ""
 Rev ""
@@ -137,7 +137,7 @@ LTC7812_PG
 Wire Wire Line
 	6700 3875 7400 3875
 $Comp
-L Molex:172316-1108 J1
+L 172316-1108:172316-1108 J1
 U 1 1 5F9A92F5
 P 4475 3750
 F 0 "J1" H 4705 3746 50  0000 L CNN
@@ -278,16 +278,16 @@ Wire Notes Line
 Text Notes 4225 4475 0    50   Italic 0
 Right-Angled
 Wire Wire Line
+	3750 4025 4075 4025
+Wire Wire Line
 	4075 3850 4075 3950
 Wire Wire Line
-	4075 4050 4075 4025
+	4075 3950 4075 4025
 Connection ~ 4075 3950
-Wire Wire Line
-	4075 4050 4075 4150
-Connection ~ 4075 4050
-Wire Wire Line
-	3750 4025 4075 4025
 Connection ~ 4075 4025
 Wire Wire Line
-	4075 4025 4075 3950
+	4075 4025 4075 4050
+Wire Wire Line
+	4075 4150 4075 4050
+Connection ~ 4075 4050
 $EndSCHEMATC

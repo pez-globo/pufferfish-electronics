@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 10
+Sheet 6 9
 Title "Pufferfish Power: TPS82130"
 Date "2020-06-05"
 Rev "v1.0"

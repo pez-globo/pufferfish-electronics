@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 10
+Sheet 7 9
 Title "Pufferfish Power: LED's and Debug"
 Date "2020-06-10"
 Rev "v1.0"

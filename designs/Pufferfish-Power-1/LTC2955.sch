@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 10
+Sheet 7 9
 Title ""
 Date ""
 Rev ""
@@ -99,23 +99,8 @@ F 3 "" H 2250 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-<<<<<<< HEAD
-L Device:R_Small R27
-=======
-L Switch:SW_SPST SW?
-U 1 1 5F961872
-P 2050 2300
-F 0 "SW?" H 1925 2375 50  0000 C CNN
-F 1 "SW_SPST" H 1975 2150 50  0000 C CNN
-F 2 "" H 2050 2300 50  0001 C CNN
-F 3 "~" H 2050 2300 50  0001 C CNN
-	1    2050 2300
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Small R?
->>>>>>> 77a3863d4506433ab898e5329505a82019c5c5b2
-U 1 1 5F962082
+U 1 1 00000000
 P 2550 2400
 F 0 "R?" H 2491 2354 50  0000 R CNN
 F 1 "576k" H 2491 2445 50  0000 R CNN
@@ -129,7 +114,7 @@ L Device:R_Small R?
 U 1 1 5F96337F
 P 2550 2675
 F 0 "R?" H 2491 2629 50  0000 R CNN
-F 1 "47k" H 2491 2720 50  0000 R CNN
+F 1 "56k" H 2491 2720 50  0000 R CNN
 F 2 "" H 2550 2675 50  0001 C CNN
 F 3 "~" H 2550 2675 50  0001 C CNN
 	1    2550 2675
@@ -256,14 +241,14 @@ Text Notes 5275 1975 0    50   Italic 0
 Text Notes 1650 2050 0    50   Italic 0
 Low ESR Caps>\n
 $Comp
-L LT:LTC2955-1(DFN) U?
+L LTC2955:LTC2955-1(DFN)-Pufferish_Power U?
 U 1 1 5F99198E
 P 3450 2225
 AR Path="/5F99198E" Ref="U?"  Part="1" 
 AR Path="/5F97DDCF/5F99198E" Ref="U4"  Part="1" 
 F 0 "U4" H 3450 3078 60  0000 C CNN
 F 1 "LTC2955" H 3250 2950 60  0000 C CNN
-F 2 "Housings_DFN_QFN:DFN-10-1EP_2x3mm_Pitch0.5mm" H 4800 2875 60  0001 C CNN
+F 2 "Pufferfish_Footprints:DFN-10-1EP_2x3mm_P0.5mm_EP0.64x2.4mm" H 4800 2875 60  0001 C CNN
 F 3 "" H 3500 2175 60  0000 C CNN
 F 4 "Linear Technology" H 3800 2075 60  0001 C CNN "MFN"
 F 5 "LTC2955CDDB-1" H 3900 2175 60  0001 C CNN "MFP"
@@ -292,8 +277,6 @@ F 3 "" H 6850 1575 50  0001 C CNN
 	1    6850 1575
 	1    0    0    -1  
 $EndComp
-Text Notes 1100 3525 0    50   ~ 10
-Voltage Divider output : 0.8V at 10.5VDC (Battery Low Voltage). \nAuto cut off when the battery is low.
 Wire Notes Line
 	2825 3100 2800 3100
 $Comp
@@ -359,4 +342,6 @@ Text Notes 1250 2350 2    55   ~ 11
 TO DPST Switch >
 Text Notes 900  1150 0    79   ~ 16
 Todo: Confirm the V_LTC4015_OUT Label \n
+Text Notes 1275 3475 0    50   ~ 10
+Auto Cut off (ON goes low) < 9V. 
 $EndSCHEMATC

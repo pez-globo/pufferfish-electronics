@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 1 9
 Title "Pufferfish Power - Top"
 Date "2020-05-17"
 Rev "v1.0"
@@ -15,31 +15,23 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 3400 3650 1600 250 
+S 3575 3650 1600 250 
 U 5EC321D9
 F0 "LTC4015" 50
 F1 "LTC4015.sch" 50
 $EndSheet
-Text Notes 1800 1200 0    236  ~ 47
+Text Notes 1800 1075 0    236  ~ 47
 Pufferfish - Power Management Board v2.0\n
-Text Notes 3400 3500 0    118  Italic 0
+Text Notes 3575 3500 0    118  Italic 0
 LTC4015 Design
 $Sheet
-S 3400 2900 1600 250 
+S 825  3200 1600 250 
 U 5EC45070
 F0 "Input Connectors" 50
 F1 "Inputs.sch" 50
 $EndSheet
-Text Notes 3400 2750 0    118  Italic 0
+Text Notes 825  3100 0    118  Italic 0
 Input Connectors
-$Sheet
-S 3400 4350 1600 250 
-U 5EFFF333
-F0 "Interface" 50
-F1 "Interface.sch" 50
-$EndSheet
-Text Notes 3400 4250 0    118  Italic 0
-Interface
 $Comp
 L Mechanical:Fiducial FID1
 U 1 1 5F00049D
@@ -53,7 +45,7 @@ F 3 "~" H 1000 6900 50  0001 C CNN
 $EndComp
 Text Notes 950  6700 0    118  Italic 0
 Fiducials
-Text Notes 6800 3450 0    118  Italic 0
+Text Notes 3600 4300 0    118  Italic 0
 5V Buck
 $Comp
 L Mechanical:Fiducial FID4
@@ -279,26 +271,26 @@ Wire Wire Line
 Wire Wire Line
 	3400 7300 3350 7300
 $Sheet
-S 6800 3600 1600 250 
+S 3600 4450 1600 250 
 U 5EFFFB7B
 F0 "5V Buck" 50
 F1 "5V.sch" 50
 $EndSheet
-Text Notes 6800 4250 0    118  Italic 0
+Text Notes 3600 5100 0    118  Italic 0
 3.3V Buck
 $Sheet
-S 6800 4400 1600 250 
+S 3600 5250 1600 250 
 U 5EDA3ECC
 F0 "3.3V Buck" 50
 F1 "3v3.sch" 50
 $EndSheet
 $Sheet
-S 6800 2900 1600 250 
+S 6850 3975 1600 250 
 U 5EEC5CE7
 F0 "LEDs and Debug" 50
 F1 "LEDs.sch" 50
 $EndSheet
-Text Notes 6800 2750 0    118  Italic 0
+Text Notes 6850 3825 0    118  Italic 0
 LEDs and Debug
 $Comp
 L Pufferfish:LOGO_BRUNO2 L2
@@ -312,25 +304,25 @@ F 3 "" H 1950 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 1175 4350 1600 250 
+S 3575 1825 1600 250 
 U 5F97DDCF
 F0 "LTC2955" 50
 F1 "LTC2955.sch" 50
 $EndSheet
 $Sheet
-S 1175 5425 1625 300 
+S 3575 2900 1625 300 
 U 5F97DEDD
 F0 "LTC7812" 50
 F1 "LTC7812.sch" 50
 $EndSheet
-Text Notes 1100 4075 0    118  Italic 0
+Text Notes 3650 1500 0    118  Italic 0
 LTC2955 Design
-Text Notes 1175 5150 0    118  Italic 0
+Text Notes 3575 2625 0    118  Italic 0
 LTC7812 Design
-Text Notes 1050 2950 0    118  Italic 0
+Text Notes 6800 3025 0    118  Italic 0
 Output Connectors\n
 $Sheet
-S 1175 3050 1600 325 
+S 6925 3125 1600 325 
 U 5F9B3D6D
 F0 "Output Connectors" 50
 F1 "Output Connectors.sch" 50

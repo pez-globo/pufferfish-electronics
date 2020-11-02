@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 10
+Sheet 8 9
 Title ""
 Date ""
 Rev ""
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 7812:LTC7812 U5
+L LTC7182_lib:LTC7812 U5
 U 1 1 5F95FBC2
 P 3950 2700
 F 0 "U5" H 3925 3831 50  0000 C CNN
