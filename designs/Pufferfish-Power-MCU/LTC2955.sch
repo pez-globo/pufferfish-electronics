@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:Pufferfish-Power-1-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 9
+Sheet 6 9
 Title ""
 Date ""
 Rev ""
@@ -71,7 +70,6 @@ Wire Wire Line
 Connection ~ 2825 1875
 Wire Wire Line
 	2825 1875 2300 1875
-NoConn ~ 2900 2175
 Wire Wire Line
 	2900 2075 2725 2075
 Text GLabel 1500 2275 2    50   Input ~ 0
@@ -81,7 +79,7 @@ L Device:C_Small C?
 U 1 1 5F960C42
 P 2250 2650
 F 0 "C?" H 2342 2696 50  0000 L CNN
-F 1 "100n" H 2342 2605 50  0000 L CNN
+F 1 "100n" H 1975 2575 50  0000 L CNN
 F 2 "" H 2250 2650 50  0001 C CNN
 F 3 "~" H 2250 2650 50  0001 C CNN
 	1    2250 2650
@@ -241,7 +239,7 @@ Text Notes 5275 1975 0    50   Italic 0
 Text Notes 1650 2050 0    50   Italic 0
 Low ESR Caps>\n
 $Comp
-L LTC2955:LTC2955-1(DFN)-Pufferish_Power U?
+L LT:LTC2955-1(DFN) U?
 U 1 1 5F99198E
 P 3450 2225
 AR Path="/5F99198E" Ref="U?"  Part="1" 
@@ -284,7 +282,7 @@ L Device:C_Small C?
 U 1 1 5F9DA773
 P 3450 2575
 F 0 "C?" V 3475 2350 50  0000 C CNN
-F 1 "22n" V 3575 2350 50  0000 C CNN
+F 1 "1.6u" V 3575 2350 50  0000 C CNN
 F 2 "" H 3450 2575 50  0001 C CNN
 F 3 "~" H 3450 2575 50  0001 C CNN
 	1    3450 2575
@@ -294,18 +292,8 @@ Wire Wire Line
 	3300 2575 3350 2575
 Wire Wire Line
 	3550 2575 3600 2575
-Text Notes 2875 2925 0    50   ~ 10
-100ms to Shut Down the system
-Wire Notes Line
-	4150 2825 4150 2975
-Wire Notes Line
-	4150 2975 2850 2975
-Wire Notes Line
-	2850 2975 2850 2825
-Wire Notes Line
-	2850 2825 4150 2825
-Wire Notes Line
-	3200 2800 3200 2750
+Text Notes 2950 3200 0    50   ~ 10
+Additional Timer value: 7.2 s\n\n
 Wire Notes Line
 	1075 3325 3550 3325
 Wire Notes Line
@@ -344,4 +332,21 @@ Text Notes 900  1150 0    79   ~ 16
 Todo: Confirm the V_LTC4015_OUT Label \n
 Text Notes 1275 3475 0    50   ~ 10
 Auto Cut off (ON goes low) < 9V. 
+Text GLabel 2900 2375 3    50   Input ~ 0
+V_LTC4015_OUT
+$Comp
+L Device:R_Small R?
+U 1 1 5FA19FAC
+P 2900 2275
+F 0 "R?" H 2841 2229 50  0000 R CNN
+F 1 "10k" H 2841 2320 50  0000 R CNN
+F 2 "" H 2900 2275 50  0001 C CNN
+F 3 "~" H 2900 2275 50  0001 C CNN
+	1    2900 2275
+	-1   0    0    1   
+$EndComp
+Wire Notes Line
+	3200 2750 3200 3025
+Text Notes 4300 1125 0    50   ~ 10
+LTC2955 MCU
 $EndSCHEMATC

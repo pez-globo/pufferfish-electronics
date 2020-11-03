@@ -3,7 +3,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 9
+Sheet 6 9
 Title ""
 Date ""
 Rev ""
@@ -240,7 +240,7 @@ Text Notes 5275 1975 0    50   Italic 0
 Text Notes 1650 2050 0    50   Italic 0
 Low ESR Caps>\n
 $Comp
-L LTC2955:LTC2955-1(DFN)-Pufferish_Power U?
+L LT:LTC2955-1(DFN) U?
 U 1 1 5F99198E
 P 3450 2225
 AR Path="/5F99198E" Ref="U?"  Part="1" 
@@ -283,7 +283,7 @@ L Device:C_Small C?
 U 1 1 5F9DA773
 P 3450 2575
 F 0 "C?" V 3475 2350 50  0000 C CNN
-F 1 "22n" V 3575 2350 50  0000 C CNN
+F 1 "5.4uF" V 3575 2350 50  0000 C CNN
 F 2 "" H 3450 2575 50  0001 C CNN
 F 3 "~" H 3450 2575 50  0001 C CNN
 	1    3450 2575
@@ -294,7 +294,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 2575 3600 2575
 Text Notes 2875 2925 0    50   ~ 10
-100ms to Shut Down the system
+25s to Shut Down the system
 Wire Notes Line
 	4150 2825 4150 2975
 Wire Notes Line
@@ -339,8 +339,10 @@ Wire Wire Line
 Connection ~ 2250 2300
 Text Notes 1250 2350 2    55   ~ 11
 TO DPST Switch >
-Text Notes 900  1150 0    79   ~ 16
+Text Notes 500  1400 0    79   ~ 16
 Todo: Confirm the V_LTC4015_OUT Label \n
 Text Notes 1275 3475 0    50   ~ 10
 Auto Cut off (ON goes low) < 9V. 
+Text Notes 3925 800  0    79   ~ 16
+LTC2955 HMI \n
 $EndSCHEMATC
