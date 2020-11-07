@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:Pufferfish-Power-MCU-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 9
+Sheet 5 9
 Title "Pufferfish Power: LED's and Debug"
 Date "2020-06-10"
 Rev "v1.0"
@@ -719,4 +720,6 @@ Wire Wire Line
 	5700 5050 5850 5050
 Wire Wire Line
 	8350 5050 8500 5050
+Text Notes 825  1575 0    118  ~ 24
+TODO: Change debug signals for new design.
 $EndSCHEMATC
