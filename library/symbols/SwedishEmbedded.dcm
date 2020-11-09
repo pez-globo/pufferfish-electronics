@@ -1,0 +1,72 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BAT_Lithium_Ion_2X_Holder
+D single battery cell
+K battery cell
+F ~
+$ENDCMP
+#
+$CMP CONN_3X_LED_DRIVE_FEMALE
+D Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP CONN_3X_LED_DRIVE_MALE
+K connector
+F ~
+$ENDCMP
+#
+$CMP CONN_3X_LED_SENSE_FEMALE
+D Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP CONN_3X_LED_SENSE_MALE
+K connector
+F ~
+$ENDCMP
+#
+$CMP CONN_BAT_LI_ION
+D Battery (multiple cells)
+K batt voltage-source cell
+F ~
+$ENDCMP
+#
+$CMP CONN_JTAG_TC2050
+D Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface
+K Cortex Debug Connector ARM SWD JTAG
+$ENDCMP
+#
+$CMP Conn_ARM_JTAG_SWD_10
+D Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface
+K Cortex Debug Connector ARM SWD JTAG
+F http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf
+$ENDCMP
+#
+$CMP IC_NUP4114
+D Transient voltage suppressor designed to protect high speed data lines from ESD, EFT, and lightning
+K ESD Protection diodes  transient suppressor
+F http://www.onsemi.com/pub_link/Collateral/NUP4202W1-D.PDF
+$ENDCMP
+#
+$CMP IC_SN65HVD233
+D CAN Bus Transceiver, 3.3V, 1Mbps, Loopback feature, SOIC
+K can transeiver ti
+F http://www.ti.com/lit/ds/symlink/sn65hvd234.pdf
+$ENDCMP
+#
+$CMP INA284
+D High-Accuracy, Wide Common-Mode Range, Bidirectional Current Shunt Monitors, Zero-Drift Series, 50V/V, SOIC-8/VSSOP-8
+K current monitor shunt sensor bidirectional
+F http://www.ti.com/lit/ds/symlink/ina282.pdf
+$ENDCMP
+#
+$CMP JP_Jumper_Small
+D Jumper, normally open
+K jumper link bridge
+F ~
+$ENDCMP
+#
+#End Doc Library
