@@ -35,7 +35,7 @@ Connection ~ 7500 6350
 Wire Wire Line
 	7500 6450 7500 6350
 $Comp
-L Pufferfish:CAP_100pF_10V_NP0_0402 C3
+L Pufferfish-Power-MCU-rescue:CAP_100pF_10V_NP0_0402-Pufferfish C3
 U 1 1 5EC686C5
 P 7500 6550
 F 0 "C3" H 7592 6670 50  0000 L CNN
@@ -56,7 +56,7 @@ Wire Wire Line
 Text Notes 8900 650  0    35   Italic 0
 Not needed
 $Comp
-L Pufferfish:CSNL1206FT3L00 R11
+L Pufferfish-Power-MCU-rescue:CSNL1206FT3L00-Pufferfish R11
 U 1 1 5EC590B4
 P 8650 2850
 F 0 "R11" V 8263 2850 50  0000 C CNN
@@ -72,7 +72,7 @@ F 8 "1W" V 8536 2850 50  0000 C CNN "Power Rating"
 	0    1    1    0   
 $EndComp
 $Comp
-L Pufferfish:RES_24K9_0603_SMD R7
+L Pufferfish-Power-MCU-rescue:RES_24K9_0603_SMD-Pufferfish R7
 U 1 1 5EC5B9F4
 P 2300 2250
 F 0 "R7" H 2368 2387 50  0000 L CNN
@@ -101,7 +101,7 @@ $EndComp
 Wire Wire Line
 	2300 2350 2300 2400
 $Comp
-L Pufferfish:RES_768K_0603_SMD R6
+L Pufferfish-Power-MCU-rescue:RES_768K_0603_SMD-Pufferfish R6
 U 1 1 5EC66A90
 P 2300 1750
 F 0 "R6" H 2368 1887 50  0000 L CNN
@@ -117,7 +117,7 @@ F 8 "0603" H 2368 1614 50  0000 L CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish:RES_10K_0603_SMD R9
+L Pufferfish-Power-MCU-rescue:RES_10K_0603_SMD-Pufferfish R9
 U 1 1 5EC73A48
 P 1800 1950
 F 0 "R9" H 1868 2087 50  0000 L CNN
@@ -133,7 +133,7 @@ F 8 "0603" H 1868 1814 50  0000 L CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish:RES_47K_0603_SMD R10
+L Pufferfish-Power-MCU-rescue:RES_47K_0603_SMD-Pufferfish R10
 U 1 1 5EC748DD
 P 1800 2400
 F 0 "R10" H 1868 2537 50  0000 L CNN
@@ -149,7 +149,7 @@ F 8 "0603" H 1868 2264 50  0000 L CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish:RES_768K_0603_SMD R8
+L Pufferfish-Power-MCU-rescue:RES_768K_0603_SMD-Pufferfish R8
 U 1 1 5EC758BA
 P 1800 1500
 F 0 "R8" H 1868 1637 50  0000 L CNN
@@ -182,7 +182,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 1750 5050 1750
 $Comp
-L Pufferfish:SiR158DP Q1
+L Pufferfish-Power-MCU-rescue:SiR158DP-Pufferfish Q1
 U 1 1 5ED0C096
 P 4550 1850
 F 0 "Q1" V 5074 1850 50  0000 C CNN
@@ -197,7 +197,7 @@ F 7 "30A" V 4801 1850 50  0000 C CNN "Current"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Pufferfish:SiR158DP Q2
+L Pufferfish-Power-MCU-rescue:SiR158DP-Pufferfish Q2
 U 1 1 5ED0E3B6
 P 5650 1850
 F 0 "Q2" V 6174 1850 50  0000 C CNN
@@ -218,7 +218,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 2000 5650 2100
 $Comp
-L Pufferfish:CAP_47nF_50V_X7R_0402 C7
+L Pufferfish-Power-MCU-rescue:CAP_47nF_50V_X7R_0402-Pufferfish C7
 U 1 1 5ED4B218
 P 4800 2800
 F 0 "C7" H 4892 2920 50  0000 L CNN
@@ -256,7 +256,7 @@ Wire Wire Line
 Wire Wire Line
 	5050 1750 5050 2800
 $Comp
-L Pufferfish:SiR158DP Q3
+L Pufferfish-Power-MCU-rescue:SiR158DP-Pufferfish Q3
 U 1 1 5ED94744
 P 6850 2950
 F 0 "Q3" V 7374 2950 50  0000 C CNN
@@ -275,7 +275,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 2850 6400 2850
 $Comp
-L Pufferfish:SiR158DP Q4
+L Pufferfish-Power-MCU-rescue:SiR158DP-Pufferfish Q4
 U 1 1 5EDA463D
 P 8000 2950
 F 0 "Q4" V 8524 2950 50  0000 C CNN
@@ -299,7 +299,7 @@ Wire Wire Line
 	8000 3200 8000 3100
 Connection ~ 6850 3200
 $Comp
-L Pufferfish:CAP_47nF_50V_X7R_0402 C10
+L Pufferfish-Power-MCU-rescue:CAP_47nF_50V_X7R_0402-Pufferfish C10
 U 1 1 5EDBAB14
 P 8450 1050
 F 0 "C10" H 8542 1170 50  0000 L CNN
@@ -338,7 +338,7 @@ Connection ~ 5900 1750
 Wire Wire Line
 	5900 1750 8250 1750
 $Comp
-L Pufferfish:VSYS-12V0 #PWR025
+L Pufferfish-Power-MCU-rescue:VSYS-12V0-Pufferfish #PWR025
 U 1 1 5EDE79A4
 P 10350 2750
 F 0 "#PWR025" H 10350 2600 50  0001 C CNN
@@ -357,7 +357,7 @@ Not needed
 Text Notes 10150 2500 0    35   Italic 0
 Merged 12V Output
 $Comp
-L Pufferfish:VSYS-12V0 #PWR017
+L Pufferfish-Power-MCU-rescue:VSYS-12V0-Pufferfish #PWR017
 U 1 1 5EDF06A4
 P 900 1500
 F 0 "#PWR017" H 900 1350 50  0001 C CNN
@@ -368,7 +368,7 @@ F 3 "" H 900 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish:CAP_1uF_35V_X7R_0603 C8
+L Pufferfish-Power-MCU-rescue:CAP_1uF_35V_X7R_0603-Pufferfish C8
 U 1 1 5EDF35E7
 P 1300 1950
 F 0 "C8" V 1100 1900 50  0000 L CNN
@@ -399,7 +399,7 @@ From SLA Battery
 Text Notes 3800 1100 0    35   Italic 0
 Main Input
 $Comp
-L Pufferfish:CAP_10uF_35V_X5R_0805 C6
+L Pufferfish-Power-MCU-rescue:CAP_10uF_35V_X5R_0805-Pufferfish C6
 U 1 1 5ECE56D1
 P 3650 2500
 F 0 "C6" H 3742 2620 50  0000 L CNN
@@ -425,7 +425,7 @@ Connection ~ 1450 1950
 Wire Wire Line
 	1450 1550 1450 1950
 $Comp
-L Pufferfish:RES_1R2_0805_SMD R12
+L Pufferfish-Power-MCU-rescue:RES_1R2_0805_SMD-Pufferfish R12
 U 1 1 5ED03118
 P 3650 2100
 F 0 "R12" H 3718 2237 50  0000 L CNN
@@ -460,7 +460,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 1800 4050 1800
 $Comp
-L Pufferfish:CAP_10uF_35V_X5R_0805 C9
+L Pufferfish-Power-MCU-rescue:CAP_10uF_35V_X5R_0805-Pufferfish C9
 U 1 1 5ED2E810
 P 6100 2900
 F 0 "C9" H 6192 3020 50  0000 L CNN
@@ -494,7 +494,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 2550 6100 2450
 $Comp
-L Pufferfish:RES_1R2_0805_SMD R13
+L Pufferfish-Power-MCU-rescue:RES_1R2_0805_SMD-Pufferfish R13
 U 1 1 5ED2E81B
 P 6100 2650
 F 0 "R13" H 5900 2750 50  0000 L CNN
@@ -518,7 +518,7 @@ Connection ~ 6400 2450
 Wire Wire Line
 	6400 2450 6400 2850
 $Comp
-L Pufferfish:CAP_100nF_50V_X7R_0402 C11
+L Pufferfish-Power-MCU-rescue:CAP_100nF_50V_X7R_0402-Pufferfish C11
 U 1 1 5ED623C8
 P 7850 950
 F 0 "C11" H 7942 1070 50  0000 L CNN
@@ -552,7 +552,7 @@ Wire Wire Line
 Text Notes 8550 1850 0    35   Italic 0
 Close to ExtVcc
 $Comp
-L Pufferfish:RES_0R_0402_SMD R14
+L Pufferfish-Power-MCU-rescue:RES_0R_0402_SMD-Pufferfish R14
 U 1 1 5EDCD597
 P 9050 800
 F 0 "R14" V 9000 900 50  0000 C CNN
@@ -568,7 +568,7 @@ F 8 "0402" V 9000 650 30  0000 C CNN "Package"
 	0    1    1    0   
 $EndComp
 $Comp
-L Pufferfish:CAP_AE_SMD_220uF_25V_8mm C12
+L Pufferfish-Power-MCU-rescue:CAP_AE_SMD_220uF_25V_8mm-Pufferfish C12
 U 1 1 5EDDA32D
 P 9900 3150
 F 0 "C12" H 9988 3287 50  0000 L CNN
@@ -584,7 +584,7 @@ F 8 "220uF" H 9988 3014 50  0000 L CNN "Capacitance"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish:CAP_AE_SMD_220uF_25V_8mm C13
+L Pufferfish-Power-MCU-rescue:CAP_AE_SMD_220uF_25V_8mm-Pufferfish C13
 U 1 1 5EDDC037
 P 10350 3150
 F 0 "C13" H 10438 3287 50  0000 L CNN
@@ -628,7 +628,7 @@ Connection ~ 10350 3350
 Wire Wire Line
 	10350 3350 10350 3250
 $Comp
-L Pufferfish:RES_0R_0402_SMD R15
+L Pufferfish-Power-MCU-rescue:RES_0R_0402_SMD-Pufferfish R15
 U 1 1 5EE1105E
 P 9050 900
 F 0 "R15" V 9000 1000 50  0000 C CNN
@@ -644,7 +644,7 @@ F 8 "0402" V 9000 750 30  0000 C CNN "Package"
 	0    1    1    0   
 $EndComp
 $Comp
-L Pufferfish:RES_0R_0402_SMD R16
+L Pufferfish-Power-MCU-rescue:RES_0R_0402_SMD-Pufferfish R16
 U 1 1 5EE17356
 P 9050 1000
 F 0 "R16" V 9000 1100 50  0000 C CNN
@@ -660,7 +660,7 @@ F 8 "0402" V 9000 850 30  0000 C CNN "Package"
 	0    1    1    0   
 $EndComp
 $Comp
-L Pufferfish:RES_0R_0402_SMD R17
+L Pufferfish-Power-MCU-rescue:RES_0R_0402_SMD-Pufferfish R17
 U 1 1 5EE263ED
 P 9050 1200
 F 0 "R17" V 9000 1300 50  0000 C CNN
@@ -676,7 +676,7 @@ F 8 "0402" V 9000 1050 30  0000 C CNN "Package"
 	0    1    1    0   
 $EndComp
 $Comp
-L Pufferfish:RES_0R_0402_SMD R18
+L Pufferfish-Power-MCU-rescue:RES_0R_0402_SMD-Pufferfish R18
 U 1 1 5EE2C952
 P 9050 1300
 F 0 "R18" V 9000 1400 50  0000 C CNN
@@ -692,7 +692,7 @@ F 8 "0402" V 9000 1150 30  0000 C CNN "Package"
 	0    1    1    0   
 $EndComp
 $Comp
-L Pufferfish:RES_0R_0402_SMD R19
+L Pufferfish-Power-MCU-rescue:RES_0R_0402_SMD-Pufferfish R19
 U 1 1 5EE3321B
 P 9050 1400
 F 0 "R19" V 9000 1500 50  0000 C CNN
@@ -708,7 +708,7 @@ F 8 "0402" V 9000 1250 30  0000 C CNN "Package"
 	0    1    1    0   
 $EndComp
 $Comp
-L Pufferfish:RES_10K_0603_SMD R23
+L Pufferfish-Power-MCU-rescue:RES_10K_0603_SMD-Pufferfish R23
 U 1 1 5EE559F4
 P 9700 6050
 F 0 "R23" H 9768 6187 50  0000 L CNN
@@ -775,7 +775,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 6850 9100 6850
 $Comp
-L Pufferfish:RES_10K_0603_SMD R20
+L Pufferfish-Power-MCU-rescue:RES_10K_0603_SMD-Pufferfish R20
 U 1 1 5EF1D8D8
 P 8750 6550
 F 0 "R20" H 8818 6687 50  0000 L CNN
@@ -791,7 +791,7 @@ F 8 "0603" H 8818 6414 50  0000 L CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish:RES_10K_0603_SMD R21
+L Pufferfish-Power-MCU-rescue:RES_10K_0603_SMD-Pufferfish R21
 U 1 1 5EF1E035
 P 9100 6550
 F 0 "R21" H 9168 6687 50  0000 L CNN
@@ -836,7 +836,7 @@ Snubber
 Text Notes 5750 2850 0    35   Italic 0
 Snubber
 $Comp
-L Pufferfish:CAP_10uF_35V_X5R_0805 C14
+L Pufferfish-Power-MCU-rescue:CAP_10uF_35V_X5R_0805-Pufferfish C14
 U 1 1 5EF63424
 P 8950 3150
 F 0 "C14" H 9042 3270 50  0000 L CNN
@@ -853,7 +853,7 @@ F 9 "35V" H 9042 3014 30  0000 L CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish:CAP_10uF_35V_X5R_0805 C15
+L Pufferfish-Power-MCU-rescue:CAP_10uF_35V_X5R_0805-Pufferfish C15
 U 1 1 5EF8152E
 P 9250 3150
 F 0 "C15" H 9342 3270 50  0000 L CNN
@@ -870,7 +870,7 @@ F 9 "35V" H 9342 3014 30  0000 L CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish:CAP_100nF_50V_X7R_0402 C16
+L Pufferfish-Power-MCU-rescue:CAP_100nF_50V_X7R_0402-Pufferfish C16
 U 1 1 5EF81BBE
 P 9550 3150
 F 0 "C16" H 9642 3270 50  0000 L CNN
@@ -915,7 +915,7 @@ Connection ~ 9550 3350
 Wire Wire Line
 	9550 3350 9900 3350
 $Comp
-L Pufferfish:TP_TH_KEYSTONE_5010 TP?
+L Pufferfish-Power-MCU-rescue:TP_TH_KEYSTONE_5010-Pufferfish TP?
 U 1 1 5EFCC8EE
 P 9700 2200
 AR Path="/5EEC5CE7/5EFCC8EE" Ref="TP?"  Part="1" 
@@ -978,7 +978,7 @@ Wire Wire Line
 	5400 6050 5250 6050
 Connection ~ 5250 6050
 $Comp
-L Pufferfish:RES_10K_0603_SMD R70
+L Pufferfish-Power-MCU-rescue:RES_10K_0603_SMD-Pufferfish R70
 U 1 1 5F781DD2
 P 5600 6650
 F 0 "R70" H 5668 6787 50  0000 L CNN
@@ -1011,7 +1011,7 @@ Wire Wire Line
 Text Notes 5150 6750 0    35   Italic 0
 MPPT Enable\nL = Disabled\nH = Enabled
 $Comp
-L Pufferfish:LTC4015EUHF#PBF U1
+L Pufferfish-Power-MCU-rescue:LTC4015EUHF#PBF-Pufferfish U1
 U 1 1 5F79982D
 P 5100 4850
 F 0 "U1" H 4650 6350 50  0000 C CNN
@@ -1026,7 +1026,7 @@ $EndComp
 Wire Wire Line
 	5850 6400 5600 6400
 $Comp
-L Pufferfish:RES_0603_NC R71
+L Pufferfish-Power-MCU-rescue:RES_0603_NC-Pufferfish R71
 U 1 1 5F7B7C38
 P 5950 6400
 F 0 "R71" V 5655 6400 50  0000 C CNN
@@ -1047,7 +1047,7 @@ Wire Wire Line
 Wire Wire Line
 	5600 6000 5600 6400
 $Comp
-L Pufferfish:INTVCC-LTC4015 #PWR022
+L Pufferfish-Power-MCU-rescue:INTVCC-LTC4015-Pufferfish #PWR022
 U 1 1 5F8039AE
 P 6150 6400
 F 0 "#PWR022" H 6150 6250 50  0001 C CNN
@@ -1089,7 +1089,7 @@ Connection ~ 7500 3700
 Wire Wire Line
 	7500 3750 7500 3700
 $Comp
-L Pufferfish:INTVCC-LTC4015 #PWR023
+L Pufferfish-Power-MCU-rescue:INTVCC-LTC4015-Pufferfish #PWR023
 U 1 1 5F848BFC
 P 7500 3650
 F 0 "#PWR023" H 7500 3500 50  0001 C CNN
@@ -1100,7 +1100,7 @@ F 3 "" H 7500 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish:CAP_10uF_10V_X5R_0603 C57
+L Pufferfish-Power-MCU-rescue:CAP_10uF_10V_X5R_0603-Pufferfish C57
 U 1 1 5F821E0F
 P 7500 3850
 F 0 "C57" H 7592 3970 50  0000 L CNN
@@ -1117,7 +1117,7 @@ F 9 "16V" H 7592 3714 30  0000 L CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish:RES_10K_0603_SMD R63
+L Pufferfish-Power-MCU-rescue:RES_10K_0603_SMD-Pufferfish R63
 U 1 1 5F8AA5BF
 P 2650 3750
 F 0 "R63" H 2718 3887 50  0000 L CNN
@@ -1133,7 +1133,7 @@ F 8 "0603" H 2718 3614 50  0000 L CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish:CAP_100nF_50V_X7R_0402 C5
+L Pufferfish-Power-MCU-rescue:CAP_100nF_50V_X7R_0402-Pufferfish C5
 U 1 1 5F8AB018
 P 3900 3550
 F 0 "C5" V 3800 3500 50  0000 L CNN
@@ -1178,7 +1178,7 @@ Connection ~ 2650 4200
 Wire Wire Line
 	2650 4200 4500 4200
 $Comp
-L Pufferfish:RES_10K_0603_SMD R66
+L Pufferfish-Power-MCU-rescue:RES_10K_0603_SMD-Pufferfish R66
 U 1 1 5F93835E
 P 3000 3750
 F 0 "R66" H 3068 3887 50  0000 L CNN
@@ -1194,7 +1194,7 @@ F 8 "0603" H 3068 3614 50  0000 L CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish:RES_10K_0603_SMD R67
+L Pufferfish-Power-MCU-rescue:RES_10K_0603_SMD-Pufferfish R67
 U 1 1 5F938735
 P 3350 3750
 F 0 "R67" H 3418 3887 50  0000 L CNN
@@ -1228,7 +1228,7 @@ Connection ~ 3350 4000
 Wire Wire Line
 	3350 4000 4500 4000
 $Comp
-L Pufferfish:VSYS-3V3 #PWR?
+L Pufferfish-Power-MCU-rescue:VSYS-3V3-Pufferfish #PWR?
 U 1 1 5F96C5AE
 P 2650 3500
 AR Path="/5EDA3ECC/5F96C5AE" Ref="#PWR?"  Part="1" 
@@ -1275,7 +1275,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 1850 2300 2150
 $Comp
-L Pufferfish:XAL1010-103MEB L3
+L Pufferfish-Power-MCU-rescue:XAL1010-103MEB-Pufferfish L3
 U 1 1 5FA0CE58
 P 8350 4650
 F 0 "L3" V 8500 4700 50  0000 R CNN
@@ -1305,7 +1305,7 @@ $EndComp
 Wire Wire Line
 	1050 5200 1050 5150
 $Comp
-L Pufferfish:RES_0603_NC R1
+L Pufferfish-Power-MCU-rescue:RES_0603_NC-Pufferfish R1
 U 1 1 5FA39E6F
 P 1050 4450
 F 0 "R1" H 982 4359 50  0000 R CNN
@@ -1321,7 +1321,7 @@ F 8 "0603" H 982 4541 50  0000 R CNN "Package"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Pufferfish:INTVCC-LTC4015 #PWR01
+L Pufferfish-Power-MCU-rescue:INTVCC-LTC4015-Pufferfish #PWR01
 U 1 1 5FA4B4CE
 P 1050 4200
 F 0 "#PWR01" H 1050 4050 50  0001 C CNN
@@ -1336,7 +1336,7 @@ Wire Wire Line
 Wire Wire Line
 	1050 4550 1050 4650
 $Comp
-L Pufferfish:RES_10K_0603_SMD R3
+L Pufferfish-Power-MCU-rescue:RES_10K_0603_SMD-Pufferfish R3
 U 1 1 5FAB6F60
 P 1400 4450
 F 0 "R3" H 1468 4587 50  0000 L CNN
@@ -1365,7 +1365,7 @@ $EndComp
 Wire Wire Line
 	1400 5200 1400 5150
 $Comp
-L Pufferfish:RES_0603_NC R4
+L Pufferfish-Power-MCU-rescue:RES_0603_NC-Pufferfish R4
 U 1 1 5FAB6F72
 P 1400 5050
 F 0 "R4" H 1332 4959 50  0000 R CNN
@@ -1383,7 +1383,7 @@ $EndComp
 Wire Wire Line
 	1400 4550 1400 4750
 $Comp
-L Pufferfish:RES_10K_0603_SMD R22
+L Pufferfish-Power-MCU-rescue:RES_10K_0603_SMD-Pufferfish R22
 U 1 1 5FABE2F7
 P 1750 5050
 F 0 "R22" H 1818 5187 50  0000 L CNN
@@ -1412,7 +1412,7 @@ $EndComp
 Wire Wire Line
 	1750 5200 1750 5150
 $Comp
-L Pufferfish:RES_0603_NC R5
+L Pufferfish-Power-MCU-rescue:RES_0603_NC-Pufferfish R5
 U 1 1 5FABE309
 P 1750 4450
 F 0 "R5" H 1682 4359 50  0000 R CNN
@@ -1488,7 +1488,7 @@ $EndComp
 Wire Wire Line
 	2400 6000 2400 5950
 $Comp
-L Pufferfish:RES_0603_NC R46
+L Pufferfish-Power-MCU-rescue:RES_0603_NC-Pufferfish R46
 U 1 1 5FB0ED64
 P 2400 5350
 F 0 "R46" H 2332 5259 50  0000 R CNN
@@ -1504,7 +1504,7 @@ F 8 "0603" H 2332 5441 50  0000 R CNN "Package"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Pufferfish:INTVCC-LTC4015 #PWR08
+L Pufferfish-Power-MCU-rescue:INTVCC-LTC4015-Pufferfish #PWR08
 U 1 1 5FB0ED6A
 P 2400 5150
 F 0 "#PWR08" H 2400 5000 50  0001 C CNN
@@ -1532,7 +1532,7 @@ $EndComp
 Wire Wire Line
 	2750 6000 2750 5950
 $Comp
-L Pufferfish:RES_0603_NC R64
+L Pufferfish-Power-MCU-rescue:RES_0603_NC-Pufferfish R64
 U 1 1 5FB0ED89
 P 2750 5350
 F 0 "R64" H 2682 5259 50  0000 R CNN
@@ -1565,7 +1565,7 @@ Connection ~ 2750 5650
 Wire Wire Line
 	2750 5650 2750 5750
 $Comp
-L Pufferfish:RES_0603_NC R2
+L Pufferfish-Power-MCU-rescue:RES_0603_NC-Pufferfish R2
 U 1 1 5FB19BA8
 P 1050 5050
 F 0 "R2" H 982 4959 50  0000 R CNN
@@ -1583,7 +1583,7 @@ $EndComp
 Text Notes 1050 5700 0    35   Italic 0
 Battery Cell Configuration:\n---------------\nCELL<0,1,2> = Z,H,L\n--> 6-cells default
 $Comp
-L Pufferfish:RES_0603_NC R61
+L Pufferfish-Power-MCU-rescue:RES_0603_NC-Pufferfish R61
 U 1 1 5FB3B8DD
 P 2400 5850
 F 0 "R61" H 2332 5759 50  0000 R CNN
@@ -1599,7 +1599,7 @@ F 8 "0603" H 2332 5941 50  0000 R CNN "Package"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Pufferfish:RES_0603_NC R65
+L Pufferfish-Power-MCU-rescue:RES_0603_NC-Pufferfish R65
 U 1 1 5FB3BE36
 P 2750 5850
 F 0 "R65" H 2682 5759 50  0000 R CNN
@@ -1631,7 +1631,7 @@ PP-CHEM1
 Text Notes 1450 6050 0    35   Italic 0
 Battery Chemistry Configuration\n---------------\nCHEM<0,1> = Z,Z\n--> Fixed Lead Acid
 $Comp
-L Pufferfish:RES_100K_0603_SMD R68
+L Pufferfish-Power-MCU-rescue:RES_100K_0603_SMD-Pufferfish R68
 U 1 1 5FB625D3
 P 3350 5350
 F 0 "R68" H 3418 5487 50  0000 L CNN
@@ -1668,7 +1668,7 @@ Wire Wire Line
 Text Notes 3300 5800 0    35   Italic 0
 f(SW) = 476kHz
 $Comp
-L Pufferfish:RES_301K_0603_SMD R62
+L Pufferfish-Power-MCU-rescue:RES_301K_0603_SMD-Pufferfish R62
 U 1 1 5FBB6673
 P 2600 7050
 F 0 "R62" H 2668 7187 50  0000 L CNN
@@ -1692,7 +1692,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 5700 4500 5700
 $Comp
-L Pufferfish:RES_10K_0603_SMD R69
+L Pufferfish-Power-MCU-rescue:RES_10K_0603_SMD-Pufferfish R69
 U 1 1 5FBF0695
 P 4450 6850
 F 0 "R69" H 4518 6987 50  0000 L CNN
@@ -1728,7 +1728,7 @@ SLA EQ Enable
 Text Notes 3750 6850 0    50   ~ 0
 From uC
 $Comp
-L Pufferfish:CAP_100nF_50V_X7R_0402 C4
+L Pufferfish-Power-MCU-rescue:CAP_100nF_50V_X7R_0402-Pufferfish C4
 U 1 1 5FC3EBF6
 P 3000 7050
 F 0 "C4" H 3092 7170 50  0000 L CNN
@@ -1783,7 +1783,7 @@ Wire Wire Line
 Text Label 3500 6450 0    50   ~ 0
 PP-CCREFM
 $Comp
-L Pufferfish:RES_0R_0402_SMD R45
+L Pufferfish-Power-MCU-rescue:RES_0R_0402_SMD-Pufferfish R45
 U 1 1 5FCF9F12
 P 2050 6650
 F 0 "R45" H 2118 6787 50  0000 L CNN
@@ -1799,7 +1799,7 @@ F 8 "0402" H 2118 6514 50  0000 L CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish:CAP_10nF_50V_X7R_0402 C2
+L Pufferfish-Power-MCU-rescue:CAP_10nF_50V_X7R_0402-Pufferfish C2
 U 1 1 5FCFE45E
 P 2050 7000
 F 0 "C2" H 2142 7120 50  0000 L CNN
@@ -1816,7 +1816,7 @@ F 9 "50V" H 2142 6864 30  0000 L CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish:CAP_NC_0402 C1
+L Pufferfish-Power-MCU-rescue:CAP_NC_0402-Pufferfish C1
 U 1 1 5FCFF836
 P 1650 6900
 F 0 "C1" H 1742 6930 50  0000 L CNN

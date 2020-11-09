@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Pufferfish:CAP_AE_SMD_220uF_25V_8mm C?
+L Pufferfish-Power-MCU-rescue:CAP_AE_SMD_220uF_25V_8mm-Pufferfish C?
 U 1 1 5F015A8D
 P 7300 3925
 AR Path="/5EC321D9/5F015A8D" Ref="C?"  Part="1" 
@@ -37,7 +37,7 @@ Wire Wire Line
 Wire Wire Line
 	7300 4025 7300 4125
 $Comp
-L Pufferfish:CAP_10uF_35V_X5R_0805 C?
+L Pufferfish-Power-MCU-rescue:CAP_10uF_35V_X5R_0805-Pufferfish C?
 U 1 1 5F015AB1
 P 6650 3925
 AR Path="/5EC321D9/5F015AB1" Ref="C?"  Part="1" 
@@ -56,7 +56,7 @@ F 9 "35V" H 6742 3789 30  0000 L CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish:CAP_10uF_35V_X5R_0805 C?
+L Pufferfish-Power-MCU-rescue:CAP_10uF_35V_X5R_0805-Pufferfish C?
 U 1 1 5F015ABD
 P 6950 3925
 AR Path="/5EC321D9/5F015ABD" Ref="C?"  Part="1" 
@@ -75,7 +75,7 @@ F 9 "35V" H 7042 3789 30  0000 L CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish:CAP_100nF_50V_X7R_0402 C?
+L Pufferfish-Power-MCU-rescue:CAP_100nF_50V_X7R_0402-Pufferfish C?
 U 1 1 5F015AC9
 P 6300 3925
 AR Path="/5EC321D9/5F015AC9" Ref="C?"  Part="1" 
@@ -109,7 +109,7 @@ Connection ~ 6950 4125
 Wire Wire Line
 	6300 4025 6300 4125
 $Comp
-L Pufferfish:TVS_15V_SOD123FL-2 D2
+L Pufferfish-Power-MCU-rescue:TVS_15V_SOD123FL-2-Pufferfish D2
 U 1 1 5F01B446
 P 5000 4025
 F 0 "D2" V 4813 4104 50  0000 L CNN
@@ -155,7 +155,7 @@ Wire Wire Line
 Wire Wire Line
 	7300 3625 6950 3625
 $Comp
-L Pufferfish:CAP_AE_SMD_220uF_25V_8mm C?
+L Pufferfish-Power-MCU-rescue:CAP_AE_SMD_220uF_25V_8mm-Pufferfish C?
 U 1 1 5F03C74F
 P 7300 2500
 AR Path="/5EC321D9/5F03C74F" Ref="C?"  Part="1" 
@@ -166,7 +166,7 @@ F 2 "Capacitor_SMD:CP_Elec_10x7.9" H 7300 2500 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1184.pdf" H 7300 2500 50  0001 C CNN
 F 4 "Panasonic" H 7300 2500 50  0001 C CNN "MFG"
 F 5 "EEE-FP1E221AP" H 7300 2500 50  0001 C CNN "MPN"
-F 6 "25V" H 7388 2546 50  0000 L CNN "Voltage"
+F 6 "35V" H 7388 2546 50  0000 L CNN "Voltage"
 F 7 "20%" H 7388 2455 50  0000 L CNN "Tolerance"
 F 8 "220uF" H 7388 2364 50  0000 L CNN "Capacitance"
 	1    7300 2500
@@ -177,7 +177,7 @@ Wire Wire Line
 Wire Wire Line
 	7300 2600 7300 2700
 $Comp
-L Pufferfish:CAP_10uF_35V_X5R_0805 C?
+L Pufferfish-Power-MCU-rescue:CAP_10uF_35V_X5R_0805-Pufferfish C?
 U 1 1 5F03C75D
 P 6650 2500
 AR Path="/5EC321D9/5F03C75D" Ref="C?"  Part="1" 
@@ -196,7 +196,7 @@ F 9 "35V" H 6742 2364 30  0000 L CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish:CAP_10uF_35V_X5R_0805 C?
+L Pufferfish-Power-MCU-rescue:CAP_10uF_35V_X5R_0805-Pufferfish C?
 U 1 1 5F03C769
 P 6950 2500
 AR Path="/5EC321D9/5F03C769" Ref="C?"  Part="1" 
@@ -215,7 +215,7 @@ F 9 "35V" H 7042 2364 30  0000 L CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish:CAP_100nF_50V_X7R_0402 C?
+L Pufferfish-Power-MCU-rescue:CAP_100nF_50V_X7R_0402-Pufferfish C?
 U 1 1 5F03C775
 P 6300 2500
 AR Path="/5EC321D9/5F03C775" Ref="C?"  Part="1" 
@@ -310,7 +310,7 @@ From SLA Battery
 Text Notes 2750 2350 0    79   Italic 16
 From Primary Supply
 $Comp
-L Pufferfish:TP_TH_KEYSTONE_5010 TP?
+L Pufferfish-Power-MCU-rescue:TP_TH_KEYSTONE_5010-Pufferfish TP?
 U 1 1 5EFBCD4C
 P 8200 2150
 AR Path="/5EEC5CE7/5EFBCD4C" Ref="TP?"  Part="1" 
@@ -360,7 +360,7 @@ $EndComp
 Wire Wire Line
 	7800 3575 7300 3575
 $Comp
-L Pufferfish:TP_TH_KEYSTONE_5010 TP?
+L Pufferfish-Power-MCU-rescue:TP_TH_KEYSTONE_5010-Pufferfish TP?
 U 1 1 5EFC6CBC
 P 8200 3575
 AR Path="/5EEC5CE7/5EFC6CBC" Ref="TP?"  Part="1" 
@@ -381,7 +381,7 @@ Connection ~ 5000 3625
 Wire Wire Line
 	5000 3625 6300 3625
 $Comp
-L Pufferfish:VBAT-IN-12V #PWR037
+L Pufferfish-Power-MCU-rescue:VBAT-IN-12V-Pufferfish #PWR037
 U 1 1 5F83B281
 P 7300 3525
 F 0 "#PWR037" H 7300 3375 50  0001 C CNN
@@ -392,7 +392,7 @@ F 3 "" H 7300 3525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish:VIN-PRIMARY-24V0 #PWR034
+L Pufferfish-Power-MCU-rescue:VIN-PRIMARY-24V0-Pufferfish #PWR034
 U 1 1 5F83F63F
 P 7300 2100
 F 0 "#PWR034" H 7300 1950 50  0001 C CNN
@@ -405,7 +405,7 @@ $EndComp
 Wire Wire Line
 	4450 2200 5125 2200
 $Comp
-L Pufferfish:TVS_15V_SOD123FL-2 D1
+L Pufferfish-Power-MCU-rescue:TVS_15V_SOD123FL-2-Pufferfish D1
 U 1 1 5FA757B3
 P 5125 2450
 F 0 "D1" V 4938 2529 50  0000 L CNN
@@ -435,7 +435,7 @@ F 3 "" H 5125 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 172287-1202:1722871202 J5
+L Pufferfish-Power-MCU-rescue:1722871202-172287-1202 J5
 U 1 1 5FAA1945
 P 4650 1850
 F 0 "J5" H 4308 1765 50  0000 C CNN
@@ -450,7 +450,7 @@ Wire Wire Line
 Wire Wire Line
 	4575 2400 4575 2425
 $Comp
-L 172287-1202:1722871202 J6
+L Pufferfish-Power-MCU-rescue:1722871202-172287-1202 J6
 U 1 1 5FAA73C5
 P 4700 3275
 F 0 "J6" H 4358 3190 50  0000 C CNN
@@ -465,7 +465,7 @@ Wire Wire Line
 Wire Wire Line
 	4575 3825 4575 3975
 $Comp
-L 172287-1202:1722871202 J4
+L Pufferfish-Power-MCU-rescue:1722871202-172287-1202 J4
 U 1 1 5FAB1918
 P 1775 2325
 F 0 "J4" H 1433 2240 50  0000 C CNN
@@ -492,8 +492,6 @@ F 3 "" H 1575 2875 50  0001 C CNN
 	1    1575 2875
 	1    0    0    -1  
 $EndComp
-Text GLabel 7825 3575 1    50   Input ~ 10
-INTCON_VBAT
 Text GLabel 7750 2150 1    50   Input ~ 10
 INTCON_WALL
 Wire Notes Line
@@ -504,4 +502,6 @@ Wire Notes Line
 	2450 3150 2450 2075
 Wire Notes Line
 	750  2075 2450 2075
+Text Notes 1500 1600 0    50   ~ 10
+TODO: crosscheck the main input and SLA battery terminals in LTC4015 design\n
 $EndSCHEMATC

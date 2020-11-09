@@ -31,7 +31,7 @@ LTC4421-PWR-nVALID1
 Text GLabel 8750 2600 2    50   Input ~ 0
 LTC4421-PWR-nCH1
 $Comp
-L Pufferfish:RES_330R_0603_SMD R?
+L Pufferfish-Power-MCU-rescue:RES_330R_0603_SMD-Pufferfish R?
 U 1 1 5EEC9464
 P 8050 3450
 AR Path="/5EC45070/5EEC9464" Ref="R?"  Part="1" 
@@ -52,7 +52,7 @@ $EndComp
 Wire Wire Line
 	8050 3150 8050 3350
 $Comp
-L Pufferfish:LED_SMD_0603_BLUE D12
+L Pufferfish-Power-MCU-rescue:LED_SMD_0603_BLUE-Pufferfish D12
 U 1 1 5EED0B68
 P 8050 3000
 F 0 "D12" V 8089 2882 50  0000 R CNN
@@ -68,7 +68,7 @@ $EndComp
 Wire Wire Line
 	8750 2600 8550 2600
 $Comp
-L Pufferfish:RES_330R_0603_SMD R?
+L Pufferfish-Power-MCU-rescue:RES_330R_0603_SMD-Pufferfish R?
 U 1 1 5EEE0FA9
 P 5400 3400
 AR Path="/5EC45070/5EEE0FA9" Ref="R?"  Part="1" 
@@ -91,7 +91,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 2550 5850 2550
 $Comp
-L Pufferfish:LED_SMD_0603_GREEN D10
+L Pufferfish-Power-MCU-rescue:LED_SMD_0603_GREEN-Pufferfish D10
 U 1 1 5EEE446A
 P 5400 2950
 F 0 "D10" V 5439 2832 50  0000 R CNN
@@ -105,7 +105,7 @@ F 6 "Green" V 5348 2832 50  0000 R CNN "Color"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Pufferfish:LED_SMD_0603_RED D7
+L Pufferfish-Power-MCU-rescue:LED_SMD_0603_RED-Pufferfish D7
 U 1 1 5EEE65B3
 P 2800 3000
 F 0 "D7" V 2839 2882 50  0000 R CNN
@@ -134,7 +134,7 @@ F 3 "" H 2800 3600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Pufferfish:RES_330R_0603_SMD R?
+L Pufferfish-Power-MCU-rescue:RES_330R_0603_SMD-Pufferfish R?
 U 1 1 5EEF243E
 P 2800 3450
 AR Path="/5EC45070/5EEF243E" Ref="R?"  Part="1" 
@@ -157,7 +157,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 2600 3350 2600
 $Comp
-L Pufferfish:VSYS-3V3 #PWR?
+L Pufferfish-Power-MCU-rescue:VSYS-3V3-Pufferfish #PWR?
 U 1 1 5EEF847C
 P 2800 2350
 AR Path="/5EDA3ECC/5EEF847C" Ref="#PWR?"  Part="1" 
@@ -177,7 +177,7 @@ From LTC4421
 Text Notes 3950 2500 0    50   Italic 10
 From LTC4421
 $Comp
-L Pufferfish:RES_330R_0603_SMD R?
+L Pufferfish-Power-MCU-rescue:RES_330R_0603_SMD-Pufferfish R?
 U 1 1 5EF02565
 P 8050 5900
 AR Path="/5EC45070/5EF02565" Ref="R?"  Part="1" 
@@ -198,7 +198,7 @@ $EndComp
 Wire Wire Line
 	8050 5600 8050 5800
 $Comp
-L Pufferfish:LED_SMD_0603_BLUE D11
+L Pufferfish-Power-MCU-rescue:LED_SMD_0603_BLUE-Pufferfish D11
 U 1 1 5EF02577
 P 8050 5450
 F 0 "D11" V 8089 5332 50  0000 R CNN
@@ -214,7 +214,7 @@ $EndComp
 Wire Wire Line
 	8750 5050 8500 5050
 $Comp
-L Pufferfish:RES_330R_0603_SMD R?
+L Pufferfish-Power-MCU-rescue:RES_330R_0603_SMD-Pufferfish R?
 U 1 1 5EF07096
 P 5400 5900
 AR Path="/5EC45070/5EF07096" Ref="R?"  Part="1" 
@@ -237,7 +237,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 5050 5850 5050
 $Comp
-L Pufferfish:LED_SMD_0603_GREEN D9
+L Pufferfish-Power-MCU-rescue:LED_SMD_0603_GREEN-Pufferfish D9
 U 1 1 5EF070A9
 P 5400 5450
 F 0 "D9" V 5439 5332 50  0000 R CNN
@@ -251,7 +251,7 @@ F 6 "Green" V 5348 5332 50  0000 R CNN "Color"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Pufferfish:LED_SMD_0603_RED D8
+L Pufferfish-Power-MCU-rescue:LED_SMD_0603_RED-Pufferfish D8
 U 1 1 5EF0CDED
 P 2850 5450
 F 0 "D8" V 2889 5332 50  0000 R CNN
@@ -265,7 +265,7 @@ F 6 "Red" V 2798 5332 50  0000 R CNN "Color"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Pufferfish:RES_330R_0603_SMD R?
+L Pufferfish-Power-MCU-rescue:RES_330R_0603_SMD-Pufferfish R?
 U 1 1 5EF0CE05
 P 2850 5900
 AR Path="/5EC45070/5EF0CE05" Ref="R?"  Part="1" 
@@ -294,7 +294,7 @@ From LTC4421
 Text Notes 4900 1200 0    118  ~ 0
 LED's and Debug
 $Comp
-L Pufferfish:TP_SMT_KEYSTONE_5019 TP8
+L Pufferfish-Power-MCU-rescue:TP_SMT_KEYSTONE_5019-Pufferfish TP8
 U 1 1 5EFB0C4E
 P 1450 6600
 F 0 "TP8" V 1700 6550 50  0000 L CNN
@@ -324,7 +324,7 @@ $EndComp
 Wire Wire Line
 	1450 7000 1450 7050
 $Comp
-L Pufferfish:TP_SMT_KEYSTONE_5019 TP7
+L Pufferfish-Power-MCU-rescue:TP_SMT_KEYSTONE_5019-Pufferfish TP7
 U 1 1 5EFB6688
 P 1150 6600
 F 0 "TP7" V 1400 6550 50  0000 L CNN
@@ -356,7 +356,7 @@ Wire Wire Line
 Text Notes 900  6250 0    50   Italic 10
 Ground Test Points
 $Comp
-L Pufferfish:TP_TH_KEYSTONE_5126 TP14
+L Pufferfish-Power-MCU-rescue:TP_TH_KEYSTONE_5126-Pufferfish TP14
 U 1 1 5EFBBADE
 P 8900 4650
 F 0 "TP14" H 9030 4696 50  0000 L CNN
@@ -372,7 +372,7 @@ Wire Wire Line
 	8500 4650 8500 5050
 Connection ~ 8500 5050
 $Comp
-L Pufferfish:TP_TH_KEYSTONE_5126 TP13
+L Pufferfish-Power-MCU-rescue:TP_TH_KEYSTONE_5126-Pufferfish TP13
 U 1 1 5EFFFFA8
 P 8950 2200
 F 0 "TP13" H 9080 2246 50  0000 L CNN
@@ -388,7 +388,7 @@ Wire Wire Line
 	8550 2200 8550 2600
 Connection ~ 8550 2600
 $Comp
-L Pufferfish:TP_TH_KEYSTONE_5126 TP12
+L Pufferfish-Power-MCU-rescue:TP_TH_KEYSTONE_5126-Pufferfish TP12
 U 1 1 5F002CFA
 P 6250 2150
 F 0 "TP12" H 6380 2196 50  0000 L CNN
@@ -404,7 +404,7 @@ Wire Wire Line
 	5850 2150 5850 2550
 Connection ~ 5850 2550
 $Comp
-L Pufferfish:TP_TH_KEYSTONE_5126 TP10
+L Pufferfish-Power-MCU-rescue:TP_TH_KEYSTONE_5126-Pufferfish TP10
 U 1 1 5F007898
 P 3750 2200
 F 0 "TP10" H 3880 2246 50  0000 L CNN
@@ -422,7 +422,7 @@ Connection ~ 3350 2600
 Wire Wire Line
 	3350 2600 3100 2600
 $Comp
-L Pufferfish:TP_TH_KEYSTONE_5126 TP11
+L Pufferfish-Power-MCU-rescue:TP_TH_KEYSTONE_5126-Pufferfish TP11
 U 1 1 5F00B868
 P 6250 4650
 F 0 "TP11" H 6380 4696 50  0000 L CNN
@@ -438,7 +438,7 @@ Wire Wire Line
 	5850 4650 5850 5050
 Connection ~ 5850 5050
 $Comp
-L Pufferfish:TP_TH_KEYSTONE_5126 TP9
+L Pufferfish-Power-MCU-rescue:TP_TH_KEYSTONE_5126-Pufferfish TP9
 U 1 1 5F00F50A
 P 3750 4650
 F 0 "TP9" H 3880 4696 50  0000 L CNN
@@ -471,7 +471,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 2850 2800 2800
 $Comp
-L Pufferfish:VSYS-3V3 #PWR?
+L Pufferfish-Power-MCU-rescue:VSYS-3V3-Pufferfish #PWR?
 U 1 1 5F0982F2
 P 5400 2300
 AR Path="/5EDA3ECC/5F0982F2" Ref="#PWR?"  Part="1" 
@@ -502,7 +502,7 @@ $EndComp
 Wire Wire Line
 	5400 2800 5400 2750
 $Comp
-L Pufferfish:VSYS-3V3 #PWR?
+L Pufferfish-Power-MCU-rescue:VSYS-3V3-Pufferfish #PWR?
 U 1 1 5F099BD1
 P 8050 2350
 AR Path="/5EDA3ECC/5F099BD1" Ref="#PWR?"  Part="1" 
@@ -533,7 +533,7 @@ $EndComp
 Wire Wire Line
 	8050 2850 8050 2800
 $Comp
-L Pufferfish:VSYS-3V3 #PWR?
+L Pufferfish-Power-MCU-rescue:VSYS-3V3-Pufferfish #PWR?
 U 1 1 5F09B30C
 P 8050 4800
 AR Path="/5EDA3ECC/5F09B30C" Ref="#PWR?"  Part="1" 
@@ -564,7 +564,7 @@ $EndComp
 Wire Wire Line
 	8050 5300 8050 5250
 $Comp
-L Pufferfish:VSYS-3V3 #PWR?
+L Pufferfish-Power-MCU-rescue:VSYS-3V3-Pufferfish #PWR?
 U 1 1 5F09C9F3
 P 5400 4800
 AR Path="/5EDA3ECC/5F09C9F3" Ref="#PWR?"  Part="1" 
@@ -595,7 +595,7 @@ $EndComp
 Wire Wire Line
 	5400 5300 5400 5250
 $Comp
-L Pufferfish:VSYS-3V3 #PWR?
+L Pufferfish-Power-MCU-rescue:VSYS-3V3-Pufferfish #PWR?
 U 1 1 5F09E55C
 P 2850 4800
 AR Path="/5EDA3ECC/5F09E55C" Ref="#PWR?"  Part="1" 
