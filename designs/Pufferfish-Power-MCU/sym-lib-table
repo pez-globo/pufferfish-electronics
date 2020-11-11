@@ -9,6 +9,6 @@
   (lib (name Pufferfish-Power)(type Legacy)(uri C:/Users/NIC/github/pufferfish-electronics/library/symbols/Pufferfish.lib)(options "")(descr ""))
   (lib (name TXS0104E)(type Legacy)(uri ${KICAD_LOCAL}/library/symbols/TXS0104ERGYR.lib)(options "")(descr ""))
   (lib (name SweEmb)(type Legacy)(uri ${KICAD_LOCAL}/library/symbols/SwedishEmbedded.lib)(options "")(descr ""))
-  (lib (name Pufferfish-Power-MCU-rescue)(type Legacy)(uri ${KIPRJMOD}/Pufferfish-Power-MCU-rescue.lib)(options "")(descr ""))
+  (lib (name Pufferfish-Power-MCU-rescue)(type Legacy)(uri C:/Users/NIC/github/pufferfish-electronics/library/symbols/Pufferfish.lib)(options "")(descr ""))
   (lib (name TXS0104ERGYR)(type Legacy)(uri ${KICAD_LOCAL}/library/symbols/Logic_LevelTranslator.lib)(options "")(descr ""))
 )

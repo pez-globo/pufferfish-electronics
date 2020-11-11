@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Pufferfish-Power-MCU-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -128,14 +127,14 @@ Text Notes 5200 3275 0    79   ~ 16
 Output Interface
 Text GLabel 7400 4275 0    50   Input ~ 0
 LTC2955_PGD
-Text GLabel 7400 4175 0    50   Input ~ 0
+Text GLabel 7400 4175 0    50   Output ~ 0
 LTC2955_nKILL
 Text GLabel 7400 4075 0    50   Input ~ 0
 LTC2955_SHDN_INT
 Text GLabel 7400 3975 0    50   Input ~ 0
 LTC7812_PG
 $Comp
-L Pufferfish-Power-MCU-rescue:172316-1108-172316-1108 J1
+L 172316-1108:172316-1108 J1
 U 1 1 5F9A92F5
 P 4475 3750
 F 0 "J1" H 4705 3746 50  0000 L CNN
@@ -161,7 +160,7 @@ F 3 "" H 3750 4025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish-Power-MCU-rescue:VSYS-3V3-Pufferfish #PWR0101
+L Pufferfish:VSYS-3V3 #PWR0101
 U 1 1 5F9B5FE0
 P 5425 3800
 F 0 "#PWR0101" H 5425 3650 50  0001 C CNN
@@ -172,7 +171,7 @@ F 3 "" H 5425 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish-Power-MCU-rescue:VSYS-5V0-Pufferfish #PWR0106
+L Pufferfish:VSYS-5V0 #PWR0106
 U 1 1 5F9B6594
 P 5725 3800
 F 0 "#PWR0106" H 5725 3650 50  0001 C CNN
@@ -183,7 +182,7 @@ F 3 "" H 5725 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish-Power-MCU-rescue:VSYS-12V0-Pufferfish #PWR0108
+L Pufferfish:VSYS-12V0 #PWR0108
 U 1 1 5F9B6B0B
 P 5925 3800
 F 0 "#PWR0108" H 5925 3650 50  0001 C CNN
@@ -194,7 +193,7 @@ F 3 "" H 5925 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish-Power-MCU-rescue:VIN-PRIMARY-24V0-Pufferfish #PWR0114
+L Pufferfish-Power-MCU-rescue:VIN-PRIMARY-24V0 #PWR0114
 U 1 1 5F9B750F
 P 6175 3775
 F 0 "#PWR0114" H 6175 3625 50  0001 C CNN
@@ -205,7 +204,7 @@ F 3 "" H 6175 3775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish-Power-MCU-rescue:VSYS-3V3-Pufferfish #PWR0100
+L Pufferfish:VSYS-3V3 #PWR0100
 U 1 1 5F9BF271
 P 4075 3450
 F 0 "#PWR0100" H 4075 3300 50  0001 C CNN
@@ -216,7 +215,7 @@ F 3 "" H 4075 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish-Power-MCU-rescue:VSYS-5V0-Pufferfish #PWR099
+L Pufferfish:VSYS-5V0 #PWR099
 U 1 1 5F9BF5E7
 P 3975 3550
 F 0 "#PWR099" H 3975 3400 50  0001 C CNN
@@ -227,7 +226,7 @@ F 3 "" H 3975 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish-Power-MCU-rescue:VSYS-12V0-Pufferfish #PWR098
+L Pufferfish:VSYS-12V0 #PWR098
 U 1 1 5F9BFCE0
 P 3925 3625
 F 0 "#PWR098" H 3925 3475 50  0001 C CNN
@@ -238,7 +237,7 @@ F 3 "" H 3925 3625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish-Power-MCU-rescue:VIN-PRIMARY-24V0-Pufferfish #PWR096
+L Pufferfish-Power-MCU-rescue:VIN-PRIMARY-24V0 #PWR096
 U 1 1 5F9C05A8
 P 3725 3700
 F 0 "#PWR096" H 3725 3550 50  0001 C CNN
@@ -249,7 +248,7 @@ F 3 "" H 3725 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish-Power-MCU-rescue:VSYS-3V3-Pufferfish #PWR0116
+L Pufferfish:VSYS-3V3 #PWR0116
 U 1 1 5F9C2025
 P 7400 3475
 F 0 "#PWR0116" H 7400 3325 50  0001 C CNN
@@ -291,7 +290,7 @@ Connection ~ 4075 4050
 Text Notes 7100 4750 0    79   ~ 16
 For STM32\n
 $Comp
-L Pufferish_Power:RES_SMD_0603 R82
+L Pufferfish:RES_SMD_0603 R82
 U 1 1 5FD24611
 P 7725 3575
 F 0 "R82" V 7520 3575 50  0000 C CNN
@@ -304,7 +303,7 @@ F 5 "0Ω" V 7675 3675 50  0000 C CNN "Resistance"
 	0    1    1    0   
 $EndComp
 $Comp
-L Pufferish_Power:RES_SMD_0603 R83
+L Pufferfish:RES_SMD_0603 R83
 U 1 1 5FD25294
 P 7725 3675
 F 0 "R83" V 7520 3675 50  0000 C CNN
@@ -317,7 +316,7 @@ F 5 "0Ω" V 7675 3775 50  0000 C CNN "Resistance"
 	0    1    1    0   
 $EndComp
 $Comp
-L Pufferish_Power:RES_SMD_0603 R84
+L Pufferfish:RES_SMD_0603 R84
 U 1 1 5FD255ED
 P 7725 3775
 F 0 "R84" V 7520 3775 50  0000 C CNN
@@ -330,7 +329,7 @@ F 5 "0Ω" V 7675 3875 50  0000 C CNN "Resistance"
 	0    1    1    0   
 $EndComp
 $Comp
-L Pufferish_Power:RES_SMD_0603 R85
+L Pufferfish:RES_SMD_0603 R85
 U 1 1 5FD25918
 P 7725 3875
 F 0 "R85" V 7520 3875 50  0000 C CNN
@@ -343,7 +342,7 @@ F 5 "0Ω" V 7675 3975 50  0000 C CNN "Resistance"
 	0    1    1    0   
 $EndComp
 $Comp
-L Pufferish_Power:RES_SMD_0603 R86
+L Pufferfish:RES_SMD_0603 R86
 U 1 1 5FD25BC9
 P 7725 3975
 F 0 "R86" V 7520 3975 50  0000 C CNN
@@ -356,7 +355,7 @@ F 5 "0Ω" V 7675 4075 50  0000 C CNN "Resistance"
 	0    1    1    0   
 $EndComp
 $Comp
-L Pufferish_Power:RES_SMD_0603 R87
+L Pufferfish:RES_SMD_0603 R87
 U 1 1 5FD25EEF
 P 7725 4075
 F 0 "R87" V 7520 4075 50  0000 C CNN
@@ -369,7 +368,7 @@ F 5 "0Ω" V 7675 4175 50  0000 C CNN "Resistance"
 	0    1    1    0   
 $EndComp
 $Comp
-L Pufferish_Power:RES_SMD_0603 R88
+L Pufferfish:RES_SMD_0603 R88
 U 1 1 5FD261D2
 P 7725 4175
 F 0 "R88" V 7520 4175 50  0000 C CNN
@@ -382,7 +381,7 @@ F 5 "0Ω" V 7675 4275 50  0000 C CNN "Resistance"
 	0    1    1    0   
 $EndComp
 $Comp
-L Pufferish_Power:RES_SMD_0603 R89
+L Pufferfish:RES_SMD_0603 R89
 U 1 1 5FD2650E
 P 7725 4275
 F 0 "R89" V 7520 4275 50  0000 C CNN

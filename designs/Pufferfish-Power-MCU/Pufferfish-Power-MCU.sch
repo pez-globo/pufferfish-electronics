@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Pufferfish-Power-MCU-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -93,7 +92,7 @@ F 3 "~" H 1550 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish-Power-MCU-rescue:STANDOFF_ELECTRICAL-Pufferfish H1
+L Pufferfish:STANDOFF_ELECTRICAL H1
 U 1 1 5F005FB0
 P 3050 6600
 F 0 "H1" H 3107 6967 50  0000 C CNN
@@ -104,7 +103,7 @@ F 3 "" H 3050 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish-Power-MCU-rescue:STANDOFF_ELECTRICAL-Pufferfish H3
+L Pufferfish:STANDOFF_ELECTRICAL H3
 U 1 1 5F0066EF
 P 4050 6600
 F 0 "H3" H 4107 6967 50  0000 C CNN
@@ -115,7 +114,7 @@ F 3 "" H 4050 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish-Power-MCU-rescue:STANDOFF_ELECTRICAL-Pufferfish H2
+L Pufferfish:STANDOFF_ELECTRICAL H2
 U 1 1 5F006AFB
 P 3050 7300
 F 0 "H2" H 3107 7667 50  0000 C CNN
@@ -126,7 +125,7 @@ F 3 "" H 3050 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish-Power-MCU-rescue:STANDOFF_ELECTRICAL-Pufferfish H4
+L Pufferfish:STANDOFF_ELECTRICAL H4
 U 1 1 5F00702E
 P 4050 7300
 F 0 "H4" H 4107 7667 50  0000 C CNN
@@ -137,7 +136,7 @@ F 3 "" H 4050 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish-Power-MCU-rescue:STANDOFF_ELECTRICAL-Pufferfish H5
+L Pufferfish:STANDOFF_ELECTRICAL H5
 U 1 1 5F008ABE
 P 5000 6600
 F 0 "H5" H 5057 6967 50  0000 C CNN
@@ -148,7 +147,7 @@ F 3 "" H 5000 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish-Power-MCU-rescue:STANDOFF_ELECTRICAL-Pufferfish H6
+L Pufferfish:STANDOFF_ELECTRICAL H6
 U 1 1 5F008AC4
 P 5000 7300
 F 0 "H6" H 5057 7667 50  0000 C CNN
@@ -283,7 +282,7 @@ $EndSheet
 Text Notes 6850 3825 0    118  Italic 0
 LEDs and Debug
 $Comp
-L Pufferfish-Power-MCU-rescue:LOGO_BRUNO2-Pufferfish L2
+L Pufferfish:LOGO_BRUNO2 L2
 U 1 1 5FA0C9CE
 P 1950 1750
 F 0 "L2" H 1950 1750 50  0001 C CNN

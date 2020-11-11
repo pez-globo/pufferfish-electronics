@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Pufferfish-Power-MCU-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -39,7 +38,7 @@ F 3 "" H 3050 3175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish-Power-MCU-rescue:RES_SMD_0603-Pufferfish R24
+L Pufferfish:RES_SMD_0603 R24
 U 1 1 5F956DA0
 P 2950 2925
 F 0 "R24" V 2754 2925 50  0000 C CNN
@@ -50,7 +49,7 @@ F 3 "~" H 2950 2925 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Pufferfish-Power-MCU-rescue:CAP_10nF_50V_X7R_0402-Pufferfish C26
+L Pufferfish:CAP_10nF_50V_X7R_0402 C26
 U 1 1 5F958A4A
 P 3050 3075
 F 0 "C26" H 3142 3121 50  0000 L CNN
@@ -82,7 +81,7 @@ Wire Wire Line
 Text GLabel 2250 3325 2    50   Input ~ 0
 V_LTC4015_OUT
 $Comp
-L Pufferish_Power:CAP_SMD_0603 C25
+L Pufferfish:CAP_SMD_0603 C25
 U 1 1 5F960C42
 P 3000 3700
 F 0 "C25" H 3092 3746 50  0000 L CNN
@@ -104,7 +103,7 @@ F 3 "" H 3000 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish-Power-MCU-rescue:RES_SMD_0603-Pufferfish R25
+L Pufferfish:RES_SMD_0603 R25
 U 1 1 00000000
 P 3300 3450
 F 0 "R25" H 3475 3400 50  0000 R CNN
@@ -115,7 +114,7 @@ F 3 "~" H 3300 3450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Pufferfish-Power-MCU-rescue:RES_SMD_0603-Pufferfish R26
+L Pufferfish:RES_SMD_0603 R26
 U 1 1 5F96337F
 P 3300 3725
 F 0 "R26" H 3241 3679 50  0000 R CNN
@@ -153,7 +152,7 @@ LTC2955_PGD
 Text Notes 750  7500 0    50   ~ 0
 All resistance values in Ohms unless otherwise mentioned. \nAll capacitance values in Farads unless otherwise mentioned. \nAll inductance values in Henry unless otherwise mentioned. \nUnits: mm
 $Comp
-L Pufferfish-Power-MCU-rescue:LTC2955-1(DFN)-LT U?
+L LT:LTC2955-1(DFN) U?
 U 1 1 5F99198E
 P 4200 3275
 AR Path="/5F99198E" Ref="U?"  Part="1" 
@@ -197,7 +196,7 @@ Wire Notes Line
 Wire Notes Line
 	3575 3125 3575 4375
 $Comp
-L Pufferfish-Power-MCU-rescue:Molex_MicroFit_2P-Pufferfish J?
+L Pufferfish:Molex_MicroFit_2P J?
 U 1 1 5FA0D717
 P 2050 3325
 AR Path="/5EC45070/5FA0D717" Ref="J?"  Part="1" 
@@ -227,7 +226,7 @@ Auto Cut off (ON goes low) < 9V.
 Text GLabel 3650 3425 3    50   Input ~ 0
 V_LTC4015_OUT
 $Comp
-L Pufferfish-Power-MCU-rescue:RES_SMD_0603-Pufferfish R27
+L Pufferfish:RES_SMD_0603 R27
 U 1 1 5FA19FAC
 P 3650 3325
 F 0 "R27" H 3591 3279 50  0000 R CNN
@@ -251,7 +250,7 @@ F 3 "~" H 7775 3750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Pufferfish-Power-MCU-rescue:VSYS-3V3-Pufferfish #PWR044
+L Pufferfish:VSYS-3V3 #PWR044
 U 1 1 5FA99F91
 P 7775 3500
 F 0 "#PWR044" H 7775 3350 50  0001 C CNN
@@ -273,7 +272,7 @@ F 3 "" H 7775 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish-Power-MCU-rescue:VSYS-3V3-Pufferfish #PWR042
+L Pufferfish:VSYS-3V3 #PWR042
 U 1 1 5FA9E954
 P 6550 2875
 F 0 "#PWR042" H 6550 2725 50  0001 C CNN
@@ -284,7 +283,7 @@ F 3 "" H 6550 2875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish-Power-MCU-rescue:VSYS-5V0-Pufferfish #PWR043
+L Pufferfish:VSYS-5V0 #PWR043
 U 1 1 5FAA5420
 P 6750 2875
 F 0 "#PWR043" H 6750 2725 50  0001 C CNN
@@ -399,7 +398,7 @@ KILL_LVL
 Text Label 9225 4025 0    50   ~ 0
 PG_LVL
 $Comp
-L Pufferfish-Power-MCU-rescue:VSYS-5V0-Pufferfish #PWR047
+L Pufferfish:VSYS-5V0 #PWR047
 U 1 1 5FADB98B
 P 8900 3525
 F 0 "#PWR047" H 8900 3375 50  0001 C CNN
@@ -410,7 +409,7 @@ F 3 "" H 8900 3525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish-Power-MCU-rescue:RES_SMD_0603-Pufferfish R42
+L Pufferfish:RES_SMD_0603 R42
 U 1 1 5FADFDB0
 P 9125 3625
 F 0 "R42" V 9025 3625 50  0000 C CNN
@@ -440,9 +439,8 @@ Text GLabel 4200 2450 2    50   Input ~ 0
 LTC7812_RUN
 Wire Wire Line
 	4200 2625 4200 2450
-Connection ~ 4350 3625
 $Comp
-L Pufferfish-Power-MCU-rescue:TP_TH_KEYSTONE_5010-libs TP4
+L Pufferfish-Power-MCU-rescue:TP_TH_KEYSTONE_5010 TP4
 U 1 1 5FB153B6
 P 4200 2050
 F 0 "TP4" V 4089 1920 50  0000 R CNN
@@ -455,7 +453,7 @@ F 5 "Keystone Electronics" H 4200 2050 50  0001 C CNN "MFG"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Pufferfish-Power-MCU-rescue:TP_TH_KEYSTONE_5010-libs TP16
+L Pufferfish-Power-MCU-rescue:TP_TH_KEYSTONE_5010 TP16
 U 1 1 5FB17615
 P 9850 3425
 F 0 "TP16" V 9739 3295 50  0000 R CNN
@@ -470,7 +468,7 @@ $EndComp
 Wire Wire Line
 	9225 3825 9850 3825
 $Comp
-L Pufferfish-Power-MCU-rescue:TP_TH_KEYSTONE_5010-libs TP17
+L Pufferfish-Power-MCU-rescue:TP_TH_KEYSTONE_5010 TP17
 U 1 1 5FB1C2EE
 P 10000 3625
 F 0 "TP17" V 9889 3495 50  0000 R CNN
@@ -483,7 +481,7 @@ F 5 "Keystone Electronics" H 10000 3625 50  0001 C CNN "MFG"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Pufferfish-Power-MCU-rescue:TP_TH_KEYSTONE_5010-libs TP15
+L Pufferfish-Power-MCU-rescue:TP_TH_KEYSTONE_5010 TP15
 U 1 1 5FB1D33D
 P 9725 2950
 F 0 "TP15" V 9614 2820 50  0000 R CNN
@@ -515,7 +513,7 @@ F 3 "" H 6550 4525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish-Power-MCU-rescue:RES_SMD_0603-Pufferfish R43
+L Pufferfish:RES_SMD_0603 R43
 U 1 1 5FAAC653
 P 9125 3825
 F 0 "R43" V 9025 3825 50  0000 C CNN
@@ -526,7 +524,7 @@ F 3 "~" H 9125 3825 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Pufferfish-Power-MCU-rescue:RES_SMD_0603-Pufferfish R44
+L Pufferfish:RES_SMD_0603 R44
 U 1 1 5FAAC9C4
 P 9125 4025
 F 0 "R44" V 9025 4025 50  0000 C CNN
@@ -542,5 +540,8 @@ Wire Wire Line
 	6550 4525 6750 4525
 Wire Wire Line
 	6750 4525 6750 4275
-Connection ~ 6550 4525
+Text GLabel 7050 3625 2    50   Input ~ 0
+PGOOD_COMB
+Text GLabel 6250 3625 0    50   Output ~ 0
+LTC7812_PG
 $EndSCHEMATC
