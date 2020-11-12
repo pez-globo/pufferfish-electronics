@@ -503,5 +503,5 @@ Wire Notes Line
 Wire Notes Line
 	750  2075 2450 2075
 Text Notes 1500 1600 0    50   ~ 10
-TODO: crosscheck the main input and SLA battery terminals in LTC4015 design\n
+TODO: crosscheck the main input and SLA battery terminals in LTC4015 design\nVIN Primary 24V is the  DC wall wart supply and is interconnected b/w 2 power boards. 
 $EndSCHEMATC
