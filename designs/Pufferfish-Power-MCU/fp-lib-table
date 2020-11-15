@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name Pufferfish)(type KiCad)(uri ${KICAD_LOCAL}/library/footprints/Pufferfish.pretty)(options "")(descr ""))
+  (lib (name Solderpads)(type KiCad)(uri "F:/Dell Precision/Desktop/Jumper.pretty")(options "")(descr ""))
 )
