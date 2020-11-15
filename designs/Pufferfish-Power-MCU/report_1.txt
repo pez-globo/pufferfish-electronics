@@ -1,0 +1,455 @@
+Info: Processing component “R26:/5F97DDCF/5F96337F:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R35:/5EFFFB7B/5EE0A62E:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R34:/5EFFFB7B/5EEE4CEE:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R33:/5EFFFB7B/5EDEACCF:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R32:/5EFFFB7B/5EDA6F94:Pufferfish:RES_SMD_0402”.
+Info: Processing component “R31:/5EFFFB7B/5EE1FC65:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R30:/5EFFFB7B/5EE20A7F:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R29:/5EFFFB7B/5EDCE493:Pufferfish:RES_SMD_0402”.
+Info: Processing component “R28:/5EFFFB7B/5EDCED98:Pufferfish:RES_SMD_0402”.
+Info: Processing component “R27:/5F97DDCF/5FA19FAC:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R36:/5EDA3ECC/5EF3141F:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R25:/5F97DDCF/00000000:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R24:/5F97DDCF/5F956DA0:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R23:/5EC321D9/5EE559F4:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R22:/5EC321D9/5FABE2F7:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R21:/5EC321D9/5EF1E035:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R20:/5EC321D9/5EF1D8D8:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R19:/5EC321D9/5EE3321B:Pufferfish:RES_SMD_0402”.
+Info: Processing component “R18:/5EC321D9/5EE2C952:Pufferfish:RES_SMD_0402”.
+Info: Processing component “R45:/5EC321D9/5FCF9F12:Pufferfish:RES_SMD_0402”.
+Info: Processing component “R53:/5EFFFB7B/5EE53226:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R52:/5F97DEDD/5FCD3AEF:Pufferfish:RES_SMD_1206”.
+Info: Processing component “R51:/5F97DEDD/5FBA3DDA:Pufferfish:RES_SMD_1206”.
+Info: Processing component “R50:/5F97DEDD/5FCCF6A0:Pufferfish:RES_SMD_1206”.
+Info: Processing component “R49:/5F97DEDD/5FBA2F1A:Pufferfish:RES_SMD_1206”.
+Info: Processing component “R48:/5F97DEDD/5FCA2310:Pufferfish:RES_SMD_1206”.
+Info: Processing component “R47:/5F97DEDD/5FC9C904:Pufferfish:RES_SMD_1206”.
+Info: Processing component “R46:/5EC321D9/5FB0ED64:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R17:/5EC321D9/5EE263ED:Pufferfish:RES_SMD_0402”.
+Info: Processing component “R44:/5EEC5CE7/5FBA9F4B:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R43:/5EEC5CE7/5FBA2567:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R42:/5F97DDCF/5FADFDB0:Pufferfish:RES_SMD_1206”.
+Info: Processing component “R41:/5F97DDCF/5FA99673:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R40:/5EDA3ECC/5EF02EAE:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R39:/5EDA3ECC/5EF06C0C:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R38:/5EDA3ECC/5EF6F7DE:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R37:/5EDA3ECC/5EF308C0:Pufferfish:RES_SMD_0603”.
+Info: Processing component “L4:/5F97DEDD/5FC50791:Inductor_SMD:L_Coilcraft_XxL7070”.
+Info: Processing component “Q6:/5F97DEDD/5FC7BBCA:Pufferfish:PG-TDSON-8”.
+Info: Processing component “Q5:/5F97DEDD/5FC52AEF:Pufferfish:PG-TDSON-8”.
+Info: Processing component “Q4:/5EC321D9/5EDA463D:Package_SO:PowerPAK_SO-8_Single”.
+Info: Processing component “Q3:/5EC321D9/5ED94744:Package_SO:PowerPAK_SO-8_Single”.
+Info: Processing component “Q2:/5EC321D9/5ED0E3B6:Package_SO:PowerPAK_SO-8_Single”.
+Info: Processing component “Q1:/5EC321D9/5ED0C096:Package_SO:PowerPAK_SO-8_Single”.
+Info: Processing component “L6:/5F97DEDD/5FC8BA7B:Inductor_SMD:L_Coilcraft_XxL7070”.
+Info: Processing component “L5:/5F97DEDD/5FB15914:Inductor_SMD:L_Coilcraft_XxL7070”.
+Info: Processing component “Q12:/5EFFFB7B/5EE3F132:Package_TO_SOT_SMD:SOT-23”.
+Info: Processing component “L3:/5EC321D9/5FA0CE58:Pufferfish:XAL1010”.
+Info: Processing component “L2:/5FA0C9CE:Pufferfish:LOGO_PUFFERFISH”.
+Info: Processing component “L1:/5EFFFB7B/5EDE38C0:Pufferfish:L_Pulse_PA5001”.
+Info: Processing component “JP15:/5F97DEDD/5FF14158:Pufferfish:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm”.
+Info: Processing component “JP14:/5F97DEDD/5FF14152:Pufferfish:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm”.
+Info: Processing component “JP13:/5F97DEDD/5FD102F7:Pufferfish:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm”.
+Info: Processing component “JP12:/5F97DEDD/5FD102FD:Pufferfish:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm”.
+Info: Processing component “JP11:/5F97DEDD/5FD10303:Pufferfish:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm”.
+Info: Processing component “R8:/5EC321D9/5EC758BA:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R16:/5EC321D9/5EE17356:Pufferfish:RES_SMD_0402”.
+Info: Processing component “R15:/5EC321D9/5EE1105E:Pufferfish:RES_SMD_0402”.
+Info: Processing component “R14:/5EC321D9/5EDCD597:Pufferfish:RES_SMD_0402”.
+Info: Processing component “R13:/5EC321D9/5ED2E81B:Pufferfish:RES_SMD_0805”.
+Info: Processing component “R12:/5EC321D9/5ED03118:Pufferfish:RES_SMD_0805”.
+Info: Processing component “R11:/5EC321D9/5EC590B4:Pufferfish:RES_SMD_1206”.
+Info: Processing component “R10:/5EC321D9/5EC748DD:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R9:/5EC321D9/5EC73A48:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R54:/5EDA3ECC/5EE7827F:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R7:/5EC321D9/5EC5B9F4:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R6:/5EC321D9/5EC66A90:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R5:/5EC321D9/5FABE309:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R4:/5EC321D9/5FAB6F72:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R3:/5EC321D9/5FAB6F60:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R2:/5EC321D9/5FB19BA8:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R1:/5EC321D9/5FA39E6F:Pufferfish:RES_SMD_0603”.
+Info: Processing component “Q13:/5EDA3ECC/5EE7826D:Package_TO_SOT_SMD:SOT-23”.
+Info: Processing component “TP1:/5EC321D9/5EFCC8EE:TestPoint:TestPoint_Keystone_5010-5014_Multipurpose”.
+Info: Processing component “TP15:/5F97DDCF/5FB1D33D:TestPoint:TestPoint_Keystone_5010-5014_Multipurpose”.
+Info: Processing component “TP8:/5EEC5CE7/5EFB0C4E:Pufferfish:TP380X203”.
+Info: Processing component “TP7:/5EEC5CE7/5EFB6688:Pufferfish:TP380X203”.
+Info: Processing component “TP6:/5EDA3ECC/5EFF391C:TestPoint:TestPoint_Keystone_5010-5014_Multipurpose”.
+Info: Processing component “TP5:/5EFFFB7B/5EFF7E89:TestPoint:TestPoint_Keystone_5010-5014_Multipurpose”.
+Info: Processing component “TP4:/5F97DDCF/5FB153B6:TestPoint:TestPoint_Keystone_5010-5014_Multipurpose”.
+Info: Processing component “TP3:/5EC45070/5EFC6CBC:TestPoint:TestPoint_Keystone_5010-5014_Multipurpose”.
+Info: Processing component “TP2:/5EC45070/5EFBCD4C:TestPoint:TestPoint_Keystone_5010-5014_Multipurpose”.
+Info: Processing component “TP16:/5F97DDCF/5FB17615:TestPoint:TestPoint_Keystone_5010-5014_Multipurpose”.
+Info: Processing component “R_SENSE_3:/5F97DEDD/5FB7BB56:Pufferfish:RES_SMD_1206”.
+Info: Processing component “R_SENSE_2:/5F97DEDD/5FAF5501:Pufferfish:RES_SMD_1206”.
+Info: Processing component “R_SENSE_1:/5F97DEDD/5FC136FC:Pufferfish:RES_SMD_1206”.
+Info: Processing component “R97:/5F97DEDD/5FF14144:Pufferfish:RES_SMD_1206”.
+Info: Processing component “R96:/5F97DEDD/5FB6E686:Pufferfish:RES_SMD_1206”.
+Info: Processing component “R95:/5F97DEDD/5FF1414C:Pufferfish:RES_SMD_1206”.
+Info: Processing component “R94:/5F97DEDD/5FEA073B:Pufferfish:RES_SMD_1206”.
+Info: Processing component “R93:/5F97DEDD/5FEA0743:Pufferfish:RES_SMD_1206”.
+Info: Processing component “U2:/5EFFFB7B/5EDA48C2:Package_DFN_QFN:Texas_RNN0018A”.
+Info: Processing component “U10:/5F97DEDD/5FBC1C8A:Pufferfish:PG-TDSON-8”.
+Info: Processing component “U9:/5F97DEDD/5FB99410:Pufferfish:PG-TDSON-8”.
+Info: Processing component “U8:/5F97DEDD/5FB46961:Pufferfish:PG-TDSON-8”.
+Info: Processing component “U7:/5F97DEDD/5FB20F3B:Pufferfish:PG-TDSON-8”.
+Info: Processing component “U6:/5F97DDCF/5FA8BB48:Package_DFN_QFN:Texas_S-PVQFN-N14_ThermalVias”.
+Info: Processing component “U5:/5F97DEDD/5F95FBC2:Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm”.
+Info: Processing component “U4:/5F97DDCF/5F99198E:Pufferfish:DFN-10-1EP_2x3mm_P0.5mm_EP0.64x2.4mm”.
+Info: Processing component “U3:/5EDA3ECC/5EDA57E7:Pufferfish:TPS82130SILR”.
+Info: Processing component “R92:/5F97DEDD/5FD6E882:Pufferfish:RES_SMD_1206”.
+Info: Processing component “U1:/5EC321D9/5F79982D:Pufferfish:QFN50P700X500X80-39N”.
+Info: Processing component “TP23:/5F97DEDD/5FB72409:Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical”.
+Info: Processing component “TP22:/5F97DEDD/5FB45AA7:Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical”.
+Info: Processing component “TP21:/5F97DEDD/5FCE12DE:Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical”.
+Info: Processing component “TP20:/5F97DEDD/5FF1412E:Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical”.
+Info: Processing component “TP19:/5F97DEDD/5FCCB609:Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical”.
+Info: Processing component “TP18:/5F97DEDD/5FCD18D9:Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical”.
+Info: Processing component “TP17:/5F97DDCF/5FB1C2EE:TestPoint:TestPoint_Keystone_5010-5014_Multipurpose”.
+Info: Processing component “R65:/5EC321D9/5FB3BE36:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R73:/5F97DEDD/5FD3CCD3:Pufferfish:RES_SMD_1206”.
+Info: Processing component “R72:/5F97DEDD/5FCD4754:Pufferfish:RES_SMD_1206”.
+Info: Processing component “R71:/5EC321D9/5F7B7C38:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R70:/5EC321D9/5F781DD2:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R69:/5EC321D9/5FBF0695:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R68:/5EC321D9/5FB625D3:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R67:/5EC321D9/5F938735:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R66:/5EC321D9/5F93835E:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R74:/5F97DEDD/5FB5B5CE:Pufferfish:RES_SMD_1206”.
+Info: Processing component “R64:/5EC321D9/5FB0ED89:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R63:/5EC321D9/5F8AA5BF:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R62:/5EC321D9/5FBB6673:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R61:/5EC321D9/5FB3B8DD:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R58:/5F97DDCF/5FC89553:Pufferfish:RES_SMD_1206”.
+Info: Processing component “R57:/5F97DDCF/5FC8838F:Pufferfish:RES_SMD_1206”.
+Info: Processing component “R56:/5EEC5CE7/5FBAC2F0:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R55:/5EEC5CE7/5FBAB1D9:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R83:/5F9B3D6D/5FD25294:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R91:/5F97DEDD/5FD6E890:Pufferfish:RES_SMD_1206”.
+Info: Processing component “R90:/5F97DEDD/5FD102E3:Pufferfish:RES_SMD_1206”.
+Info: Processing component “R89:/5F9B3D6D/5FD2650E:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R88:/5F9B3D6D/5FD261D2:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R87:/5F9B3D6D/5FD25EEF:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R86:/5F9B3D6D/5FD25BC9:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R85:/5F9B3D6D/5FD25918:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R84:/5F9B3D6D/5FD255ED:Pufferfish:RES_SMD_0603”.
+Info: Processing component “C2:/5EC321D9/5FCFE45E:Pufferfish:CAP_SMD_0402”.
+Info: Processing component “R82:/5F9B3D6D/5FD24611:Pufferfish:RES_SMD_0603”.
+Info: Processing component “R81:/5F97DEDD/5FB7B65E:Pufferfish:RES_SMD_1206”.
+Info: Processing component “R80:/5F97DEDD/5FE2A991:Pufferfish:RES_SMD_1206”.
+Info: Processing component “R79:/5F97DEDD/5FB257B5:Pufferfish:RES_SMD_1206”.
+Info: Processing component “R78:/5F97DEDD/5FB2CF49:Pufferfish:RES_SMD_1206”.
+Info: Processing component “R77:/5F97DEDD/5FCB8A92:Pufferfish:RES_SMD_1206”.
+Info: Processing component “R76:/5F97DEDD/5FADBCB6:Pufferfish:RES_SMD_1206”.
+Info: Processing component “R75:/5F97DEDD/5FAC2111:Pufferfish:RES_SMD_1206”.
+Info: Processing component “C51:/5EDA3ECC/5EF0A005:Pufferfish:CAP_SMD_0402”.
+Info: Processing component “C60:/5F97DEDD/5FBE3CCF:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C59:/5F97DDCF/5FB0C68C:Pufferfish:CAP_SMD_0402”.
+Info: Processing component “C58:/5F97DDCF/5FAADFBA:Pufferfish:CAP_SMD_0402”.
+Info: Processing component “C57:/5EC321D9/5F821E0F:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C56:/5EFFFB7B/5EFE74F6:Pufferfish:CAP_SMD_0805”.
+Info: Processing component “C55:/5F97DDCF/5F9DA773:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C54:/5EDA3ECC/5EF15E1D:Pufferfish:CAP_SMD_0805”.
+Info: Processing component “C53:/5EDA3ECC/5EF15E11:Pufferfish:CAP_SMD_0805”.
+Info: Processing component “C52:/5EDA3ECC/5EF15E29:Pufferfish:CAP_SMD_0805”.
+Info: Processing component “C61:/5F97DEDD/5FBE44A7:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C50:/5EDA3ECC/5EF08637:Pufferfish:CAP_SMD_0402”.
+Info: Processing component “C49:/5EDA3ECC/5EF1D7EF:Pufferfish:CAP_SMD_0805”.
+Info: Processing component “C48:/5EDA3ECC/5EEFA1AF:Pufferfish:CAP_SMD_0402”.
+Info: Processing component “C47:/5EDA3ECC/5EF1D7E3:Pufferfish:CAP_SMD_0805”.
+Info: Processing component “C46:/5EDA3ECC/5EF1D7FB:Pufferfish:CAP_SMD_0805”.
+Info: Processing component “C45:/5EFFFB7B/5EE6598D:Capacitor_SMD:CP_Elec_6.3x5.4”.
+Info: Processing component “C44:/5EFFFB7B/5EE62A3B:Pufferfish:CAP_SMD_0805”.
+Info: Processing component “C43:/5EFFFB7B/5EE62A2F:Pufferfish:CAP_SMD_0805”.
+Info: Processing component “C42:/5EFFFB7B/5EE62A47:Pufferfish:CAP_SMD_0805”.
+Info: Processing component “C71:/5F97DEDD/5FAF82D1:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C80:/5F97DEDD/5FD0097A:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C79:/5F97DEDD/5FB79BA3:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C78:/5F97DEDD/5FE2A9A1:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C77:/5F97DEDD/5FE2A999:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C76:/5F97DEDD/5FAED45B:Pufferfish:CAP_SMD_0402”.
+Info: Processing component “C75:/5F97DEDD/5FAEEEA6:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C74:/5F97DEDD/5FAF7E46:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C73:/5F97DEDD/5FCA5E5B:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C72:/5F97DEDD/5FC1F49C:Pufferfish:CAP_SMD_0402”.
+Info: Processing component “C41:/5EFFFB7B/5EE85386:Pufferfish:CAP_SMD_0402”.
+Info: Processing component “C70:/5F97DEDD/5FB57F34:Pufferfish:CAP_SMD_0402”.
+Info: Processing component “C69:/5F97DEDD/5FAF882E:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C68:/5F97DEDD/5FD48248:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C67:/5F97DEDD/5FD45F55:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C66:/5F97DEDD/5FBA5F41:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C65:/5F97DEDD/5FBE4CD7:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C64:/5F97DEDD/5FC8137E:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C63:/5F97DEDD/5FBE4861:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C62:/5F97DEDD/5FBE4ABE:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C11:/5EC321D9/5ED623C8:Pufferfish:CAP_SMD_0402”.
+Info: Processing component “C20:/5EC45070/5F015AB1:Pufferfish:CAP_SMD_0805”.
+Info: Processing component “C19:/5EC45070/5F03C75D:Pufferfish:CAP_SMD_0805”.
+Info: Processing component “C18:/5EC45070/5F015AC9:Pufferfish:CAP_SMD_0402”.
+Info: Processing component “C17:/5EC45070/5F03C775:Pufferfish:CAP_SMD_0402”.
+Info: Processing component “C16:/5EC321D9/5EF81BBE:Pufferfish:CAP_SMD_0402”.
+Info: Processing component “C15:/5EC321D9/5EF8152E:Pufferfish:CAP_SMD_0805”.
+Info: Processing component “C14:/5EC321D9/5EF63424:Pufferfish:CAP_SMD_0805”.
+Info: Processing component “C13:/5EC321D9/5EDDC037:Capacitor_SMD:CP_Elec_10x7.9”.
+Info: Processing component “C12:/5EC321D9/5EDDA32D:Capacitor_SMD:CP_Elec_10x7.9”.
+Info: Processing component “C21:/5EC45070/5F03C769:Pufferfish:CAP_SMD_0805”.
+Info: Processing component “C10:/5EC321D9/5EDBAB14:Pufferfish:CAP_SMD_0402”.
+Info: Processing component “C9:/5EC321D9/5ED2E810:Pufferfish:CAP_SMD_0805”.
+Info: Processing component “C8:/5EC321D9/5EDF35E7:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C7:/5EC321D9/5ED4B218:Pufferfish:CAP_SMD_0402”.
+Info: Processing component “C6:/5EC321D9/5ECE56D1:Pufferfish:CAP_SMD_0805”.
+Info: Processing component “C5:/5EC321D9/5F8AB018:Pufferfish:CAP_SMD_0402”.
+Info: Processing component “C4:/5EC321D9/5FC3EBF6:Pufferfish:CAP_SMD_0402”.
+Info: Processing component “C3:/5EC321D9/5EC686C5:Pufferfish:CAP_SMD_0402”.
+Info: Processing component “C1:/5EC321D9/5FCFF836:Pufferfish:CAP_SMD_0402”.
+Info: Processing component “C31:/5EFFFB7B/5EE30303:Pufferfish:CAP_SMD_0805”.
+Info: Processing component “C40:/5EFFFB7B/5EDA629C:Pufferfish:CAP_SMD_0402”.
+Info: Processing component “C39:/5EFFFB7B/5EE1647E:Pufferfish:CAP_SMD_0402”.
+Info: Processing component “C38:/5EFFFB7B/5EDC67F3:Pufferfish:CAP_SMD_0402”.
+Info: Processing component “C37:/5EFFFB7B/5EE3B9F5:Pufferfish:CAP_SMD_0402”.
+Info: Processing component “C36:/5EFFFB7B/5EDF9CEB:Pufferfish:CAP_SMD_0402”.
+Info: Processing component “C35:/5EFFFB7B/5EDA0EC1:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C34:/5EFFFB7B/5EDF9CDF:Pufferfish:CAP_SMD_0805”.
+Info: Processing component “C33:/5EFFFB7B/5EE2FEEF:Pufferfish:CAP_SMD_0805”.
+Info: Processing component “C32:/5EFFFB7B/5EE2F029:Pufferfish:CAP_SMD_0805”.
+Info: Processing component “JP10:/5F97DEDD/5FB81315:Pufferfish:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm”.
+Info: Processing component “C30:/5F9B3D6D/5F948421:Pufferfish:CAP_SMD_0402”.
+Info: Processing component “C29:/5F9B3D6D/5F948176:Pufferfish:CAP_SMD_0402”.
+Info: Processing component “C28:/5F9B3D6D/5F947DAE:Pufferfish:CAP_SMD_0402”.
+Info: Processing component “C27:/5F9B3D6D/5F947017:Pufferfish:CAP_SMD_0402”.
+Info: Processing component “C26:/5F97DDCF/5F958A4A:Pufferfish:CAP_SMD_0402”.
+Info: Processing component “C25:/5F97DDCF/5F960C42:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C24:/5EC45070/5F015A8D:Capacitor_SMD:CP_Elec_10x7.9”.
+Info: Processing component “C23:/5EC45070/5F03C74F:Capacitor_SMD:CP_Elec_10x7.9”.
+Info: Processing component “C22:/5EC45070/5F015ABD:Pufferfish:CAP_SMD_0805”.
+Info: Processing component “FID2:/5F004A77:Fiducial:Fiducial_1mm_Mask2mm”.
+Info: Processing component “H4:/5F00702E:MountingHole:MountingHole_3mm_Pad_Via”.
+Info: Processing component “H3:/5F0066EF:MountingHole:MountingHole_3.2mm_M3_Pad_Via”.
+Info: Processing component “H2:/5F006AFB:MountingHole:MountingHole_3mm_Pad_Via”.
+Info: Processing component “H1:/5F005FB0:MountingHole:MountingHole_3.2mm_M3_Pad_Via”.
+Info: Processing component “FID6:/5F004FD7:Fiducial:Fiducial_1mm_Mask2mm”.
+Info: Processing component “FID5:/5F004A7D:Fiducial:Fiducial_1mm_Mask2mm”.
+Info: Processing component “FID4:/5F003F02:Fiducial:Fiducial_1mm_Mask2mm”.
+Info: Processing component “FID3:/5F004FD1:Fiducial:Fiducial_1mm_Mask2mm”.
+Info: Processing component “H5:/5F008ABE:MountingHole:MountingHole_3mm_Pad_Via”.
+Info: Processing component “FID1:/5F00049D:Fiducial:Fiducial_1mm_Mask2mm”.
+Info: Processing component “D13:/5F97DEDD/5FD1F074:Diode_SMD:D_SOD-323F”.
+Info: Processing component “D10:/5EEC5CE7/5FBAC2F9:LED_SMD:LED_0603_1608Metric”.
+Info: Processing component “D9:/5EEC5CE7/5FBAB1E2:LED_SMD:LED_0603_1608Metric”.
+Info: Processing component “D8:/5EEC5CE7/5FBA9F54:LED_SMD:LED_0603_1608Metric”.
+Info: Processing component “D7:/5EEC5CE7/5FBA2570:LED_SMD:LED_0603_1608Metric”.
+Info: Processing component “D6:/5EDA3ECC/5EE78289:LED_SMD:LED_0603_1608Metric”.
+Info: Processing component “JP1:/5F97DEDD/5FCACBC8:Pufferfish:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm”.
+Info: Processing component “JP9:/5F97DEDD/5FB80C6F:Pufferfish:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm”.
+Info: Processing component “JP8:/5F97DEDD/5FB413E7:Pufferfish:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm”.
+Info: Processing component “JP7:/5F97DEDD/5FB765ED:Pufferfish:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm”.
+Info: Processing component “JP6:/5F97DEDD/5FB486F1:Pufferfish:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm”.
+Info: Processing component “JP5:/5F97DEDD/5FB471FA:Pufferfish:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm”.
+Info: Processing component “JP4:/5F97DEDD/5FB452D3:Pufferfish:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm”.
+Info: Processing component “JP3:/5F97DEDD/5FB9DC6A:Pufferfish:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm”.
+Info: Processing component “JP2:/5F97DEDD/5FB9EB1D:Pufferfish:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm”.
+Info: Processing component “C82:/5F97DEDD/5FB63EA0:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “J6:/5EC45070/5FAA73C5:Pufferfish:1722871202”.
+Info: Processing component “J5:/5EC45070/5FAA1945:Pufferfish:1722871202”.
+Info: Processing component “J4:/5EC45070/5FAB1918:Pufferfish:1722871202”.
+Info: Processing component “J3:/5F97DDCF/5FA0D717:Connector_Molex:Molex_Micro-Fit_3.0_43045-0200_2x01_P3.00mm_Horizontal”.
+Info: Processing component “J2:/5F9B3D6D/5F9798B3:Connector_Molex:Molex_Picoflex_90814-0010_2x05_P1.27mm_Vertical”.
+Info: Processing component “J1:/5F9B3D6D/5F9A92F5:Pufferfish:MOLEX_172316-1108”.
+Info: Processing component “H6:/5F008AC4:MountingHole:MountingHole_3mm_Pad_Via”.
+Info: Processing component “C94:/5F97DEDD/5FD0EB68:Pufferfish:CAP_SMD_0402”.
+Info: Processing component “C85:/5F97DEDD/5FB57386:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “D1:/5EC45070/5FA757B3:Diode_SMD:D_SOD-123F”.
+Info: Processing component “C86:/5F97DEDD/5FB5737E:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C99:/5F97DEDD/5FF1413C:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C98:/5F97DEDD/5FB6DF44:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C97:/5F97DEDD/5FB6EE27:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C96:/5F97DEDD/5FBEE2D8:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C95:/5F97DEDD/5FBEE6AA:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C84:/5F97DEDD/5FB5738E:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C93:/5F97DEDD/5FB36330:Pufferfish:CAP_SMD_0402”.
+Info: Processing component “C92:/5F97DEDD/5FBD6A6B:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C88:/5F97DEDD/5FD102F1:Pufferfish:CAP_SMD_0402”.
+Info: Processing component “C91:/5F97DEDD/5FB002D1:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C90:/5F97DEDD/5FBADEFD:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C81:/5F97DEDD/5FB6D476:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “C89:/5F97DEDD/5FBA5C91:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “D2:/5EC45070/5F01B446:Diode_SMD:D_SOD-123F”.
+Info: Processing component “C83:/5F97DEDD/5FB63B40:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “D4:/5F97DEDD/5FB7F586:Diode_SMD:D_SOD-323F”.
+Info: Processing component “C87:/5F97DEDD/5FAF4D38:Pufferfish:CAP_SMD_0603”.
+Info: Processing component “D3:/5F97DEDD/5FCB1576:Diode_SMD:D_SOD-323F”.
+Info: Processing component “D5:/5EFFFB7B/5EE5BC4A:LED_SMD:LED_0603_1608Metric”.
+Remove single pad net LTC4421-PWR-nVALID2.
+Remove single pad net Net-(C11-Pad1).
+Remove single pad net Net-(C10-Pad2).
+Remove single pad net Net-(C10-Pad1).
+Remove single pad net Net-(C3-Pad1).
+Remove single pad net Net-(C91-Pad1).
+Remove single pad net Net-(L3-Pad1).
+Remove single pad net Net-(L3-Pad2).
+Remove single pad net Net-(R14-Pad2).
+Remove single pad net Net-(Q6-Pad4).
+Remove single pad net Net-(Q6-Pad5).
+Remove single pad net Net-(U1-Pad11).
+Remove single pad net LTC4421-PWR-nVALID1.
+Remove single pad net LTC4421-PWR-nFAULT2.
+Remove single pad net LTC4421-PWR-nFAULT1.
+Remove single pad net LTC4421-PWR-nDISABLE2.
+Remove single pad net LTC4421-PWR-nDISABLE1.
+Remove single pad net LTC4421-PWR-nCH2.
+Remove single pad net LTC4421-PWR-nCH1.
+Remove single pad net /LTC7812/TG_2_1.
+Remove single pad net /LTC7812/PGOOD2.
+Remove single pad net /LTC7812/OV_2_2.
+Remove single pad net /LTC7812/BG_2_1.
+Remove single pad net /LTC7812/BG_1_1.
+Remove single pad net Net-(U6-Pad9).
+Remove single pad net /LTC4015/LTC4421-CPO.
+Remove single pad net Net-(U1-Pad19).
+Remove single pad net Net-(U1-Pad29).
+Remove single pad net Net-(U1-Pad26).
+Remove single pad net Net-(U1-Pad30).
+Remove single pad net Net-(U1-Pad25).
+Remove single pad net Net-(U1-Pad24).
+Remove single pad net Net-(U1-Pad31).
+Remove single pad net Net-(U1-Pad23).
+Remove single pad net Net-(U1-Pad22).
+Remove single pad net Net-(U1-Pad32).
+Remove single pad net Net-(U1-Pad33).
+Remove single pad net Net-(U1-Pad34).
+Remove single pad net Net-(U1-Pad35).
+Remove single pad net Net-(U1-Pad20).
+Remove single pad net Net-(U1-Pad8).
+Remove single pad net Net-(R15-Pad2).
+Remove single pad net Net-(U5-Pad23).
+Remove single pad net Net-(U5-Pad5).
+Remove single pad net Net-(U6-Pad6).
+Remove single pad net Net-(U1-Pad18).
+Remove single pad net Net-(U1-Pad15).
+Remove single pad net Net-(U1-Pad12).
+Remove single pad net Net-(R8-Pad1).
+Remove single pad net Net-(R6-Pad1).
+Remove single pad net Net-(R23-Pad1).
+Remove single pad net Net-(R19-Pad2).
+Remove single pad net Net-(R18-Pad2).
+Remove single pad net Net-(R17-Pad2).
+Remove single pad net Net-(R16-Pad2).
+Connect U1 pin 11 to Net-(U1-Pad11).
+Connect U1 pin 31 to Net-(U1-Pad31).
+Connect U1 pin 30 to Net-(U1-Pad30).
+Connect U1 pin 29 to Net-(U1-Pad29).
+Connect U1 pin 26 to Net-(U1-Pad26).
+Connect U1 pin 25 to Net-(U1-Pad25).
+Connect U1 pin 24 to Net-(U1-Pad24).
+Connect U1 pin 23 to Net-(U1-Pad23).
+Connect U1 pin 22 to Net-(U1-Pad22).
+Connect U1 pin 20 to Net-(U1-Pad20).
+Connect U1 pin 19 to Net-(U1-Pad19).
+Connect U1 pin 18 to Net-(U1-Pad18).
+Connect U1 pin 15 to Net-(U1-Pad15).
+Connect U1 pin 12 to Net-(U1-Pad12).
+Connect R50 pin 2 to Net-(Q6-Pad5).
+Connect U1 pin 8 to Net-(U1-Pad8).
+Connect C8 pin 2 to /LTC4015/LTC4421-CPO.
+Connect U5 pin 2 to Net-(Q6-Pad4).
+Connect U5 pin 5 to Net-(U5-Pad5).
+Connect U5 pin 23 to Net-(U5-Pad23).
+Connect U5 pin 27 to /LTC7812/BG_2_1.
+Connect U5 pin 29 to /LTC7812/TG_2_1.
+Connect U5 pin 31 to /LTC7812/BG_1_1.
+Connect JP7 pin 1 to /LTC7812/PGOOD2.
+Connect U6 pin 6 to Net-(U6-Pad6).
+Connect U6 pin 9 to Net-(U6-Pad9).
+Connect C3 pin 1 to Net-(C3-Pad1).
+Connect JP10 pin 2 to /LTC7812/OV_2_2.
+Connect U1 pin 33 to Net-(U1-Pad33).
+Connect C91 pin 1 to Net-(C91-Pad1).
+Connect R23 pin 1 to Net-(R23-Pad1).
+Connect R21 pin 2 to LTC4421-PWR-nDISABLE2.
+Connect R20 pin 2 to LTC4421-PWR-nDISABLE1.
+Connect R19 pin 2 to Net-(R19-Pad2).
+Connect R19 pin 1 to LTC4421-PWR-nFAULT2.
+Connect R18 pin 1 to LTC4421-PWR-nVALID2.
+Connect R18 pin 2 to Net-(R18-Pad2).
+Connect R17 pin 2 to Net-(R17-Pad2).
+Connect R17 pin 1 to LTC4421-PWR-nCH2.
+Connect R16 pin 1 to LTC4421-PWR-nFAULT1.
+Connect R16 pin 2 to Net-(R16-Pad2).
+Connect R15 pin 2 to Net-(R15-Pad2).
+Connect R14 pin 1 to LTC4421-PWR-nCH1.
+Connect U1 pin 32 to Net-(U1-Pad32).
+Connect U1 pin 34 to Net-(U1-Pad34).
+Connect U1 pin 35 to Net-(U1-Pad35).
+Connect L3 pin 2 to Net-(L3-Pad2).
+Connect C10 pin 1 to Net-(C10-Pad1).
+Connect C10 pin 2 to Net-(C10-Pad2).
+Connect L3 pin 1 to Net-(L3-Pad1).
+Connect C11 pin 1 to Net-(C11-Pad1).
+Connect R6 pin 1 to Net-(R6-Pad1).
+Connect R8 pin 1 to Net-(R8-Pad1).
+Connect R14 pin 2 to Net-(R14-Pad2).
+Connect R15 pin 1 to LTC4421-PWR-nVALID1.
+Error: U10 pad 4 not found in Pufferfish:PG-TDSON-8.
+Error: U10 pad 3 not found in Pufferfish:PG-TDSON-8.
+Error: U10 pad 2 not found in Pufferfish:PG-TDSON-8.
+Error: U10 pad 1 not found in Pufferfish:PG-TDSON-8.
+Error: U5 pad 12-UB not found in Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.
+Error: U5 pad 27-UB not found in Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.
+Error: U5 pad 25-UB not found in Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.
+Error: U5 pad 10-UB not found in Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.
+Error: U5 pad 2-UB not found in Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.
+Error: U5 pad 14-UB not found in Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.
+Error: U5 pad 19-UB not found in Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.
+Error: U5 pad 17-UB not found in Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.
+Error: U5 pad 23-UB not found in Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.
+Error: U5 pad 11-UB not found in Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.
+Error: U5 pad 9-UB not found in Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.
+Error: U5 pad 24-UB not found in Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.
+Error: U5 pad 29-UB not found in Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.
+Error: U5 pad 13-UB not found in Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.
+Error: U5 pad 26-UB not found in Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.
+Error: U5 pad 28-UB not found in Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.
+Error: U5 pad 33-UB not found in Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.
+Error: U5 pad 20-UB not found in Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.
+Error: U5 pad 18-UB not found in Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.
+Error: U5 pad 16-UB not found in Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.
+Error: U5 pad 21-UB not found in Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.
+Error: Q6 pad 5 not found in Pufferfish:PG-TDSON-8.
+Error: Q6 pad 4 not found in Pufferfish:PG-TDSON-8.
+Error: Q6 pad 3 not found in Pufferfish:PG-TDSON-8.
+Error: Q6 pad 2 not found in Pufferfish:PG-TDSON-8.
+Error: Q6 pad 1 not found in Pufferfish:PG-TDSON-8.
+Error: Q5 pad 4 not found in Pufferfish:PG-TDSON-8.
+Error: Q5 pad 5 not found in Pufferfish:PG-TDSON-8.
+Error: Q5 pad 1 not found in Pufferfish:PG-TDSON-8.
+Error: Q5 pad 3 not found in Pufferfish:PG-TDSON-8.
+Error: U7 pad 2 not found in Pufferfish:PG-TDSON-8.
+Error: U10 pad 5 not found in Pufferfish:PG-TDSON-8.
+Error: U9 pad 5 not found in Pufferfish:PG-TDSON-8.
+Error: U9 pad 4 not found in Pufferfish:PG-TDSON-8.
+Error: U9 pad 1 not found in Pufferfish:PG-TDSON-8.
+Error: U9 pad 2 not found in Pufferfish:PG-TDSON-8.
+Error: U9 pad 3 not found in Pufferfish:PG-TDSON-8.
+Error: U8 pad 4 not found in Pufferfish:PG-TDSON-8.
+Error: U8 pad 5 not found in Pufferfish:PG-TDSON-8.
+Error: U8 pad 3 not found in Pufferfish:PG-TDSON-8.
+Error: U8 pad 2 not found in Pufferfish:PG-TDSON-8.
+Error: U8 pad 1 not found in Pufferfish:PG-TDSON-8.
+Error: U7 pad 5 not found in Pufferfish:PG-TDSON-8.
+Error: U7 pad 4 not found in Pufferfish:PG-TDSON-8.
+Error: U7 pad 3 not found in Pufferfish:PG-TDSON-8.
+Error: Q5 pad 2 not found in Pufferfish:PG-TDSON-8.
+Error: U7 pad 1 not found in Pufferfish:PG-TDSON-8.
+Error: U5 pad 22-UB not found in Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.
+Error: U5 pad 15-UB not found in Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.
+Error: U5 pad 3-UB not found in Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.
+Error: U5 pad 8-UB not found in Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.
+Error: U5 pad 7-UB not found in Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.
+Error: U5 pad 6-UB not found in Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.
+Error: U5 pad 5-UB not found in Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.
+Error: U5 pad 1-UB not found in Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.
+Error: U5 pad 4-UB not found in Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.
+Error: U5 pad 31-UB not found in Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.
+Error: U5 pad 32-UB not found in Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.
+Error: U5 pad 30-UB not found in Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.
