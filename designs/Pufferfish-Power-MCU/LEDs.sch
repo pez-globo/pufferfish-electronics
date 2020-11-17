@@ -88,7 +88,7 @@ AR Path="/5EC45070/5FBA2567" Ref="R?"  Part="1"
 AR Path="/5EDA3ECC/5FBA2567" Ref="R?"  Part="1" 
 AR Path="/5EEC5CE7/5FBA2567" Ref="R43"  Part="1" 
 F 0 "R43" H 1643 3012 50  0000 L CNN
-F 1 "RES_330R_0603_SMD" H 1655 2685 50  0001 L CNN
+F 1 "68R" H 1655 2685 50  0001 L CNN
 F 2 "Pufferfish:RES_SMD_0603" H 1775 2475 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGTR-ND/135662" H 1575 2875 50  0001 C CNN
 F 4 "5%" H 1643 2921 50  0000 L CNN "Tolerance"
@@ -160,7 +160,7 @@ AR Path="/5EC45070/5FBA9F4B" Ref="R?"  Part="1"
 AR Path="/5EDA3ECC/5FBA9F4B" Ref="R?"  Part="1" 
 AR Path="/5EEC5CE7/5FBA9F4B" Ref="R44"  Part="1" 
 F 0 "R44" H 2993 3062 50  0000 L CNN
-F 1 "RES_330R_0603_SMD" H 3005 2735 50  0001 L CNN
+F 1 "150R" H 3005 2735 50  0001 L CNN
 F 2 "Pufferfish:RES_SMD_0603" H 3125 2525 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGTR-ND/135662" H 2925 2925 50  0001 C CNN
 F 4 "5%" H 2993 2971 50  0000 L CNN "Tolerance"
@@ -229,7 +229,7 @@ AR Path="/5EC45070/5FBAB1D9" Ref="R?"  Part="1"
 AR Path="/5EDA3ECC/5FBAB1D9" Ref="R?"  Part="1" 
 AR Path="/5EEC5CE7/5FBAB1D9" Ref="R55"  Part="1" 
 F 0 "R55" H 4293 3112 50  0000 L CNN
-F 1 "RES_330R_0603_SMD" H 4305 2785 50  0001 L CNN
+F 1 "510R" H 4305 2785 50  0001 L CNN
 F 2 "Pufferfish:RES_SMD_0603" H 4425 2575 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGTR-ND/135662" H 4225 2975 50  0001 C CNN
 F 4 "5%" H 4293 3021 50  0000 L CNN "Tolerance"
@@ -287,7 +287,7 @@ AR Path="/5EC45070/5FBAC2F0" Ref="R?"  Part="1"
 AR Path="/5EDA3ECC/5FBAC2F0" Ref="R?"  Part="1" 
 AR Path="/5EEC5CE7/5FBAC2F0" Ref="R56"  Part="1" 
 F 0 "R56" H 5543 3112 50  0000 L CNN
-F 1 "RES_330R_0603_SMD" H 5555 2785 50  0001 L CNN
+F 1 "1.2k" H 5555 2785 50  0001 L CNN
 F 2 "Pufferfish:RES_SMD_0603" H 5675 2575 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGTR-ND/135662" H 5475 2975 50  0001 C CNN
 F 4 "5%" H 5543 3021 50  0000 L CNN "Tolerance"

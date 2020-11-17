@@ -593,7 +593,7 @@ P 2500 5650
 AR Path="/5EC45070/5EE7827F" Ref="R?"  Part="1" 
 AR Path="/5EDA3ECC/5EE7827F" Ref="R54"  Part="1" 
 F 0 "R54" H 2568 5787 50  0000 L CNN
-F 1 "RES_330R_0603_SMD" H 2580 5460 50  0001 L CNN
+F 1 "330R" H 2580 5460 50  0001 L CNN
 F 2 "Pufferfish:RES_SMD_0603" H 2700 5250 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGTR-ND/135662" H 2500 5650 50  0001 C CNN
 F 4 "5%" H 2568 5696 50  0000 L CNN "Tolerance"
