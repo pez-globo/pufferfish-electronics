@@ -1,4 +1,4 @@
-(module 1722871202 (layer F.Cu) (tedit 5F9EF392)
+(module 1722871202 (layer F.Cu) (tedit 5FB38954)
   (fp_text reference REF** (at -1.75 7) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -16,6 +16,7 @@
   (fp_line (start -4.425 -3.2) (end 0.525 -3.2) (layer F.SilkS) (width 0.12))
   (fp_line (start 0.525 -3.2) (end 0.525 -1.325) (layer F.SilkS) (width 0.12))
   (fp_line (start 0.525 -1.325) (end -4.35 -1.275) (layer F.SilkS) (width 0.12))
+  (fp_line (start 0.81 -0.9) (end 1.31 -0.89) (layer F.SilkS) (width 0.12))
   (pad 1 thru_hole circle (at -3.5 0) (size 1.6 1.6) (drill 1.02) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 1.02) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -6 0.63) (size 2.3 2.3) (drill 2.3) (layers *.Cu *.Mask))

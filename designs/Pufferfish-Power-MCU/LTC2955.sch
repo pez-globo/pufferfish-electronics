@@ -563,4 +563,29 @@ Wire Wire Line
 Wire Wire Line
 	8900 4025 9025 4025
 Connection ~ 8900 3825
+Text Notes 1075 5350 0    118  ~ 24
+FUSE SLO-BLO
+Text GLabel 1700 5800 0    50   Input ~ 0
+V_LTC4015_OUT
+$Comp
+L Device:Fuse F1
+U 1 1 5FB9E4CA
+P 1850 5800
+F 0 "F1" V 1653 5800 50  0000 C CNN
+F 1 "Fuse" V 1744 5800 50  0000 C CNN
+F 2 "Fuse:Fuseholder_Cylinder-6.3x32mm_Schurter_0031-8002_Horizontal_Open" V 1780 5800 50  0001 C CNN
+F 3 "~" H 1850 5800 50  0001 C CNN
+	1    1850 5800
+	0    1    1    0   
+$EndComp
+Text GLabel 2000 5800 2    50   Input ~ 0
+VIN_7812_1_RAW
+Wire Notes Line
+	775  5000 2725 5000
+Wire Notes Line
+	2725 5000 2725 6075
+Wire Notes Line
+	2725 6075 775  6075
+Wire Notes Line
+	775  6075 775  5000
 $EndSCHEMATC
