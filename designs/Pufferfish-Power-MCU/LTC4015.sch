@@ -16,45 +16,6 @@ Comment4 ""
 $EndDescr
 Text Notes 4200 750  0    118  ~ 0
 LTC4015 - Power Path Prioritizer IC
-Wire Wire Line
-	7500 6700 7500 6650
-$Comp
-L power:GND #PWR05
-U 1 1 5EC6CB16
-P 7500 6700
-F 0 "#PWR05" H 7500 6450 50  0001 C CNN
-F 1 "GND" H 7505 6527 50  0000 C CNN
-F 2 "" H 7500 6700 50  0001 C CNN
-F 3 "" H 7500 6700 50  0001 C CNN
-	1    7500 6700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7500 6350 7650 6350
-Connection ~ 7500 6350
-Wire Wire Line
-	7500 6450 7500 6350
-$Comp
-L Pufferfish:CAP_100pF_10V_NP0_0402 C3
-U 1 1 5EC686C5
-P 7500 6550
-F 0 "C3" H 7592 6670 50  0000 L CNN
-F 1 "CAP_100pF_10V_NP0_0402" H 6600 7000 50  0001 L CNN
-F 2 "Pufferfish:CAP_SMD_0402" H 7550 6150 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/kemet/C0402C101K8GAC7867/399-14413-6-ND/7104044" H 7650 6500 50  0001 C CNN
-F 4 "10%" H 7592 6594 30  0000 L CNN "Tolerance"
-F 5 "100pF" H 7592 6534 30  0000 L CNN "Capacitance"
-F 6 "C0402C101K8GAC7867" H 7000 6900 50  0001 C CNN "MPN"
-F 7 "KEMET" H 6850 6800 50  0001 C CNN "MFG"
-F 8 "NP0" H 7592 6474 30  0000 L CNN "Dielectric"
-F 9 "10V" H 7592 6414 30  0000 L CNN "Voltage"
-	1    7500 6550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7350 6350 7500 6350
-Text Notes 8900 650  0    35   Italic 0
-Not needed
 $Comp
 L Pufferfish:CSNL1206FT3L00 R11
 U 1 1 5EC590B4
@@ -298,27 +259,6 @@ Wire Wire Line
 Wire Wire Line
 	8000 3200 8000 3100
 Connection ~ 6850 3200
-$Comp
-L Pufferfish-Power-MCU-rescue:CAP_47nF_50V_X7R_0402 C10
-U 1 1 5EDBAB14
-P 8450 1050
-F 0 "C10" H 8542 1170 50  0000 L CNN
-F 1 "CAP_47nF_50V_X7R_0402" H 7550 1500 50  0001 L CNN
-F 2 "Pufferfish:CAP_SMD_0402" H 8500 650 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA2B3X7R1H473K050BB/445-6897-6-ND/2673040" H 8600 1000 50  0001 C CNN
-F 4 "10%" H 8542 1094 30  0000 L CNN "Tolerance"
-F 5 "47nF" H 8542 1034 30  0000 L CNN "Capacitance"
-F 6 "CGA2B3X7R1H473K050BB" H 7950 1400 50  0001 C CNN "MPN"
-F 7 "TDK" H 7800 1300 50  0001 C CNN "MFG"
-F 8 "X7R" H 8542 974 30  0000 L CNN "Dielectric"
-F 9 "50V" H 8542 914 30  0000 L CNN "Voltage"
-	1    8450 1050
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8350 1050 8200 1050
-Wire Wire Line
-	8550 1050 8850 1050
 Text Label 7150 2850 0    50   ~ 0
 LTC4421-SRC2
 Wire Wire Line
@@ -330,8 +270,6 @@ Wire Wire Line
 	8250 2850 8200 2850
 Text Label 6900 1750 0    50   ~ 0
 LTC4421-SENSE
-Wire Wire Line
-	5250 2250 5900 2250
 Wire Wire Line
 	5900 2250 5900 1750
 Connection ~ 5900 1750
@@ -352,48 +290,8 @@ Wire Wire Line
 	10350 2750 10350 2850
 Wire Wire Line
 	10350 2850 9900 2850
-Text Notes 8900 650  0    35   Italic 0
-Not needed
 Text Notes 10150 2500 0    35   Italic 0
 Merged 12V Output
-$Comp
-L Pufferfish:VSYS-12V0 #PWR017
-U 1 1 5EDF06A4
-P 900 1500
-F 0 "#PWR017" H 900 1350 50  0001 C CNN
-F 1 "VSYS-12V0" H 917 1673 50  0000 C CNN
-F 2 "" H 900 1500 50  0001 C CNN
-F 3 "" H 900 1500 50  0001 C CNN
-	1    900  1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish:CAP_1uF_35V_X7R_0603 C8
-U 1 1 5EDF35E7
-P 1300 1950
-F 0 "C8" V 1100 1900 50  0000 L CNN
-F 1 "CAP_1uF_35V_X7R_0603" H 350 2350 50  0001 L CNN
-F 2 "Pufferfish:CAP_SMD_0603" H 1350 1550 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/taiyo-yuden/GMK107AB7105KAHT/587-3352-1-ND/4157239" H 1450 1900 50  0001 C CNN
-F 4 "10%" V 1400 1900 30  0000 L CNN "Tolerance"
-F 5 "1uF" V 1200 1900 30  0000 L CNN "Capacitance"
-F 6 "GMK107AB7105KAHT" H 800 2150 50  0001 C CNN "MPN"
-F 7 "Taiyo Yuden" H 650 2250 50  0001 C CNN "MFG"
-F 8 "X7R" V 1500 1900 30  0000 L CNN "Dielectric"
-F 9 "35V" V 1450 1900 30  0000 L CNN "Voltage"
-	1    1300 1950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1300 2200 1450 2200
-Wire Wire Line
-	1450 2200 1450 1950
-Wire Wire Line
-	900  1500 900  1550
-Text Label 1150 2150 1    50   ~ 0
-LTC4421-CPO
-Wire Wire Line
-	800  1550 800  2200
 Text Notes 6300 2150 0    35   Italic 0
 From SLA Battery
 Text Notes 3800 1100 0    35   Italic 0
@@ -415,15 +313,6 @@ F 9 "35V" H 3742 2364 30  0000 L CNN "Voltage"
 	1    3650 2500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1200 1950 1150 1950
-Wire Wire Line
-	1400 1950 1450 1950
-Wire Wire Line
-	1150 1950 1150 2200
-Connection ~ 1450 1950
-Wire Wire Line
-	1450 1550 1450 1950
 $Comp
 L Pufferfish:RES_1R2_0805_SMD R12
 U 1 1 5ED03118
@@ -509,64 +398,13 @@ F 8 "0805" H 5900 2600 30  0000 L CNN "Package"
 	1    6100 2650
 	1    0    0    -1  
 $EndComp
-Connection ~ 900  1550
-Wire Wire Line
-	900  1550 800  1550
 Wire Wire Line
 	6100 2450 6400 2450
 Connection ~ 6400 2450
 Wire Wire Line
 	6400 2450 6400 2850
-$Comp
-L Pufferfish:CAP_100nF_50V_X7R_0402 C11
-U 1 1 5ED623C8
-P 7850 950
-F 0 "C11" H 7942 1070 50  0000 L CNN
-F 1 "CAP_100nF_50V_X7R_0402" H 6950 1400 50  0001 L CNN
-F 2 "Pufferfish:CAP_SMD_0402" H 7900 550 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA2B3X7R1H473K050BB/445-6897-6-ND/2673040" H 8000 900 50  0001 C CNN
-F 4 "20%" H 7942 994 30  0000 L CNN "Tolerance"
-F 5 "100nF" H 7942 934 30  0000 L CNN "Capacitance"
-F 6 "C1005X7R1H104M050BE" H 7350 1300 50  0001 C CNN "MPN"
-F 7 "TDK" H 7200 1200 50  0001 C CNN "MFG"
-F 8 "X7R" H 7942 874 30  0000 L CNN "Dielectric"
-F 9 "50V" H 7942 814 30  0000 L CNN "Voltage"
-	1    7850 950 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR021
-U 1 1 5ED814D2
-P 7850 1100
-F 0 "#PWR021" H 7850 850 50  0001 C CNN
-F 1 "GND" H 7855 927 50  0000 C CNN
-F 2 "" H 7850 1100 50  0001 C CNN
-F 3 "" H 7850 1100 50  0001 C CNN
-	1    7850 1100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7850 1100 7850 1050
-Wire Wire Line
-	7850 750  7850 850 
 Text Notes 8550 1850 0    35   Italic 0
 Close to ExtVcc
-$Comp
-L Pufferfish-Power-MCU-rescue:RES_0R_0402_SMD R14
-U 1 1 5EDCD597
-P 9050 800
-F 0 "R14" V 9000 900 50  0000 C CNN
-F 1 "RES_0R_0402_SMD" H 9130 610 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0402" H 9250 400 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0-0JRDKR-ND/732300" H 9050 800 50  0001 C CNN
-F 4 "Jumper" V 8833 800 30  0001 C CNN "Tolerance"
-F 5 "0Ω" V 9000 500 30  0000 C CNN "Resistance"
-F 6 "RC0402JR-070RL" H 9050 800 50  0001 C CNN "MPN"
-F 7 "Yageo" H 9050 800 50  0001 C CNN "MFG"
-F 8 "0402" V 9000 650 30  0000 C CNN "Package"
-	1    9050 800 
-	0    1    1    0   
-$EndComp
 $Comp
 L Pufferfish:CAP_AE_SMD_220uF_25V_8mm C12
 U 1 1 5EDDA32D
@@ -627,208 +465,6 @@ Wire Wire Line
 Connection ~ 10350 3350
 Wire Wire Line
 	10350 3350 10350 3250
-$Comp
-L Pufferfish-Power-MCU-rescue:RES_0R_0402_SMD R15
-U 1 1 5EE1105E
-P 9050 900
-F 0 "R15" V 9000 1000 50  0000 C CNN
-F 1 "RES_0R_0402_SMD" H 9130 710 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0402" H 9250 500 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0-0JRDKR-ND/732300" H 9050 900 50  0001 C CNN
-F 4 "Jumper" V 8833 900 30  0001 C CNN "Tolerance"
-F 5 "0Ω" V 9000 600 30  0000 C CNN "Resistance"
-F 6 "RC0402JR-070RL" H 9050 900 50  0001 C CNN "MPN"
-F 7 "Yageo" H 9050 900 50  0001 C CNN "MFG"
-F 8 "0402" V 9000 750 30  0000 C CNN "Package"
-	1    9050 900 
-	0    1    1    0   
-$EndComp
-$Comp
-L Pufferfish-Power-MCU-rescue:RES_0R_0402_SMD R16
-U 1 1 5EE17356
-P 9050 1000
-F 0 "R16" V 9000 1100 50  0000 C CNN
-F 1 "RES_0R_0402_SMD" H 9130 810 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0402" H 9250 600 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0-0JRDKR-ND/732300" H 9050 1000 50  0001 C CNN
-F 4 "Jumper" V 8833 1000 30  0001 C CNN "Tolerance"
-F 5 "0Ω" V 9000 700 30  0000 C CNN "Resistance"
-F 6 "RC0402JR-070RL" H 9050 1000 50  0001 C CNN "MPN"
-F 7 "Yageo" H 9050 1000 50  0001 C CNN "MFG"
-F 8 "0402" V 9000 850 30  0000 C CNN "Package"
-	1    9050 1000
-	0    1    1    0   
-$EndComp
-$Comp
-L Pufferfish-Power-MCU-rescue:RES_0R_0402_SMD R17
-U 1 1 5EE263ED
-P 9050 1200
-F 0 "R17" V 9000 1300 50  0000 C CNN
-F 1 "RES_0R_0402_SMD" H 9130 1010 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0402" H 9250 800 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0-0JRDKR-ND/732300" H 9050 1200 50  0001 C CNN
-F 4 "Jumper" V 8833 1200 30  0001 C CNN "Tolerance"
-F 5 "0Ω" V 9000 900 30  0000 C CNN "Resistance"
-F 6 "RC0402JR-070RL" H 9050 1200 50  0001 C CNN "MPN"
-F 7 "Yageo" H 9050 1200 50  0001 C CNN "MFG"
-F 8 "0402" V 9000 1050 30  0000 C CNN "Package"
-	1    9050 1200
-	0    1    1    0   
-$EndComp
-$Comp
-L Pufferfish-Power-MCU-rescue:RES_0R_0402_SMD R18
-U 1 1 5EE2C952
-P 9050 1300
-F 0 "R18" V 9000 1400 50  0000 C CNN
-F 1 "RES_0R_0402_SMD" H 9130 1110 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0402" H 9250 900 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0-0JRDKR-ND/732300" H 9050 1300 50  0001 C CNN
-F 4 "Jumper" V 8833 1300 30  0001 C CNN "Tolerance"
-F 5 "0Ω" V 9000 1000 30  0000 C CNN "Resistance"
-F 6 "RC0402JR-070RL" H 9050 1300 50  0001 C CNN "MPN"
-F 7 "Yageo" H 9050 1300 50  0001 C CNN "MFG"
-F 8 "0402" V 9000 1150 30  0000 C CNN "Package"
-	1    9050 1300
-	0    1    1    0   
-$EndComp
-$Comp
-L Pufferfish-Power-MCU-rescue:RES_0R_0402_SMD R19
-U 1 1 5EE3321B
-P 9050 1400
-F 0 "R19" V 9000 1500 50  0000 C CNN
-F 1 "RES_0R_0402_SMD" H 9130 1210 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0402" H 9250 1000 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0-0JRDKR-ND/732300" H 9050 1400 50  0001 C CNN
-F 4 "Jumper" V 8833 1400 30  0001 C CNN "Tolerance"
-F 5 "0Ω" V 9000 1100 30  0000 C CNN "Resistance"
-F 6 "RC0402JR-070RL" H 9050 1400 50  0001 C CNN "MPN"
-F 7 "Yageo" H 9050 1400 50  0001 C CNN "MFG"
-F 8 "0402" V 9000 1250 30  0000 C CNN "Package"
-	1    9050 1400
-	0    1    1    0   
-$EndComp
-$Comp
-L Pufferfish-Power-MCU-rescue:RES_10K_0603_SMD R23
-U 1 1 5EE559F4
-P 9700 6050
-F 0 "R23" H 9768 6187 50  0000 L CNN
-F 1 "RES_10K_0603_SMD" H 9780 5860 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0603" H 9900 5650 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGTR-ND/135662" H 9700 6050 50  0001 C CNN
-F 4 "1%" H 9768 6096 50  0000 L CNN "Tolerance"
-F 5 "10kΩ" H 9768 6005 50  0000 L CNN "Resistance"
-F 6 "ERJ-3GEYJ103V" H 9700 6050 50  0001 C CNN "MPN"
-F 7 "Panasonic" H 9700 6050 50  0001 C CNN "MFG"
-F 8 "0603" H 9768 5914 50  0000 L CNN "Package"
-	1    9700 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR024
-U 1 1 5EE58305
-P 9700 6200
-F 0 "#PWR024" H 9700 5950 50  0001 C CNN
-F 1 "GND" H 9705 6027 50  0000 C CNN
-F 2 "" H 9700 6200 50  0001 C CNN
-F 3 "" H 9700 6200 50  0001 C CNN
-	1    9700 6200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9700 6200 9700 6150
-Text Notes 10050 5950 0    35   Italic 0
-RETRY - Default unused\nL = unused\nH = 6 retries
-Text GLabel 9500 800  2    50   Output ~ 0
-LTC4421-PWR-nCH1
-Wire Wire Line
-	9500 800  9150 800 
-Text GLabel 9500 1200 2    50   Output ~ 0
-LTC4421-PWR-nCH2
-Text GLabel 9500 900  2    50   Output ~ 0
-LTC4421-PWR-nVALID1
-Text GLabel 9500 1300 2    50   Output ~ 0
-LTC4421-PWR-nVALID2
-Text GLabel 9500 1000 2    50   Output ~ 0
-LTC4421-PWR-nFAULT1
-Text GLabel 9500 1400 2    50   Output ~ 0
-LTC4421-PWR-nFAULT2
-Wire Wire Line
-	9150 900  9500 900 
-Wire Wire Line
-	9150 1000 9500 1000
-Wire Wire Line
-	9150 1300 9500 1300
-Wire Wire Line
-	9150 1400 9500 1400
-Wire Wire Line
-	9500 1200 9150 1200
-Text GLabel 9550 6750 2    50   Input ~ 0
-LTC4421-PWR-nDISABLE1
-Text GLabel 9550 6850 2    50   Input ~ 0
-LTC4421-PWR-nDISABLE2
-Wire Wire Line
-	9550 6750 8750 6750
-Wire Wire Line
-	8600 6750 8600 6000
-Wire Wire Line
-	8500 6100 8500 6850
-Wire Wire Line
-	8500 6850 9100 6850
-$Comp
-L Pufferfish-Power-MCU-rescue:RES_10K_0603_SMD R20
-U 1 1 5EF1D8D8
-P 8750 6550
-F 0 "R20" H 8818 6687 50  0000 L CNN
-F 1 "RES_10K_0603_SMD" H 8830 6360 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0603" H 8950 6150 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGTR-ND/135662" H 8750 6550 50  0001 C CNN
-F 4 "1%" H 8818 6596 50  0000 L CNN "Tolerance"
-F 5 "10kΩ" H 8818 6505 50  0000 L CNN "Resistance"
-F 6 "ERJ-3GEYJ103V" H 8750 6550 50  0001 C CNN "MPN"
-F 7 "Panasonic" H 8750 6550 50  0001 C CNN "MFG"
-F 8 "0603" H 8818 6414 50  0000 L CNN "Package"
-	1    8750 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish-Power-MCU-rescue:RES_10K_0603_SMD R21
-U 1 1 5EF1E035
-P 9100 6550
-F 0 "R21" H 9168 6687 50  0000 L CNN
-F 1 "RES_10K_0603_SMD" H 9180 6360 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0603" H 9300 6150 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGTR-ND/135662" H 9100 6550 50  0001 C CNN
-F 4 "1%" H 9168 6596 50  0000 L CNN "Tolerance"
-F 5 "10kΩ" H 9168 6505 50  0000 L CNN "Resistance"
-F 6 "ERJ-3GEYJ103V" H 9100 6550 50  0001 C CNN "MPN"
-F 7 "Panasonic" H 9100 6550 50  0001 C CNN "MFG"
-F 8 "0603" H 9168 6414 50  0000 L CNN "Package"
-	1    9100 6550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9100 6450 9100 6300
-Wire Wire Line
-	8750 6450 8750 6300
-Wire Wire Line
-	8750 6300 9100 6300
-Connection ~ 9100 6300
-Wire Wire Line
-	9100 6300 9100 6250
-Wire Wire Line
-	8750 6650 8750 6750
-Connection ~ 8750 6750
-Wire Wire Line
-	8750 6750 8600 6750
-Wire Wire Line
-	9100 6650 9100 6850
-Connection ~ 9100 6850
-Wire Wire Line
-	9100 6850 9550 6850
-Text Notes 9550 700  0    50   Italic 10
-Digital Outputs - To Connector / LED's\n(Open-drain)
-Text Notes 9600 6650 0    50   Italic 10
-Disable Inputs - Default Unused\nOptional resistors at connector
 Text Notes 650  1100 0    79   Italic 0
 LTC4421 Design Parameters\n---------------------\nCurrent Limit = 10A max\nDesigned using ADI's Design Tool
 Text Notes 3350 2300 0    35   Italic 0
@@ -935,19 +571,7 @@ Connection ~ 9700 2850
 Wire Wire Line
 	9700 2850 9550 2850
 Wire Wire Line
-	900  1550 1450 1550
-Wire Notes Line
-	9600 5550 10000 5550
-Wire Notes Line
-	10000 5550 10000 5850
-Wire Notes Line
-	10000 5850 9600 5850
-Wire Notes Line
-	9600 5850 9600 5550
-Wire Wire Line
 	7050 2850 7800 2850
-Wire Wire Line
-	9700 5750 9700 5950
 Wire Wire Line
 	8250 2850 8550 2850
 Wire Wire Line
@@ -1875,4 +1499,92 @@ Text Label 4100 5200 0    50   ~ 0
 PP-VC
 Text Notes 800  7300 0    35   Italic 0
 Charging compensation\n---------------\nNormal --> C2 = 10nF\nMPPT used --> \nC1 = 10nF, C2 = 220nF, R45 = 200 Ohm
+$Comp
+L Pretty:CAP_SMD_0603 C3
+U 1 1 5FD284AB
+P 7025 4800
+F 0 "C3" H 7250 4925 50  0000 L CNN
+F 1 "0.33uF" H 7175 4825 50  0000 L CNN
+F 2 "Pufferfish:CAP_SMD_0402" H 7075 4400 50  0001 C CNN
+F 3 "~" H 7175 4750 50  0001 C CNN
+F 4 "10%" H 7117 4937 50  0001 L CNN "Tolerance"
+F 5 "0.33uF" H 7117 4846 50  0001 L CNN "Capacitance"
+F 6 " X5R" H 7117 4755 50  0001 L CNN "Type"
+F 7 "10V" H 6900 5025 50  0001 L CNN "Voltage"
+F 8 "0402" H 6900 4950 50  0001 L CNN "Package"
+	1    7025 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 4800 6600 4800
+Wire Wire Line
+	6600 4700 7025 4700
+Wire Wire Line
+	6600 4700 6600 4800
+Wire Wire Line
+	6550 4900 7025 4900
+$Comp
+L Pretty:CAP_SMD_0603 C8
+U 1 1 5FD6AAA2
+P 7025 5000
+F 0 "C8" H 7150 4925 50  0000 L CNN
+F 1 "1000pF" H 6900 4825 50  0000 L CNN
+F 2 "Pufferfish:CAP_SMD_0402" H 7075 4600 50  0001 C CNN
+F 3 "~" H 7175 4950 50  0001 C CNN
+F 4 "10%" H 7117 5137 50  0001 L CNN "Tolerance"
+F 5 "1000pF" H 6950 4775 50  0001 L CNN "Capacitance"
+F 6 " X5R" H 6675 4850 50  0001 L CNN "Type"
+F 7 "10V" H 6700 4950 50  0001 L CNN "Voltage"
+F 8 "0402" H 6700 5000 50  0001 L CNN "Package"
+	1    7025 5000
+	1    0    0    -1  
+$EndComp
+Connection ~ 7025 4900
+Wire Wire Line
+	6550 5050 6625 5050
+Wire Wire Line
+	6625 5050 6625 5100
+Wire Wire Line
+	6625 5100 7025 5100
+Wire Wire Line
+	9700 5750 9700 5950
+Wire Notes Line
+	9600 5850 9600 5550
+Wire Notes Line
+	10000 5850 9600 5850
+Wire Notes Line
+	10000 5550 10000 5850
+Wire Notes Line
+	9600 5550 10000 5550
+Text Notes 10050 5950 0    35   Italic 0
+RETRY - Default unused\nL = unused\nH = 6 retries
+Wire Wire Line
+	9700 6200 9700 6150
+$Comp
+L power:GND #PWR024
+U 1 1 5EE58305
+P 9700 6200
+F 0 "#PWR024" H 9700 5950 50  0001 C CNN
+F 1 "GND" H 9705 6027 50  0000 C CNN
+F 2 "" H 9700 6200 50  0001 C CNN
+F 3 "" H 9700 6200 50  0001 C CNN
+	1    9700 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish-Power-MCU-rescue:RES_10K_0603_SMD R23
+U 1 1 5EE559F4
+P 9700 6050
+F 0 "R23" H 9768 6187 50  0000 L CNN
+F 1 "RES_10K_0603_SMD" H 9780 5860 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0603" H 9900 5650 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGTR-ND/135662" H 9700 6050 50  0001 C CNN
+F 4 "1%" H 9768 6096 50  0000 L CNN "Tolerance"
+F 5 "10kΩ" H 9768 6005 50  0000 L CNN "Resistance"
+F 6 "ERJ-3GEYJ103V" H 9700 6050 50  0001 C CNN "MPN"
+F 7 "Panasonic" H 9700 6050 50  0001 C CNN "MFG"
+F 8 "0603" H 9768 5914 50  0000 L CNN "Package"
+	1    9700 6050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
