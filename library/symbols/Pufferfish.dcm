@@ -98,6 +98,12 @@ K capacitor cap
 F https://www.digikey.com/product-detail/en/taiyo-yuden/GMK107AB7105KAHT/587-3352-1-ND/4157239
 $ENDCMP
 #
+$CMP CAP_2.2uF_10V_X7S_0402
+D Capacitor, Ceramic, 2.2uF Capacitance, 10V Rating, X7S Dielectric, SMT, 0402 Package
+K capacitor cap
+F https://www.digikey.com/en/products/detail/tdk-corporation/C1005X7S1A225K050BC/3661557
+$ENDCMP
+#
 $CMP CAP_22uF_25V_X5R_0805
 D Capacitor, Ceramic, 22uF Capacitance, 25V Rating, X5R Dielectric, SMT, 0805 Package
 K capacitor cap
@@ -110,6 +116,18 @@ K capacitor cap
 F https://www.digikey.com/product-detail/en/murata-electronics/GRM1555C1H102JA01D/490-3244-2-ND/702509
 $ENDCMP
 #
+$CMP CAP_330nF_16V_X7R_0603
+D Capacitor, Ceramic, 330nF Capacitance, 16V Rating, X7R Dielectric, SMT, 0603 Package
+K capacitor cap
+F https://www.digikey.com/en/products/detail/murata-electronics/GRM188R71C334KA01D/702558
+$ENDCMP
+#
+$CMP CAP_330nF_35V_X7R_0805
+D Capacitor, Ceramic, 330nF Capacitance, 35V Rating, X7R Dielectric, SMT, 0805 Package
+K capacitor cap
+F https://www.digikey.com/en/products/detail/taiyo-yuden/GMK212B7334KG-T/1169761
+$ENDCMP
+#
 $CMP CAP_33nF_25V_X7R_0603
 D Capacitor, Ceramic, 33nF Capacitance, 25V Rating, X7R Dielectric, SMT, 0603 Package
 K capacitor cap
@@ -120,6 +138,12 @@ $CMP CAP_4.7uF_16V_X6S_0603
 D Capacitor, Ceramic, 4.7uF Capacitance, 16V Rating, X6S Dielectric, SMT, 0603 Package
 K capacitor cap
 F https://www.digikey.com/product-detail/en/tdk-corporation/C1608X6S1C475K080AC/445-9118-6-ND/3661675
+$ENDCMP
+#
+$CMP CAP_470nF_35V_X7R_0603
+D Capacitor, Ceramic, 470nF Capacitance, 35V Rating, X7R Dielectric, SMT, 0603 Package
+K capacitor cap
+F https://www.digikey.com/en/products/detail/tdk-corporation/C1608X7R1V474K080AE/5809273
 $ENDCMP
 #
 $CMP CAP_47nF_50V_X7R_0402
@@ -180,6 +204,10 @@ $CMP CSNL1206FT3L00
 D Resistor, Current Sense, 3mOhm, 1% Tolerance, 1W Rating, SMT, 1206 Package
 K r resistor res
 F https://www.seielect.com/catalog/sei-csnl.pdf
+$ENDCMP
+#
+$CMP FDMC8030
+F https://www.onsemi.com/pub/Collateral/FDMC8030-D.pdf
 $ENDCMP
 #
 $CMP HSCDRRN001BDSA3
