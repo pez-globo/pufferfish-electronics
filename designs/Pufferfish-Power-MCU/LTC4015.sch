@@ -2187,30 +2187,4 @@ $EndComp
 Connection ~ 10450 4500
 Wire Wire Line
 	10450 4500 10250 4500
-$Comp
-L Pufferfish:RES_SMD_0402 R?
-U 1 1 5FD4B688
-P 7175 1350
-F 0 "R?" H 7243 1396 50  0000 L CNN
-F 1 "20k" H 7255 1160 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0402" H 7375 950 50  0001 C CNN
-F 3 "~" H 7175 1350 50  0001 C CNN
-F 4 "1%" H 7325 1250 50  0001 C CNN "Tolerance"
-F 5 "20kΩ" H 7243 1305 50  0000 L CNN "Resistance"
-	1    7175 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish:RES_SMD_0402 R?
-U 1 1 5FD4C332
-P 7575 1350
-F 0 "R?" H 7643 1396 50  0000 L CNN
-F 1 "10k" H 7655 1160 50  0001 L CNN
-F 2 "Pufferfish:RES_SMD_0402" H 7775 950 50  0001 C CNN
-F 3 "~" H 7575 1350 50  0001 C CNN
-F 4 "?%" H 7725 1250 50  0001 C CNN "Tolerance"
-F 5 "?Ω" H 7643 1305 50  0000 L CNN "Resistance"
-	1    7575 1350
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC

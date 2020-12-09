@@ -504,4 +504,78 @@ Wire Notes Line
 	750  2075 2450 2075
 Text Notes 1500 1600 0    50   ~ 10
 TODO: crosscheck the main input and SLA battery terminals in LTC4015 design\nVIN Primary 24V is the  DC wall wart supply and is interconnected b/w 2 power boards. 
+Text GLabel 2075 5000 2    50   Input ~ 0
+NTC-SENSE-INPUT
+$Comp
+L 172287-1202:1722871202 J7
+U 1 1 5FD2E451
+P 1925 5250
+F 0 "J7" H 950 4900 50  0000 C CNN
+F 1 "B2B-XH-A(LF)(SN)" H 1025 4800 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 1925 5250 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf" H 1925 5250 50  0001 C CNN
+	1    1925 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FD30BC8
+P 1725 5800
+AR Path="/5EC321D9/5FD30BC8" Ref="#PWR?"  Part="1" 
+AR Path="/5EC45070/5FD30BC8" Ref="#PWR098"  Part="1" 
+F 0 "#PWR098" H 1725 5550 50  0001 C CNN
+F 1 "GND" H 1730 5627 50  0000 C CNN
+F 2 "" H 1725 5800 50  0001 C CNN
+F 3 "" H 1725 5800 50  0001 C CNN
+	1    1725 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L libs:RES_10K_0603_SMD R62
+U 1 1 5FD3295E
+P 1725 5500
+F 0 "R62" H 1793 5637 50  0000 L CNN
+F 1 "RES_10K_0603_SMD" H 1805 5310 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0603" H 1925 5100 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGTR-ND/135662" H 1725 5500 50  0001 C CNN
+F 4 "1%" H 1793 5546 50  0000 L CNN "Tolerance"
+F 5 "10kΩ" H 1793 5455 50  0000 L CNN "Resistance"
+F 6 "ERJ-3GEYJ103V" H 1725 5500 50  0001 C CNN "MPN"
+F 7 "Panasonic" H 1725 5500 50  0001 C CNN "MFG"
+F 8 "0603" H 1793 5364 50  0000 L CNN "Package"
+	1    1725 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L libs:RES_SMD_0603 R63
+U 1 1 5FD33903
+P 2050 5700
+F 0 "R63" H 2118 5837 50  0000 L CNN
+F 1 "RES_20K_0603_SMD" H 2130 5510 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0603" H 2250 5300 50  0001 C CNN
+F 3 "" H 2050 5700 50  0001 C CNN
+F 4 "1%" H 2118 5746 50  0000 L CNN "Tolerance"
+F 5 "20kΩ" H 2118 5655 50  0000 L CNN "Resistance"
+F 6 "ERJ-3GEYJ203V" H 2050 5700 50  0001 C CNN "MPN"
+F 7 "Panasonic" H 2050 5700 50  0001 C CNN "MFG"
+F 8 "0603" H 2118 5564 50  0000 L CNN "Package"
+	1    2050 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1725 5400 1725 5250
+Wire Wire Line
+	1725 5250 2050 5250
+Wire Wire Line
+	2050 5250 2050 5600
+Wire Wire Line
+	1725 5800 2050 5800
+Connection ~ 1725 5800
+Wire Wire Line
+	2050 5250 2050 5000
+Wire Wire Line
+	2050 5000 2075 5000
+Connection ~ 2050 5250
+Text Notes 1450 4725 0    79   Italic 16
+NTC Connection
 $EndSCHEMATC
