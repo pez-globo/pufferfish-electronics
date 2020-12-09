@@ -1459,7 +1459,7 @@ F 3 "" H 6575 5875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish:LTC7812-LTC7812 U5
+L Pufferfish-Power-MCU-rescue:LTC7812-LTC7812-Pufferfish U5
 U 1 1 5F95FBC2
 P 5475 5325
 AR Path="/5F95FBC2" Ref="U5"  Part="1" 
@@ -2537,9 +2537,11 @@ Wire Notes Line
 Wire Wire Line
 	1425 5850 1275 5850
 $Comp
-L Pufferfish:LTC7812-LTC7812 U11
+L Pufferfish-Power-MCU-rescue:LTC7812-LTC7812-Pufferfish U11
 U 1 1 5FB38C85
 P 11750 5150
+AR Path="/5FB38C85" Ref="U11"  Part="1" 
+AR Path="/5F97DEDD/5FB38C85" Ref="U11"  Part="1" 
 F 0 "U11" H 11725 6281 50  0000 C CNN
 F 1 "LTC7812-LTC7812" H 11725 6190 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm" H 11950 6450 50  0001 C CNN
