@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Pufferfish-Power-MCU-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -466,19 +465,6 @@ Wire Wire Line
 Connection ~ 3350 4000
 Wire Wire Line
 	3350 4000 4500 4000
-$Comp
-L Pufferfish:VSYS-3V3 #PWR?
-U 1 1 5F96C5AE
-P 2650 3500
-AR Path="/5EDA3ECC/5F96C5AE" Ref="#PWR?"  Part="1" 
-AR Path="/5EC321D9/5F96C5AE" Ref="#PWR010"  Part="1" 
-F 0 "#PWR010" H 2650 3350 50  0001 C CNN
-F 1 "VSYS-3V3" H 2667 3673 50  0000 C CNN
-F 2 "" H 2650 3500 50  0001 C CNN
-F 3 "" H 2650 3500 50  0001 C CNN
-	1    2650 3500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2650 3500 2650 3550
 Wire Wire Line
@@ -2199,4 +2185,15 @@ Wire Wire Line
 	1000 2275 1075 2275
 Wire Wire Line
 	1000 2125 1075 2125
+$Comp
+L Pufferfish:INTVCC-LTC4015 #PWR?
+U 1 1 5FD3EA06
+P 2650 3500
+F 0 "#PWR?" H 2650 3350 50  0001 C CNN
+F 1 "INTVCC-LTC4015" H 2650 3650 50  0000 C CNN
+F 2 "" H 2650 3500 50  0001 C CNN
+F 3 "" H 2650 3500 50  0001 C CNN
+	1    2650 3500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
