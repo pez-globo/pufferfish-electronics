@@ -1717,7 +1717,7 @@ L power:GND #PWR095
 U 1 1 5FC9AC47
 P 12700 5700
 F 0 "#PWR095" H 12700 5450 50  0001 C CNN
-F 1 "GND" H 12705 5527 50  0000 C CNN
+F 1 "GND" H 12900 5650 50  0000 C CNN
 F 2 "" H 12700 5700 50  0001 C CNN
 F 3 "" H 12700 5700 50  0001 C CNN
 	1    12700 5700
@@ -2415,26 +2415,6 @@ Wire Wire Line
 Wire Wire Line
 	12650 5250 12950 5250
 Connection ~ 12950 5400
-Wire Wire Line
-	10650 2800 10650 2775
-$Comp
-L Pufferfish:VSYS-12V0 #PWR?
-U 1 1 5FF0DBA1
-P 10650 2775
-AR Path="/5F9B3D6D/5FF0DBA1" Ref="#PWR?"  Part="1" 
-AR Path="/5F97DEDD/5FF0DBA1" Ref="#PWR079"  Part="1" 
-F 0 "#PWR079" H 10650 2625 50  0001 C CNN
-F 1 "VSYS-12V0" H 10375 2850 50  0000 C CNN
-F 2 "" H 10650 2775 50  0001 C CNN
-F 3 "" H 10650 2775 50  0001 C CNN
-	1    10650 2775
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11000 2800 11000 3150
-Connection ~ 11000 3150
-Wire Wire Line
-	10650 2800 11000 2800
 Text GLabel 8200 1000 0    50   Input ~ 0
 VOUT_7812_24V
 Wire Wire Line
@@ -2567,4 +2547,52 @@ F 5 "33u" H 1375 1825 50  0000 L CNN "Capacitance"
 	1    1625 1975
 	1    0    0    -1  
 $EndComp
+Text Notes 725  10925 0    50   ~ 0
+All resistance values in Ohms unless otherwise mentioned. \nAll capacitance values in Farads unless otherwise mentioned. \nAll inductance values in Henry unless otherwise mentioned. \nUnits: mm
+Text Notes 1325 8125 0    118  ~ 24
+FUSE SLO-BLO
+$Comp
+L Device:Fuse F?
+U 1 1 5FE1FA79
+P 2100 8575
+AR Path="/5F97DDCF/5FE1FA79" Ref="F?"  Part="1" 
+AR Path="/5F97DEDD/5FE1FA79" Ref="F1"  Part="1" 
+F 0 "F1" V 1903 8575 50  0000 C CNN
+F 1 "Fuse" V 1994 8575 50  0000 C CNN
+F 2 "Fuse:Fuseholder_Cylinder-6.3x32mm_Schurter_0031-8002_Horizontal_Open" V 2030 8575 50  0001 C CNN
+F 3 "~" H 2100 8575 50  0001 C CNN
+	1    2100 8575
+	0    1    1    0   
+$EndComp
+Text GLabel 2250 8575 2    50   Input ~ 0
+VIN_7812_1_RAW
+Wire Notes Line
+	1025 7775 2975 7775
+Wire Notes Line
+	2975 7775 2975 8850
+Wire Notes Line
+	2975 8850 1025 8850
+Wire Notes Line
+	1025 8850 1025 7775
+$Comp
+L Pufferfish-Power:VSYS-12V0 #PWR?
+U 1 1 5FE1FA84
+P 1600 8500
+AR Path="/5F97DDCF/5FE1FA84" Ref="#PWR?"  Part="1" 
+AR Path="/5F97DEDD/5FE1FA84" Ref="#PWR084"  Part="1" 
+F 0 "#PWR084" H 1600 8350 50  0001 C CNN
+F 1 "VSYS-12V0" H 1617 8673 50  0000 C CNN
+F 2 "" H 1600 8500 50  0001 C CNN
+F 3 "" H 1600 8500 50  0001 C CNN
+	1    1600 8500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 8500 1600 8575
+Wire Wire Line
+	1600 8575 1950 8575
+Text GLabel 6725 5850 2    50   Input ~ 0
+LTC7812_RUN
+Text GLabel 12775 5675 2    50   Input ~ 0
+LTC7812_RUN
 $EndSCHEMATC

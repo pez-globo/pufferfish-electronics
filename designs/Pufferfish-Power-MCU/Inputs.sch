@@ -578,4 +578,12 @@ Wire Wire Line
 Connection ~ 2050 5250
 Text Notes 1450 4725 0    79   Italic 16
 NTC Connection
+Wire Notes Line
+	3025 4325 3025 6025
+Wire Notes Line
+	3025 6025 625  6025
+Wire Notes Line
+	625  6025 625  4325
+Wire Notes Line
+	625  4325 3025 4325
 $EndSCHEMATC

@@ -35,7 +35,7 @@ F 3 "~" H 1000 6900 50  0001 C CNN
 $EndComp
 Text Notes 950  6700 0    118  Italic 0
 Fiducials
-Text Notes 3600 4300 0    118  Italic 0
+Text Notes 3550 4150 0    118  Italic 0
 5V Buck
 $Comp
 L Mechanical:Fiducial FID4
@@ -261,15 +261,15 @@ Wire Wire Line
 Wire Wire Line
 	3400 7300 3350 7300
 $Sheet
-S 3600 4450 1600 250 
+S 3550 4300 1600 250 
 U 5EFFFB7B
 F0 "5V Buck" 50
 F1 "5V.sch" 50
 $EndSheet
-Text Notes 3600 5100 0    118  Italic 0
+Text Notes 3500 4900 0    118  Italic 0
 3.3V Buck
 $Sheet
-S 3600 5250 1600 250 
+S 3500 5050 1600 250 
 U 5EDA3ECC
 F0 "3.3V Buck" 50
 F1 "3v3.sch" 50
@@ -294,7 +294,7 @@ F 3 "" H 1950 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 3575 1825 1600 250 
+S 3575 2075 1600 250 
 U 5F97DDCF
 F0 "LTC2955" 50
 F1 "LTC2955.sch" 50
@@ -305,7 +305,7 @@ U 5F97DEDD
 F0 "LTC7812" 50
 F1 "LTC7812.sch" 50
 $EndSheet
-Text Notes 3575 2625 0    118  Italic 0
+Text Notes 3575 2725 0    118  Italic 0
 LTC7812 Design
 Text Notes 6800 3025 0    118  Italic 0
 Output Connectors\n
@@ -323,7 +323,7 @@ U 5EC45070
 F0 "Input Connectors" 50
 F1 "Inputs.sch" 50
 $EndSheet
-Text Notes 3600 1575 0    118  Italic 0
+Text Notes 3600 1825 0    118  Italic 0
 LTC2955 Design
 Text Notes 1800 1200 0    236  ~ 47
 Pufferfish - Power Management Board v2.0\n
