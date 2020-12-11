@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Pufferfish-Power-MCU-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -38,24 +39,6 @@ F 3 "" H 5100 5500 50  0001 C CNN
 	1    5100 5500
 	1    0    0    -1  
 $EndComp
-$Comp
-L Pufferfish:VSYS-12V0 #PWR?
-U 1 1 5ED9C9D1
-P 2700 2700
-AR Path="/5EC321D9/5ED9C9D1" Ref="#PWR?"  Part="1" 
-AR Path="/5EDA3ECC/5ED9C9D1" Ref="#PWR?"  Part="1" 
-AR Path="/5EFFFB7B/5ED9C9D1" Ref="#PWR052"  Part="1" 
-F 0 "#PWR052" H 2700 2550 50  0001 C CNN
-F 1 "VSYS-12V0" H 2717 2873 50  0000 C CNN
-F 2 "" H 2700 2700 50  0001 C CNN
-F 3 "" H 2700 2700 50  0001 C CNN
-	1    2700 2700
-	1    0    0    -1  
-$EndComp
-Text Notes 2500 2450 0    35   Italic 0
-Merged 12V
-Wire Wire Line
-	2700 2700 2700 2750
 $Comp
 L Pufferfish:VBUCK-INT-5V #PWR055
 U 1 1 5ED9FF71
@@ -998,4 +981,21 @@ Wire Wire Line
 Connection ~ 7400 3850
 Wire Wire Line
 	7400 3850 7550 3850
+Text GLabel 2700 2600 0    50   Input ~ 0
+VOUT_7812_12V
+Wire Wire Line
+	2700 2600 2700 2750
+$Comp
+L Connector:TestPoint TP10
+U 1 1 5FD90B13
+P 7350 5200
+F 0 "TP10" H 7408 5318 50  0000 L CNN
+F 1 "TP_PGOOD_5V" H 7408 5227 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 7550 5200 50  0001 C CNN
+F 3 "~" H 7550 5200 50  0001 C CNN
+	1    7350 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 5200 7350 5550
 $EndSCHEMATC

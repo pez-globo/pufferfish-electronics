@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Pufferfish-Power-MCU-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -2173,23 +2174,11 @@ $EndComp
 Connection ~ 10450 4500
 Wire Wire Line
 	10450 4500 10250 4500
-Text GLabel 1075 2125 2    50   Input ~ 0
-PP-SCL
-Text GLabel 1000 2275 0    50   BiDi ~ 0
-PP-SDA
-Text GLabel 1000 2125 0    50   Input ~ 0
-AAD_SCL
-Text GLabel 1075 2275 2    50   Input ~ 0
-AAD_SDA
-Wire Wire Line
-	1000 2275 1075 2275
-Wire Wire Line
-	1000 2125 1075 2125
 $Comp
-L Pufferfish:INTVCC-LTC4015 #PWR?
+L Pufferfish:INTVCC-LTC4015 #PWR010
 U 1 1 5FD3EA06
 P 2650 3500
-F 0 "#PWR?" H 2650 3350 50  0001 C CNN
+F 0 "#PWR010" H 2650 3350 50  0001 C CNN
 F 1 "INTVCC-LTC4015" H 2650 3650 50  0000 C CNN
 F 2 "" H 2650 3500 50  0001 C CNN
 F 3 "" H 2650 3500 50  0001 C CNN

@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Pufferfish-Power-MCU-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -323,7 +324,7 @@ F0 "Input Connectors" 50
 F1 "Inputs.sch" 50
 $EndSheet
 Text Notes 3600 1825 0    118  Italic 0
-LTC2955 Design
+LTC2955 and Voltage Level Translators
 Text Notes 1800 1200 0    236  ~ 47
 Pufferfish - Power Management Board v2.0\n
 $EndSCHEMATC
