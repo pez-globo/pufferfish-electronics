@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\NIC\github\pufferfish-electronics\designs\Pufferfish-Power-MCU\Pufferfish-Power-MCU.sch)
-    (date "12/14/2020 7:18:54 PM")
+    (date "12/15/2020 12:25:15 PM")
     (tool "Eeschema (5.1.2)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
