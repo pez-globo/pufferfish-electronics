@@ -14,14 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 3575 3650 1600 250 
-U 5EC321D9
-F0 "LTC4015" 50
-F1 "LTC4015.sch" 50
-$EndSheet
-Text Notes 3575 3500 0    118  Italic 0
-LTC4015 Design
 $Comp
 L Mechanical:Fiducial FID1
 U 1 1 5F00049D
@@ -35,8 +27,6 @@ F 3 "~" H 1000 6900 50  0001 C CNN
 $EndComp
 Text Notes 950  6700 0    118  Italic 0
 Fiducials
-Text Notes 3550 4150 0    118  Italic 0
-5V Buck
 $Comp
 L Mechanical:Fiducial FID4
 U 1 1 5F003F02
@@ -261,20 +251,6 @@ Wire Wire Line
 Wire Wire Line
 	3400 7300 3350 7300
 $Sheet
-S 3550 4300 1600 250 
-U 5EFFFB7B
-F0 "5V Buck" 50
-F1 "5V.sch" 50
-$EndSheet
-Text Notes 3500 4900 0    118  Italic 0
-3.3V Buck
-$Sheet
-S 3500 5050 1600 250 
-U 5EDA3ECC
-F0 "3.3V Buck" 50
-F1 "3v3.sch" 50
-$EndSheet
-$Sheet
 S 6850 3975 1600 250 
 U 5EEC5CE7
 F0 "LEDs and Debug" 50
@@ -293,20 +269,6 @@ F 3 "" H 1950 1750 50  0001 C CNN
 	1    1950 1750
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 3575 2075 1600 250 
-U 5F97DDCF
-F0 "LTC2955" 50
-F1 "LTC2955.sch" 50
-$EndSheet
-$Sheet
-S 3575 2900 1625 300 
-U 5F97DEDD
-F0 "LTC7812" 50
-F1 "LTC7812.sch" 50
-$EndSheet
-Text Notes 3575 2725 0    118  Italic 0
-LTC7812 Design
 Text Notes 6800 3025 0    118  Italic 0
 Output Connectors\n
 $Sheet
@@ -327,4 +289,42 @@ Text Notes 3600 1825 0    118  Italic 0
 LTC2955 and Voltage Level Translators
 Text Notes 1800 1200 0    236  ~ 47
 Pufferfish - Power Management Board v2.0\n
+Text Notes 3575 2725 0    118  Italic 0
+LTC7812 Design
+$Sheet
+S 3575 2900 1625 300 
+U 5F97DEDD
+F0 "LTC7812" 50
+F1 "LTC7812.sch" 50
+$EndSheet
+$Sheet
+S 3575 2075 1600 250 
+U 5F97DDCF
+F0 "LTC2955" 50
+F1 "LTC2955.sch" 50
+$EndSheet
+$Sheet
+S 3500 5050 1600 250 
+U 5EDA3ECC
+F0 "3.3V Buck" 50
+F1 "3v3.sch" 50
+$EndSheet
+Text Notes 3500 4900 0    118  Italic 0
+3.3V Buck
+$Sheet
+S 3550 4300 1600 250 
+U 5EFFFB7B
+F0 "5V Buck" 50
+F1 "5V.sch" 50
+$EndSheet
+Text Notes 3550 4150 0    118  Italic 0
+5V Buck
+Text Notes 3575 3500 0    118  Italic 0
+LTC4015 Design
+$Sheet
+S 3575 3650 1600 250 
+U 5EC321D9
+F0 "LTC4015" 50
+F1 "LTC4015.sch" 50
+$EndSheet
 $EndSCHEMATC

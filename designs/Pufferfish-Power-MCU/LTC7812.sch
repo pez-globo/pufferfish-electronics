@@ -39,14 +39,7 @@ NoConn ~ 6375 5125
 Wire Wire Line
 	6375 5425 6450 5425
 Wire Wire Line
-	6450 5425 6450 5450
-Wire Wire Line
 	6450 5575 6375 5575
-Wire Wire Line
-	6450 5450 6500 5450
-Connection ~ 6450 5450
-Wire Wire Line
-	6450 5450 6450 5575
 Wire Wire Line
 	6375 5725 6725 5725
 Wire Wire Line
@@ -78,14 +71,6 @@ Wire Wire Line
 	4225 7600 4225 7700
 Text Label 6125 4375 1    50   ~ 0
 EXTVCC1
-Text Label 4525 4875 2    50   ~ 0
-PGOOD1
-Text Label 6375 5275 0    50   ~ 0
-OV_2_1
-Text Label 6400 1100 0    50   ~ 0
-OV_2_1
-Text Label 5575 1150 2    50   ~ 0
-PGOOD1
 Wire Wire Line
 	5975 1100 6050 1100
 Text GLabel 6050 1100 1    50   Input ~ 0
@@ -197,7 +182,7 @@ Wire Wire Line
 Wire Wire Line
 	6075 6700 6425 6700
 Connection ~ 5550 7250
-Text Label 5950 6825 0    50   ~ 0
+Text Label 6150 6825 0    50   ~ 0
 VBIAS1
 Wire Wire Line
 	5625 6325 5625 6525
@@ -454,7 +439,7 @@ Wire Wire Line
 	3700 1100 3500 1100
 Text Label 2225 3575 1    50   ~ 0
 VBIAS1
-Text Label 8400 2425 2    50   ~ 0
+Text Label 8400 2175 2    50   ~ 0
 VOUT_7812_1
 Wire Wire Line
 	8400 2625 8400 2700
@@ -991,12 +976,12 @@ $Comp
 L libs:RES_SMD_1206 R79
 U 1 1 5FB257B5
 P 5850 6825
-F 0 "R79" V 5725 6800 50  0000 L CNN
+F 0 "R79" V 5700 6800 50  0000 L CNN
 F 1 "549K" H 5930 6635 50  0001 L CNN
 F 2 "Pufferfish:RES_SMD_0805" H 6050 6425 50  0001 C CNN
 F 3 "~" H 5850 6825 50  0001 C CNN
 F 4 "?%" H 6000 6725 50  0001 C CNN "Tolerance"
-F 5 "549K" V 5800 6750 50  0000 L CNN "Resistance"
+F 5 "549K" V 5775 6775 50  0000 L CNN "Resistance"
 	1    5850 6825
 	0    1    1    0   
 $EndComp
@@ -1356,12 +1341,12 @@ $EndComp
 $Comp
 L power:GND #GND0105
 U 1 1 5FB15F1F
-P 6500 5450
-F 0 "#GND0105" H 6500 5450 50  0001 C CNN
-F 1 "GND" H 6500 5320 59  0000 C CNN
-F 2 "" H 6500 5450 50  0001 C CNN
-F 3 "" H 6500 5450 50  0001 C CNN
-	1    6500 5450
+P 6525 5525
+F 0 "#GND0105" H 6525 5525 50  0001 C CNN
+F 1 "GND" H 6525 5395 59  0000 C CNN
+F 2 "" H 6525 5525 50  0001 C CNN
+F 3 "" H 6525 5525 50  0001 C CNN
+	1    6525 5525
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1462,10 +1447,6 @@ F 3 "" H 5475 5325 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2200 4500 2950 4500
-Text Label 5600 1325 2    50   ~ 0
-PGOOD2
-Text Label 6475 1325 0    50   ~ 0
-OV_2_2
 Wire Wire Line
 	5950 1300 6050 1300
 Wire Wire Line
@@ -1473,11 +1454,6 @@ Wire Wire Line
 Connection ~ 6050 1100
 Wire Wire Line
 	6050 1100 6100 1100
-Wire Wire Line
-	6050 1300 6175 1300
-Wire Wire Line
-	6175 1300 6175 1325
-Connection ~ 6050 1300
 $Comp
 L Jumper:SolderJumper_2_Open JP8
 U 1 1 5FB413E7
@@ -1489,10 +1465,6 @@ F 3 "~" H 5825 1100 50  0001 C CNN
 	1    5825 1100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5575 1150 5675 1150
-Wire Wire Line
-	5675 1150 5675 1100
 $Comp
 L Jumper:SolderJumper_2_Open JP7
 U 1 1 5FB765ED
@@ -1504,10 +1476,6 @@ F 3 "~" H 5800 1300 50  0001 C CNN
 	1    5800 1300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5600 1325 5650 1325
-Wire Wire Line
-	5650 1325 5650 1300
 $Comp
 L Jumper:SolderJumper_2_Open JP9
 U 1 1 5FB80C6F
@@ -1522,12 +1490,12 @@ $EndComp
 $Comp
 L Jumper:SolderJumper_2_Open JP10
 U 1 1 5FB81315
-P 6325 1325
-F 0 "JP10" H 6675 1175 50  0000 C CNN
-F 1 "SolderJumper_PGOOD" H 6600 1100 50  0000 C CNN
-F 2 "Pufferfish:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6325 1325 50  0001 C CNN
-F 3 "~" H 6325 1325 50  0001 C CNN
-	1    6325 1325
+P 6275 1300
+F 0 "JP10" H 6625 1150 50  0000 C CNN
+F 1 "SolderJumper_PGOOD" H 6550 1075 50  0000 C CNN
+F 2 "Pufferfish:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6275 1300 50  0001 C CNN
+F 3 "~" H 6275 1300 50  0001 C CNN
+	1    6275 1300
 	1    0    0    -1  
 $EndComp
 Text GLabel 1475 1875 1    50   Input ~ 0
@@ -1662,7 +1630,7 @@ Text GLabel 11500 3150 2    50   Input ~ 0
 VIN_7812_2
 Text GLabel 12250 4200 1    50   Input ~ 0
 VIN_7812_2
-Text Label 12650 4850 0    50   ~ 0
+Text Label 12750 4900 0    50   ~ 0
 INTVCC_2
 NoConn ~ 12650 4950
 $Comp
@@ -2224,14 +2192,10 @@ Wire Wire Line
 	11300 6150 11300 6625
 Wire Wire Line
 	11300 6625 10950 6625
-Text Label 10725 4700 2    50   ~ 0
+Text Label 10550 4700 1    50   ~ 0
 PGOOD2
-Wire Wire Line
-	10800 4700 10725 4700
-Text Label 12775 5100 0    50   ~ 0
+Text Label 13400 5125 1    50   ~ 0
 OV_2_2
-Wire Wire Line
-	12650 5100 12775 5100
 NoConn ~ 10800 4400
 NoConn ~ 10800 4550
 Text GLabel 11575 1200 1    50   Output ~ 0
@@ -2382,7 +2346,7 @@ L power:GND #PWR096
 U 1 1 5FBC3185
 P 12825 4700
 F 0 "#PWR096" H 12825 4450 50  0001 C CNN
-F 1 "GND" H 12830 4527 50  0000 C CNN
+F 1 "GND" H 12950 4650 50  0000 C CNN
 F 2 "" H 12825 4700 50  0001 C CNN
 F 3 "" H 12825 4700 50  0001 C CNN
 	1    12825 4700
@@ -2469,12 +2433,6 @@ Wire Notes Line
 Wire Notes Line
 	7275 450  7275 2025
 Wire Notes Line
-	7275 2025 6675 2025
-Wire Notes Line
-	6675 2025 6675 3525
-Wire Notes Line
-	7325 2025 9400 2025
-Wire Notes Line
 	9400 425  9400 8950
 Wire Notes Line
 	2700 2475 475  2475
@@ -2486,8 +2444,8 @@ U 1 1 5FB38C85
 P 11750 5150
 AR Path="/5FB38C85" Ref="U11"  Part="1" 
 AR Path="/5F97DEDD/5FB38C85" Ref="U11"  Part="1" 
-F 0 "U11" H 11725 6281 50  0000 C CNN
-F 1 "LTC7812-LTC7812" H 11725 6190 50  0000 C CNN
+F 0 "U11" H 11800 5450 50  0000 C CNN
+F 1 "LTC7812-LTC7812" H 11775 5225 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm" H 11950 6450 50  0001 C CNN
 F 3 "" H 11750 5150 50  0001 C CNN
 	1    11750 5150
@@ -2564,7 +2522,169 @@ Wire Wire Line
 Wire Notes Line
 	2700 2475 2700 475 
 Wire Notes Line
-	2700 2400 6675 2400
-Wire Notes Line
 	5025 525  5025 2400
+Text Label 3875 4700 2    50   ~ 0
+INTVCC_1
+$Comp
+L Pufferfish:RES_SMD_1206 R50
+U 1 1 5FDB6ACC
+P 3875 4800
+F 0 "R50" H 3675 4850 50  0000 L CNN
+F 1 "1M" H 3955 4610 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0603" H 3650 4575 50  0001 C CNN
+F 3 "~" H 3875 4800 50  0001 C CNN
+F 4 "?%" H 4025 4700 50  0001 C CNN "Tolerance"
+F 5 "1M" H 3675 4775 50  0000 L CNN "Resistance"
+	1    3875 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3875 4900 4500 4900
+Wire Wire Line
+	4500 4900 4500 4875
+Wire Wire Line
+	4500 4875 4525 4875
+Text GLabel 3875 4900 0    50   Input ~ 0
+PGOOD_12V
+Text Label 7375 5125 2    50   ~ 0
+INTVCC_1
+$Comp
+L Pufferfish:RES_SMD_1206 R66
+U 1 1 5FDD0953
+P 7375 5225
+F 0 "R66" H 7175 5275 50  0000 L CNN
+F 1 "1M" H 7455 5035 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0603" H 7575 4825 50  0000 C CNN
+F 3 "~" H 7375 5225 50  0001 C CNN
+F 4 "?%" H 7525 5125 50  0001 C CNN "Tolerance"
+F 5 "1M" H 7175 5200 50  0000 L CNN "Resistance"
+	1    7375 5225
+	1    0    0    -1  
+$EndComp
+Text GLabel 7375 5325 2    50   Input ~ 0
+OV_12V
+Wire Wire Line
+	6450 5425 6525 5425
+Wire Wire Line
+	6525 5425 6525 5525
+Wire Wire Line
+	6450 5425 6450 5575
+Connection ~ 6450 5425
+Text Label 13100 4800 0    50   ~ 0
+INTVCC_2
+Text Label 10325 4500 2    50   ~ 0
+INTVCC_2
+$Comp
+L Pufferfish:RES_SMD_1206 R67
+U 1 1 5FE3B870
+P 10325 4600
+F 0 "R67" H 10125 4650 50  0000 L CNN
+F 1 "1M" H 10405 4410 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0603" H 10525 4200 50  0001 C CNN
+F 3 "~" H 10325 4600 50  0001 C CNN
+F 4 "?%" H 10475 4500 50  0001 C CNN "Tolerance"
+F 5 "1M" H 10125 4575 50  0000 L CNN "Resistance"
+	1    10325 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10325 4700 10800 4700
+Text GLabel 9925 4675 1    50   Input ~ 0
+PGOOD_24V
+Wire Wire Line
+	12650 4850 12750 4850
+Wire Wire Line
+	12750 4850 12750 4900
+$Comp
+L Pufferfish:RES_SMD_1206 R68
+U 1 1 5FE7B300
+P 13150 5025
+F 0 "R68" H 12950 5075 50  0000 L CNN
+F 1 "1M" H 13230 4835 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0603" H 13350 4625 50  0001 C CNN
+F 3 "~" H 13150 5025 50  0001 C CNN
+F 4 "?%" H 13300 4925 50  0001 C CNN "Tolerance"
+F 5 "1M" H 12950 5000 50  0000 L CNN "Resistance"
+	1    13150 5025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13025 5100 13025 5125
+Wire Wire Line
+	13025 5125 13150 5125
+Wire Wire Line
+	12650 5100 13025 5100
+Text GLabel 13575 5125 1    50   Input ~ 0
+OV_24V
+Wire Wire Line
+	13150 5125 13575 5125
+Connection ~ 13150 5125
+Wire Wire Line
+	13150 4925 13150 4800
+Wire Wire Line
+	13150 4800 13100 4800
+Wire Wire Line
+	10325 4700 9925 4700
+Wire Wire Line
+	9925 4700 9925 4675
+Connection ~ 10325 4700
+Text GLabel 5575 1100 0    50   Input ~ 0
+PGOOD_12V
+Text GLabel 6400 1100 2    50   Input ~ 0
+OV_12V
+Text GLabel 5575 1300 0    50   Input ~ 0
+PGOOD_24V
+Text GLabel 6425 1300 2    50   Input ~ 0
+OV_24V
+Wire Wire Line
+	5575 1100 5675 1100
+Wire Wire Line
+	5575 1300 5650 1300
+Wire Wire Line
+	6050 1300 6125 1300
+Connection ~ 6050 1300
+Wire Wire Line
+	6375 5275 6650 5275
+Wire Wire Line
+	6650 5275 6650 5475
+Wire Wire Line
+	6650 5475 7375 5475
+Wire Wire Line
+	7375 5325 7375 5475
+Wire Notes Line
+	7025 2025 7025 2400
+Wire Notes Line
+	7025 2025 9400 2025
+Wire Notes Line
+	2700 2400 7025 2400
+Wire Notes Line
+	6675 3525 6675 2400
+$Comp
+L Pufferfish:RES_SMD_1206 R69
+U 1 1 5FFB64A3
+P 8400 2275
+F 0 "R69" H 8468 2321 50  0000 L CNN
+F 1 "0Ω" H 8480 2085 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0805" H 8600 1875 50  0001 C CNN
+F 3 "~" H 8400 2275 50  0001 C CNN
+F 4 "?%" H 8550 2175 50  0001 C CNN "Tolerance"
+F 5 "0Ω" H 8468 2230 50  0000 L CNN "Resistance"
+	1    8400 2275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 2375 8400 2425
+$Comp
+L Pufferfish:RES_SMD_1206 R44
+U 1 1 5FFCC7E5
+P 6050 6825
+F 0 "R44" V 6175 6800 50  0000 L CNN
+F 1 "0Ω" H 6130 6635 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0805" H 6250 6425 50  0001 C CNN
+F 3 "~" H 6050 6825 50  0001 C CNN
+F 4 "?%" H 6200 6725 50  0001 C CNN "Tolerance"
+F 5 "0Ω" V 6118 6780 50  0000 L CNN "Resistance"
+	1    6050 6825
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
