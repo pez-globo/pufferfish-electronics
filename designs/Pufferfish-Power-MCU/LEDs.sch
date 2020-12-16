@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 9
+Sheet 2 9
 Title "Pufferfish Power: LED's and Debug"
 Date "2020-06-10"
 Rev "v1.0"
@@ -296,4 +296,18 @@ Text GLabel 2900 2675 0    50   Input ~ 0
 VOUT_7812_12V
 Text Notes 2225 2475 0    50   Italic 10
 12V OV LED Indicator
+$Comp
+L power:GND #PWR?
+U 1 1 5FE08680
+P 5575 4150
+AR Path="/5EC321D9/5FE08680" Ref="#PWR?"  Part="1" 
+AR Path="/5EDA3ECC/5FE08680" Ref="#PWR?"  Part="1" 
+AR Path="/5EEC5CE7/5FE08680" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5575 3900 50  0001 C CNN
+F 1 "GND" H 5580 3977 50  0000 C CNN
+F 2 "" H 5575 4150 50  0001 C CNN
+F 3 "" H 5575 4150 50  0001 C CNN
+	1    5575 4150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=12/16/2020 8:14:06 AM
+update=12/16/2020 11:43:43 PM
 version=1
 last_client=pcbnew
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=Pufferfish-Power-MCU_Net_1.net
+LastNetListRead=Pufferfish-Power-MCU_Dummy.net
 CopperLayerCount=4
 BoardThickness=2
 AllowMicroVias=1
@@ -45,13 +45,15 @@ TrackWidth4=0.3
 TrackWidth5=0.35
 TrackWidth6=0.4
 TrackWidth7=0.5
-TrackWidth8=1
-TrackWidth9=1.5
-TrackWidth10=2
-TrackWidth11=2.5
-TrackWidth12=3
-TrackWidth13=5
-TrackWidth14=10
+TrackWidth8=0.7
+TrackWidth9=0.8
+TrackWidth10=1
+TrackWidth11=1.5
+TrackWidth12=2
+TrackWidth13=2.5
+TrackWidth14=3
+TrackWidth15=5
+TrackWidth16=10
 ViaDiameter1=0.8
 ViaDrill1=0.4
 ViaDiameter2=0.5
