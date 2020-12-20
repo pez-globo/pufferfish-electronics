@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 9
+Sheet 9 9
 Title "Pufferfish Power: LTC4221"
 Date "2020-05-17"
 Rev "v1.0"
@@ -1740,7 +1740,7 @@ Wire Wire Line
 	7250 3550 6550 3550
 Wire Wire Line
 	8050 3500 9900 3500
-Text Notes 7900 3700 0    35   Italic 0
+Text Notes 7200 3650 0    35   Italic 0
 Internal Voltage
 Text Label 9100 3500 2    50   ~ 0
 PP-PMOS-GATE-CTRL
@@ -2187,4 +2187,6 @@ F 3 "" H 2650 3500 50  0001 C CNN
 	1    2650 3500
 	1    0    0    -1  
 $EndComp
+Text GLabel 7650 3700 2    50   Output ~ 0
+LTC4015_INTVCC
 $EndSCHEMATC

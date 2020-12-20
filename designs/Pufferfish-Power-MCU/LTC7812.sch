@@ -193,7 +193,7 @@ Text Label 5225 4375 1    50   ~ 0
 BG_1_1
 Text Label 5825 4325 1    50   ~ 0
 BG_2_1
-Text Label 5575 8100 2    50   ~ 0
+Text Label 5375 8100 2    50   ~ 0
 BG_2_1
 Wire Wire Line
 	5875 8400 5975 8400
@@ -213,7 +213,7 @@ Wire Wire Line
 	5625 6525 5625 6825
 Text Label 8575 7075 0    50   ~ 0
 VBIAS1
-Text Label 6750 7725 2    50   ~ 0
+Text Label 6550 7725 2    50   ~ 0
 TG_2_1
 Text Label 5525 4375 1    50   ~ 0
 TG_2_1
@@ -410,10 +410,8 @@ Wire Wire Line
 Wire Wire Line
 	4525 4500 4525 4575
 Connection ~ 2950 4500
-Text Label 2600 4875 0    50   ~ 0
+Text Label 2800 4875 3    50   ~ 0
 BG_1_1
-Wire Wire Line
-	2625 4075 4150 4075
 Wire Wire Line
 	4150 4075 4150 4725
 Wire Wire Line
@@ -1934,9 +1932,9 @@ Text Label 11800 4200 1    50   ~ 0
 TG_2_2
 Text Label 12100 4200 1    50   ~ 0
 BG_2_2
-Text Label 12025 8125 2    50   ~ 0
+Text Label 11825 8125 2    50   ~ 0
 BG_2_2
-Text Label 12750 7400 2    50   ~ 0
+Text Label 12750 7125 0    50   ~ 0
 TG_2_2
 $Comp
 L Device:L L6
@@ -2685,6 +2683,88 @@ F 3 "~" H 6050 6825 50  0001 C CNN
 F 4 "?%" H 6200 6725 50  0001 C CNN "Tolerance"
 F 5 "0Ω" V 6118 6780 50  0000 L CNN "Resistance"
 	1    6050 6825
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12750 7125 12750 7200
+Wire Wire Line
+	4150 4075 2825 4075
+$Comp
+L Pufferfish:RES_SMD_0603 R101
+U 1 1 5FF7DB69
+P 12750 7300
+F 0 "R101" H 12818 7346 50  0000 L CNN
+F 1 "0Ω" H 12830 7110 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0603" H 12950 6900 50  0001 C CNN
+F 3 "~" H 12750 7300 50  0001 C CNN
+F 4 "?%" H 12900 7200 50  0001 C CNN "Tolerance"
+F 5 "0Ω" H 12818 7255 50  0000 L CNN "Resistance"
+	1    12750 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:RES_SMD_0603 R100
+U 1 1 5FF7F518
+P 11925 8125
+F 0 "R100" V 11720 8125 50  0000 C CNN
+F 1 "0Ω" H 12005 7935 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0603" H 12125 7725 50  0001 C CNN
+F 3 "~" H 11925 8125 50  0001 C CNN
+F 4 "?%" H 12075 8025 50  0001 C CNN "Tolerance"
+F 5 "0Ω" V 11811 8125 50  0000 C CNN "Resistance"
+	1    11925 8125
+	0    1    1    0   
+$EndComp
+$Comp
+L Pufferfish:RES_SMD_0603 R98
+U 1 1 5FF808A3
+P 5475 8100
+F 0 "R98" V 5270 8100 50  0000 C CNN
+F 1 "0Ω" H 5555 7910 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0603" H 5675 7700 50  0001 C CNN
+F 3 "~" H 5475 8100 50  0001 C CNN
+F 4 "?%" H 5625 8000 50  0001 C CNN "Tolerance"
+F 5 "0Ω" V 5361 8100 50  0000 C CNN "Resistance"
+	1    5475 8100
+	0    1    1    0   
+$EndComp
+$Comp
+L Pufferfish:RES_SMD_0603 R99
+U 1 1 5FF82BEB
+P 6650 7725
+F 0 "R99" V 6445 7725 50  0000 C CNN
+F 1 "0Ω" H 6730 7535 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0603" H 6850 7325 50  0001 C CNN
+F 3 "~" H 6650 7725 50  0001 C CNN
+F 4 "?%" H 6800 7625 50  0001 C CNN "Tolerance"
+F 5 "0Ω" V 6536 7725 50  0000 C CNN "Resistance"
+	1    6650 7725
+	0    1    1    0   
+$EndComp
+$Comp
+L Pufferfish:RES_SMD_0603 R71
+U 1 1 5FF843F7
+P 2725 4075
+F 0 "R71" V 2520 4075 50  0000 C CNN
+F 1 "0Ω" H 2805 3885 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0603" H 2925 3675 50  0001 C CNN
+F 3 "~" H 2725 4075 50  0001 C CNN
+F 4 "?%" H 2875 3975 50  0001 C CNN "Tolerance"
+F 5 "0Ω" V 2611 4075 50  0000 C CNN "Resistance"
+	1    2725 4075
+	0    1    1    0   
+$EndComp
+$Comp
+L Pufferfish:RES_SMD_0603 R70
+U 1 1 5FF86CB6
+P 2700 4875
+F 0 "R70" V 2495 4875 50  0000 C CNN
+F 1 "0Ω" H 2780 4685 50  0001 L CNN
+F 2 "Pufferfish:RES_SMD_0603" H 2900 4475 50  0001 C CNN
+F 3 "~" H 2700 4875 50  0001 C CNN
+F 4 "?%" H 2850 4775 50  0001 C CNN "Tolerance"
+F 5 "0Ω" V 2586 4875 50  0000 C CNN "Resistance"
+	1    2700 4875
 	0    1    1    0   
 $EndComp
 $EndSCHEMATC
