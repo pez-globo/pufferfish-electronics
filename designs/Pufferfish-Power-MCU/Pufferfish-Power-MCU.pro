@@ -1,4 +1,4 @@
-update=12/17/2020 1:54:30 PM
+update=12/23/2020 5:55:30 PM
 version=1
 last_client=pcbnew
 [general]
@@ -60,10 +60,14 @@ ViaDiameter2=0.5
 ViaDrill2=0.35
 ViaDiameter3=0.6
 ViaDrill3=0.35
-ViaDiameter4=2
-ViaDrill4=1
-ViaDiameter5=4
-ViaDrill5=2
+ViaDiameter4=1.6
+ViaDrill4=0.8
+ViaDiameter5=2
+ViaDrill5=1
+ViaDiameter6=4
+ViaDrill6=2
+ViaDiameter7=6
+ViaDrill7=3
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
