@@ -1,4 +1,4 @@
-(module "Molex 8 Pin UltraFit:MOLEX_172316-1108" (layer F.Cu) (tedit 5F97144D)
+(module MOLEX_172316-1108 (layer F.Cu) (tedit 5FEAFCF2)
   (fp_text reference J1 (at -4.825 -6.135) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.015)))
   )

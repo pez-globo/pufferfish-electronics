@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 9
+Sheet 3 9
 Title ""
 Date ""
 Rev ""
@@ -14,8 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Wire Line
-	5350 3325 5250 3325
 $Comp
 L Device:C_Small C27
 U 1 1 5F947017
@@ -133,19 +131,6 @@ LTC2955_SHDN_INT
 Text GLabel 8675 3750 0    50   Input ~ 0
 LTC7812_PG
 $Comp
-L 172316-1108:172316-1108 J1
-U 1 1 5F9A92F5
-P 5750 3525
-F 0 "J1" H 5980 3521 50  0000 L CNN
-F 1 "172316-1108" H 5550 2925 50  0000 L CNN
-F 2 "Pufferfish:MOLEX_172316-1108" H 5750 3525 50  0001 L BNN
-F 3 "" H 5750 3525 157 0001 C CNN
-	1    5750 3525
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5350 3425 5200 3425
-$Comp
 L power:GND #PWR097
 U 1 1 5F9B751B
 P 5025 3800
@@ -179,25 +164,14 @@ F 3 "" H 7000 3575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pufferfish:VSYS-3V3 #PWR0100
-U 1 1 5F9BF271
-P 5350 3225
-F 0 "#PWR0100" H 5350 3075 50  0001 C CNN
-F 1 "VSYS-3V3" H 5075 3325 50  0000 C CNN
-F 2 "" H 5350 3225 50  0001 C CNN
-F 3 "" H 5350 3225 50  0001 C CNN
-	1    5350 3225
-	1    0    0    -1  
-$EndComp
-$Comp
 L Pufferfish:VSYS-5V0 #PWR099
 U 1 1 5F9BF5E7
-P 5250 3325
-F 0 "#PWR099" H 5250 3175 50  0001 C CNN
-F 1 "VSYS-5V0" H 5025 3425 50  0000 C CNN
-F 2 "" H 5250 3325 50  0001 C CNN
-F 3 "" H 5250 3325 50  0001 C CNN
-	1    5250 3325
+P 4900 3300
+F 0 "#PWR099" H 4900 3150 50  0001 C CNN
+F 1 "VSYS-5V0" H 4700 3325 50  0000 C CNN
+F 2 "" H 4900 3300 50  0001 C CNN
+F 3 "" H 4900 3300 50  0001 C CNN
+	1    4900 3300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -221,17 +195,7 @@ Text Notes 5500 4250 0    50   Italic 0
 Right-Angled
 Wire Wire Line
 	5025 3800 5350 3800
-Wire Wire Line
-	5350 3625 5350 3725
-Wire Wire Line
-	5350 3725 5350 3800
-Connection ~ 5350 3725
 Connection ~ 5350 3800
-Wire Wire Line
-	5350 3800 5350 3825
-Wire Wire Line
-	5350 3925 5350 3825
-Connection ~ 5350 3825
 Text Notes 8375 4525 0    79   ~ 16
 For STM32\n
 $Comp
@@ -356,18 +320,12 @@ Wire Wire Line
 	8675 3950 8900 3950
 Wire Wire Line
 	8675 4050 8900 4050
-Text GLabel 5125 3475 0    50   Input ~ 0
-VOUT_7812_24V
 Text GLabel 7450 3250 2    50   Input ~ 0
 VOUT_7812_24V
 Wire Wire Line
 	7450 3550 7450 3250
-Text GLabel 5150 3350 0    50   Input ~ 0
+Text GLabel 5075 3250 1    50   Input ~ 0
 VOUT_7812_12V
-Wire Wire Line
-	5150 3350 5200 3350
-Wire Wire Line
-	5200 3350 5200 3425
 Text GLabel 7175 3225 0    50   Input ~ 0
 VOUT_7812_12V
 Wire Wire Line
@@ -497,13 +455,9 @@ For Power\n
 Text Notes 2150 4425 0    79   ~ 16
 For Aardvark Host Adapter (I2C) Debug
 Wire Notes Line
-	1725 2700 9950 2700
-Wire Notes Line
-	9950 2700 9950 4850
+	1725 2450 9950 2450
 Wire Notes Line
 	9950 4850 1725 4850
-Wire Notes Line
-	1725 4850 1725 2700
 Text GLabel 2350 3775 0    50   Input ~ 0
 AAD_SCL
 Text GLabel 2350 3925 0    50   Input ~ 0
@@ -517,9 +471,65 @@ PP-SDA_3V3
 Text GLabel 2425 3775 2    50   Input ~ 0
 PP-SCL_3V3
 Wire Wire Line
-	5125 3475 5200 3475
+	5350 3925 5350 3825
 Wire Wire Line
-	5200 3475 5200 3525
+	5350 3800 5350 3825
+Connection ~ 5350 3825
 Wire Wire Line
-	5200 3525 5350 3525
+	5350 3725 5350 3800
+Wire Wire Line
+	5350 3625 5350 3725
+Connection ~ 5350 3725
+$Comp
+L 172316-1108:172316-1108 J1
+U 1 1 5F9A92F5
+P 5750 3525
+F 0 "J1" H 5980 3521 50  0000 L CNN
+F 1 "172316-1108" H 5550 2925 50  0000 L CNN
+F 2 "Pufferfish:MOLEX_172316-1108" H 5750 3525 50  0001 L BNN
+F 3 "" H 5750 3525 157 0001 C CNN
+	1    5750 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pufferfish:VSYS-3V3 #PWR0100
+U 1 1 5F9BF271
+P 4825 3475
+F 0 "#PWR0100" H 4825 3325 50  0001 C CNN
+F 1 "VSYS-3V3" H 4600 3500 50  0000 C CNN
+F 2 "" H 4825 3475 50  0001 C CNN
+F 3 "" H 4825 3475 50  0001 C CNN
+	1    4825 3475
+	1    0    0    -1  
+$EndComp
+Text GLabel 5250 3150 1    50   Input ~ 0
+VOUT_7812_24V
+Wire Wire Line
+	5250 3150 5350 3150
+Wire Wire Line
+	5350 3150 5350 3225
+Wire Wire Line
+	5075 3250 5300 3250
+Wire Wire Line
+	5300 3250 5300 3325
+Wire Wire Line
+	5300 3325 5350 3325
+Wire Wire Line
+	4900 3375 5275 3375
+Wire Wire Line
+	5275 3375 5275 3425
+Wire Wire Line
+	5275 3425 5350 3425
+Wire Wire Line
+	4900 3300 4900 3375
+Wire Wire Line
+	5225 3475 5225 3525
+Wire Wire Line
+	4825 3475 5225 3475
+Wire Wire Line
+	5225 3525 5350 3525
+Wire Notes Line
+	1725 2450 1725 4850
+Wire Notes Line
+	9950 2450 9950 4850
 $EndSCHEMATC
