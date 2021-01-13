@@ -163,7 +163,7 @@ L Pufferfish:CAP_SMD_0603 C55
 U 1 1 5F9DA773
 P 4200 3625
 F 0 "C55" V 4275 3300 50  0000 C CNN
-F 1 "1.6u" V 4350 3300 50  0000 C CNN
+F 1 "5.6u" V 4350 3300 50  0000 C CNN
 F 2 "Pufferfish:CAP_SMD_0603" H 4200 3625 50  0001 C CNN
 F 3 "~" H 4200 3625 50  0001 C CNN
 F 4 "25V" V 4200 3300 50  0000 C CNN "Voltage"
@@ -174,8 +174,8 @@ Wire Wire Line
 	4050 3625 4100 3625
 Wire Wire Line
 	4300 3625 4350 3625
-Text Notes 3700 4250 0    50   ~ 10
-Additional Timer value: 7.2 s\n\n
+Text Notes 3625 4175 0    50   ~ 10
+Additional Timer value: 30s for HMI\n
 Wire Notes Line
 	1825 4375 4300 4375
 Wire Notes Line
@@ -210,8 +210,6 @@ Wire Wire Line
 Connection ~ 3000 3350
 Text Notes 2000 3400 2    55   ~ 11
 TO DPST Switch >
-Text Notes 1350 2275 0    79   Italic 0
-Todo: Confirm the V_LTC4015_OUT Label \n
 Text Notes 2025 4525 0    50   ~ 10
 Auto Cut off (ON goes low) < 9V. 
 $Comp
@@ -227,7 +225,7 @@ F 4 "1%" H 3525 3475 50  0000 C CNN "Tolerance"
 	-1   0    0    1   
 $EndComp
 Wire Notes Line
-	3950 3800 3950 4075
+	3875 3825 3875 4100
 $Comp
 L Pufferfish:RES_SMD_1206 R41
 U 1 1 5FA99673

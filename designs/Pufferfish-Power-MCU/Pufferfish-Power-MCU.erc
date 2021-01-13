@@ -1,0 +1,75 @@
+ERC report (1/12/2021 4:21:28 PM, Encoding UTF8 )
+
+***** Sheet /
+
+***** Sheet /LEDs and Debug/
+
+***** Sheet /Output Connectors/
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(93.34 mm, 102.87 mm): Pin 10 (Unspecified) of component P1 is connected to 
+    @(93.34 mm, 82.55 mm): pin 2 (Unspecified) of component P1 (net 1).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(93.34 mm, 82.55 mm): Pin 2 (Unspecified) of component P1 is connected to 
+    @(82.55 mm, 82.55 mm): pin 1 (Power input) of component #PWR0111 (net 1).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(177.80 mm, 90.80 mm): Pin 1 (Power input) of component #PWR0106 is not driven (Net 67).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(93.34 mm, 80.01 mm): Pin 1 (Unspecified) of component P1 is connected to 
+    @(226.06 mm, 87.63 mm): pin 2 (Passive) of component R83 (net 71).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(93.34 mm, 87.63 mm): Pin 4 (Unspecified) of component P1 is connected to 
+    @(71.12 mm, 87.00 mm): pin 2 (Passive) of component JP16 (net 161).
+
+***** Sheet /Input Connectors/
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(185.42 mm, 53.34 mm): Pin 1 (Power input) of component #PWR034 is not driven (Net 39).
+
+***** Sheet /LTC7812/
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(114.94 mm, 127.63 mm): Pin 4 (Unspecified) of component U5 is connected to 
+    @(215.90 mm, 31.11 mm): pin 2 (Passive) of component JP1 (net 115).
+
+***** Sheet /LTC2955/
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(90.17 mm, 87.00 mm): Pin 1 (Power input) of component #PWR0114 is not driven (Net 21).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(113.03 mm, 153.67 mm): Pin 1 (Passive) of component R64 is connected to 
+    @(93.34 mm, 85.09 mm): pin 3 (Unspecified) of component P1 (net 70).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(118.74 mm, 170.81 mm): Pin 1 (Passive) of component R65 is connected to 
+    @(93.34 mm, 80.01 mm): pin 1 (Unspecified) of component P1 (net 71).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(92.71 mm, 74.30 mm): Pin 4 (Power input) of component U4 is not driven (Net 74).
+
+***** Sheet /3.3V Buck/
+ErrType(8): Global label not connected to any other global label
+    @(92.71 mm, 113.03 mm): Global label 3V3-PGOOD is not connected to any other global label.
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(143.51 mm, 88.90 mm): Pin 2 (Power input) of component U3 is not driven (Net 119).
+
+***** Sheet /5V Buck/
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(149.86 mm, 128.27 mm): Pin 2 (Passive) of component C39 is connected to 
+    @(93.34 mm, 102.87 mm): pin 10 (Unspecified) of component P1 (net 1).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(68.58 mm, 83.82 mm): Pin 1 (Power input) of component #PWR053 is not driven (Net 1).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(93.98 mm, 121.92 mm): Pin 1 (Power input) of component #PWR055 is not driven (Net 58).
+ErrType(8): Global label not connected to any other global label
+    @(190.50 mm, 140.97 mm): Global label VSYS-5V0-PGOOD is not connected to any other global label.
+
+***** Sheet /LTC4015/
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(67.31 mm, 88.90 mm): Pin 1 (Power input) of component #PWR010 is not driven (Net 3).
+ErrType(8): Global label not connected to any other global label
+    @(110.49 mm, 170.18 mm): Global label PP-EQ-EN is not connected to any other global label.
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(114.30 mm, 129.54 mm): Pin 10 (Power input) of component U1 is not driven (Net 12).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(273.05 mm, 147.32 mm): Pin 1 (Power input) of component #PWR0105 is not driven (Net 28).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(184.15 mm, 144.78 mm): Pin 1 (Passive) of component C14 is not driven (Net 31).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(114.30 mm, 132.08 mm): Pin 9 (Power input) of component U1 is not driven (Net 32).
+
+ ** ERC messages: 23  Errors 0  Warnings 23
