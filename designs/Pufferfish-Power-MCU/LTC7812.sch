@@ -2418,7 +2418,7 @@ Text Notes 3400 2025 0    50   ~ 10
 EXTVCC1 Selection\n
 Text Label 5750 3450 1    50   ~ 0
 VBIAS1
-Text Notes 5900 1950 0    50   ~ 10
+Text Notes 5775 2125 0    50   ~ 10
 PGOOD Selection
 Text Notes 7800 1950 0    50   ~ 10
 External Source Tracking\n(Short JP1 to track 24VOUT)
@@ -2767,4 +2767,33 @@ F 5 "0Ω" V 2586 4875 50  0000 C CNN "Resistance"
 	1    2700 4875
 	0    1    1    0   
 $EndComp
+Text GLabel 5750 1675 0    50   Output ~ 0
+VSYS-5V0-PGOOD
+$Comp
+L Jumper:SolderJumper_2_Open JP17
+U 1 1 60033439
+P 5900 1675
+F 0 "JP17" H 5750 1475 50  0000 C CNN
+F 1 "SolderJumper_PGOOD" H 5350 1500 50  0000 C CNN
+F 2 "Pufferfish:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5900 1675 50  0001 C CNN
+F 3 "~" H 5900 1675 50  0001 C CNN
+	1    5900 1675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 1300 6050 1675
+$Comp
+L Jumper:SolderJumper_2_Open JP18
+U 1 1 6005F2BC
+P 6200 1675
+F 0 "JP18" H 6050 1475 50  0000 C CNN
+F 1 "SolderJumper_PGOOD" H 6675 1475 50  0000 C CNN
+F 2 "Pufferfish:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6200 1675 50  0001 C CNN
+F 3 "~" H 6200 1675 50  0001 C CNN
+	1    6200 1675
+	1    0    0    -1  
+$EndComp
+Connection ~ 6050 1675
+Text GLabel 6350 1675 2    50   Output ~ 0
+3V3-PGOOD
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=12/30/2020 5:09:18 PM
+update=1/14/2021 2:49:40 PM
 version=1
 last_client=pcbnew
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=Pufferfish-Power-MCU_review.net
+LastNetListRead=Pufferfish-Power-MCU2.net
 CopperLayerCount=4
 BoardThickness=2
 AllowMicroVias=1
@@ -33,7 +33,7 @@ AllowBlindVias=1
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
 MinTrackWidth=0.2
-MinViaDiameter=0.4
+MinViaDiameter=0.7999999999999999
 MinViaDrill=0.3
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
@@ -98,7 +98,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
