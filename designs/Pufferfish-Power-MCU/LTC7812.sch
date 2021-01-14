@@ -2519,8 +2519,6 @@ Wire Wire Line
 	2225 3575 2225 3775
 Wire Notes Line
 	2700 2475 2700 475 
-Wire Notes Line
-	5025 525  5025 2400
 Text Label 3875 4700 2    50   ~ 0
 INTVCC_1
 $Comp
