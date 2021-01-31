@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Pufferfish-Power-MCU-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -408,9 +407,6 @@ Wire Wire Line
 	5600 3500 5650 3500
 Wire Wire Line
 	5600 2850 5350 2850
-Connection ~ 4750 2850
-Wire Wire Line
-	4750 2850 4750 2950
 Wire Wire Line
 	5050 2950 5050 2850
 Connection ~ 5050 2850
@@ -475,21 +471,6 @@ F 3 "" H 3950 4050 50  0001 C CNN
 	1    3950 4050
 	1    0    0    -1  
 $EndComp
-$Comp
-L Pufferfish:VSYS-12V0 #PWR?
-U 1 1 5EF44286
-P 3950 3350
-AR Path="/5EC321D9/5EF44286" Ref="#PWR?"  Part="1" 
-AR Path="/5EDA3ECC/5EF44286" Ref="#PWR063"  Part="1" 
-F 0 "#PWR063" H 3950 3200 50  0001 C CNN
-F 1 "VSYS-12V0" H 3967 3523 50  0000 C CNN
-F 2 "" H 3950 3350 50  0001 C CNN
-F 3 "" H 3950 3350 50  0001 C CNN
-	1    3950 3350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 3350 3950 3400
 Text Notes 3650 3700 0    35   Italic 0
 EN @ 6V
 Text Notes 5300 4250 0    35   Italic 0
@@ -657,4 +638,11 @@ Wire Wire Line
 	4725 2600 4750 2600
 Wire Wire Line
 	4750 2600 4750 2850
+Wire Wire Line
+	4750 2850 4750 2950
+Connection ~ 4750 2850
+Wire Wire Line
+	4750 2850 3950 2850
+Wire Wire Line
+	3950 2850 3950 3400
 $EndSCHEMATC

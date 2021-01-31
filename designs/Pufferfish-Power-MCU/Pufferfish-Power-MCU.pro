@@ -1,6 +1,6 @@
-update=1/14/2021 2:49:40 PM
+update=रविवार 31 जनवरी 2021 09:22:17 अपराह्न
 version=1
-last_client=pcbnew
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -18,14 +18,14 @@ PageLayoutDescrFile=
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=Pufferfish-Power-MCU2.net
+LastNetListRead=Pufferfish-Power-MCU_review.net
 CopperLayerCount=4
 BoardThickness=2
 AllowMicroVias=1

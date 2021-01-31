@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Pufferfish-Power-MCU-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -538,7 +537,7 @@ U 1 1 602A001D
 P 9300 2725
 F 0 "J8" H 9328 2701 50  0000 L CNN
 F 1 "LAMP CONN" H 9328 2610 50  0000 L CNN
-F 2 "" H 9300 2725 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 9300 2725 50  0001 C CNN
 F 3 "~" H 9300 2725 50  0001 C CNN
 	1    9300 2725
 	1    0    0    -1  
