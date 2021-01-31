@@ -35,20 +35,16 @@ $EndComp
 $Comp
 L Pufferfish:VSYS-12V0 #PWR092
 U 1 1 5EDE79A4
-P 10100 2200
-F 0 "#PWR092" H 10100 2050 50  0001 C CNN
-F 1 "VSYS-12V0" H 10117 2373 50  0000 C CNN
-F 2 "" H 10100 2200 50  0001 C CNN
-F 3 "" H 10100 2200 50  0001 C CNN
-	1    10100 2200
+P 10450 2300
+F 0 "#PWR092" H 10450 2150 50  0001 C CNN
+F 1 "VSYS-12V0" H 10550 2450 50  0000 C CNN
+F 2 "" H 10450 2300 50  0001 C CNN
+F 3 "" H 10450 2300 50  0001 C CNN
+	1    10450 2300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10100 2200 10100 2300
-Wire Wire Line
 	9750 2300 9300 2300
-Text Notes 9850 1950 0    35   Italic 0
-Merged 12V Output
 $Comp
 L Pufferfish:CAP_AE_SMD_220uF_25V_8mm C104
 U 1 1 5EDDA32D
@@ -1745,10 +1741,7 @@ Internal Voltage
 Text Label 9100 3500 2    50   ~ 0
 PP-PMOS-GATE-CTRL
 Wire Wire Line
-	10100 3400 10100 2300
-Wire Wire Line
 	10100 2300 9750 2300
-Connection ~ 10100 2300
 $Comp
 L Pufferfish:FDMC8327L Q1
 U 1 1 60860561
@@ -2154,8 +2147,6 @@ Text Label 4250 3300 2    50   ~ 0
 PP-UVCLFB
 Text Notes 1350 2950 0    35   Italic 0
 Undervoltage Setting:\n---------------\nUse voltage divider\nto set undervoltage charging\ncurrent threshold
-Text Notes 9850 1850 0    50   Italic 10
-System Voltage
 Text Notes 1800 2000 0    50   Italic 10
 Main Inpute Voltage
 $Comp
@@ -2189,4 +2180,34 @@ F 3 "" H 2650 3500 50  0001 C CNN
 $EndComp
 Text GLabel 7650 3700 2    50   Output ~ 0
 LTC4015_INTVCC
+$Comp
+L Device:Fuse F?
+U 1 1 601D69E9
+P 10250 2300
+AR Path="/5F97DDCF/601D69E9" Ref="F?"  Part="1" 
+AR Path="/5F97DEDD/601D69E9" Ref="F?"  Part="1" 
+AR Path="/5EC321D9/601D69E9" Ref="F1"  Part="1" 
+F 0 "F1" V 10053 2300 50  0000 C CNN
+F 1 "Fuse" V 10144 2300 50  0000 C CNN
+F 2 "Fuse:Fuseholder_Cylinder-6.3x32mm_Schurter_0031-8002_Horizontal_Open" V 10180 2300 50  0001 C CNN
+F 3 "~" H 10250 2300 50  0001 C CNN
+	1    10250 2300
+	0    1    1    0   
+$EndComp
+Text GLabel 10500 2300 2    50   Input ~ 0
+VIN_7812_1_RAW
+Wire Notes Line
+	8975 475  10925 475 
+Wire Wire Line
+	10400 2300 10425 2300
+Connection ~ 10450 2300
+Wire Wire Line
+	10450 2300 10500 2300
+Wire Wire Line
+	10425 2300 10425 3400
+Wire Wire Line
+	10425 3400 10100 3400
+Connection ~ 10425 2300
+Wire Wire Line
+	10425 2300 10450 2300
 $EndSCHEMATC

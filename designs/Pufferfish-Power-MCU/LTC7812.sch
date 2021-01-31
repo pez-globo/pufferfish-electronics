@@ -2469,48 +2469,8 @@ F 5 "33u" H 1375 1825 50  0000 L CNN "Capacitance"
 $EndComp
 Text Notes 725  10925 0    50   ~ 0
 All resistance values in Ohms unless otherwise mentioned. \nAll capacitance values in Farads unless otherwise mentioned. \nAll inductance values in Henry unless otherwise mentioned. \nUnits: mm
-Text Notes 1325 8125 0    118  ~ 24
-FUSE SLO-BLO
-$Comp
-L Device:Fuse F?
-U 1 1 5FE1FA79
-P 2100 8575
-AR Path="/5F97DDCF/5FE1FA79" Ref="F?"  Part="1" 
-AR Path="/5F97DEDD/5FE1FA79" Ref="F1"  Part="1" 
-F 0 "F1" V 1903 8575 50  0000 C CNN
-F 1 "Fuse" V 1994 8575 50  0000 C CNN
-F 2 "Fuse:Fuseholder_Cylinder-6.3x32mm_Schurter_0031-8002_Horizontal_Open" V 2030 8575 50  0001 C CNN
-F 3 "~" H 2100 8575 50  0001 C CNN
-	1    2100 8575
-	0    1    1    0   
-$EndComp
-Text GLabel 2250 8575 2    50   Input ~ 0
-VIN_7812_1_RAW
 Wire Notes Line
-	1025 7775 2975 7775
-Wire Notes Line
-	2975 7775 2975 8850
-Wire Notes Line
-	2975 8850 1025 8850
-Wire Notes Line
-	1025 8850 1025 7775
-$Comp
-L Pufferfish-Power:VSYS-12V0 #PWR?
-U 1 1 5FE1FA84
-P 1600 8500
-AR Path="/5F97DDCF/5FE1FA84" Ref="#PWR?"  Part="1" 
-AR Path="/5F97DEDD/5FE1FA84" Ref="#PWR084"  Part="1" 
-F 0 "#PWR084" H 1600 8350 50  0001 C CNN
-F 1 "VSYS-12V0" H 1617 8673 50  0000 C CNN
-F 2 "" H 1600 8500 50  0001 C CNN
-F 3 "" H 1600 8500 50  0001 C CNN
-	1    1600 8500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1600 8500 1600 8575
-Wire Wire Line
-	1600 8575 1950 8575
+	3225 7850 3225 8925
 Text GLabel 6725 5850 2    50   Input ~ 0
 LTC7812_RUN
 Text GLabel 12775 5675 2    50   Input ~ 0
