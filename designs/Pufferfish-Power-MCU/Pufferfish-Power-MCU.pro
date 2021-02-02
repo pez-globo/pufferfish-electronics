@@ -1,4 +1,4 @@
-update=रविवार 31 जनवरी 2021 09:22:17 अपराह्न
+update=मंगलवार 02 फरवरी 2021 07:46:56 पूर्वाह्न
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=Pufferfish-Power-MCU_review.net
+LastNetListRead=Pufferfish-Power_rev1.net
 CopperLayerCount=4
 BoardThickness=2
 AllowMicroVias=1
