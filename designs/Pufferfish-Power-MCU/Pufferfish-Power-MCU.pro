@@ -1,6 +1,6 @@
-update=मंगलवार 02 फरवरी 2021 07:46:56 पूर्वाह्न
+update=2/7/2021 3:15:09 PM
 version=1
-last_client=kicad
+last_client=pcbnew
 [general]
 version=1
 RootSch=
@@ -33,8 +33,8 @@ AllowBlindVias=1
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
 MinTrackWidth=0.2
-MinViaDiameter=0.7999999999999999
-MinViaDrill=0.3
+MinViaDiameter=0.5
+MinViaDrill=0.256
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
@@ -98,7 +98,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
