@@ -1,4 +1,4 @@
-update=2/7/2021 3:15:09 PM
+update=2/12/2021 3:44:52 PM
 version=1
 last_client=pcbnew
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=Pufferfish-Power_rev1.net
+LastNetListRead=Pufferfish-Power-MCU-rev3.net
 CopperLayerCount=4
 BoardThickness=2
 AllowMicroVias=1
@@ -98,7 +98,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0

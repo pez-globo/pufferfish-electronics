@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Pufferfish-Power-MCU-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -76,17 +77,15 @@ Wire Wire Line
 Connection ~ 3575 2925
 Wire Wire Line
 	3575 2925 3050 2925
-Wire Wire Line
-	3650 3125 3475 3125
 $Comp
 L Pufferfish:CAP_SMD_0603 C25
 U 1 1 5F960C42
 P 3000 3700
-F 0 "C25" H 2650 3700 50  0000 L CNN
-F 1 "CAP_100nF_50V_X7R_0402" H 2250 3600 50  0001 L CNN
+F 0 "C25" H 3100 3700 50  0000 L CNN
+F 1 "0.1uF" H 3075 3625 50  0000 L CNN
 F 2 "Pufferfish:CAP_SMD_0603" H 3000 3700 50  0001 C CNN
 F 3 "~" H 3000 3700 50  0001 C CNN
-F 4 "50V" H 2600 3450 50  0001 C CNN "Voltage"
+F 4 "25V" H 2600 3450 50  0001 C CNN "Voltage"
 	1    3000 3700
 	1    0    0    -1  
 $EndComp
@@ -101,38 +100,8 @@ F 3 "" H 3000 3850 50  0001 C CNN
 	1    3000 3850
 	1    0    0    -1  
 $EndComp
-$Comp
-L Pufferfish:RES_SMD_0603 R25
-U 1 1 00000000
-P 3300 3450
-F 0 "R25" H 3475 3400 50  0000 R CNN
-F 1 "576k" H 3525 3475 50  0000 R CNN
-F 2 "Pufferfish:RES_SMD_0603" H 3425 3650 50  0001 C CNN
-F 3 "~" H 3300 3450 50  0001 C CNN
-F 4 "0.1%" H 3425 3575 50  0000 C CNN "Tolerance"
-	1    3300 3450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3475 3575 3300 3575
-Wire Wire Line
-	3300 3575 3300 3550
-Wire Wire Line
-	3475 3125 3475 3575
-Wire Wire Line
-	3300 3625 3300 3575
-Connection ~ 3300 3575
-Wire Wire Line
-	3000 3350 3300 3350
 Wire Wire Line
 	3000 3350 3000 3600
-Wire Wire Line
-	3000 3800 3000 3825
-Wire Wire Line
-	3300 3825 3000 3825
-Connection ~ 3000 3825
-Wire Wire Line
-	3000 3825 3000 3850
 Connection ~ 3050 2925
 Text GLabel 6100 3175 0    50   Output ~ 0
 LTC2955_SHDN_INT
@@ -140,21 +109,6 @@ Text GLabel 6100 3275 0    50   Output ~ 0
 LTC2955_PGD
 Text Notes 750  7500 0    50   ~ 0
 All resistance values in Ohms unless otherwise mentioned. \nAll capacitance values in Farads unless otherwise mentioned. \nAll inductance values in Henry unless otherwise mentioned. \nUnits: mm
-$Comp
-L LT:LTC2955-1(DFN) U?
-U 1 1 5F99198E
-P 4200 3275
-AR Path="/5F99198E" Ref="U?"  Part="1" 
-AR Path="/5F97DDCF/5F99198E" Ref="U4"  Part="1" 
-F 0 "U4" H 4700 3850 60  0000 C CNN
-F 1 "LTC2955" H 4400 3775 60  0000 C CNN
-F 2 "Pufferfish:DFN-10-1EP_2x3mm_P0.5mm_EP0.64x2.4mm" H 5550 3925 60  0001 C CNN
-F 3 "" H 4250 3225 60  0000 C CNN
-F 4 "Linear Technology" H 4550 3125 60  0001 C CNN "MFN"
-F 5 "LTC2955CDDB-1" H 4650 3225 60  0001 C CNN "MFP"
-	1    4200 3275
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	3575 4150 3550 4150
 $Comp
@@ -174,55 +128,10 @@ Wire Wire Line
 Wire Wire Line
 	4300 3625 4350 3625
 Text Notes 3625 4175 0    50   ~ 10
-Additional Timer value: 30s for HMI\n
-Wire Notes Line
-	1825 4375 4300 4375
-Wire Notes Line
-	4300 4375 4300 4600
-Wire Notes Line
-	4300 4600 1825 4600
-Wire Notes Line
-	1825 4600 1825 4375
-Wire Notes Line
-	3575 3125 3575 4375
-$Comp
-L Pufferfish:Molex_MicroFit_2P J?
-U 1 1 5FA0D717
-P 2050 3325
-AR Path="/5EC45070/5FA0D717" Ref="J?"  Part="1" 
-AR Path="/5F97DDCF/5FA0D717" Ref="J3"  Part="1" 
-F 0 "J3" H 1968 3724 50  0000 C CNN
-F 1 "0430450200" H 2000 3050 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0200_2x01_P3.00mm_Horizontal" H 2050 3325 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/molex/0430450200/WM1813-ND/252526" H 2050 3325 50  0001 C CNN
-F 4 "0430450200" H 2350 3425 50  0000 C CNN "MPN"
-F 5 "Molex" H 2350 3125 50  0000 C CNN "MFG"
-	1    2050 3325
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	2250 3425 2950 3425
-Wire Wire Line
-	2950 3425 2950 3350
-Wire Wire Line
-	2950 3350 3000 3350
+Additional Timer value:\n
 Connection ~ 3000 3350
-Text Notes 2000 3400 2    55   ~ 11
+Text Notes 2175 3450 2    55   ~ 11
 TO DPST Switch >
-Text Notes 2025 4525 0    50   ~ 10
-Auto Cut off (ON goes low) < 9V. 
-$Comp
-L Pufferfish:RES_SMD_0603 R27
-U 1 1 5FA19FAC
-P 3650 3325
-F 0 "R27" H 3591 3279 50  0000 R CNN
-F 1 "10k" H 3591 3370 50  0000 R CNN
-F 2 "Pufferfish:RES_SMD_0603" H 3650 3325 50  0001 C CNN
-F 3 "~" H 3650 3325 50  0001 C CNN
-F 4 "1%" H 3525 3475 50  0000 C CNN "Tolerance"
-	1    3650 3325
-	-1   0    0    1   
-$EndComp
 Wire Notes Line
 	3875 3825 3875 4100
 $Comp
@@ -486,14 +395,14 @@ LTC7812_PG
 $Comp
 L Pufferfish:RES_SMD_0603 R26
 U 1 1 5F96337F
-P 3300 3725
-F 0 "R26" H 3241 3679 50  0000 R CNN
-F 1 "56k" H 3241 3770 50  0000 R CNN
-F 2 "Pufferfish:RES_SMD_0603" H 3300 3725 50  0001 C CNN
-F 3 "~" H 3300 3725 50  0001 C CNN
-F 4 "0.1%" H 3175 3850 50  0000 C CNN "Tolerance"
-	1    3300 3725
-	-1   0    0    1   
+P 2700 3350
+F 0 "R26" V 2950 3400 50  0000 R CNN
+F 1 "5.1k" V 2875 3400 50  0000 R CNN
+F 2 "Pufferfish:RES_SMD_0603" H 2700 3350 50  0001 C CNN
+F 3 "~" H 2700 3350 50  0001 C CNN
+F 4 "0.1%" V 2800 3325 50  0000 C CNN "Tolerance"
+	1    2700 3350
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Pufferfish:CAP_SMD_0603 C59
@@ -556,31 +465,7 @@ F 3 "" H 2725 2925 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2725 2925 2850 2925
-$Comp
-L Pufferfish-Power:VSYS-12V0 #PWR0108
-U 1 1 5FD242A8
-P 2250 3325
-F 0 "#PWR0108" H 2250 3175 50  0001 C CNN
-F 1 "VSYS-12V0" H 2267 3498 50  0000 C CNN
-F 2 "" H 2250 3325 50  0001 C CNN
-F 3 "" H 2250 3325 50  0001 C CNN
-	1    2250 3325
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pufferfish-Power:VSYS-12V0 #PWR0114
-U 1 1 5FE4C874
-P 3550 3425
-F 0 "#PWR0114" H 3550 3275 50  0001 C CNN
-F 1 "VSYS-12V0" H 3725 3325 50  0000 C CNN
-F 2 "" H 3550 3425 50  0001 C CNN
-F 3 "" H 3550 3425 50  0001 C CNN
-	1    3550 3425
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3650 3425 3550 3425
-Text Notes 2600 3100 2    55   Italic 0
+Text Notes 2375 3750 2    55   Italic 0
 Merged Output from LTC4015\n
 Text Notes 3925 5450 0    79   ~ 16
 LTC4015 I2C Voltage Level Translation
@@ -710,4 +595,95 @@ Wire Wire Line
 	3950 2400 4000 2400
 Wire Wire Line
 	4000 2400 4000 2550
+Wire Wire Line
+	3000 3800 3000 3850
+$Comp
+L power:GND #PWR082
+U 1 1 6026CBD2
+P 3375 3125
+F 0 "#PWR082" H 3375 2875 50  0001 C CNN
+F 1 "GND" H 3475 3025 50  0000 C CNN
+F 2 "" H 3375 3125 50  0001 C CNN
+F 3 "" H 3375 3125 50  0001 C CNN
+	1    3375 3125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 3125 3375 3125
+$Comp
+L power:GND #PWR079
+U 1 1 602717C9
+P 2450 3500
+F 0 "#PWR079" H 2450 3250 50  0001 C CNN
+F 1 "GND" H 2455 3327 50  0000 C CNN
+F 2 "" H 2450 3500 50  0001 C CNN
+F 3 "" H 2450 3500 50  0001 C CNN
+	1    2450 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2425 3450 2450 3450
+Wire Wire Line
+	2450 3450 2450 3500
+Wire Wire Line
+	2800 3350 3000 3350
+$Comp
+L LT:LTC2955-1(DFN) U?
+U 1 1 5F99198E
+P 4200 3275
+AR Path="/5F99198E" Ref="U?"  Part="1" 
+AR Path="/5F97DDCF/5F99198E" Ref="U4"  Part="1" 
+F 0 "U4" H 4700 3850 60  0000 C CNN
+F 1 "LTC2955" H 4400 3775 60  0000 C CNN
+F 2 "Pufferfish:DFN-10-1EP_2x3mm_P0.5mm_EP0.64x2.4mm" H 5550 3925 60  0001 C CNN
+F 3 "" H 4250 3225 60  0000 C CNN
+F 4 "Linear Technology" H 4550 3125 60  0001 C CNN "MFN"
+F 5 "LTC2955CDDB-1" H 4650 3225 60  0001 C CNN "MFP"
+	1    4200 3275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 3225 3650 3350
+Wire Wire Line
+	3000 3350 3650 3350
+$Comp
+L Pufferfish:Molex_MicroFit_2P J?
+U 1 1 5FA0D717
+P 2225 3350
+AR Path="/5EC45070/5FA0D717" Ref="J?"  Part="1" 
+AR Path="/5F97DDCF/5FA0D717" Ref="J3"  Part="1" 
+F 0 "J3" H 2275 3600 50  0000 C CNN
+F 1 "0430450200" H 2250 3075 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0200_2x01_P3.00mm_Horizontal" H 2225 3350 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/molex/0430450200/WM1813-ND/252526" H 2225 3350 50  0001 C CNN
+F 4 "0430450200" H 2325 3075 50  0000 C CNN "MPN"
+F 5 "Molex" H 2250 3150 50  0001 C CNN "MFG"
+	1    2225 3350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2725 2925 2525 2925
+Connection ~ 2725 2925
+$Comp
+L Pufferfish:RES_SMD_0603 R25
+U 1 1 60350C72
+P 2525 3150
+F 0 "R25" H 2650 2925 50  0000 C CNN
+F 1 "10k" H 2650 3000 50  0000 C CNN
+F 2 "Pufferfish:RES_SMD_0603" H 2525 3150 50  0001 C CNN
+F 3 "~" H 2525 3150 50  0001 C CNN
+F 4 "1%" H 2575 3100 50  0000 L TNN "Tolerance"
+F 5 "0603" H 2675 3150 50  0000 C CNN "Package"
+	1    2525 3150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2425 3350 2525 3350
+Wire Wire Line
+	2525 3050 2525 2925
+Wire Wire Line
+	2525 3250 2525 3350
+Connection ~ 2525 3350
+Wire Wire Line
+	2525 3350 2600 3350
 $EndSCHEMATC

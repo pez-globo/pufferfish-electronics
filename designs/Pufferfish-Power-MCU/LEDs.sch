@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Pufferfish-Power-MCU-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,36 +16,6 @@ Comment4 ""
 $EndDescr
 Text Notes 3400 1900 0    118  ~ 24
 LED's and Debug
-$Comp
-L Pufferfish:TP_SMT_KEYSTONE_5019 TP8
-U 1 1 5EFB0C4E
-P 1375 3325
-F 0 "TP8" V 1625 3275 50  0000 L CNN
-F 1 "TP_SMT_KEYSTONE_5019" H 1075 3125 50  0001 L BNN
-F 2 "Pufferfish:TP380X203" H 1375 3325 50  0001 L BNN
-F 3 "https://www.digikey.com/product-detail/en/keystone-electronics/5019/36-5019DKR-ND/3907345" H 1375 3325 50  0001 L BNN
-F 4 "5019" V 1525 3225 50  0000 L CNN "MPN"
-F 5 "Keystone Electronics" H 1375 3325 50  0001 C CNN "MFG"
-	1    1375 3325
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5EFB3D62
-P 1375 3775
-AR Path="/5EC321D9/5EFB3D62" Ref="#PWR?"  Part="1" 
-AR Path="/5EDA3ECC/5EFB3D62" Ref="#PWR?"  Part="1" 
-AR Path="/5EFFFB7B/5EFB3D62" Ref="#PWR?"  Part="1" 
-AR Path="/5EEC5CE7/5EFB3D62" Ref="#PWR076"  Part="1" 
-F 0 "#PWR076" H 1375 3525 50  0001 C CNN
-F 1 "GND" H 1380 3602 50  0000 C CNN
-F 2 "" H 1375 3775 50  0001 C CNN
-F 3 "" H 1375 3775 50  0001 C CNN
-	1    1375 3775
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	1375 3725 1375 3775
 $Comp
 L Pufferfish:TP_SMT_KEYSTONE_5019 TP7
 U 1 1 5EFB6688
