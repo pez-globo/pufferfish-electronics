@@ -1,0 +1,137 @@
+Date:	44246.59576					
+Tool:	Eeschema (5.1.2)-1					
+Generator:	E:\KiCad\bin\scripting\plugins/bom_csv_grouped_by_value_with_fp.py					
+Component Count:	309					
+Ref	Quantity	Value	Cmp name	Footprint	Description	Vendor
+"C1, C100, C16, C3, "	4	CAP_NC_0402	CAP_NC_0402	Pufferfish:CAP_SMD_0402	"Capacitor, DNP, SMT, 0402 Package"	
+"C10, "	1	CAP_1uF_35V_X7R_0603	CAP_1uF_35V_X7R_0603	Pufferfish:CAP_SMD_0603	"Capacitor, Ceramic, 1uF Capacitance, 35V Rating, X7R Dielectric, SMT, 0603 Package"	
+"C11, "	1	CAP_330nF_35V_X7R_0805	CAP_330nF_35V_X7R_0805	Pufferfish:CAP_SMD_0805	"Capacitor, Ceramic, 330nF Capacitance, 35V Rating, X7R Dielectric, SMT, 0805 Package"	
+"C13, "	1	CAP_470nF_35V_X7R_0603	CAP_470nF_35V_X7R_0603	Pufferfish:CAP_SMD_0603	"Capacitor, Ceramic, 470nF Capacitance, 35V Rating, X7R Dielectric, SMT, 0603 Package"	
+"C14, "	1	CAP_2.2uF_10V_X7S_0402	CAP_2.2uF_10V_X7S_0402	Pufferfish:CAP_SMD_0402	"Capacitor, Ceramic, 2.2uF Capacitance, 10V Rating, X7S Dielectric, SMT, 0402 Package"	
+"C15, "	1	CAP_330nF_16V_X7R_0603	CAP_330nF_16V_X7R_0603	Pufferfish:CAP_SMD_0603	"Capacitor, Ceramic, 330nF Capacitance, 16V Rating, X7R Dielectric, SMT, 0603 Package"	
+"C20, C22, C19, C21, C34, C101, C102, C57, C106, C107, C108, C109, C7, C8, "	14	CAP_10uF_35V_X5R_0805	CAP_10uF_35V_X5R_0805	Pufferfish:CAP_SMD_0805	"Capacitor, Ceramic, 10uF Capacitance, 35V Rating, X5R Dielectric, SMT, 0805 Package"	
+"C24, C23, C104, C105, "	4	CAP_AE_SMD_220uF_25V_8mm	CAP_AE_SMD_220uF_25V_8mm	Capacitor_SMD:CP_Elec_10x7.9	"Capacitor, Aluminum Electrolytic, 220uF, 25V Rating, 8mm Diameter, SMD"	
+"C26, C2, "	2	CAP_10nF_50V_X7R_0402	CAP_10nF_50V_X7R_0402	Pufferfish:CAP_SMD_0402	"Capacitor, Ceramic, 10nF Capacitance, 50V Rating, X7R Dielectric, SMT, 0402 Package"	
+"C27, C28, C29, C30, C110, C18, C17, C40, C36, C37, C103, C6, C4, "	13	CAP_100nF_50V_X7R_0402	CAP_100nF_50V_X7R_0402	Pufferfish:CAP_SMD_0402	"Capacitor, Ceramic, 100nF Capacitance, 50V Rating, X7R Dielectric, SMT, 0402 Package"	
+"C35, "	1	CAP_4.7uF_16V_X6S_0603	CAP_4.7uF_16V_X6S_0603	Pufferfish:CAP_SMD_0603	"Capacitor, Ceramic, 4.7uF Capacitance, 16V Rating, X6S Dielectric, SMT, 0603 Package"	
+"C38, "	1	CAP_47nF_50V_X7R_0402	CAP_47nF_50V_X7R_0402	Pufferfish:CAP_SMD_0402	"Capacitor, Ceramic, 47nF Capacitance, 50V Rating, X7R Dielectric, SMT, 0402 Package"	
+"C45, "	1	CAP_AE_SMD_100uF_10V_6mm	CAP_AE_SMD_100uF_10V_6mm	Capacitor_SMD:CP_Elec_6.3x5.4	"Capacitor, Aluminum Electrolytic, 220uF, 25V Rating, 8mm Diameter, SMD"	
+"C48, "	1	CAP_3.3nF_50V_X7R_0402	CAP_3.3nF_50V_X7R_0402	Pufferfish:CAP_SMD_0402	"Capacitor, Ceramic, 3.3nF Capacitance, 50V Rating, X7R Dielectric, SMT, 0402 Package"	
+"C51, C41, C5, "	3	CAP_100pF_10V_NP0_0402	CAP_100pF_10V_NP0_0402	Pufferfish:CAP_SMD_0402	"Capacitor, Ceramic, 1uF Capacitance, 35V Rating, X7R Dielectric, SMT, 0603 Package"	
+"C53, C54, C52, C47, C49, C46, C32, C33, C31, C43, C44, C42, C56, "	13	CAP_22uF_25V_X5R_0805	CAP_22uF_25V_X5R_0805	Pufferfish:CAP_SMD_0805	"Capacitor, Ceramic, 22uF Capacitance, 25V Rating, X5R Dielectric, SMT, 0805 Package"	
+"C55, "	1	1.5uF	CAP_SMD_0603	Pufferfish:CAP_SMD_0603	"Unpolarized capacitor, small symbol, 0603, SMD, SMT"	C1608X5R1E155K080AB
+"C58, C59, "	2	0.1u	CAP_SMD_0603	Pufferfish:CAP_SMD_0402	"Unpolarized capacitor, small symbol, 0603, SMD, SMT"	VJ0603Y104KXXCW1BC
+"C60, "	1	150uF	CAP_SMD_0603	Pufferfish:CAP_SMD_0603	"Unpolarized capacitor, small symbol, 0603, SMD, SMT"	DNP
+"C61, "	1	100uF	CAP_SMD_0603	Pufferfish:CAP_SMD_0603	"Unpolarized capacitor, small symbol, 0603, SMD, SMT"	
+"C62, "	1	4.7uF	CAP_SMD_0603	Pufferfish:CAP_SMD_0603	"Unpolarized capacitor, small symbol, 0603, SMD, SMT"	CL10A475KL8NRNC 
+"C65, C63, "	2	C_OPT	CAP_SMD_0603	Pufferfish:CAP_SMD_0603	"Unpolarized capacitor, small symbol, 0603, SMD, SMT"	DNP
+"C66, C80, C64, C75, C91, C25, "	6	0.1uF	CAP_SMD_0603	Pufferfish:CAP_SMD_0603	"Unpolarized capacitor, small symbol, 0603, SMD, SMT"	06035C104JAT2A
+"C67, "	1	2.2n	CAP_SMD_0603	Pufferfish:CAP_SMD_0603	"Unpolarized capacitor, small symbol, 0603, SMD, SMT"	C0603C222K4RECAUTO
+"C68, "	1	68p	CAP_SMD_0603	Pufferfish:CAP_SMD_0603	"Unpolarized capacitor, small symbol, 0603, SMD, SMT"	C1608CH2A680J080AA
+"C69, "	1	33u	CAP_SMD_0603	Pufferfish:CAP_SMD_0603	"Unpolarized capacitor, small symbol, 0603, SMD, SMT"	CGA3E3X7R1E334M080AB
+"C72, C76, C70, C88, C93, C94, C50, C39, C12, C9, "	10	CAP_1nF_50V_C0G_0402	CAP_1nF_50V_C0G_0402	Pufferfish:CAP_SMD_0402	"Capacitor, Ceramic, 1nF Capacitance, 50V Rating, X7R Dielectric, SMT, 0402 Package"	
+"C73, "	1	0.1u	CAP_SMD_0603	Pufferfish:CAP_SMD_0603	"Unpolarized capacitor, small symbol, 0603, SMD, SMT"	
+"C77, "	1	10n	CAP_SMD_0603	Pufferfish:CAP_SMD_0603	"Unpolarized capacitor, small symbol, 0603, SMD, SMT"	
+"C78, "	1	1n	CAP_SMD_0603	Pufferfish:CAP_SMD_0603	"Unpolarized capacitor, small symbol, 0603, SMD, SMT"	
+"C79, "	1	1nF	CAP_SMD_0603	Pufferfish:CAP_SMD_0603	"Unpolarized capacitor, small symbol, 0603, SMD, SMT"	
+"C81, C82, C92, "	3	OPT_CAP	CAP_SMD_0603	Pufferfish:CAP_SMD_0603	"Unpolarized capacitor, small symbol, 0603, SMD, SMT"	
+"C83, "	1	4.7u	CAP_SMD_0603	Pufferfish:CAP_SMD_0603	"Unpolarized capacitor, small symbol, 0603, SMD, SMT"	
+"C84, C85, C71, C74, "	4	10u	CAP_SMD_0603	Pufferfish:CAP_SMD_0603	"Unpolarized capacitor, small symbol, 0603, SMD, SMT"	
+"C86, "	1	100u	CAP_SMD_0603	Pufferfish:CAP_SMD_0603	"Unpolarized capacitor, small symbol, 0603, SMD, SMT"	
+"C87, "	1	1u	CAP_SMD_0603	Pufferfish:CAP_SMD_0603	"Unpolarized capacitor, small symbol, 0603, SMD, SMT"	
+"C89, "	1	33uF	CAP_SMD_0603	Pufferfish:CAP_SMD_0603	"Unpolarized capacitor, small symbol, 0603, SMD, SMT"	
+"C90, "	1	10uF	CAP_SMD_0603	Pufferfish:CAP_SMD_0603	"Unpolarized capacitor, small symbol, 0603, SMD, SMT"	
+"C99, C98, C97, C96, C95, "	5	CAP_SMD_0603	CAP_SMD_0603	Pufferfish:CAP_SMD_0603	"Unpolarized capacitor, small symbol, 0603, SMD, SMT"	
+"D1, "	1	TVS_24V_SOD123FL-2	TVS_15V_SOD123FL-2	Diode_SMD:D_SOD-123F	"TVS, Bidirectional, 15V Standoff Voltage, 19.2V Breakdown Voltage, SOD-123FL-2 Package, SMT"	
+"D2, "	1	TVS_15V_SOD123FL-2	TVS_15V_SOD123FL-2	Diode_SMD:D_SOD-123F	"TVS, Bidirectional, 15V Standoff Voltage, 19.2V Breakdown Voltage, SOD-123FL-2 Package, SMT"	
+"D3, D4, D13, "	3	CMDSH-4E	D_Schottky	Diode_SMD:D_SOD-323F	Schottky diode	
+"D6, D5, "	2	LED_SMD_0603_ORANGE	LED_SMD_0603_ORANGE	LED_SMD:LED_0603_1608Metric	"LED, Orange Color, 0603 Package, SMT"	
+"D9, D10, D7, "	3	LED_SMD_0603_GREEN	LED_SMD_0603_GREEN	LED_SMD:LED_0603_1608Metric	"LED, Green Color, 0603 Package, SMT"	
+"D11, "	1	1N4448HLP	1N4448HLP	Diode_SMD:D_SOD-123	"Diode, Fast Switching, 80V 0.3A, SMT, DFN1006 Package"	
+"F1, "	1	Fuse	Fuse	Fuse:Fuseholder_Cylinder-6.3x32mm_Schurter_0031-8002_Horizontal_Open	Fuse	
+"FID1, FID4, FID2, FID3, "	4	Fiducial	Fiducial	Fiducial:Fiducial_1mm_Mask2mm	Fiducial Marker	
+"H3, H2, H5, H6, "	4	STANDOFF_ELECTRICAL	STANDOFF_ELECTRICAL	MountingHole:MountingHole_3.2mm_M3_Pad_Via		
+"J1, "	1	172316-1108	172316-1108	Pufferfish:MOLEX_172316-1108		
+"J2, "	1	90814-0010	Conn_01x10	Connector_Molex:Molex_Picoflex_90814-0010_2x05_P1.27mm_Vertical	"Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"	
+"J3, "	1	430450200	Molex_MicroFit_2P	Connector_Molex:Molex_Micro-Fit_3.0_43045-0200_2x01_P3.00mm_Horizontal	"Connector, Power, 2-Pin, 1x02, Thru Hole"	
+"J5, J6, J4, "	3	1722871202	1722871202	Pufferfish:1722871202		
+"J7, "	1	B2B-XH-A(LF)(SN)	1722871202	Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical		
+"J8, "	1	LAMP CONN	Conn_01x02_Female	Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical	"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"	
+"JP1, "	1	SolderJumper_TRACKING	SolderJumper_2_Open	Pufferfish:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm	"Solder Jumper, 2-pole, open"	
+"JP2, JP14, "	2	SolderJumper_EXTMODE1	SolderJumper_2_Open	Pufferfish:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm	"Solder Jumper, 2-pole, open"	
+"JP3, JP15, "	2	SolderJumper_EXTMODE2	SolderJumper_2_Open	Pufferfish:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm	"Solder Jumper, 2-pole, open"	
+"JP4, JP11, "	2	SolderJumper_FCM	SolderJumper_2_Open	Pufferfish:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm	"Solder Jumper, 2-pole, open"	
+"JP5, JP12, "	2	SolderJumper_PS	SolderJumper_2_Open	Pufferfish:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm	"Solder Jumper, 2-pole, open"	
+"JP6, JP13, "	2	SolderJumper_Burst	SolderJumper_2_Open	Pufferfish:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm	"Solder Jumper, 2-pole, open"	
+"JP8, JP7, JP9, JP10, JP17, JP18, "	6	SolderJumper_PGOOD	SolderJumper_2_Open	Pufferfish:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm	"Solder Jumper, 2-pole, open"	
+"JP16, "	1	OPT_5V	SolderJumper_2_Open	Pufferfish:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm	"Solder Jumper, 2-pole, open"	
+"L1, "	1	PM2201.122NLT	PM2201.122NLT	Pufferfish:L_Pulse_PA5001	"Inductor, small symbol"	
+"L2, "	1	LOGO_PUFFERFISH	LOGO_BRUNO2	Pufferfish:LOGO_PUFFERFISH		
+"L3, "	1	XAL1010-103MEB	XAL1010-103MEB	Pufferfish:XAL1010	"Inductor, Power, Shielded, 10uH, 15mOhm DCR, 15.5A Isat, SMD"	
+"L4, "	1	4.7u	L	Inductor_SMD:L_Coilcraft_XxL7070	Inductor	
+"L5, "	1	1.0u	L	Inductor_SMD:L_Coilcraft_XxL7070	Inductor	
+"L6, "	1	15uH	L	Inductor_SMD:L_Coilcraft_XxL7070	Inductor	
+"P1, "	1	Aardvark Conn 10 P IDC	CONN_10P_IDC_SOCKET	Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical		Mouser
+"Q1, "	1	FDMC8327L	FDMC8327L	Pufferfish:TRANS_FDMC8327L		
+"Q2, "	1	FDMC8030	FDMC8030	Pufferfish:TRANS_FDMC8030		
+"Q3, "	1	SI7611DN-T1-GE3	SI7611DN-T1-GE3	Pufferfish:VISHAY_SIS468DN-T1-GE3		
+"Q6, Q5, "	2	Q_NMOS_BSC093N04LSG	Q_NMOS_BSC093N04LSG	Pufferfish:PG-TDSON-8		
+"Q9, Q10, Q8, Q4, Q7, Q13, Q12, "	7	2N7002E	2N7002E	Package_TO_SOT_SMD:SOT-23	"0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"	
+"R12, "	1	RES_301K_0603_SMD	RES_301K_0603_SMD	Pufferfish:RES_SMD_0603	"Resistor, 301kOhms, 0.1% Tolerance, 0603 Package, SMT"	
+"R19, "	1	RES_100K_0603_SMD	RES_100K_0603_SMD	Pufferfish:RES_SMD_0603	"Resistor, 100kOhms, 1% Tolerance, 0603 Package, SMT"	
+"R21, R61, "	2	CSNL1206FT3L00	CSNL1206FT3L00	Pufferfish:RES_SMD_1206	"Resistor, Current Sense, 3mOhm, 1% Tolerance, 1W Rating, SMT, 1206 Package"	
+"R23, R1, R4, R5, R10, R14, R2, R11, R15, R9, "	10	RES_0603_NC	RES_0603_NC	Pufferfish:RES_SMD_0603	"Resistor, NC"	
+"R24, "	1	1k	RES_SMD_0603	Pufferfish:RES_SMD_0603	"Resistor, small US symbol, 0603, SMD, SMT"	
+"R26, "	1	5.1k	RES_SMD_0603	Pufferfish:RES_SMD_0603	"Resistor, small US symbol, 0603, SMD, SMT"	
+"R28, "	1	RES_62K_0402_SMD	RES_62K_0402_SMD	Pufferfish:RES_SMD_0402	"Resistor, 62kOhms, 1% Tolerance, 0402 Package, SMT"	
+"R29, "	1	RES_51K_0402_SMD	RES_51K_0402_SMD	Pufferfish:RES_SMD_0402	"Resistor, 51kOhms, 1% Tolerance, 0402 Package, SMT"	
+"R30, "	1	RES_47K_0603_SMD	RES_47K_0603_SMD	Pufferfish:RES_SMD_0603	"Resistor, 47kOhms, 1% Tolerance, 0603 Package, SMT"	
+"R32, R7, R60, R45, R46, "	5	RES_0R_0402_SMD	RES_0R_0402_SMD	Pufferfish:RES_SMD_0402	"Resistor, Jumper, 0402 Package, SMT"	
+"R36, R35, "	2	RES_73K2_0603_SMD	RES_73K2_0603_SMD	Pufferfish:RES_SMD_0603	"Resistor, 73.2kOhms, 1% Tolerance, 0603 Package, SMT"	
+"R39, "	1	RES_31K6_0603_SMD	RES_31K6_0603_SMD	Pufferfish:RES_SMD_0603	"Resistor, 31.6kOhms, 1% Tolerance, 0603 Package, SMT"	
+"R41, R64, R65, R25, "	4	10k	RES_SMD_0603	Pufferfish:RES_SMD_0603	"Resistor, small US symbol, 0603, SMD, SMT"	
+"R42, R102, "	2	RPULL_OPT	RES_SMD_0603	Pufferfish:RES_SMD_0805	"Resistor, small US symbol, 0603, SMD, SMT"	
+"R49, R48, R47, R76, R75, R92, R91, R95, "	8	OPTÎ	RES_SMD_1206	Pufferfish:RES_SMD_0805	"Resistor, small US symbol, 1206, SMD, SMT"	
+"R50, R66, R67, R68, "	4	1M	RES_SMD_1206	Pufferfish:RES_SMD_0603	"Resistor, small US symbol, 1206, SMD, SMT"	
+"R51, R97, "	2	OPTÎ	RES_SMD_1206	Pufferfish:RES_SMD_1206	"Resistor, small US symbol, 1206, SMD, SMT"	
+"R52, "	1	499k	RES_SMD_1206	Pufferfish:RES_SMD_0805	"Resistor, small US symbol, 1206, SMD, SMT"	
+"R53, "	1	RES_330R_0603_SMD	RES_330R_0603_SMD	Pufferfish:RES_SMD_0603	"Resistor, 330Ohms, 5% Tolerance, 0603 Package, SMT"	
+"R54, "	1	330R	RES_330R_0603_SMD	Pufferfish:RES_SMD_0603	"Resistor, 330Ohms, 5% Tolerance, 0603 Package, SMT"	
+"R55, R43, "	2	510R	RES_330R_0603_SMD	Pufferfish:RES_SMD_0603	"Resistor, 330Ohms, 5% Tolerance, 0603 Package, SMT"	
+"R56, "	1	1.2k	RES_330R_0603_SMD	Pufferfish:RES_SMD_0603	"Resistor, 330Ohms, 5% Tolerance, 0603 Package, SMT"	
+"R57, R58, "	2	RPULL_OPT	RES_SMD_0603	Pufferfish:RES_SMD_1206	"Resistor, small US symbol, 0603, SMD, SMT"	
+"R62, R40, R37, R38, R33, R31, R34, R22, R13, R17, R18, R3, R6, R20, R59, R16, R8, "	17	RES_10K_0603_SMD	RES_10K_0603_SMD	Pufferfish:RES_SMD_0603	"Resistor, 10kOhms, 1% Tolerance, 0603 Package, SMT"	
+"R63, "	1	RES_20K_0603_SMD	RES_SMD_0603	Pufferfish:RES_SMD_0603	"Resistor, small US symbol, 0603, SMD, SMT"	
+"R72, "	1	35.7k	RES_SMD_1206	Pufferfish:RES_SMD_0805	"Resistor, small US symbol, 1206, SMD, SMT"	
+"R73, "	1	15k	RES_SMD_1206	Pufferfish:RES_SMD_0805	"Resistor, small US symbol, 1206, SMD, SMT"	
+"R74, R90, "	2	100k OPT	RES_SMD_1206	Pufferfish:RES_SMD_0805	"Resistor, small US symbol, 1206, SMD, SMT"	
+"R77, R69, R44, "	3	0Î	RES_SMD_1206	Pufferfish:RES_SMD_0805	"Resistor, small US symbol, 1206, SMD, SMT"	
+"R78, "	1	49.9k	RES_SMD_1206	Pufferfish:RES_SMD_0805	"Resistor, small US symbol, 1206, SMD, SMT"	
+"R79, "	1	549K	RES_SMD_1206	Pufferfish:RES_SMD_0805	"Resistor, small US symbol, 1206, SMD, SMT"	
+"R80, "	1	3.6k	RES_SMD_1206	Pufferfish:RES_SMD_0805	"Resistor, small US symbol, 1206, SMD, SMT"	
+"R81, "	1	ROPT	RES_SMD_1206	Pufferfish:RES_SMD_0805	"Resistor, small US symbol, 1206, SMD, SMT"	
+"R82, R83, R84, R85, R86, R87, R88, R89, R101, R100, R98, R99, R71, R70, "	14	0Î	RES_SMD_0603	Pufferfish:RES_SMD_0603	"Resistor, small US symbol, 0603, SMD, SMT"	
+"R93, "	1	549k	RES_SMD_1206	Pufferfish:RES_SMD_0805	"Resistor, small US symbol, 1206, SMD, SMT"	
+"R94, "	1	28.7k	RES_SMD_1206	Pufferfish:RES_SMD_0805	"Resistor, small US symbol, 1206, SMD, SMT"	
+"R96, "	1	53.6k	RES_SMD_1206	Pufferfish:RES_SMD_0805	"Resistor, small US symbol, 1206, SMD, SMT"	
+"R103, "	1	150 Î	RES_SMD_0603	Pufferfish:RES_SMD_0603	"Resistor, small US symbol, 0603, SMD, SMT"	
+"R_SENSE_1, "	1	0.003	RES_SMD_1206	Pufferfish:RES_SMD_1206	"Resistor, small US symbol, 1206, SMD, SMT"	
+"R_SENSE_2, "	1	0.004	RES_SMD_1206	Pufferfish:RES_SMD_1206	"Resistor, small US symbol, 1206, SMD, SMT"	
+"R_SENSE_3, "	1	0.015	RES_SMD_1206	Pufferfish:RES_SMD_1206	"Resistor, small US symbol, 1206, SMD, SMT"	
+"TP2, TP3, TP4, TP16, TP17, TP15, TP6, TP5, TP1, TP9, "	10	TP_TH_KEYSTONE_5010	TP_TH_KEYSTONE_5010	TestPoint:TestPoint_Keystone_5010-5014_Multipurpose	"Test Point, Red, Thru Hole"	
+"TP7, "	1	TP_SMT_KEYSTONE_5019	TP_SMT_KEYSTONE_5019	Pufferfish:TP380X203	"Test Point, Metal, SMT"	
+"TP10, "	1	TP_PGOOD_5V	TestPoint	TestPoint:TestPoint_Keystone_5005-5009_Compact	test point	
+"TP18, "	1	TP_VOUT_12V	TestPoint	Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical	test point	
+"TP19, "	1	TP_EXTVCC1	TestPoint	Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical	test point	
+"TP20, "	1	TP_EXTVCC2	TestPoint	Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical	test point	
+"TP21, "	1	TP_VFB_1_1	TestPoint	Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical	test point	
+"TP22, "	1	TP_VFB_2_1	TestPoint	Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical	test point	
+"TP23, "	1	TP_VBIAS_1	TestPoint	Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical	test point	
+"U1, "	1	LTC4015EUHF#PBF	LTC4015EUHF#PBF	Pufferfish:QFN50P700X500X80-39N	"IC, Prioritized Power Path Controller and Battery Charger, Dual-Channel, External FET, SMT, QFN-38"	
+"U2, "	1	TPS568215RNN	TPS568215RNN	Package_DFN_QFN:Texas_RNN0018A	"4.5V-17V Input, 8A Synchronous Step-Down SWIFT Converter, Adjustable Output, 400kHz/800kHz/1.2MHz Switching Frequency, Texas VQFN-18"	
+"U3, "	1	TPS82130	TPS82130	Pufferfish:TPS82130SILR	"17V Input 3A Step-Down Converter MicroSiP Module with Integrated Inductor, Î¼SiL"	
+"U4, "	1	LTC2955	LTC2955-1(DFN)	Pufferfish:DFN-10-1EP_2x3mm_P0.5mm_EP0.64x2.4mm	Pushbutton On/Off Controller with Automatic Turn-On	
+"U5, "	1	LTC7812	LTC7812-LTC7812-Pufferfish	Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm		
+"U6, "	1	TXS0104ERGYR	TXS0104ERGYR	Package_DFN_QFN:Texas_S-PVQFN-N14_ThermalVias		
+"U8, U7, U9, U10, "	4	BSC027N04LSG	BSC027N04LSG	Pufferfish:PG-TDSON-8		
+"U11, "	1	LTC7812-LTC7812	LTC7812-LTC7812-Pufferfish	Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm		
