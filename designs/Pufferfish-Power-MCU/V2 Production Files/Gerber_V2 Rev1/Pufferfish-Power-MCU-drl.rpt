@@ -1,0 +1,43 @@
+Drill report for C:\Users\NIC\github\pufferfish-electronics\designs\Pufferfish-Power-MCU\Pufferfish-Power-MCU.kicad_pcb
+Created on 2/22/2021 12:01:23 PM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'Pufferfish-Power-MCU-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.25mm  0.010"  (3 holes)
+    T2  0.26mm  0.010"  (1040 holes)
+    T3  0.30mm  0.012"  (930 holes)
+    T4  0.35mm  0.014"  (388 holes)
+    T5  0.40mm  0.016"  (121 holes)
+    T6  0.50mm  0.020"  (32 holes)
+    T7  0.65mm  0.026"  (6 holes)
+    T8  0.80mm  0.031"  (7 holes)
+    T9  1.00mm  0.039"  (18 holes)
+    T10  1.02mm  0.040"  (10 holes)
+    T11  1.02mm  0.040"  (16 holes)
+    T12  1.30mm  0.051"  (3 holes)
+    T13  1.60mm  0.063"  (9 holes)
+    T14  2.00mm  0.079"  (1 hole)
+    T15  3.20mm  0.126"  (4 holes)
+
+    Total plated holes count 2588
+
+
+Drill file 'Pufferfish-Power-MCU-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  1.90mm  0.075"  (2 holes)
+    T2  2.30mm  0.091"  (6 holes)
+    T3  3.00mm  0.118"  (1 hole)
+    T4  3.05mm  0.120"  (2 holes)
+    T5  3.20mm  0.126"  (1 hole)
+
+    Total unplated holes count 12

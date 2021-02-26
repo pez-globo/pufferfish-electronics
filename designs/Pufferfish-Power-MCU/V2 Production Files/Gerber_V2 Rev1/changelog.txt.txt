@@ -1,0 +1,8 @@
+Changelog: 
+
+Report date: 2/22/2021
+Reported by: Pradeep Raut 
+Assigned to: Mahip KC 
+
+Issue:  DFM error of drill-pad clearance of <2mil near CAP C81 and RES R76. 
+Status: Corrected the distance and is now > 2mil and complies with fabrication capability. 
